@@ -1,0 +1,50 @@
+# -----------------------
+# Ignore Virtual Environments
+# -----------------------
+.venv/
+venv/
+
+# -----------------------
+# Ignore Python Artifacts
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------
+# Ignore Output & Intermediate Files
+# -----------------------
+outputs/
+outputs/**/*.json
+outputs/**/*.csv
+outputs/**/*.txt
+
+# -----------------------
+# Ignore Downloaded Data & PDFs
+# -----------------------
+data/
+data/**/*.json
+data/**/*.csv
+data/**/*.pdf
+
+# -----------------------
+# Ignore Scripts/Helper (internal scripts not meant for versioning)
+# -----------------------
+scripts/helper/
+
+# -----------------------
+# Ignore Miscellaneous & Editor Temp Files
+# -----------------------
+*.log
+*.tmp
+*.bak
+.ipynb_checkpoints/
+.DS_Store
+
+# -----------------------
+# Ignore Archives
+# -----------------------
+*.zip
+*.tar
+*.gz
