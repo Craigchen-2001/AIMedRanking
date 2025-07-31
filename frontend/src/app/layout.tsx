@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geist.variable} ${inter.className} antialiased`}> 
-        <main className="scrollbar-hide px-4 max-w-7xl mx-auto pt-20">
+        <main className="w-full pt-15 overflow-hidden flex justify-center ">
           {children}
         </main>
       </body>

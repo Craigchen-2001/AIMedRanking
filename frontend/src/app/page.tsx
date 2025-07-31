@@ -1,11 +1,13 @@
-//page.tsx
-//page.tsx
+//P
 'use client'
 
 import React, { useState } from 'react'
 import Header from '@/components/layout/Header'
 import SidebarFilters from '@/components/layout/SidebarFilters'
 import { papers } from '@/mock/papers'
+import ExpandedCard  from '@/components/ui/ExpandedCard'
+import { FileText } from 'lucide-react';
+
 
 export default function HomePage() {
   const [selectedConfs, setSelectedConfs] = useState<string[]>([])
@@ -17,6 +19,7 @@ export default function HomePage() {
   const [pendingAuthors, setPendingAuthors] = useState<string[]>([])
 
   const [searchTerm, setSearchTerm] = useState<string>('')
+  const [expandedPaperId, setExpandedPaperId] = useState<string | null>(null)
 
   const applyFilters = () => {
     setSelectedConfs(pendingConfs)
@@ -86,54 +89,70 @@ export default function HomePage() {
                   <> matching "<span className="italic">{searchTerm}</span>"</>
                 )}
               </div>
-
               <div>
-              <button
-                className="ml-4 px-3 py-1 text-sm text-white bg-blue-600 hover:bg-blue-700 rounded"
-                onClick={() => {
-                  setSearchTerm('');
-                  setSelectedConfs([]);
-                  setSelectedYears([]);
-                  setSelectedAuthors([]);
-                  setPendingConfs([]);
-                  setPendingYears([]);
-                  setPendingAuthors([]);
-                }}
-              >
-              Reset Filter
-              </button>
-
+                <button
+                  className="ml-4 px-3 py-1 text-sm text-white bg-blue-600 hover:bg-blue-700 rounded"
+                  onClick={() => {
+                    setSearchTerm('');
+                    setSelectedConfs([]);
+                    setSelectedYears([]);
+                    setSelectedAuthors([]);
+                    setPendingConfs([]);
+                    setPendingYears([]);
+                    setPendingAuthors([]);
+                  }}
+                >
+                  Reset Filter
+                </button>
               </div>
             </div>
           )}
 
           {filteredPapers.map((paper) => (
             <div key={paper.id} className="mb-6 border-b pb-4">
-              <h3 className="text-blue-700 text-lg font-semibold hover:underline cursor-pointer">
-                {paper.title}
-              </h3>
-              <div className="text-sm italic text-gray-700">
-                {paper.authors.join(', ')}
-              </div>
-              <div className="text-sm text-gray-600">{paper.conference}</div>
-              <div className="text-sm text-gray-600 mt-1">
-                <a
-                  href={paper.pdf_url}
-                  className="text-blue-600 underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
+              <div className="flex justify-between items-start">
+                <h3
+                  className="text-blue-700 text-lg font-semibold hover:underline cursor-pointer"
+                  onClick={() =>
+                    setExpandedPaperId(expandedPaperId === paper.id ? null : paper.id)
+                  }
                 >
-                  View PDF
-                </a>
+                  {paper.title}
+                </h3>
+                {paper.pdf_url && (
+                  <a
+                    href={paper.pdf_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-500 hover:text-blue-700"
+                    title="View PDF"
+                  >
+                    <FileText size={20} />
+                  </a>
+                )}
               </div>
+              <div className="text-sm italic text-gray-700">{paper.authors.join(', ')}</div>
+              <div className="text-sm text-gray-600">{paper.conference}</div>
               <div className="mt-1 text-sm">
-                <button className="text-blue-600 hover:underline">Show details</button>
+                <button
+                  className="text-blue-600 hover:underline"
+                  onClick={() =>
+                    setExpandedPaperId(expandedPaperId === paper.id ? null : paper.id)
+                  }
+                >
+                  {expandedPaperId === paper.id ? 'Hide details' : 'Show details'}
+                </button>
               </div>
+
+              {expandedPaperId === paper.id && (
+                <ExpandedCard paper={paper} onClose={() => setExpandedPaperId(null)} />
+              )}
             </div>
           ))}
-        </main>
 
+        </main>
       </div>
     </div>
   )
 }
+

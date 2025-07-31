@@ -1,29 +1,22 @@
-import os
-import shutil
+import json
 
-# Source and destination directories
-src_folder = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/outputs/ICLR/all_pdf"
-dst_folder = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/outputs/ICLR/pdf_test_topic"
+json_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ICML_metadata_merged.json"
 
-# Make sure destination exists
-os.makedirs(dst_folder, exist_ok=True)
+# 讀取 JSON
+with open(json_path, "r") as f:
+    data = json.load(f)
 
-# List of paper IDs
-paper_ids = [
-    "WwmtcGr4lP", "s5epFPdIW6", "i2r7LDjba3", "8fLgt7PQza", "6Hz1Ko087B", "PstM8YfhvI",
-    "hjROBHstZ3", "nYpPAT4L3D", "XQlccqJpCC", "7zwIEbSTDy", "3b9SKkRAKw", "ozZG5FXuTV",
-    "NJxCpMt0sf", "zcTLpIfj9u", "BHFs80Jf5V", "mOpNrrV2zH", "v9EjwMM55Y", "zg3ec1TdAP",
-    "n34taxF0TC", "k2uUeLCrQq", "yb4QE6b22f", "hwnObmOTrV"
-]
+# 篩選並列印
+count = 0
+for item in data:
+    if item.get("method", "N/A") == "N/A":
+        count += 1
+        paper_id = item.get("id", "N/A")
+        title = item.get("title", "N/A")
+        pdf_url = item.get("pdf_url", "N/A")
+        print(f"ID: {paper_id}")
+        print(f"Title: {title}")
+        print(f"PDF URL: {pdf_url}")
+        print("-" * 60)
 
-# Copy matching PDFs
-for pid in paper_ids:
-    filename = f"{pid}.pdf"
-    src_path = os.path.join(src_folder, filename)
-    dst_path = os.path.join(dst_folder, filename)
-
-    if os.path.exists(src_path):
-        shutil.copy2(src_path, dst_path)
-        print(f"Copied: {filename}")
-    else:
-        print(f"Not found: {filename}")
+print(f"\nTotal papers with method == 'N/A': {count}")

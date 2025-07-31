@@ -1,21 +1,22 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useRouter } from 'next/navigation'; 
 import { Roboto_Slab } from 'next/font/google';
 import Image from 'next/image';
 
 const robotoSlab = Roboto_Slab({
   subsets: ['latin'],
-  weight: ['700'],
+  weight: '700',
   display: 'swap',
 });
 
 const menuItems = {
   Conference: ['ICLR', 'ICML', 'CVPR', 'KDD', 'ACL', 'WWW', 'NeurIPS', 'ECCV', 'CHI', 'AAAI', 'IJCAI'],
   Year: ['2020', '2021', '2022', '2023', '2024', '2025'],
-  Topic: ['Clinical NLP', 'Medical Imaging', 'Bioinformatics'],
-  Method: ['Transformer', 'LSTM', 'Diffusion Model'],
-  Application: ['ICU prediction', 'Segmentation', 'Drug Discovery'],
+  'Ranking Plot': ['Author', 'Affiliation', 'Topic','Method','Application','Conference','Year'],
+  Map: ['XXX', 'XXX', 'XXX'],
+  AIChat: ['XXX', 'XXX', 'XXX'],
 };
 
 interface HeaderProps {
@@ -30,6 +31,7 @@ const Header = ({ onSearch, onConferenceSelect, onYearSelect, suggestions }: Hea
   const [searchTerm, setSearchTerm] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
+  const router = useRouter(); 
 
   const toggleMenu = (label: string) => {
     setOpenMenu((prev) => (prev === label ? null : label));
@@ -95,6 +97,8 @@ const Header = ({ onSearch, onConferenceSelect, onYearSelect, suggestions }: Hea
                           onConferenceSelect(option);
                         } else if (label === 'Year') {
                           onYearSelect(option);
+                        } else if (label === 'Ranking Plot') {
+                          router.push(`/ranking/${option.toLowerCase()}`); 
                         }
                         setOpenMenu(null);
                       }}
@@ -120,8 +124,13 @@ const Header = ({ onSearch, onConferenceSelect, onYearSelect, suggestions }: Hea
               setShowSuggestions(true);
             }}
             onFocus={() => setShowSuggestions(true)}
-            className="w-full px-4 py-1.5 pr-10 rounded-md border border-gray-100 shadow-sm text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-1.5 pr-10 rounded-md bg-[#dddddd] placeholder-gray-500 border border-white text-sm focus:outline-none focus:ring-2 focus:ring-white"
           />
+          <div className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-600 pointer-events-none">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+            </svg>
+          </div>
           {searchTerm && (
             <button
               onClick={() => {
@@ -129,7 +138,7 @@ const Header = ({ onSearch, onConferenceSelect, onYearSelect, suggestions }: Hea
                 onSearch('');
                 setShowSuggestions(false);
               }}
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-700"
+              className="absolute right-8 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-700"
             >
               ×
             </button>

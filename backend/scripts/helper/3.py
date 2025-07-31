@@ -1,53 +1,42 @@
 import json
-import csv
 
-# File paths
-input_json = '/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/outputs/ICLR/analyze_healthcare/ICLR_2025_TestTopic_pdf_metadata.json'  # Replace with your JSON file
-output_csv = '/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/outputs/ICLR/allof_CSV/ICLR_test_topic.csv'
+# 路徑設定
+original_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ICML_metadata.json"
+debug_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ICML_metadata_debug.json"
+output_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ICML_metadata_merged.json"
 
-# Load JSON
-data = []
-with open(input_json, 'r', encoding='utf-8') as f:
-    data = json.load(f)
+# 載入原始檔（628篇）
+with open(original_path, "r") as f:
+    original_data = json.load(f)
 
-# Define CSV header (exclude token fields, flatten Axis topics)
-header = [
-    "id", "year", "conference", "title", "authors", "institutes", "abstract", "keywords",
-    "pdf_url", "is_healthcare", "reasoning",
-    "Topic Axis I MainTopic", "Topic Axis I SubTopic",
-    "Topic Axis II MainTopic", "Topic Axis II SubTopic",
-    "Topic Axis III MainTopic", "Topic Axis III SubTopic",
-    "method", "application", "code_link", "dataset_name"
+# 載入更新檔（168篇）
+with open(debug_path, "r") as f:
+    debug_data = json.load(f)
+
+# 把 debug 資料轉為 dict 方便查詢
+debug_dict = {paper["id"]: paper for paper in debug_data}
+
+# 要覆蓋的欄位（僅這些欄位會被 debug 取代）
+fields_to_update = [
+    "Topic Axis I",
+    "Topic Axis II",
+    "Topic Axis III",
+    "method",
+    "application",
+    "code_link",
+    "dataset_name"
 ]
 
-# Write CSV
-with open(output_csv, 'w', newline='', encoding='utf-8') as f:
-    writer = csv.DictWriter(f, fieldnames=header)
-    writer.writeheader()
-    for paper in data:
-        row = {
-            "id": paper.get("id", ""),
-            "year": paper.get("year", ""),
-            "conference": paper.get("conference", ""),
-            "title": paper.get("title", ""),
-            "authors": "; ".join(paper.get("authors", [])),
-            "institutes": paper.get("institutes", ""),
-            "abstract": paper.get("abstract", ""),
-            "keywords": paper.get("keywords", ""),
-            "pdf_url": paper.get("pdf_url", ""),
-            "is_healthcare": paper.get("is_healthcare", ""),
-            "reasoning": paper.get("reasoning", ""),
-            "Topic Axis I MainTopic": paper.get("Topic Axis I", {}).get("MainTopic", ""),
-            "Topic Axis I SubTopic": paper.get("Topic Axis I", {}).get("SubTopic", ""),
-            "Topic Axis II MainTopic": paper.get("Topic Axis II", {}).get("MainTopic", ""),
-            "Topic Axis II SubTopic": paper.get("Topic Axis II", {}).get("SubTopic", ""),
-            "Topic Axis III MainTopic": paper.get("Topic Axis III", {}).get("MainTopic", ""),
-            "Topic Axis III SubTopic": paper.get("Topic Axis III", {}).get("SubTopic", ""),
-            "method": paper.get("method", ""),
-            "application": paper.get("application", ""),
-            "code_link": paper.get("code_link", ""),
-            "dataset_name": "; ".join(paper.get("dataset_name", [])),
-        }
-        writer.writerow(row)
+# 合併：更新原始資料中對應 ID 的欄位
+for paper in original_data:
+    paper_id = paper["id"]
+    if paper_id in debug_dict:
+        debug_paper = debug_dict[paper_id]
+        for field in fields_to_update:
+            paper[field] = debug_paper.get(field, paper.get(field))
 
-print(f"✅ CSV exported successfully to {output_csv}")
+# 儲存新的合併檔案
+with open(output_path, "w") as f:
+    json.dump(original_data, f, indent=2)
+
+print(f"✅ 合併完成！儲存到 {output_path}")

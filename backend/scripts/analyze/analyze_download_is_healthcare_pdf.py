@@ -6,21 +6,28 @@ from tqdm import tqdm
 def download_pdf(paper_id, url, save_dir):
     filename = paper_id + ".pdf"
     filepath = os.path.join(save_dir, filename)
-    
+
     if os.path.exists(filepath):
         print(f"Already exists: {filename}")
-        return
+        return True
 
     try:
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200 and response.headers.get("Content-Type", "").lower() in ["application/pdf", "application/octet-stream"]:
+        headers = {
+            "User-Agent": "Mozilla/5.0"
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        content_type = response.headers.get("Content-Type", "").lower()
+        if response.status_code == 200 and ("pdf" in content_type or "octet-stream" in content_type):
             with open(filepath, "wb") as f:
                 f.write(response.content)
             print(f"Downloaded: {filename}")
+            return True
         else:
             print(f"Unexpected response for: {paper_id} (status {response.status_code})")
+            return False
     except Exception as e:
         print(f"Failed: {paper_id} | {e}")
+        return False
 
 def main():
     input_paths = input("Enter paths to JSON files (comma-separated): ").strip().split(",")
@@ -52,13 +59,30 @@ def main():
 
     os.makedirs(output_dir, exist_ok=True)
 
+    success_count = 0
+    fail_list = []
+
     for paper in tqdm(all_yes_papers, desc="Downloading PDFs"):
         paper_id = paper.get("id", "")
         url = paper.get("pdf_url", "")
+        title = paper.get("title", "Untitled")
         if paper_id and url.startswith("http"):
-            download_pdf(paper_id, url, output_dir)
+            success = download_pdf(paper_id, url, output_dir)
+            if success:
+                success_count += 1
+            else:
+                fail_list.append((paper_id, title))
         else:
             print(f"Skipping invalid entry: {paper_id}")
+            fail_list.append((paper_id, title))
+
+    print("\n========== Download Summary ==========")
+    print(f"Success: {success_count}")
+    print(f"Failed: {len(fail_list)}")
+    if fail_list:
+        print("\nFailed papers:")
+        for pid, title in fail_list:
+            print(f"- {pid}: {title}")
 
     print(f"\nDone. PDFs saved to: {output_dir}")
 

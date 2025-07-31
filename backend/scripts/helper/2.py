@@ -1,29 +1,49 @@
 import json
-import os
+import csv
 
-# Input and output paths
-input_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/outputs/ICLR/analyze_healthcare/ICLR_healthcare_analysis_iclr_metadata_2025.json"
-output_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/outputs/ICLR/analyze_healthcare/ICLR_healthcare_yes_only_2025.json"
+json_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/KDD_metadata.json"
+csv_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/KDD_metadata.csv"
 
-# Read JSON file
-with open(input_path, "r", encoding="utf-8") as f:
+with open(json_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
-# Filter for Yes papers
-yes_papers = []
-for entry in data:
-    if entry.get("is_healthcare", "No") == "Yes":
-        yes_papers.append({
-            "title": entry.get("title", "N/A"),
-            "is_healthcare": "Yes",
-            "reasoning": entry.get("reasoning", "N/A")
-        })
+fieldnames = [
+    "id", "year", "conference", "title", "authors", "institutes",
+    "authors/institutes", "abstract", "keywords", "pdf_url",
+    "is_healthcare", "reasoning", "Topic Axis I MainTopic", "Topic Axis I SubTopic",
+    "Topic Axis II MainTopic", "Topic Axis II SubTopic",
+    "Topic Axis III MainTopic", "Topic Axis III SubTopic",
+    "method", "application", "code_link", "dataset_name"
+]
 
-# Output summary
-print(f"Total 'Yes' papers found: {len(yes_papers)}")
+with open(csv_path, "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    for paper in data:
+        row = {
+            "id": paper.get("id", ""),
+            "year": paper.get("year", ""),
+            "conference": paper.get("conference", ""),
+            "title": paper.get("title", ""),
+            "authors": "; ".join(paper.get("authors", [])),
+            "institutes": paper.get("institutes", ""),
+            "authors/institutes": paper.get("authors/institutes", ""),
+            "abstract": paper.get("abstract", ""),
+            "keywords": paper.get("keywords", ""),
+            "pdf_url": paper.get("pdf_url", ""),
+            "is_healthcare": paper.get("is_healthcare", ""),
+            "reasoning": paper.get("reasoning", ""),
+            "Topic Axis I MainTopic": paper.get("Topic Axis I", {}).get("MainTopic", ""),
+            "Topic Axis I SubTopic": paper.get("Topic Axis I", {}).get("SubTopic", ""),
+            "Topic Axis II MainTopic": paper.get("Topic Axis II", {}).get("MainTopic", ""),
+            "Topic Axis II SubTopic": paper.get("Topic Axis II", {}).get("SubTopic", ""),
+            "Topic Axis III MainTopic": paper.get("Topic Axis III", {}).get("MainTopic", ""),
+            "Topic Axis III SubTopic": paper.get("Topic Axis III", {}).get("SubTopic", ""),
+            "method": paper.get("method", ""),
+            "application": paper.get("application", ""),
+            "code_link": paper.get("code_link", ""),
+            "dataset_name": "; ".join(paper.get("dataset_name", [])) if isinstance(paper.get("dataset_name"), list) else paper.get("dataset_name", "")
+        }
+        writer.writerow(row)
 
-# Save to new JSON
-with open(output_path, "w", encoding="utf-8") as f:
-    json.dump(yes_papers, f, indent=2, ensure_ascii=False)
-
-print(f"✅ Output saved to: {output_path}")
+print(f"✅ Exported {len(data)} records to {csv_path}")
