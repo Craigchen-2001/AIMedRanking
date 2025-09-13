@@ -9,7 +9,7 @@ import favoritesRouter from "./routes/favorites.ts";
 const app = express();
 
 const ORIGIN =
-  process.env.SITE_ORIGIN ||
+  process.env.NEXT_PUBLIC_SITE_ORIGIN ||
   process.env.FRONTEND_ORIGIN ||
   process.env.NEXT_PUBLIC_SITE_ORIGIN ||
   "http://localhost:3000";
