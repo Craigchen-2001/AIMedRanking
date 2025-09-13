@@ -18,7 +18,7 @@ export default async function PaperPage({
   } catch {
     try {
       const site =
-        process.env.SITE_ORIGIN ||
+        process.env.NEXT_PUBLIC_SITE_ORIGIN ||
         process.env.NEXT_PUBLIC_SITE_ORIGIN ||
         `http://localhost:${process.env.PORT || '3000'}`;
       const r = await fetch(`${site}/api/papers/${encodeURIComponent(id)}`, {

@@ -2,7 +2,7 @@
 const ORIGIN =
   process.env.NEXT_PUBLIC_BACKEND ||
   process.env.BACKEND_ORIGIN ||
-  process.env.API_TARGET ||
+  process.env.NEXT_PUBLIC_API_TARGET ||
   "http://localhost:3001";
 
 export type FavoritePaper = {

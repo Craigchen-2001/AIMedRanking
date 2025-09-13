@@ -152,7 +152,7 @@ const isServer = () => typeof window === 'undefined'
 
 function siteOriginForServer(): string {
   return (
-    process.env.SITE_ORIGIN ||
+    process.env.NEXT_PUBLIC_SITE_ORIGIN ||
     process.env.NEXT_PUBLIC_SITE_ORIGIN ||
     `http://localhost:${process.env.PORT || '3000'}`
   )
@@ -160,7 +160,7 @@ function siteOriginForServer(): string {
 
 function backendOrigin(): string {
   return (
-    process.env.API_TARGET ||
+    process.env.NEXT_PUBLIC_API_TARGET ||
     process.env.BACKEND_ORIGIN ||
     process.env.NEXT_PUBLIC_BACKEND ||
     'http://localhost:3001'

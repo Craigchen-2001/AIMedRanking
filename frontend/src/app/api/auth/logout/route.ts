@@ -1,6 +1,6 @@
 // frontend/src/app/api/auth/logout/route.ts
 const ORIGIN =
-  process.env.API_TARGET ||
+  process.env.NEXT_PUBLIC_API_TARGET ||
   process.env.BACKEND_ORIGIN ||
   process.env.NEXT_PUBLIC_BACKEND ||
   "http://localhost:3001";
