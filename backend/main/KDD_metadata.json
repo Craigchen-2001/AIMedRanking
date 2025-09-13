@@ -55,7 +55,8 @@
     "dataset_name": [
       "ADNI",
       "ABIDE I"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangQ0LCZD20",
@@ -130,7 +131,8 @@
       "Heart Failure cohort",
       "Diabetes cohort",
       "Chronic Kidney Disease cohort"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "XuAKMFY21",
@@ -194,10 +196,11 @@
     },
     "method": "Convolutional Neural Networks (CNN); Multi-task learning; Alternating optimization algorithm",
     "application": "Progression prediction of glaucoma; Joint estimation of visual fields (VF) from retinal thickness (RT)",
-    "code_link": "https://goo.gl/QDP1Cr",
+    "code_link": "N/A",
     "dataset_name": [
       "University of Tokyo Ophthalmology Dataset"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "Wei0JK23",
@@ -254,7 +257,8 @@
     "code_link": "https://github.com/SongWei-GT/two-phase-MHP",
     "dataset_name": [
       "Grady Hospital System (2018-2019)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhuXW0ZQLL23",
@@ -328,13 +332,14 @@
     },
     "method": "Transformer-based pretraining; Graph Neural Networks",
     "application": "Molecular property prediction",
-    "code_link": "https://github.com/rdkit/rdkit",
+    "code_link": "https://github.com/microsoft/DVMP",
     "dataset_name": [
       "PubChem",
       "MoleculeNet",
       "QM9",
       "USPTO-50K"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XiYHL21",
@@ -391,7 +396,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "Clinical ultrasound reports from Cancer Center of Sun Yat-sen University"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "GuoDZ21",
@@ -445,7 +451,8 @@
       "Waxman graphs",
       "Randomgeometric graphs",
       "Protein Structure dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "Ye0CA00LWL23",
@@ -524,10 +531,11 @@
     },
     "method": "Counterfactual training; Multi-task calibration; Semi-supervised learning",
     "application": "Treatment outcome forecasting – spine conditions",
-    "code_link": "N/A",
+    "code_link": "https://github.com/HangtingYe/DeepTOF",
     "dataset_name": [
       "SPORT"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "SunXWCZ21",
@@ -595,7 +603,8 @@
       "tox21",
       "toxcast",
       "sider"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "RahierHMRD21",
@@ -654,10 +663,11 @@
     },
     "method": "Causal modeling with compliance adjustment; Structural Causal Models (SCMs)",
     "application": "Treatment effect estimation – clinical trials with non-compliance",
-    "code_link": "N/A",
+    "code_link": "https://github.com/KDD-anonymous-code/individual_treatment_prescription",
     "dataset_name": [
       "CRITEO-UPLIFT1"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XuJCXZD0WX24",
@@ -736,12 +746,13 @@
     },
     "method": "Prototype-guided Mixup; Improved K-Means",
     "application": "Mortality prediction",
-    "code_link": "N/A",
+    "code_link": "https://github.com/jiangxinke/ProtoMix",
     "dataset_name": [
       "MIMIC-III",
       "MIMIC-IV",
       "eICU"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WenOZQYZ22",
@@ -808,7 +819,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "Prescription Drug Monitoring Program (PDMP)"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LiuLLXYL25",
@@ -875,7 +887,8 @@
     "code_link": "https://github.com/Cissise/FatPIN",
     "dataset_name": [
       "matRad"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LiFWSLSCY24",
@@ -956,7 +969,8 @@
       "Hos#3",
       "Hos#4",
       "Pki-3"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "FooHLT22",
@@ -1015,7 +1029,8 @@
       "SiDRP10-18",
       "MSD-Brain",
       "Indian Diabetic Retinopathy Image Dataset (IDRID)"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "AykentX22",
@@ -1063,7 +1078,8 @@
     "dataset_name": [
       "Protein Structure Ranking Dataset",
       "PDBBind"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "0003QM0K23",
@@ -1127,7 +1143,8 @@
       "LPBA40",
       "CC-359",
       "IBSR"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LussCDSZST21",
@@ -1201,7 +1218,8 @@
       "ISIC Lesions",
       "CelebA",
       "Fashion-MNIST"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "MoomtaheenKOGMG22",
@@ -1275,10 +1293,11 @@
     },
     "method": "Variational Autoencoder (VAE); Latent Space Regularization",
     "application": "DNA sequence generation – Nanomaterials design",
-    "code_link": "http://www.cs.albany.edu/~petko/lab/code.html",
+    "code_link": "N/A",
     "dataset_name": [
       "NIR DNA library"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LeeSJKH23",
@@ -1337,10 +1356,11 @@
     },
     "method": "Temporal symptom-aware attention; BiLSTM; Multi-task learning",
     "application": "Future suicidality and BD symptom prediction",
-    "code_link": "https://sites.google.com/view/daeun-lee/dataset/kdd-2023",
+    "code_link": "https://github.com/DSAIL-SKKU/Temporal-Symptom-Aware-Multitask-Learning-KDD23",
     "dataset_name": [
       "Reddit Bipolar Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XuZL0ZH024",
@@ -1414,7 +1434,8 @@
       "MIMIC-IV",
       "MIMIC-CXR",
       "MIMIC-NOTE"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "TakedaHHPZSPKHC20",
@@ -1551,7 +1572,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "QM9"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "HaoLEQOS021",
@@ -1620,14 +1642,15 @@
     },
     "method": "Hyperbolic Graph Neural Networks; Heterogeneous Graph Neural Networks",
     "application": "Ontology matching – Medical data",
-    "code_link": "https://github.com/nju-websoft/OpenEA",
+    "code_link": "N/A",
     "dataset_name": [
       "MIMIC-III",
       "MDX",
       "SNOMED CT",
       "FMA",
       "NCI"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "RenWZ22",
@@ -1680,7 +1703,8 @@
     "dataset_name": [
       "MIMIC",
       "Gestational Diabetes"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "KimPJK24",
@@ -1741,7 +1765,8 @@
       "Korea stock",
       "NATOPS",
       "Cricket"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "FuS22",
@@ -1789,7 +1814,8 @@
     "dataset_name": [
       "RCSB",
       "CATH"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "0013DC22",
@@ -1838,12 +1864,13 @@
     },
     "method": "Neural network classifier; Gradient-based explanation methods; Perturbation-based methods.",
     "application": "Cell type classification – scRNA-seq",
-    "code_link": "N/A",
+    "code_link": "https://github.com/icanforce/single-cell-genomics-kratos",
     "dataset_name": [
       "PBMC",
       "Baron",
       "MNIST"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "TanZ23",
@@ -1890,7 +1917,8 @@
     "code_link": "https://github.com/rutgerswiselab/ExplainableFold",
     "dataset_name": [
       "CASP-14"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LenceGFHSZP25",
@@ -1964,7 +1992,8 @@
       "PTB-XL",
       "LUDB",
       "Generepol"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "NagpalGDD22",
@@ -2018,11 +2047,12 @@
     },
     "method": "Stochastic Expectation Maximization; Deep latent variable models",
     "application": "Phenotyping in survival studies",
-    "code_link": "https://autonlab.github.io/auton-survival/models/cmhe",
+    "code_link": "https://github.com/autonlab/auton-survival",
     "dataset_name": [
       "ALLHAT",
       "ACCORD"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HaoLHWHLCL20",
@@ -2100,7 +2130,8 @@
     "dataset_name": [
       "QM9",
       "OPV"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "DuLT21",
@@ -2149,14 +2180,15 @@
     },
     "method": "Sylvester tensor equations; Graph representation learning",
     "application": "Multi-network alignment; Multi-network node retrieval; High-order recommendation",
-    "code_link": "N/A",
+    "code_link": "https://drive.google.com/drive/folders/1Bu72H7_0TpPFNrefkc6E8BWXoa4wc7f7",
     "dataset_name": [
       "DBLP",
       "LastFm",
       "Douban",
       "Arxiv",
       "Aminer"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "MonsefiKZCDJ0R24",
@@ -2230,11 +2262,12 @@
     },
     "method": "Masked autoencoder; K-means clustering; Large-Kernel Attention",
     "application": "Medical image segmentation",
-    "code_link": "https://github.com/aminK8/Masked-LoGoNet",
+    "code_link": "N/A",
     "dataset_name": [
       "BTCV",
       "MSD"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WuZCZ24",
@@ -2288,11 +2321,12 @@
     },
     "method": "Classifier-free diffusion model; Conditional variational autoencoder (CVAE)",
     "application": "Counterfactual outcome generation",
-    "code_link": "N/A",
+    "code_link": "https://github.com/ShenghaoWu/Counterfactual-Generative-Models",
     "dataset_name": [
       "TV-MNIST",
       "Semi-synthetic COVID-19"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "BarshatskiR21",
@@ -2336,11 +2370,12 @@
     },
     "method": "Unsupervised generative model; Molecule embedding; Double cycle constraints",
     "application": "Molecular lead optimization generation",
-    "code_link": "https://doi.org/10.1145/3447548.3467120",
+    "code_link": "https://github.com/guy-ba/UGMMT",
     "dataset_name": [
       "DrugBank",
       "CORE"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "GaoXGS20",
@@ -2399,7 +2434,8 @@
       "ClinicalTrials.gov",
       "MIMIC-III",
       "IQVIA"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WangLYY023",
@@ -2463,7 +2499,8 @@
       "CPSC",
       "AIWIN",
       "Mixed-Set"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "JianKM22",
@@ -2516,7 +2553,8 @@
     "dataset_name": [
       "McPAS",
       "VDJdb"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XiaK21",
@@ -2560,14 +2598,15 @@
     },
     "method": "Graph Neural Networks (GNN)",
     "application": "Protein Structure Prediction",
-    "code_link": "https://doi.org/10.1145/3447548.3467323",
+    "code_link": "N/A",
     "dataset_name": [
       "CAMEO",
       "CASP11",
       "CASP13",
       "membrane",
       "PDB25"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "YfantidouSCVQK24",
@@ -2636,7 +2675,8 @@
       "MIMIC-III",
       "MESA",
       "GLOBEM"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HuGAZLKHSZ23",
@@ -2715,13 +2755,14 @@
     },
     "method": "Relation-aware graph attention network; Anatomical structure-aware graph learning",
     "application": "Medical image difference visual question answering",
-    "code_link": "N/A",
+    "code_link": "https://github.com/Holipori/MIMIC-Diff-VQA",
     "dataset_name": [
       "MIMIC-Diff-VQA",
       "MIMIC-CXR",
       "Chest ImaGenome",
       "VinDr-CXR"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "NambiarGOCBK23",
@@ -2785,10 +2826,11 @@
     },
     "method": "Offline Reinforcement Learning; Conservative Q-Learning (CQL)",
     "application": "Treatment optimization – Diabetes and Sepsis",
-    "code_link": "https://github.com/takuseno/d3rlpy",
+    "code_link": "N/A",
     "dataset_name": [
       "Singapore Diabetes Registry"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LiuLWHK022",
@@ -2852,10 +2894,11 @@
     },
     "method": "Hierarchical sequence modeling; Semi-supervised learning; Time-dependent activity embedding",
     "application": "Burnout prediction",
-    "code_link": "N/A",
+    "code_link": "https://github.com/HanyangLiu/HiPAL",
     "dataset_name": [
       "EHR Activity Logs Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XueYTMU22",
@@ -2918,7 +2961,8 @@
     "dataset_name": [
       "Tokyo COVID-19 Task Force Website",
       "Yahoo Japan mobility and web search data"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YinCYWC024",
@@ -2987,7 +3031,8 @@
       "MIMIC-III",
       "AmsterdamUMCdb",
       "OSUWMC"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LuoYXM20",
@@ -3041,12 +3086,13 @@
     },
     "method": "Time-aware Transformer; Time-aware Key-Query Attention Mechanism",
     "application": "Risk prediction – EHR",
-    "code_link": "N/A",
+    "code_link": "https://github.com/machinelearning4health/HiTANet",
     "dataset_name": [
       "COPD",
       "Heart Failure",
       "Kidney Disease"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WanZS21",
@@ -3099,7 +3145,8 @@
     "dataset_name": [
       "Chinese Demographic Dataset",
       "Baidu Qianxi Mobility Data"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "OzyurtKHF21",
@@ -3156,7 +3203,8 @@
     "code_link": "https://github.com/oezyurty/AttDMM",
     "dataset_name": [
       "MIMIC-III"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HoangP0ZTZ24",
@@ -3223,7 +3271,8 @@
     "code_link": "https://github.com/illidanlab/distributed-cluster-harmonization",
     "dataset_name": [
       "ADNI"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HongXKPMAST20",
@@ -3300,7 +3349,8 @@
     "code_link": "https://github.com/hsd1503/HOLMES",
     "dataset_name": [
       "pediatric cardio ICU data"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "00010YWXR0K22",
@@ -3377,7 +3427,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "MNIST"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "GuZGY023",
@@ -3441,7 +3492,8 @@
       "LIDC-IDRI",
       "Pancreas-CT",
       "Medical Segmentation Decathlon"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "RenWZW21",
@@ -3495,10 +3547,11 @@
     },
     "method": "Pre-training of time-aware Transformer; Time-aware multi-head attention; Self-supervised learning",
     "application": "Pregnancy complication diagnosis",
-    "code_link": "N/A",
+    "code_link": "https://github.com/bigscity/RAPT",
     "dataset_name": [
       "Prenatal care examination records (Beijing Hospital)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "KanLCYXYZGY23",
@@ -3584,7 +3637,8 @@
       "PNC",
       "ABIDE",
       "TCGA-Cancer"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhaoYDH23",
@@ -3641,7 +3695,8 @@
     "code_link": "https://github.com/pengzhaostat/MLG_MFM",
     "dataset_name": [
       "County Health Rankings"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "QiaoPCLS0R24",
@@ -3717,7 +3772,8 @@
       "DSA",
       "GRABMyo",
       "WISDM"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "MaWYLHT22",
@@ -3781,12 +3837,13 @@
     },
     "method": "Hypergraph neural networks; Representation learning; Hypergraph attention mechanisms",
     "application": "Individual Treatment Effect (ITE) estimation with hypergraph interference",
-    "code_link": "N/A",
+    "code_link": "https://github.com/jma712/HyperSCI?tab=readme-ov-file",
     "dataset_name": [
       "Contact",
       "GoodReads",
       "Microsoft Teams"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YehudaFR23",
@@ -3840,7 +3897,8 @@
       "Georgia 12-Lead ECG Challenge (G12EC)",
       "Physikalisch-Technische Bundesanstalt (PTB-XL)",
       "Temple University Hospital (TUH) EEG corpus"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WuNCVMY23",
@@ -3907,7 +3965,8 @@
     "code_link": "https://github.com/Rose-STL-Lab/Interactive-Neural-Process",
     "dataset_name": [
       "LEAM-US"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ChenWZ0G0QLXXWL21",
@@ -4030,7 +4089,8 @@
     "dataset_name": [
       "China Cardiometabolic Disease and Cancer Cohort (4C) Study",
       "Sentiment dataset (multi-domain Amazon reviews)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "0001S21",
@@ -4078,7 +4138,8 @@
     "dataset_name": [
       "Coswara",
       "COVID-19 Sounds"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhangSHD022",
@@ -4140,7 +4201,8 @@
     "code_link": "https://github.com/zswvivi/bihardnce",
     "dataset_name": [
       "CHIP-CDN"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XueJKFKAA022",
@@ -4218,7 +4280,8 @@
     "dataset_name": [
       "MIMIC-III",
       "BJC Healthcare System"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LiuYLCSLZMLMZXH24",
@@ -4327,7 +4390,8 @@
       "RJUA-SP",
       "PubMedQA",
       "MedMCQA"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "BetleiDA21",
@@ -4380,7 +4444,8 @@
     "dataset_name": [
       "Hillstrom",
       "Criteo-UPLIFT v2"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "OkawaI0TKK21",
@@ -4444,13 +4509,14 @@
     },
     "method": "Dynamic Hawkes Processes; Neural Networks",
     "application": "Event prediction",
-    "code_link": "https://github.com/fchollet/keras",
+    "code_link": "N/A",
     "dataset_name": [
       "Reddit",
       "News",
       "Protest",
       "Crime"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WuX023",
@@ -4503,7 +4569,8 @@
     "dataset_name": [
       "MIMIC-III",
       "Medical Claims"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ChiamLT24",
@@ -4555,7 +4622,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "Healthy 365 mobile app"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhaoZZGG0Z24",
@@ -4628,7 +4696,8 @@
     "dataset_name": [
       "Pancreas-CT",
       "LIDC-IDRI"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HartvigsenSKR20",
@@ -4686,7 +4755,8 @@
     "dataset_name": [
       "HAR",
       "ExtraSensory"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "00020LS23",
@@ -4744,7 +4814,8 @@
     "dataset_name": [
       "Flickr",
       "BlogCatalog"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "BoominathanOZKS20",
@@ -4807,7 +4878,8 @@
     "dataset_name": [
       "Massachusetts General Hospital EHR",
       "Brigham & Women’s Hospital EHR"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "JinZMLWJDSWFGCL24",
@@ -4924,7 +4996,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "RJUA-MedDQA"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "TranNNH25",
@@ -4978,11 +5051,12 @@
     },
     "method": "Graph-based smoothing; Label Propagation; Surrogate model optimization",
     "application": "Protein sequence optimization",
-    "code_link": "https://anonymous.4open.science/r/GROOT-D554",
+    "code_link": "https://github.com/Fsoft-AIC/GROOT",
     "dataset_name": [
       "GFP",
       "AAV"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "0002LC025",
@@ -5042,7 +5116,8 @@
       "Synthetic Dataset A",
       "Synthetic Dataset B",
       "IHDP"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "JiaWLJ24",
@@ -5100,7 +5175,8 @@
     "dataset_name": [
       "ISRUC-III",
       "MASS-SS3"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "FuS22a",
@@ -5144,10 +5220,11 @@
     },
     "method": "Energy-based models; Equivariant graph neural networks",
     "application": "3D antibody CDR loop generation",
-    "code_link": "https://github.com/futianfan/energy_model4antibody_design",
+    "code_link": "N/A",
     "dataset_name": [
       "SAbDab"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WangDL0L24",
@@ -5206,7 +5283,7 @@
     },
     "method": "Graph Prompt Tuning; Topo-Specific Prompt Analysis",
     "application": "Molecular property prediction; Graph node classification",
-    "code_link": "https://github.com/jikjn/TGPT",
+    "code_link": "N/A",
     "dataset_name": [
       "BACE",
       "ClinTox",
@@ -5219,7 +5296,8 @@
       "ESOL",
       "Lipophilicity",
       "PCQM4Mv2"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "GaoWZPXH0QL0L23",
@@ -5312,7 +5390,8 @@
     "dataset_name": [
       "Structural Antibody Database (SAbDab)",
       "Coronavirus Antibody Database"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "0009LNX0TWURSQH21",
@@ -5426,7 +5505,8 @@
       "PubMed",
       "MS MARCO",
       "TREC-COVID"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhengQ0W0CZ22",
@@ -5498,7 +5578,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "N/A"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ChangWLMDPKGRGM21",
@@ -5597,7 +5678,8 @@
       "SafeGraph mobility data",
       "New York Times COVID-19 death reports",
       "US Census"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "0002S021",
@@ -5646,11 +5728,12 @@
     },
     "method": "VAE-based Latent ODE; Graph Neural Networks (GNN); Coupled Neural ODE",
     "application": "Forecasting cumulative deaths - COVID-19",
-    "code_link": "N/A",
+    "code_link": "https://github.com/ZijieH/CG-ODE",
     "dataset_name": [
       "JHU CSSE COVID-19 Dataset",
       "SafeGraph Social Distancing Metrics"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LiZZ22",
@@ -5713,7 +5796,8 @@
       "FreeSolv",
       "ESOL",
       "Lipophilicity"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "SegoviaDominguez21",
@@ -5777,11 +5861,12 @@
     },
     "method": "Diffusion Convolutional Recurrent Neural Network (DCRNN); Geometric Deep Learning",
     "application": "Hospitalization prediction – COVID-19",
-    "code_link": "https://figshare.com/",
+    "code_link": "https://github.com/Covid-19-papers/Does-Air-Quality-Really-Impact-COVID-19-Clinical-Severity",
     "dataset_name": [
       "MODIS",
       "Census County Adjacency"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangGDS25",
@@ -5839,7 +5924,8 @@
     "dataset_name": [
       "European Nucleotide Archive (ENA)",
       "SRAToolkit FASTQ"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "HerlihyPSD23",
@@ -5897,7 +5983,8 @@
     "dataset_name": [
       "CPAP Adherence Dataset",
       "Synthetic Transition Matrices"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "GaoPZ00025",
@@ -5964,7 +6051,8 @@
     "code_link": "https://github.com/QizhiPei/FABind",
     "dataset_name": [
       "PDBBind"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HigashiguchiMKM25",
@@ -6023,11 +6111,12 @@
     },
     "method": "Reaction-diffusion modeling; Tensor decomposition",
     "application": "Trend forecasting – social activities and diseases",
-    "code_link": "N/A",
+    "code_link": "https://github.com/Higashiguchi-Shingo/D-Tracker",
     "dataset_name": [
       "GoogleTrends",
       "COVID-19 Open Data Repository"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XueSXLSYP023",
@@ -6101,12 +6190,13 @@
     },
     "method": "Disentangled latent representation; Variational Autoencoder (VAE); Distribution matching; Label balancing",
     "application": "Treatment assignment and response prediction – ECMO",
-    "code_link": "N/A",
+    "code_link": "https://github.com/xuebing1234/tvae",
     "dataset_name": [
       "ISARIC Dataset",
       "BJC Dataset",
       "IHDP Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhuXW0QZLL22",
@@ -6195,7 +6285,8 @@
       "LC50DM",
       "GEOM-QM9",
       "GEOM-Drugs"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "SuZZY25",
@@ -6253,7 +6344,8 @@
     "dataset_name": [
       "MIMIC-IV",
       "ODIR"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "0003YHXWG0Q22",
@@ -6331,7 +6423,8 @@
     "dataset_name": [
       "USPTO",
       "USPTO-EXT"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "QuinnTC22",
@@ -6384,7 +6477,8 @@
     "dataset_name": [
       "DUS (state-level US Covid cases)",
       "DEU (European-country-level Covid cases)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LancianoBG20",
@@ -6439,7 +6533,8 @@
       "ABIDE Adolescents",
       "ABIDE EyesClosed",
       "ABIDE Male"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "FarhadlooML0SMM22",
@@ -6518,10 +6613,11 @@
     },
     "method": "Point pair prioritization; Local reference frame characterization; Spatial-Interaction aware network",
     "application": "Disease classification – Tumor microenvironment",
-    "code_link": "N/A",
+    "code_link": "https://github.com/majid-farhadloo/SAMCNet_2022",
     "dataset_name": [
       "MxIF"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "JhaXDZ21",
@@ -6575,7 +6671,7 @@
     },
     "method": "Knowledge-guided pruning; continual learning",
     "application": "Biomedical question answering; Named entity recognition; Relation extraction; Semantic sentence similarity",
-    "code_link": "https://doi.org/10.1145/3447548.3467118",
+    "code_link": "N/A",
     "dataset_name": [
       "PubMedQA",
       "BioASQ",
@@ -6585,7 +6681,8 @@
       "ChemProt",
       "BIOSSES",
       "MedSTS"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "CuiPZW21",
@@ -6646,7 +6743,8 @@
       "Framingham",
       "COMPAS",
       "Adult"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "NessU25",
@@ -6690,14 +6788,15 @@
     },
     "method": "Ranked Probability Score (RPS) loss; Neural Additive Models; Feature selection with sparsity constraints",
     "application": "Survival analysis – heart failure prediction",
-    "code_link": "https://anonymous.4open.science/r/dys_paper_anon_code",
+    "code_link": "N/A",
     "dataset_name": [
       "MIMIC-III",
       "flchain",
       "metabric",
       "support",
       "heart-failure"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "00020YLM25",
@@ -6760,7 +6859,8 @@
     "dataset_name": [
       "Fed-ISIC19",
       "CIFAR-100"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangWHHBWGCZ024",
@@ -6847,7 +6947,8 @@
     "code_link": "https://github.com/JasonZhangzy1757/Diet-ODIN",
     "dataset_name": [
       "NHANES Dietary Graph"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "MansouriAZE20",
@@ -6905,7 +7006,8 @@
     "dataset_name": [
       "AC power transmission system data",
       "longitudinal cognitive health study"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YangZHSC21",
@@ -6968,7 +7070,8 @@
     "dataset_name": [
       "COVIDx",
       "Kvasir"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WangDYSS24",
@@ -7027,7 +7130,7 @@
     },
     "method": "Invariant Risk Minimization (IRM); Substructure Identification",
     "application": "Molecule property prediction",
-    "code_link": "N/A",
+    "code_link": "https://github.com/BUPT-GAMMA/Advancing-Molecule-Invariant-Representation-via-Privileged-Substructure-Identification",
     "dataset_name": [
       "BACE",
       "BBBP",
@@ -7037,7 +7140,8 @@
       "EC50-assay",
       "EC50-scaffold",
       "EC50-size"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "Wang025",
@@ -7085,7 +7189,8 @@
     "dataset_name": [
       "Google Community Mobility Reports",
       "Covid-19 aggregated data from German districts"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YuanLYZH000025",
@@ -7164,11 +7269,12 @@
     },
     "method": "Multi-modal alignment; Annotation-guided generation; Diffusion models",
     "application": "Protein design – functional properties and domains",
-    "code_link": "N/A",
+    "code_link": "https://github.com/chaohaoyuan/PAAG",
     "dataset_name": [
       "ProtAnnotation",
       "DeepLoc"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "MamecheKV22",
@@ -7220,7 +7326,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "Sachs et al. Protein-signaling Networks Dataset"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LeeYNKP23",
@@ -7284,7 +7391,8 @@
       "DrugBank",
       "FreeSolv",
       "CompSol"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YinLZZ20",
@@ -7338,11 +7446,12 @@
     },
     "method": "Time-Aware Multi-Modal Auto-Encoder (TAME); Weighted K-means; Dynamic Time Warping",
     "application": "Sepsis subphenotyping – ICU",
-    "code_link": "N/A",
+    "code_link": "https://github.com/yinchangchang/TAME",
     "dataset_name": [
       "DACMI",
       "MIMIC-III"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "JinL0AT22",
@@ -7412,7 +7521,8 @@
       "Cornell",
       "Texas",
       "Wisconsin"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "CuiSTMWL20",
@@ -7480,7 +7590,8 @@
     "dataset_name": [
       "Diabetes Dataset",
       "Cancer Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YinM022",
@@ -7532,7 +7643,8 @@
     "code_link": "https://github.com/yinchangchang/CAT-LSTM",
     "dataset_name": [
       "AREDS"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XiaWSZLH021",
@@ -7606,7 +7718,8 @@
       "SQuAD",
       "Chinese corpus containing 60 clinical medical textbooks",
       "Baidu Medical Knowledge Graph"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "FuX0GS21",
@@ -7665,13 +7778,14 @@
     },
     "method": "Dynamic probabilistic neural inference",
     "application": "Drug repurposing and de novo drug design",
-    "code_link": "https://github.com/futianfan/PRIME",
+    "code_link": "N/A",
     "dataset_name": [
       "Clinical Trial Records",
       "DrugBank",
       "ZINC Molecule Database",
       "ICD-10 Coding System"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhangCXXH024",
@@ -7739,7 +7853,8 @@
     "dataset_name": [
       "MIMIC-III",
       "CRADLE"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "KillianBST21",
@@ -7796,7 +7911,8 @@
     "code_link": "https://github.com/killian-34/MAIQL_and_LPQL",
     "dataset_name": [
       "N/A"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "DohanGBBC21",
@@ -7859,7 +7975,8 @@
     "dataset_name": [
       "UniRef50",
       "Pfam"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "RozemberczkiHGG22",
@@ -7958,7 +8075,8 @@
       "DrugComb",
       "Drugbank DDI",
       "TWOSIDES"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LiuLS0HX21",
@@ -8028,7 +8146,8 @@
       "DX medical dialogue dataset",
       "MZ dataset",
       "Synthetic dataset"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WangGZWXMZ23",
@@ -8097,12 +8216,13 @@
     },
     "method": "Transformer-based models; ID-text fusion; Representation learning",
     "application": "Tag recommendation - Medical records",
-    "code_link": "https://openreview.net/forum?id=PfuW84q25y9",
+    "code_link": "N/A",
     "dataset_name": [
       "Tencent Doctor Dataset",
       "Ask Ubuntu",
       "Mathematica Stack Exchange"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ChenMGWZC24",
@@ -8166,13 +8286,14 @@
     },
     "method": "IC value-based random walk; dynamic few-shot learning",
     "application": "Phenotype extraction; differential diagnosis – rare diseases",
-    "code_link": "N/A",
+    "code_link": "https://github.com/chenxz1111/RareBench",
     "dataset_name": [
       "RareBench Dataset",
       "PUMCH Dataset",
       "HPO Dataset",
       "Orphanet"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangC00S0Q0B25",
@@ -8259,7 +8380,8 @@
       "ScienceQA",
       "SimpleQA",
       "Sciq"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WuZMQLZQFZZ24",
@@ -8347,7 +8469,8 @@
     "dataset_name": [
       "InsComAllocation",
       "HosInvestigation"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "Xu0HZ0WM22",
@@ -8421,7 +8544,8 @@
       "Medical Examination Records",
       "Medical Treatment Sessions",
       "Reason for Medical Consultations"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "FoumaniMGINS24",
@@ -8493,7 +8617,8 @@
       "Crowdsourced",
       "STEW",
       "DriverDistraction"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "TanKY00ZHY22",
@@ -8571,7 +8696,8 @@
     "dataset_name": [
       "MIMIC-III",
       "NELL"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "PanYZY22",
@@ -8630,7 +8756,8 @@
       "DermaMNIST",
       "IWPC Dataset",
       "FashionMNIST"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LiDZKY23",
@@ -8692,7 +8819,8 @@
     "code_link": "https://github.com/motivationss/IGS.git",
     "dataset_name": [
       "WU-Minn Human Connectome Project"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "MizutaniSS22",
@@ -8741,10 +8869,11 @@
     },
     "method": "Graph partitioning algorithms; Sparse dominating sets",
     "application": "Metagenome analysis – neighborhood query optimization",
-    "code_link": "https://github.com/spacegraphcats/spacegraphcats",
+    "code_link": "N/A",
     "dataset_name": [
       "HuSB1"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhuLKS20",
@@ -8801,7 +8930,8 @@
     "code_link": "https://github.com/lz2379/Kernel_Assisted_Learning",
     "dataset_name": [
       "Warfarin Thrombosis Study Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "SrivastavaSLA022",
@@ -8860,11 +8990,12 @@
     },
     "method": "Transformer-based models; bert scoring; domain-specific embedding; counseling component classification",
     "application": "Mental health counseling summarization",
-    "code_link": "https://github.com/pytorch/fairseq",
+    "code_link": "N/A",
     "dataset_name": [
       "MEMO",
       "ChiCCo"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "DengGTL24",
@@ -8924,7 +9055,8 @@
       "GSOD precipitation data",
       "S&P 500",
       "Dodgers Loop Sensor Traffic"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ShenWZPW24",
@@ -8983,12 +9115,13 @@
     },
     "method": "Diffusion model; Fused Gromov-Wasserstein distance",
     "application": "Molecular graph classification and OOD detection",
-    "code_link": "https://anonymous.4open.science/r/PGR-MOOD-53B3",
+    "code_link": "N/A",
     "dataset_name": [
       "GOOD",
       "DrugOOD",
       "QM9"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "YinFYPCWC025",
@@ -9067,7 +9200,8 @@
       "MIMIC-III",
       "AmsterdamUMCdb",
       "OSUWMC"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "TurutovR25",
@@ -9115,7 +9249,8 @@
     "dataset_name": [
       "Open TG-GATEs",
       "Drug Matrix"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangCMZWWZ22",
@@ -9188,7 +9323,8 @@
     "dataset_name": [
       "Ocular Disease Intelligent Recognition (ODIR)",
       "Ophthalmic Vitrectomy (OV)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "DasWS23",
@@ -9241,7 +9377,8 @@
     "dataset_name": [
       "Breast Cancer Trial (NCT00174655)",
       "Lung Cancer Trial (NCT01439568)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YinAHCZS20",
@@ -9310,7 +9447,8 @@
       "Sutter",
       "CMS",
       "MIMIC-III"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LiuYCJ20",
@@ -9369,7 +9507,8 @@
       "Docking Benchmark version 3 (DB3)",
       "Docking Benchmark version 4 (DB4)",
       "Docking Benchmark version 5 (DB5)"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LuoYHLN0N24",
@@ -9450,7 +9589,8 @@
       "BACE",
       "CheBI-20",
       "MVST"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "SuQ0K22",
@@ -9509,7 +9649,8 @@
       "LPBA40",
       "CC359",
       "IBSR"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "TabarPWLBY20",
@@ -9576,7 +9717,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "Dataset from 1,400 homeless youth surveyed"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ShiSD22",
@@ -9628,7 +9770,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "AX-CPT"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "MaCVMMBL23",
@@ -9703,7 +9846,8 @@
       "Transaction",
       "Social",
       "MRSA"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LiZ0HWXHD021",
@@ -9786,7 +9930,8 @@
     "dataset_name": [
       "PDBbind v2016",
       "CSAR-HiQ"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WenD00XT22",
@@ -9850,12 +9995,13 @@
     },
     "method": "Graph Neural Networks (GNN)",
     "application": "Modality prediction – Transcriptomics",
-    "code_link": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods",
+    "code_link": "https://github.com/OmicsML/dance",
     "dataset_name": [
       "GEX",
       "ADT",
       "ATAC"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "JayagopalXHWHTT24",
@@ -9946,7 +10092,8 @@
       "The Cancer Genome Atlas (TCGA)",
       "GENIE BPC CRC v2.0-public",
       "GENIE BPC NSCLC v2.0-public"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhaoYWWZCLCC23",
@@ -10025,12 +10172,13 @@
     },
     "method": "Imitation learning; Mutual information estimation",
     "application": "Medication recommendation – ICU",
-    "code_link": "https://github.com/HumanCompatibleAI/imitation",
+    "code_link": "https://github.com/TianxiangZhao/ImitationNoisyDemon",
     "dataset_name": [
       "MIMIC-IV",
       "MiniGrid-FourRoom",
       "DoorKey"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "AbrateB21",
@@ -10078,7 +10226,8 @@
     "dataset_name": [
       "ABIDE",
       "USCB"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangWMTNLMJCZ025",
@@ -10170,7 +10319,8 @@
     "code_link": "https://github.com/Anonymous-Be3fb6/MOPI-HFRS/tree/main",
     "dataset_name": [
       "NHANES"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LiaoZZWWCWM25",
@@ -10250,7 +10400,8 @@
       "CDSL",
       "Sepsis",
       "eICU"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "FuFMTH22",
@@ -10329,7 +10480,8 @@
       "Infectious",
       "HighSchool",
       "MIT"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "NessBHU23",
@@ -10383,10 +10535,11 @@
     },
     "method": "Missing Indicator Method (MIM); Selective MIM (SMIM)",
     "application": "Mortality prediction; Length-of-Stay prediction; Phenotyping",
-    "code_link": "N/A",
+    "code_link": "https://github.com/mvanness354/missing_indicator_method",
     "dataset_name": [
       "MIMIC-III"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangYCC024",
@@ -10450,7 +10603,8 @@
       "CAP",
       "ISRUC",
       "HMC"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WangWYLZ23",
@@ -10513,7 +10667,8 @@
     "dataset_name": [
       "UniProt",
       "Antimicrobial Peptide Database (APD)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "NahmiasK20",
@@ -10557,10 +10712,11 @@
     },
     "method": "Deep Convolutional Neural Networks (DCNN); Input perturbation",
     "application": "EEG signal classification; Anticonvulsant medication classification",
-    "code_link": "github.com/dbp-osel/easyPEASI",
+    "code_link": "https://github.com/dbp-osel/easyPEASI",
     "dataset_name": [
       "TUH EEG Corpus"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "DaiKGLLM20",
@@ -10628,7 +10784,8 @@
     "dataset_name": [
       "MNIST variants",
       "Synthetic fMRI data"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhongWWZWHXM24",
@@ -10702,11 +10859,12 @@
     },
     "method": "Predictive Denoising Diffusion Probabilistic Models (P-DDPM); Catalyst Representation Learning Module",
     "application": "EHR data generation",
-    "code_link": "https://anonymous.4open.science/r/EHRPD-465B",
+    "code_link": "N/A",
     "dataset_name": [
       "MIMIC-III",
       "Breast Cancer Trial"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ShiZ0LMWQ25",
@@ -10779,7 +10937,8 @@
     "dataset_name": [
       "Dataset 1",
       "Dataset 2"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "SchwabePF21",
@@ -10832,7 +10991,8 @@
     "dataset_name": [
       "Swisscom Mobility Data",
       "COVID-19 open data repository"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "CaiC0LL23",
@@ -10891,11 +11051,12 @@
     },
     "method": "Contrastive Predictive Coding (CPC); Graph structure learning",
     "application": "Seizure detection – EEG and SEEG",
-    "code_link": "https://github.com/facebookresearch/CPC_audio",
+    "code_link": "N/A",
     "dataset_name": [
       "TUSZ",
       "SEED"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LiuZXL022",
@@ -10967,7 +11128,8 @@
       "ogbg-BACE",
       "ogbg-ClinTox",
       "ogbg-SIDER"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "FengXFWZL22",
@@ -11031,10 +11193,11 @@
     },
     "method": "Hierarchical Reinforcement Learning; Variational LSTM; Graph Neural Network",
     "application": "Epidemic control via mobility intervention",
-    "code_link": "https://github.com/tsinghua-fib-lab",
+    "code_link": "N/A",
     "dataset_name": [
       "PAPW Simulation Environment"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ChenMWWWX21",
@@ -11104,7 +11267,8 @@
       "PDpe.tr.",
       "PDpe.va.",
       "PDid.te."
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhouYLG0C24",
@@ -11172,7 +11336,8 @@
     "dataset_name": [
       "Titanic",
       "Lalonde"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "KuzmanovicFHF24",
@@ -11231,7 +11396,8 @@
       "OECD CRS",
       "UN SDG indicator database",
       "World Bank database"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XiaLWWZH23",
@@ -11299,7 +11465,8 @@
     "dataset_name": [
       "JD Logistics Delivery Task Data",
       "PHEs Dataset"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WangALZKLSWL24",
@@ -11383,7 +11550,8 @@
       "AIDS",
       "Mutagenicity",
       "Dipole"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LiuLGL25",
@@ -11437,10 +11605,11 @@
     },
     "method": "Graph Neural Networks (GNN); Instance-level explanation; Geometry-level explanation",
     "application": "Regression – property prediction (e.g., dipole moment)",
-    "code_link": "https://github.com/pyg-0.02024team/pytorch_geometric/blob/master/examples/qm9_pretrained_schnet.py",
+    "code_link": "https://github.com/xufliu/3DGraphX",
     "dataset_name": [
       "QM9"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "Dang0XBSCGSCM23",
@@ -11524,10 +11693,11 @@
     },
     "method": "Latent Ordinary Differential Equation (ODE); Variational Inference; Joint Encoding-Decoding",
     "application": "Disease progression forecasting – COVID-19",
-    "code_link": "N/A",
+    "code_link": "https://github.com/TingDang90/CNDP",
     "dataset_name": [
       "COVID-19 Audio Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ZhangKAC20",
@@ -11581,11 +11751,12 @@
     },
     "method": "Hierarchical Attention Propagation (HAP)",
     "application": "Sequential diagnosis and procedure prediction",
-    "code_link": "N/A",
+    "code_link": "https://github.com/muhanzhang/HAP",
     "dataset_name": [
       "MIMIC-III",
       "ACTFAST"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "MaCF0SZ022",
@@ -11660,7 +11831,8 @@
       "METABRIC",
       "HD-UCI",
       "Proprietary Metabolic"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "YangSX0SS21",
@@ -11728,7 +11900,8 @@
     "dataset_name": [
       "Health Tensor (HT)",
       "Google COVID-19 Symptoms Search (GCSS)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "RahmanP23",
@@ -11772,11 +11945,12 @@
     },
     "method": "Pseudo value derivation; Deep neural networks; Federated learning",
     "application": "Survival probability prediction – Federated survival analysis",
-    "code_link": "https://github.com/havakv/pycox",
+    "code_link": "N/A",
     "dataset_name": [
       "METABRIC",
       "SUPPORT"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "LiuPHSJS20",
@@ -11845,7 +12019,8 @@
       "Small Synthetic Dataset",
       "Large Synthetic Dataset",
       "MUTAG"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "BagherianGBNYM21",
@@ -11913,7 +12088,8 @@
     "dataset_name": [
       "COCO",
       "Mouse Retina Electrophysiological Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "QinDZY23",
@@ -11973,7 +12149,8 @@
       "CIFAR-10",
       "CIFAR-100",
       "eICU"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WangKNSNCVV022",
@@ -12055,7 +12232,8 @@
     "code_link": "https://github.com/interpretml/gam-changer",
     "dataset_name": [
       "N/A"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "Wen0YCSY25",
@@ -12124,7 +12302,8 @@
       "IHDP",
       "IBM",
       "CMNIST"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "RahmanP22",
@@ -12173,7 +12352,8 @@
       "SEER",
       "SUPPORT",
       "FLCHAIN"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YangZCCHLLQWZ23",
@@ -12268,7 +12448,8 @@
       "Diabetes",
       "Ionosphere",
       "Connectionist Bench (Sonar, Mines vs. Rocks)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HeWLZ20",
@@ -12325,7 +12506,8 @@
     "code_link": "https://github.com/non-name-2020/AMANet",
     "dataset_name": [
       "MIMIC-III"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "JanakarajanBM22",
@@ -12380,7 +12562,8 @@
       "Genomics of Drug Sensitivity in Cancer (GDSC)",
       "Molecular Signatures Database (MSigDB)",
       "UniProt"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "RahmanRMC24",
@@ -12437,7 +12620,8 @@
     "code_link": "https://github.com/ahsanur-research/FPCE",
     "dataset_name": [
       "ECOCYC"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "XueZDDXZC20",
@@ -12506,10 +12690,11 @@
     },
     "method": "Deep State-Space Generative Model; State-based discrete hazard rate modeling",
     "application": "Joint mortality prediction and organ failure forecasting – ICU",
-    "code_link": "https://github.com/Google-Health/records-research/state-space-model",
+    "code_link": "N/A",
     "dataset_name": [
       "MIMIC-III"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "TecJMD24",
@@ -12566,7 +12751,8 @@
     "code_link": "https://github.com/NSAPH-Projects/tresnet",
     "dataset_name": [
       "Medicare claims data"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "YinLC022",
@@ -12624,7 +12810,8 @@
     "dataset_name": [
       "MIMIC-III",
       "AmsterdamUMCdb"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "Adiga0HPPVLM21",
@@ -12698,10 +12885,11 @@
     },
     "method": "Bayesian Model Averaging; Ensemble Kalman Filter; Compartmental SEIR Model; LSTM Networks",
     "application": "COVID-19 case forecasting – county-level",
-    "code_link": "https://github.com/aniruddhadiga/covid-19_forecast",
+    "code_link": "N/A",
     "dataset_name": [
       "Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) dashboard"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "HarrisonACRVMA23",
@@ -12774,7 +12962,8 @@
     "dataset_name": [
       "TN",
       "VA (Synthetic Networks)"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "JovanMMTCW23",
@@ -12838,10 +13027,11 @@
     },
     "method": "Multihead Dual Convolutional Self Attention (MDCSA); Transformer networks",
     "application": "Indoor localisation; Motor fluctuation detection – Parkinson’s Disease",
-    "code_link": "N/A",
+    "code_link": "https://github.com/ferdianjovan/Multihead-Dual-Convolutional-Self-Attention",
     "dataset_name": [
       "Custom wristband dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LinTGS22",
@@ -12895,10 +13085,11 @@
     },
     "method": "Graph Neural Networks; Temporal Convolutional Networks (TCN); Integrated Gradients",
     "application": "Brain signal classification",
-    "code_link": "https://github.com/ThomasYeoLab/CBIG",
+    "code_link": "https://github.com/sklin93/ReBraiD",
     "dataset_name": [
       "CRASH"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ElhamodKMUBDBBM23",
@@ -13026,7 +13217,8 @@
     "dataset_name": [
       "FishShapes v1.0",
       "Great Lakes Invasives Network Project"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "HaoX0H021",
@@ -13085,11 +13277,12 @@
     },
     "method": "Hierarchical Reinforcement Learning; Imperfect Information Utilization Framework; GRU-based RNN",
     "application": "Medical resource allocation strategies – COVID-19",
-    "code_link": "https://doi.org/10.1145/3447548.3467181",
+    "code_link": "https://github.com/KYHKL-Q/Hierarchical-RL",
     "dataset_name": [
       "Beijing Dataset",
       "Shanghai Dataset"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "SuoCZZ20",
@@ -13147,7 +13340,8 @@
     "dataset_name": [
       "MIMIC-III",
       "tieredImageNet"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZangW20",
@@ -13195,7 +13389,8 @@
     "dataset_name": [
       "QM9",
       "ZINC250K"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "Chen0YFMY22",
@@ -13262,7 +13457,8 @@
     "code_link": "N/A",
     "dataset_name": [
       "SEEG Dataset"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "ZhangZCBL23",
@@ -13326,7 +13522,8 @@
       "PhysioNet",
       "MIMIC-III",
       "Human Activity"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "WangZTY23",
@@ -13385,7 +13582,8 @@
       "QM9",
       "GEOM-Drugs",
       "PCQM4Mv2"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LeiAQS20",
@@ -13446,7 +13644,8 @@
       "ArgR",
       "LCI-CPA2",
       "IF3"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "MadhyasthaLSBVB20",
@@ -13518,7 +13717,8 @@
     "code_link": "https://neurodata.io/sporf",
     "dataset_name": [
       "Larval Drosophila mushroom body connectome"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "LiuYYWGW022",
@@ -13592,7 +13792,8 @@
       "Molecular Function",
       "Biological Process",
       "Cellular Component"
-    ]
+    ],
+    "is_public": false
   },
   {
     "id": "WuCVMY22",
@@ -13655,7 +13856,8 @@
     "dataset_name": [
       "AS-SIR data sets",
       "Climate data sets"
-    ]
+    ],
+    "is_public": true
   },
   {
     "id": "ChenLFW25",
@@ -13713,6 +13915,7 @@
     "dataset_name": [
       "MIMIC-III",
       "MIMIC-IV"
-    ]
+    ],
+    "is_public": false
   }
 ]

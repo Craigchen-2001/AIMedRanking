@@ -242,3 +242,43 @@ def extractAffiliation(metadata: dict, instruction: str) -> dict:
     except Exception as e:
         print(f"[ERROR] extractAffiliation failed: {e}")
         return {"affiliation": [], "authors/affiliations": {}}
+    
+def extractAffiliationFromAffiliationOnly(affiliation: str, homepage: str, instruction: str) -> dict:
+    prompt = (
+        f"You are a research assistant tasked with analyzing the institutional affiliation of a researcher.\n\n"
+        f'{{\n  "affiliation": "{affiliation}",\n  "homepage": "{homepage}"\n}}\n\n'
+        f"{instruction}"
+    )
+
+    try:
+        messages = [{"role": "user", "content": prompt}]
+        response = client.chat.completions.create(
+            model=deployment_name,
+            messages=messages
+        )
+
+        reply = response.choices[0].message.content.strip()
+
+        json_str = re.sub(r"^```json|```$", "", reply.strip(), flags=re.IGNORECASE).strip()
+
+        result = json.loads(json_str)
+
+        return {
+            "affiliation": result.get("affiliation", affiliation),  
+            "country": result.get("country", "N/A"),
+            "region": result.get("region", "N/A"),
+            "subregion": result.get("subregion", "N/A"),
+            "latitude": result.get("latitude", None),
+            "longitude": result.get("longitude", None)
+        }
+
+    except Exception as e:
+        print(f"[ERROR] extractAffiliationFromAffiliationOnly failed: {e}")
+        return {
+            "affiliation": affiliation,
+            "country": "N/A",
+            "region": "N/A",
+            "subregion": "N/A",
+            "latitude": None,
+            "longitude": None
+        }

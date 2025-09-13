@@ -1,11 +1,11 @@
 # -----------------------
-# Ignore Virtual Environments
+# Python Virtual Environments
 # -----------------------
 .venv/
 venv/
 
 # -----------------------
-# Ignore Python Artifacts
+# Python Artifacts
 # -----------------------
 __pycache__/
 *.pyc
@@ -13,7 +13,37 @@ __pycache__/
 *.pyd
 
 # -----------------------
-# Ignore Output & Intermediate Files
+# Node.js Dependencies & Builds
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnp
+.pnp.js
+dist/
+.next/
+out/
+
+# -----------------------
+# Environment Variables
+# -----------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------
+# Prisma
+# -----------------------
+.prisma/
+*.db
+
+# -----------------------
+# Output & Intermediate Files
 # -----------------------
 outputs/
 outputs/**/*.json
@@ -21,7 +51,7 @@ outputs/**/*.csv
 outputs/**/*.txt
 
 # -----------------------
-# Ignore Downloaded Data & PDFs
+# Downloaded Data & PDFs
 # -----------------------
 data/
 data/**/*.json
@@ -29,12 +59,12 @@ data/**/*.csv
 data/**/*.pdf
 
 # -----------------------
-# Ignore Scripts/Helper (internal scripts not meant for versioning)
+# Helper Scripts (internal only)
 # -----------------------
 scripts/helper/
 
 # -----------------------
-# Ignore Miscellaneous & Editor Temp Files
+# Miscellaneous & Editor Temp Files
 # -----------------------
 *.log
 *.tmp
@@ -43,7 +73,7 @@ scripts/helper/
 .DS_Store
 
 # -----------------------
-# Ignore Archives
+# Archives
 # -----------------------
 *.zip
 *.tar

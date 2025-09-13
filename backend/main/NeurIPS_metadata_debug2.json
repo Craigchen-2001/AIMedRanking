@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "approximating_mutual_information_of_high-dimension",
+    "title": "Approximating mutual information of high-dimensional variables using learned representations",
+    "authors": [
+      "Gokul Gowri",
+      "Xiao-Kang Lun",
+      "Allon M. Klein",
+      "Peng Yin"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Mutual information (MI) is a general measure of statistical dependence with widespread application across the sciences. However, estimating MI between multi-dimensional variables is challenging because the number of samples necessary to converge to an accurate estimate scales unfavorably with dimensionality. In practice, existing techniques can reliably estimate MI in up to tens of dimensions, but fail in higher dimensions, where sufficient sample sizes are infeasible. Here, we explore the idea that underlying low-dimensional structure in high-dimensional data can be exploited to faithfully approximate MI in high-dimensional settings with realistic sample sizes. We develop a method that we call latent MI (LMI) approximation, which applies a nonparametric MI estimator to low-dimensional representations learned by a simple, theoretically-motivated model architecture. Using several benchmarks, we show that unlike existing techniques, LMI can approximate MI well for variables with $> 10^3$ dimensions if their dependence structure is captured by low-dimensional representations. Finally, we showcase LMI on two open problems in biology. First, we approximate MI between protein language model (pLM) representations of interacting proteins, and find that pLMs encode non-trivial information about protein-protein interactions. Second, we quantify cell fate information contained in single-cell RNA-seq (scRNA-seq) measurements of hematopoietic stem cells, and find a sharp transition during neutrophil differentiation when fate information captured by scRNA-seq increases dramatically. An implementation of LMI is available at *latentmi.readthedocs.io.*",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/efa9e3ed9c411aeb53d7bfe38a19d884-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper discusses approximating mutual information for high-dimensional data and showcases its application in two biologically and medically relevant problems: (1) analyzing protein-protein interactions using protein language models and (2) quantifying cell fate information from single-cell RNA-seq measurements during hematopoietic stem cell differentiation. These tasks fall under the scope of Biomedicine AI, as they involve analyzing biological systems, leveraging advanced ML techniques in genomics (e.g., RNA-seq data), and exploring mechanisms of protein interactions and differentiation, which are crucial for understanding diseases and therapeutic research.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22457,
+    "completion_tokens": 212,
+    "total_tokens": 22669,
+    "Topic Axis I": {
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Transcriptomics"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
+    },
+    "method": "Latent mutual information approximation; Regularization methods",
+    "application": "Interaction information quantification – protein language model embeddings; Cell fate information identification – stem cells",
+    "code_link": "N/A",
+    "dataset_name": [
+      "ProtTrans5 embeddings",
+      "Hematopoiesis lineage tracing scRNA-seq"
+    ]
+  },
+  {
+    "id": "latent_exploration_for_reinforcement_learning",
+    "title": "Latent exploration for Reinforcement Learning",
+    "authors": [
+      "Alberto Silvio Chiappa",
+      "Alessandro Marin Vargas",
+      "Ann Huang",
+      "Alexander Mathis"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "In Reinforcement Learning, agents learn policies by exploring and interacting with the environment. Due to the curse of dimensionality, learning policies that map high-dimensional sensory input to motor output is particularly challenging. During training, state of the art methods (SAC, PPO, etc.) explore the environment by perturbing the actuation with independent Gaussian noise. While this unstructured exploration has proven successful in numerous tasks, it can be suboptimal for overactuated systems. When multiple actuators, such as motors or muscles, drive behavior, uncorrelated perturbations risk diminishing each other's effect, or modifying the behavior in a task-irrelevant way. While solutions to introduce time correlation across action perturbations exist, introducing correlation across actuators has been largely ignored. Here, we propose LATent TIme-Correlated Exploration (Lattice), a method to inject temporally-correlated noise into the latent state of the policy network, which can be seamlessly integrated with on- and off-policy algorithms. We demonstrate that the noisy actions generated by perturbing the network's activations can be modeled as a multivariate Gaussian distribution with a full covariance matrix. In the PyBullet locomotion tasks, Lattice-SAC achieves state of the art results, and reaches 18\\% higher reward than unstructured exploration in the Humanoid environment. In the musculoskeletal control environments of MyoSuite, Lattice-PPO achieves higher reward in most reaching and object manipulation tasks, while also finding more energy-efficient policies with reductions of 20-60\\%. Overall, we demonstrate the effectiveness of structured action noise in time and actuator space for complex motor control tasks. The code is available at: https://github.com/amathislab/lattice.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b0ca717599b7ba84d5e4f4c8b1ef6657-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract refers to locomotion tasks in the \"musculoskeletal control environments of MyoSuite,\" which is directly relevant to biomechanics and potentially health-related applications such as physical rehabilitation, prosthetics, or movement disorder studies. Musculoskeletal modeling and control have clear connections to biomedicine, particularly in understanding and improving physical performance or developing therapeutic interventions. Additionally, the emphasis on energy-efficient policies could contribute to applications in healthcare, like designing efficient assistive devices for patients. Hence, the paper falls under Biomedicine AI.",
+    "year": 2023,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22143,
+    "completion_tokens": 232,
+    "total_tokens": 22375,
+    "Topic Axis I": {
+      "MainTopic": "Healthcare Systems & Operations",
+      "SubTopic": "new-Musculoskeletal System Control for Human Activity"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Sequential Decision Making & Reinforcement Learning",
+      "SubTopic": "Reinforcement Learning for Clinical Policy"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Lattice exploration; Multivariate Gaussian noise distribution; Reinforcement learning (SAC and PPO)",
+    "application": "Human motor control policy optimization – Musculoskeletal tasks",
+    "code_link": "https://github.com/amathislab/lattice",
+    "dataset_name": [
+      "MyoSuite",
+      "PyBullet"
+    ]
+  },
+  {
+    "id": "bridging_model-based_optimization_and_generative_m",
+    "title": "Bridging Model-Based Optimization and Generative Modeling via Conservative Fine-Tuning of Diffusion Models",
+    "authors": [
+      "Masatoshi Uehara",
+      "Yulai Zhao",
+      "Ehsan Hajiramezanali",
+      "Gabriele Scalia",
+      "Gokcen Eraslan",
+      "Avantika Lal",
+      "Sergey Levine",
+      "Tommaso Biancalani"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "AI-driven design problems, such as DNA/protein sequence design, are commonly tackled from two angles: generative modeling, which efficiently captures the feasible design space (e.g., natural images or biological sequences), and model-based optimization, which utilizes reward models for extrapolation. To combine the strengths of both approaches, we adopt a hybrid method that fine-tunes cutting-edge diffusion models by optimizing reward models through RL. Although prior work has explored similar avenues, they primarily focus on scenarios where accurate reward models are accessible. In contrast, we concentrate on an offline setting where a reward model is unknown, and we must learn from static offline datasets, a common scenario in scientific domains. In offline scenarios, existing approaches tend to suffer from overoptimization, as they may be misled by the reward model in out-of-distribution regions. To address this, we introduce a conservative fine-tuning approach, BRAID, by optimizing a conservative reward model, which includes additional penalization outside of offline data distributions. Through empirical and theoretical analysis, we demonstrate the capability of our approach to outperform the best designs in offline data, leveraging the extrapolation capabilities of reward models while avoiding the generation of invalid designs through pre-trained diffusion models.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e68274fc4f158dbcbd4dddc672f7ee9c-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper discusses AI-driven design problems with explicit mentions of DNA/protein sequence design, which falls into the domain of synthetic biology and biomedical research. The abstract specifically references \"scientific domains\" and \"biological sequences,\" suggesting relevance to biomedicine. Moreover, the conservative fine-tuning approach for diffusion models aims to avoid invalid designs, which is critical for applications like drug discovery or molecular modeling—common tasks in Biomedicine AI. Therefore, the focus on designing biologically relevant entities such as DNA and proteins strongly aligns with the Biomedicine AI domain.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22602,
+    "completion_tokens": 227,
+    "total_tokens": 22829,
+    "Topic Axis I": {
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "new-Biological sequence design optimization"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Diffusion model fine-tuning; Conservative reward modeling",
+    "application": "Optimal biological sequence generation",
+    "code_link": "https://github.com/masa-ue/RLfinetuning_Diffusion_Bioseq",
+    "dataset_name": [
+      "Enhancers",
+      "5'UTR Sequences"
+    ]
+  },
+  {
+    "id": "generalization_bounds_for_estimating_causal_effect",
+    "title": "Generalization Bounds for Estimating Causal Effects of Continuous Treatments",
+    "authors": [
+      "Xin Wang",
+      "Shengfei Lyu",
+      "Xingyu Wu",
+      "Tianhao Wu",
+      "Huanhuan Chen"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "We focus on estimating causal effects of continuous treatments (e.g., dosage in medicine), also known as dose-response function. Existing methods in causal inference for continuous treatments using neural networks are effective and to some extent reduce selection bias, which is introduced by non-randomized treatments among individuals and might lead to covariate imbalance and thus unreliable inference. To theoretically support the alleviation of selection bias in the setting of continuous treatments, we exploit the re-weighting schema and the Integral Probability Metric (IPM) distance to derive an upper bound on the counterfactual loss of estimating the average dose-response function (ADRF), and herein the IPM distance builds a bridge from a source (factual) domain to an infinite number of target (counterfactual) domains. We provide a discretized approximation of the IPM distance with a theoretical guarantee in the practical implementation. Based on the theoretical analyses, we also propose a novel algorithm, called Average Dose- response estiMatIon via re-weighTing schema (ADMIT). ADMIT simultaneously learns a re-weighting network, which aims to alleviate the selection bias, and an inference network, which makes factual and counterfactual estimations. In addition, the effectiveness of ADMIT is empirically demonstrated in both synthetic and semi-synthetic experiments by outperforming the existing benchmarks.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/390bb66a088d37f62ee9fb779c5953c2-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper focuses on estimating the causal effects of continuous treatments, such as dosage in medicine, which directly applies to healthcare contexts. The term \"dosage in medicine\" signifies a connection to treatment planning and understanding health outcomes. Although the methodology appears general, its focus on addressing challenges like selection bias and covariate imbalance in treatment settings often arises in healthcare and medical applications. Therefore, the relevance to Healthcare AI / Biomedicine AI can be reasonably inferred.",
+    "year": 2022,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22407,
+    "completion_tokens": 224,
+    "total_tokens": 22631,
+    "Topic Axis I": {
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Causal Inference & Reasoning",
+      "SubTopic": "Causal Representation Learning"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Re-weighting schema; Integral Probability Metric (IPM); Factual and Counterfactual Estimation",
+    "application": "Causal inference in continuous treatment settings",
+    "code_link": "https://github.com/waxin/ADMIT",
+    "dataset_name": [
+      "TCGA",
+      "News"
+    ]
+  },
+  {
+    "id": "a_teacher-teacher_framework_for_clinical_language_",
+    "title": "A teacher-teacher framework for clinical language representation learning",
+    "authors": [
+      "Feiqing Huang",
+      "Shenghan Zhang",
+      "Sara Morini Sweet",
+      "Tianxi Cai"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "In recent years, there has been a proliferation of ready-to-use large language models (LLMs) designed for various applications, both general-purpose and domain-specific. Instead of advocating for the development of a new model or continuous pretraining of an existing one, this paper introduces a pragmatic teacher-teacher framework to facilitate mutual learning between two pre-existing models.By leveraging two teacher models possessing complementary knowledge, we introduce a LIghtweight kNowledge alignmEnt (LINE) module aimed at harmonizing their knowledge within a unified representation space. This framework is particularly valuable in clinical settings, where stringent regulations and privacy considerations dictate the handling of detailed clinical notes. Our trained LINE module excels in capturing critical information from clinical notes, leveraging highly de-identified data. Validation and downstream tasks further demonstrate the effectiveness of the proposed framework.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d1ebc73cd4c88866b97a6851ece739d1-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper focuses on a teacher-teacher framework designed for clinical language representation learning, explicitly mentioning \"clinical settings\" and \"clinical notes.\" These terms strongly indicate relevance to the Healthcare AI domain. Additionally, the discussion of stringent regulations and privacy considerations aligns with the challenges faced in healthcare applications. The proposed LINE module is validated for capturing critical information from de-identified clinical data, which directly pertains to healthcare-related tasks. Therefore, this paper is clearly situated within Healthcare AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22580,
+    "completion_tokens": 230,
+    "total_tokens": 22810,
+    "Topic Axis I": {
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Clinical Natural Language Processing"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "Self-Supervised & Unsupervised Learning"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Alignment-based representation learning; Knowledge distillation",
+    "application": "Clinical concept similarity; Recurrence detection",
+    "code_link": "N/A",
+    "dataset_name": [
+      "MIMIC-IV",
+      "i2b2 2006",
+      "i2b2 2014"
+    ]
+  },
+  {
+    "id": "crafting_interpretable_embeddings_for_language_neu",
+    "title": "Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions",
+    "authors": [
+      "Vinamra Benara",
+      "Chandan Singh",
+      "John X. Morris",
+      "Richard J. Antonello",
+      "Ion Stoica",
+      "Alexander G. Huth",
+      "Jianfeng Gao"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Large language models (LLMs) have rapidly improved text embeddings for a growing array of natural-language processing tasks. However, their opaqueness and proliferation into scientific domains such as neuroscience have created a growing need for interpretability. Here, we ask whether we can obtain interpretable embeddings through LLM prompting. We introduce question-answering embeddings (QA-Emb), embeddings where each feature represents an answer to a yes/no question asked to an LLM. Training QA-Emb reduces to selecting a set of underlying questions rather than learning model weights.We use QA-Emb to flexibly generate interpretable models for predicting fMRI voxel responses to language stimuli. QA-Emb significantly outperforms an established interpretable baseline, and does so while requiring very few questions. This paves the way towards building flexible feature spaces that can concretize and evaluate our understanding of semantic brain representations. We additionally find that QA-Emb can be effectively approximated with an efficient model, and we explore broader applications in simple NLP tasks.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e06f8704aca42f1ed8619165892e1195-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper discusses the use of embeddings for predicting fMRI voxel responses to language stimuli, which directly ties to neuroscientific applications. The mention of fMRI indicates relevance to neuroimaging and brain activity analysis, which are commonly used in biomedical and healthcare research to study brain function. As neuroscience is strongly related to biomedicine and healthcare (e.g., in understanding brain disorders or cognitive processes), this paper aligns with Biomedicine AI due to its focus on modeling and interpreting brain representations.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22526,
+    "completion_tokens": 230,
+    "total_tokens": 22756,
+    "Topic Axis I": {
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Disentangled Representation Learning"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
+    },
+    "method": "QA-based Embeddings; Representation Learning",
+    "application": "fMRI response prediction; Text clustering",
+    "code_link": "https://anonymous.4open.science/r/interpretable-embeddings-70ED/readme.md",
+    "dataset_name": [
+      "Financial Phrasebank",
+      "Emotion",
+      "AG News",
+      "Rotten Tomatoes"
+    ]
+  },
+  {
+    "id": "benchmarking_counterfactual_image_generation",
+    "title": "Benchmarking Counterfactual Image Generation",
+    "authors": [
+      "Thomas Melistas",
+      "Nikos Spyrou",
+      "Nefeli Gkouti",
+      "Pedro Sanchez",
+      "Athanasios Vlontzos",
+      "Yannis Panagakis",
+      "Giorgos Papanastasiou",
+      "Sotirios A. Tsaftaris"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Generative AI has revolutionised visual content editing, empowering users to effortlessly modify images and videos. However, not all edits are equal. To perform realistic edits in domains such as natural image or medical imaging, modifications must respect causal relationships inherent to the data generation process. Such image editing falls into the counterfactual image generation regime. Evaluating counterfactual image generation is substantially complex: not only it lacks observable ground truths, but also requires adherence to causal constraints. Although several counterfactual image generation methods and evaluation metrics exist a comprehensive comparison within a unified setting is lacking. We present a comparison framework to thoroughly benchmark counterfactual image generation methods. We evaluate the performance of three conditional image generation model families developed within the Structural Causal Model (SCM) framework. We incorporate several metrics that assess diverse aspects of counterfactuals, such as composition, effectiveness, minimality of interventions, and image realism. We integrate all models that have been used for the task at hand and expand them to novel datasets and causal graphs, demonstrating the superiority of Hierarchical VAEs across most datasets and metrics. Our framework is implemented in a user-friendly Python package that can be extended to incorporate additional SCMs, causal methods, generative models, and datasets for the community to build on. Code: https://github.com/gulnazaki/counterfactual-benchmark.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/f04351c9fa1e22797c7d32c1f6d23948-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract of the paper mentions the application of generative AI for realistic edits in domains such as \"medical imaging,\" explicitly tying the research to healthcare applications. Counterfactual image generation in medical imaging requires adherence to causal relationships inherent in data generation processes, which is crucial for accurate diagnosis, prognosis, or treatment decisions. Additionally, the use of metrics to assess causal adherence and interventions further indicates relevance to Biomedicine AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22351,
+    "completion_tokens": 222,
+    "total_tokens": 22573,
+    "Topic Axis I": {
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Radiology"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
+    },
+    "method": "Diffusion Models; Generative Adversarial Networks (GAN); Variational Autoencoders (VAE)",
+    "application": "Counterfactual image generation",
+    "code_link": "https://github.com/gulnazaki/counterfactual-benchmark",
+    "dataset_name": [
+      "MorphoMNIST",
+      "CelebA",
+      "ADNI"
+    ]
+  },
+  {
+    "id": "active_bipartite_ranking",
+    "title": "Active Bipartite Ranking",
+    "authors": [
+      "James Cheshire",
+      "Vincent Laurent",
+      "Stephan Clémençon"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "In this paper, we develop an active learning framework for the bipartite ranking problem.Motivated by numerous applications, ranging from supervised anomaly detection to credit-scoring through the design of medical diagnosis support systems, and usually formulated as the problem of optimizing (a scalar summary of) the ROC curve, bipartite ranking has been the subject of much attention in the passive context. Various dedicated algorithms have been recently proposed and studied by the machine-learning community. In contrast, active bipartite ranking rule is poorly documented in the literature. Due to its global nature, a strategy for labeling sequentially data points that are difficult to rank w.r.t. to the others is required. This learning task is much more complex than binary classification, for which many active algorithms have been designed. It is the goal of this article to provide a rigorous formulation of such a selective sampling approach. We propose a dedicated algorithm, referred to as active-rank, which aims to minimise the distance between the ROC curve of the ranking function built and the optimal one, w.r.t. the sup norm. We show that, for a fixed confidence level $\\epsilon$ and probability $\\delta$,  active-rank is PAC$(\\epsilon,\\delta)$. In addition, we provide a problem dependent upper bound on the expected sampling time of  active-rank and also demonstrate a problem dependent lower bound on the expected sampling time of any PAC$(\\epsilon,\\delta)$ algorithm. Beyond the theoretical analysis carried out, numerical results are presented, providing strong empirical evidence of the performance of the algorithm proposed, which compares favorably with more naive approaches.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/adb77ecc8ba1c2d3135c86a46b8f2496-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract explicitly mentions \"medical diagnosis support systems\" as one of the applications motivating the study of bipartite ranking. While the paper primarily focuses on developing an active learning framework for bipartite ranking, the inclusion of healthcare-related applications, such as support systems for medical diagnosis, indicates relevance to Healthcare AI. This aligns with the domain of AI methods applied to healthcare tasks, particularly in assisting clinical decision-making. Therefore, the work is relevant to Healthcare AI.",
+    "year": 2023,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22533,
+    "completion_tokens": 201,
+    "total_tokens": 22734,
+    "Topic Axis I": {
+      "MainTopic": "Healthcare Systems & Operations",
+      "SubTopic": "Hospital Operations Management"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Active learning; ROC optimization; Sup-norm minimization",
+    "application": "Bipartite ranking",
+    "code_link": "N/A",
+    "dataset_name": [
+      "Synthetic scenarios"
+    ]
+  },
+  {
+    "id": "3d_structure_prediction_of_atomic_systems_with_flo",
+    "title": "3D Structure Prediction of Atomic Systems with Flow-based Direct Preference Optimization",
+    "authors": [
+      "Rui Jiao",
+      "Xiangzhe Kong",
+      "Wenbing Huang",
+      "Yang Liu"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Predicting high-fidelity 3D structures of atomic systems is a fundamental yet challenging problem in scientific domains. While recent work demonstrates the advantage of generative models in this realm, the exploration of different probability paths are still insufficient, and hallucinations during sampling are persistently occurring. To address these pitfalls, we introduce FlowDPO, a novel framework that explores various probability paths with flow matching models and further suppresses hallucinations using Direct Preference Optimization (DPO) for structure generation. Our approach begins with a pre-trained flow matching model to generate multiple candidate structures for each training sample. These structures are then evaluated and ranked based on their distance to the ground truth, resulting in an automatic preference dataset. Using this dataset, we apply DPO to optimize the original model, improving its performance in generating structures closely aligned with the desired reference distribution. As confirmed by our theoretical analysis, such paradigm and objective function are compatible with arbitrary Gaussian paths, exhibiting favorable universality. Extensive experimental results on antibodies and crystals demonstrate substantial benefits of our FlowDPO, highlighting its potential to advance the field of 3D structure prediction with generative models.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c6fdc94aeb2cb3a426d510d970045dab-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract indicates that \"crystals\" and \"antibodies\" are among the application domains of the proposed method, which strongly aligns with biomedicine. Antibodies play an integral role in immune system-related research, therapeutic design, and drug development efforts. Furthermore, predicting 3D structures of atomic systems is a key task in molecular modeling, which is central to biomedicine AI, particularly for tasks like protein design and drug discovery. The use of generative models to enhance 3D atomic structure prediction suggests relevance to improving biomedical outcomes, such as more accurate modeling of biomolecular interactions. Thus, the paper fits the domain of Biomedicine AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22511,
+    "completion_tokens": 226,
+    "total_tokens": 22737,
+    "Topic Axis I": {
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "Antibody Structure Prediction"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Other Generative Models"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Direct Preference Optimization; Flow-based Generative Modeling",
+    "application": "3D Structure Prediction – Antibodies & Crystals",
+    "code_link": "https://github.com/jiaor17/FlowDPO",
+    "dataset_name": [
+      "SAbDab",
+      "DiffAb",
+      "mmseqs2"
+    ]
+  },
+  {
+    "id": "variational_flow_matching_for_graph_generation",
+    "title": "Variational Flow Matching for Graph Generation",
+    "authors": [
+      "Floor Eijkelboom",
+      "Grigory Bartosh",
+      "Christian A. Naesseth",
+      "Max Welling",
+      "Jan-Willem van de Meent"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "We present a formulation of flow matching as variational inference, which we refer to as variational flow matching (VFM). We use this formulation to develop CatFlow, a flow matching method for categorical data that is easy to implement, computationally efficient, and achieves strong results on graph generation tasks. In VFM, the objective is to approximate the posterior probability path, which is a distribution over possible end points of a trajectory. VFM admits both the original flow matching objective and the CatFlow objective as special cases. We also relate VFM to score-based models, in which the dynamics are stochastic rather than deterministic, and derive a bound on the model likelihood based on a reweighted VFM objective. We evaluate CatFlow on one abstract graph generation task and two molecular generation tasks. In all cases, CatFlow exceeds or matches performance of the current state-of-the-art models.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/15b780350b302a1bf9a3bd273f5c15a4-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper discusses \"graph generation tasks\" and evaluates its method on \"molecular generation tasks.\" Molecular generation is a critical component of biomedical research, often applied to tasks such as drug discovery or molecular modeling for therapeutic development. Given this focus, the research directly aligns with Biomedicine AI, as it pertains to applications that can advance biomedical understanding and potentially contribute to healthcare-related developments. While the paper does not explicitly detail healthcare applications, the mention of molecular generation strongly suggests relevance to Biomedicine AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22455,
+    "completion_tokens": 234,
+    "total_tokens": 22689,
+    "Topic Axis I": {
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "De Novo Molecule Design"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "new-Graph generation interpretability"
+    },
+    "method": "Variational flow matching; Diffusion model; Graph representation learning",
+    "application": "Molecular graph generation",
+    "code_link": "N/A",
+    "dataset_name": [
+      "QM9",
+      "ZINC250k",
+      "Citeseer",
+      "Enzymes",
+      "Grid"
+    ]
+  },
+  {
+    "id": "a_variational_approach_for_learning_from_positive_",
+    "title": "A Variational Approach for Learning from Positive and Unlabeled Data",
+    "authors": [
+      "Hui Chen",
+      "Fangqing Liu",
+      "Yin Wang",
+      "Liyue Zhao",
+      "Hao Wu"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Learning binary classiﬁers only from positive and unlabeled (PU) data is an important and challenging task in many real-world applications, including web text classiﬁcation, disease gene identiﬁcation and fraud detection, where negative samples are difﬁcult to verify experimentally. Most recent PU learning methods are developed based on the misclassiﬁcation risk of the supervised learning type, and they may suffer from inaccurate estimates of class prior probabilities. In this paper, we introduce a variational principle for PU learning that allows us to quantitatively evaluate the modeling error of the Bayesian classiﬁer directly from given data. This leads to a loss function which can be efﬁciently calculated without involving class prior estimation or any other intermediate estimation problems, and the variational learning method can then be employed to optimize the classiﬁer under general conditions. We illustrate the effectiveness of the proposed variational method on a number of benchmark examples.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/aa0d2a804a3510442f2fd40f2100b054-Paper.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract explicitly mentions \"disease gene identification,\" which is directly related to biomedical research. While the paper primarily focuses on a variational approach for Positive and Unlabeled (PU) learning, the inclusion of disease-related applications suggests its relevance to Biomedicine AI. This method could potentially aid in tasks such as identifying genes associated with specific diseases, making it a valid contribution to the domain of Biomedicine AI.",
+    "year": 2020,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22408,
+    "completion_tokens": 222,
+    "total_tokens": 22630,
+    "Topic Axis I": {
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "new-Disease Gene Identification"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "new-Positive-Unlabeled (PU) Learning"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Variational learning; MixUp-based consistency regularization",
+    "application": "Positive-Unlabeled classification",
+    "code_link": "https://github.com/kiryor/nnPUlearning",
+    "dataset_name": [
+      "UCI Machine Learning Repository",
+      "FashionMNIST"
+    ]
+  },
+  {
+    "id": "meta-learning_with_an_adaptive_task_scheduler",
+    "title": "Meta-learning with an Adaptive Task Scheduler",
+    "authors": [
+      "Huaxiu Yao",
+      "Yu Wang",
+      "Ying Wei",
+      "Peilin Zhao",
+      "Mehrdad Mahdavi",
+      "Defu Lian",
+      "Chelsea Finn"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "To benefit the learning of a new task, meta-learning has been proposed to transfer a well-generalized meta-model learned from various meta-training tasks. Existing meta-learning algorithms randomly sample meta-training tasks with a uniform probability, under the assumption that tasks are of equal importance. However, it is likely that tasks are detrimental with noise or imbalanced given a limited number of meta-training tasks. To prevent the meta-model from being corrupted by such detrimental tasks or dominated by tasks in the majority, in this paper, we propose an adaptive task scheduler (ATS) for the meta-training process. In ATS, for the first time, we design a neural scheduler to decide which meta-training tasks to use next by predicting the probability being sampled for each candidate task, and train the scheduler to optimize the generalization capacity of the meta-model to unseen tasks. We identify two meta-model-related factors as the input of the neural scheduler, which characterize the difficulty of a candidate task to the meta-model. Theoretically, we show that a scheduler taking the two factors into account improves the meta-training loss and also the optimization landscape. Under the setting of meta-learning with noise and limited budgets, ATS improves the performance on both miniImageNet and a real-world drug discovery benchmark by up to 13% and 18%, respectively, compared to state-of-the-art task schedulers.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/3dc4876f3f08201c7c76cb71fa1da439-Paper.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper mentions a real-world drug discovery benchmark as one of the evaluation domains for the proposed adaptive task scheduler (ATS). Drug discovery is directly relevant to the Biomedicine AI domain, as it involves biomedical research aimed at identifying and optimizing compounds for potential therapeutic use. While the paper also uses general machine learning benchmarks like miniImageNet, the inclusion of drug discovery explicitly ties it to biomedical applications, justifying its classification in this domain.",
+    "year": 2021,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22452,
+    "completion_tokens": 203,
+    "total_tokens": 22655,
+    "Topic Axis I": {
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Meta-learning; Adaptive task scheduling",
+    "application": "Few-shot learning; Drug activity prediction",
+    "code_link": "N/A",
+    "dataset_name": [
+      "miniImagenet",
+      "Drug discovery dataset"
+    ]
+  },
+  {
+    "id": "classifier-guided_gradient_modulation_for_enhanced",
+    "title": "Classifier-guided Gradient Modulation for Enhanced Multimodal Learning",
+    "authors": [
+      "Zirun Guo",
+      "Tao Jin",
+      "Jingyuan Chen",
+      "Zhou Zhao"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Multimodal learning has developed very fast in recent years. However, during the multimodal training process, the model tends to rely on only one modality based on which it could learn faster, thus leading to inadequate use of other modalities. Existing methods to balance the training process always have some limitations on the loss functions, optimizers and the number of modalities and only consider modulating the magnitude of the gradients while ignoring the directions of the gradients. To solve these problems, in this paper, we present a novel method to balance multimodal learning with Classifier-Guided Gradient Modulation (CGGM), considering both the magnitude and directions of the gradients. We conduct extensive experiments on four multimodal datasets: UPMC-Food 101, CMU-MOSI, IEMOCAP and BraTS 2021, covering classification, regression and segmentation tasks. The results show that CGGM outperforms all the baselines and other state-of-the-art methods consistently, demonstrating its effectiveness and versatility. Our code is available at https://github.com/zrguo/CGGM.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/f0c68d99827dc09ed28aa073455efcbe-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper involves multimodal learning applications, and one of the datasets mentioned in the abstract is BraTS 2021, which is specifically used for brain tumor segmentation. This segmentation task is directly related to healthcare and biomedicine, as it focuses on identifying and analyzing brain tumors. The use of this dataset strongly indicates relevance to medical imaging and clinical applications. Although some other datasets mentioned pertain to general multimodal tasks, the inclusion of BraTS 2021 establishes a clear link to Healthcare AI or Biomedicine AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22160,
+    "completion_tokens": 231,
+    "total_tokens": 22391,
+    "Topic Axis I": {
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Other Imaging Modalities"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Classifier-Guided Gradient Modulation (CGGM)",
+    "application": "multimodal learning optimization",
+    "code_link": "https://github.com/zrguo/CGGM",
+    "dataset_name": [
+      "UPMC-Food 101",
+      "CMU-MOSI",
+      "IEMOCAP",
+      "BraTS 2021"
+    ]
+  },
+  {
+    "id": "scalable_thompson_sampling_using_sparse_gaussian_p",
+    "title": "Scalable Thompson Sampling using Sparse Gaussian Process Models",
+    "authors": [
+      "Sattar Vakili",
+      "Henry Moss",
+      "Artem Artemev",
+      "Vincent Dutordoir",
+      "Victor Picheny"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Thompson Sampling (TS) from Gaussian Process (GP) models is a powerful tool for the optimization of black-box functions. Although TS enjoys strong theoretical guarantees and convincing empirical performance, it incurs a large computational overhead that scales polynomially with the optimization budget. Recently, scalable TS methods based on sparse GP models have been proposed to increase the scope of TS, enabling its application to problems that are sufficiently multi-modal, noisy or combinatorial to require more than a few hundred evaluations to be solved. However, the approximation error introduced by sparse GPs invalidates all existing regret bounds. In this work, we perform a theoretical and empirical analysis of scalable TS. We provide theoretical guarantees and show that the drastic reduction in computational complexity of scalable TS can be enjoyed without loss in the regret performance over the standard TS. These conceptual claims are validated for practical implementations of scalable TS on synthetic benchmarks and as part of a real-world high-throughput molecular design task.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/2c7f9ccb5a39073e24babc3a4cb45e60-Paper.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract mentions a \"real-world high-throughput molecular design task,\" which strongly suggests a biomedical application, as molecular design tasks are commonly associated with drug discovery, protein engineering, or similar domains within biomedicine. Additionally, \"optimization of black-box functions\" and the use of Gaussian Processes for such tasks could be crucial for modeling biomolecular properties or designing therapeutic compounds. Although the abstract focuses on scalable methods and computational improvements, its application in molecular design links the paper to the Biomedicine AI domain.",
+    "year": 2021,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 10642,
+    "completion_tokens": 217,
+    "total_tokens": 10859,
+    "Topic Axis I": {
+      "MainTopic": "N/A",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
+    },
+    "method": "Sparse Gaussian Process models; Scalable Thompson Resampling",
+    "application": "Regret minimization tasks",
+    "code_link": "N/A",
+    "dataset_name": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "contrastive_losses_as_generalized_models_of_global",
+    "title": "Contrastive losses as generalized models of global epistasis",
+    "authors": [
+      "David H. Brookes",
+      "Jakub Otwinowski",
+      "Sam Sinai"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Fitness functions map large combinatorial spaces of biological sequences to properties of interest. Inferring these multimodal functions from experimental data is a central task in modern protein engineering. Global epistasis models are an effective and physically-grounded class of models for estimating fitness functions from observed data. These models assume that a sparse latent function is transformed by a monotonic nonlinearity to emit measurable fitness. Here we demonstrate that minimizing supervised contrastive loss functions, such as the Bradley-Terry loss, is a simple and flexible technique for extracting the sparse latent function implied by global epistasis. We argue by way of a fitness-epistasis uncertainty principle that the nonlinearities in global epistasis models can produce observed fitness functions that do not admit sparse representations, and thus may be inefficient to learn from observations when using a Mean Squared Error (MSE) loss (a common practice). We show that contrastive losses are able to accurately estimate a ranking function from limited data even in regimes where MSE is ineffective and validate the practical utility of this insight by demonstrating that contrastive loss functions result in consistently improved performance on empirical benchmark tasks.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/a9b938e79504889f905d549f8d53e405-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper focuses on modeling fitness functions of biological sequences, specifically in the context of protein engineering. The abstract mentions \"inferring multimodal functions from experimental data,\" which is directly relevant to biomedicine AI as such approaches are commonly used for tasks like drug discovery or understanding molecular mechanisms in biological research. The reference to \"global epistasis models\" and \"latent function estimation\" aligns with methods employed in genomics and protein design, areas central to biomedical AI. While not explicitly framed around therapeutic applications, the underlying methodology and domain-specific focus strongly suggest relevance to advancing biomedical research.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22646,
+    "completion_tokens": 253,
+    "total_tokens": 22899,
+    "Topic Axis I": {
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Genomics"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
+    },
+    "method": "Contrastive loss optimization; Neural network training",
+    "application": "Fitness prediction – Genomic sequences",
+    "code_link": "https://github.com/dhbrookes/Contrastive-Losses-Global-Epistasis.git",
+    "dataset_name": [
+      "CAPSD AAV2S Sinai 2021",
+      "GFP AEQVI Sarkisyan 2016"
+    ]
+  },
+  {
+    "id": "benchmarking_structural_inference_methods_for_inte",
+    "title": "Benchmarking Structural Inference Methods for Interacting Dynamical Systems with Synthetic Data",
+    "authors": [
+      "Aoran Wang",
+      "Tsz Pan Tong",
+      "Andrzej Mizera",
+      "Jun Pang"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Understanding complex dynamical systems begins with identifying their topological structures, which expose the organization of the systems. This requires robust structural inference methods that can deduce structure from observed behavior. However, existing methods are often domain-specific and lack a standardized, objective comparison framework. We address this gap by benchmarking 13 structural inference methods from various disciplines on simulations representing two types of dynamics and 11 interaction graph models, supplemented by a biological experimental dataset to mirror real-world application. We evaluated the methods for accuracy, scalability, robustness, and sensitivity to graph properties. Our findings indicate that deep learning methods excel with multi-dimensional data, while classical statistics and information theory based approaches are notably accurate and robust. Additionally, performance correlates positively with the graph's average shortest path length. This benchmark should aid researchers in selecting suitable methods for their specific needs and stimulate further methodological innovation.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/f3c812da38d1bc796cb2e8235eee96bf-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract explicitly mentions benchmarking structural inference methods using simulations supplemented by a biological experimental dataset to mirror real-world application. While the main focus lies in analyzing interacting dynamical systems, the inclusion of a biological experimental dataset strongly implies relevance to biomedicine. Additionally, structural inference methods often play a role in understanding biological systems, which aligns with the goals of Biomedicine AI, such as uncovering molecular or physiological interactions. Hence, this paper fits within the Biomedicine AI domain.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22555,
+    "completion_tokens": 203,
+    "total_tokens": 22758,
+    "Topic Axis I": {
+      "MainTopic": "Healthcare Systems & Operations",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Graph Representation Learning"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Graph Neural Networks; Semi-supervised learning",
+    "application": "Structural Inference of Dynamical Systems",
+    "code_link": "https://structinfer.github.io/",
+    "dataset_name": [
+      "DoSI",
+      "EMT"
+    ]
+  },
+  {
+    "id": "can_llms_solve_molecule_puzzles?_a_multimodal_benc",
+    "title": "Can LLMs Solve Molecule Puzzles? A Multimodal Benchmark for Molecular Structure Elucidation",
+    "authors": [
+      "Kehan Guo",
+      "Bozhao Nan",
+      "Yujun Zhou",
+      "Taicheng Guo",
+      "Zhichun Guo",
+      "Mihir Surve",
+      "Zhenwen Liang",
+      "Nitesh V. Chawla",
+      "Olaf Wiest",
+      "Xiangliang Zhang"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Large Language Models (LLMs)  have shown significant problem-solving capabilities across predictive and generative tasks in chemistry. However, their proficiency in multi-step chemical reasoning remains underexplored. We introduce a new challenge: molecular structure elucidation, which involves deducing a molecule’s structure from various types of spectral data. Solving such a molecular puzzle, akin to solving crossword puzzles, poses reasoning challenges that require integrating clues from diverse sources and engaging in iterative hypothesis testing. To address this challenging problem with LLMs, we present \\textbf{MolPuzzle}, a benchmark comprising 217 instances of structure elucidation, which feature over 23,000 QA samples presented in a sequential puzzle-solving process, involving three interlinked sub-tasks: molecule understanding, spectrum interpretation, and molecule construction. Our evaluation of 12 LLMs reveals that the best-performing LLM, GPT-4o, performs significantly worse than humans, with only a small portion (1.4\\%) of its answers exactly matching the ground truth. However, it performs nearly perfectly in the first subtask of molecule understanding, achieving accuracy close to 100\\%. This discrepancy highlights the potential of developing advanced LLMs with improved chemical reasoning capabilities in the other two sub-tasks. Our MolPuzzle dataset and evaluation code are available at this  \\href{https://github.com/KehanGuo2/MolPuzzle}{link}.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/f2b9e8e7a36d43ddfd3d55113d56b1e0-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper discusses molecular structure elucidation, which involves analyzing spectral data to understand molecular compositions. This task is directly relevant to Biomedicine AI, as such methods are foundational in biomedical research fields like drug discovery, genomics, and molecular modeling, all of which have therapeutic and health-related implications. Additionally, keywords such as “molecular structure,” “spectrum interpretation,” and “molecule construction” align strongly with biomedical research contexts. While the paper does not directly mention healthcare applications, the focus on chemical reasoning for molecular analysis makes the work highly relevant to Biomedicine AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22967,
+    "completion_tokens": 208,
+    "total_tokens": 23175,
+    "Topic Axis I": {
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Proteomics & Protein Structure"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
+    },
+    "method": "Transformer-based models (GPT, Gemini, Claude)",
+    "application": "Molecular structure determination",
+    "code_link": "https://github.com/KehanGuo2/MolPuzzle",
+    "dataset_name": [
+      "MolPuzzle",
+      "PubChem"
+    ]
+  },
+  {
+    "id": "variational_bayesian_monte_carlo_with_noisy_likeli",
+    "title": "Variational Bayesian Monte Carlo with Noisy Likelihoods",
+    "authors": [
+      "Luigi Acerbi"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Variational Bayesian Monte Carlo (VBMC) is a recently introduced framework that uses Gaussian process surrogates to perform approximate Bayesian inference in models with black-box, non-cheap likelihoods. In this work, we extend VBMC to deal with noisy log-likelihood evaluations, such as those arising from simulation-based models. We introduce new global' acquisition functions, such as expected information gain (EIG) and variational interquantile range (VIQR), which are robust to noise and can be efficiently evaluated within the VBMC setting. In a novel, challenging, noisy-inference benchmark comprising of a variety of models with real datasets from computational and cognitive neuroscience, VBMC+VIQR achieves state-of-the-art performance in recovering the ground-truth posteriors and model evidence.\nIn particular, our method vastly outperformslocal' acquisition functions and other surrogate-based inference methods while keeping a small algorithmic cost. Our benchmark corroborates VBMC as a general-purpose technique for sample-efficient black-box Bayesian inference also with noisy models.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/5d40954183d62a82257835477ccad3d2-Paper.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract mentions a benchmark involving models with real datasets from computational and cognitive neuroscience, which strongly suggests relevance to neuroscience-related applications, a domain interconnected with biomedicine. While the primary focus of the paper is on improving Bayesian inference methods, the use of real datasets from cognitive neuroscience implies potential applications in understanding brain function or neural dynamics, which are often used in biomedical research or therapeutic development. Additionally, \"cognitive neuroscience\" is a field that frequently overlaps with health-related tasks, such as studying brain disorders or cognitive diseases. Therefore, the paper is reasonably classified under Biomedicine AI.",
+    "year": 2020,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22172,
+    "completion_tokens": 224,
+    "total_tokens": 22396,
+    "Topic Axis I": {
+      "MainTopic": "N/A",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
+    },
+    "method": "Variational Bayesian Monte Carlo (VBMC); Gaussian process surrogates",
+    "application": "Approximate Bayesian inference",
+    "code_link": "https://github.com/lacerbi/vbmc",
+    "dataset_name": [
+      "Ricker model",
+      "Attentional drift-diffusion model (aDDM)"
+    ]
+  },
+  {
+    "id": "attention_boosted_individualized_regression",
+    "title": "Attention boosted Individualized Regression",
+    "authors": [
+      "Guang Yang",
+      "Yuan Cao",
+      "Long Feng"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Different from classical one-model-fits-all strategy, individualized models allow parameters to vary across samples and are gaining popularity in various fields, particularly in personalized medicine. Motivated by medical imaging analysis, this paper introduces a novel individualized modeling framework for matrix-valued data that does not require additional information on sample similarity for the individualized coefficients. Under our framework, the model individualization stems from an optimal internal relation map within the samples themselves. We refer to the proposed method as Attention boosted Individualized Regression, due to its close connections with the self-attention mechanism. Therefore, our approach provides a new interpretation for  attention from the perspective of individualized modeling. Comprehensive numerical experiments and real brain MRI analysis using an ADNI dataset demonstrated the superior performance of our model.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/eeae43a68515325cad64c0f54b2d0c70-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper focuses on \"individualized modeling\" applied to matrix-valued data, emphasizing its application in \"medical imaging analysis.\" The use of the ADNI dataset, which pertains to Alzheimer's disease research involving brain MRI data, clearly places this work in the Biomedicine AI domain. The objective of leveraging regression methods to analyze medical imaging data aligns with tasks in neuroscience and personalized medicine, which are central to Biomedicine AI. Essential keywords like \"brain MRI,\" \"medical imaging analysis,\" and \"personalized medicine\" further confirm its relevance.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22418,
+    "completion_tokens": 209,
+    "total_tokens": 22627,
+    "Topic Axis I": {
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Other Imaging Modalities"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Other Generative Models"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Human-AI Interaction & Collaboration",
+      "SubTopic": "AI for Clinical Decision Support (CDS)"
+    },
+    "method": "Attention mechanism; Individualized regression modeling",
+    "application": "Cognitive assessment score prediction – Alzheimer’s Disease",
+    "code_link": "N/A",
+    "dataset_name": [
+      "ADNI"
+    ]
+  },
+  {
+    "id": "customized_subgraph_selection_and_encoding_for_dru",
+    "title": "Customized Subgraph Selection and Encoding for Drug-drug Interaction Prediction",
+    "authors": [
+      "Haotong Du",
+      "Quanming Yao",
+      "Juzheng Zhang",
+      "Yang Liu",
+      "Zhen Wang"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Subgraph-based methods have proven to be effective and interpretable in predicting drug-drug interactions (DDIs),which are essential for medical practice and drug development. Subgraph selection and encoding are critical stages in these methods, yet customizing these components remains underexplored due to the high cost of manual adjustments. In this study, inspired by the success of neural architecture search (NAS), we propose a method to search for data-specific components within subgraph-based frameworks. Specifically, we introduce extensive subgraph selection and encoding spaces that account for the diverse contexts of drug interactions in DDI prediction. To address the challenge of large search spaces and high sampling costs, we design a relaxation mechanism that uses an approximation strategy to efficiently explore optimal subgraph configurations. This approach allows for robust exploration of the search space. Extensive experiments demonstrate the effectiveness and superiority of the proposed method, with the discovered subgraphs and encoding functions highlighting the model’s adaptability.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c5e7867ce0baf950b53f0879af369599-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper centers on predicting drug-drug interactions (DDIs), which is a critical biomedical task linked to drug safety and efficacy in medical practice and drug development. The explicit focus on \"DDI prediction\" and \"diverse contexts of drug interactions\" strongly ties the research to the Biomedicine AI domain. Furthermore, the potential impact on drug development and patient safety highlights its relevance to healthcare. While the method discussed is a subgraph-based computational framework with neural architecture search, its application clearly addresses a biological and therapeutic challenge, reaffirming its classification as Biomedicine AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22358,
+    "completion_tokens": 208,
+    "total_tokens": 22566,
+    "Topic Axis I": {
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "Drug–drug interaction prediction"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Neural Architecture Search (NAS)"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "new-Subgraph-based biological interpretability"
+    },
+    "method": "Neural Architecture Search (NAS); Subgraph representation approximation; Single path supernet training",
+    "application": "Drug–drug interaction prediction",
+    "code_link": "https://github.com/LARS-research/CSSE-DDI",
+    "dataset_name": [
+      "DrugBank",
+      "TWOSIDES"
+    ]
+  },
+  {
+    "id": "compositional_sculpting_of_iterative_generative_pr",
+    "title": "Compositional Sculpting of Iterative Generative Processes",
+    "authors": [
+      "Timur Garipov",
+      "Sebastiaan De Peuter",
+      "Ge Yang",
+      "Vikas Garg",
+      "Samuel Kaski",
+      "Tommi Jaakkola"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "High training costs of generative models and the need to fine-tune them for specific tasks have created a strong interest in model reuse and composition.A key challenge in composing iterative generative processes, such as GFlowNets and diffusion models, is that to realize the desired target distribution, all steps of the generative process need to be coordinated, and satisfy delicate balance conditions.In this work, we propose Compositional Sculpting: a general approach for defining compositions of iterative generative processes. We then introduce a method for sampling from these compositions built on classifier guidance.We showcase ways to accomplish compositional sculpting in both GFlowNets and diffusion models. We highlight two binary operations $\\\\unicode{x2014}$ the $\\\\textit{harmonic mean}\\\\unicode{x00A0}(p_1 \\\\otimes p_2$) and the $\\\\textit{contrast}\\\\unicode{x00A0}(p_1 \\\\,\\\\unicode{x25D1}\\\\,\\\\, p_2$) between pairs, and the generalization of these operations to multiple component distributions.We offer empirical results on image and molecular generation tasks. Project codebase: https://github.com/timgaripov/compositional-sculpting.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/29dd9e016b7b2f15ceb0ea93dbf1fa53-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The abstract mentions molecular generation tasks, which strongly align with domains such as drug discovery and synthetic biology. Generative processes are described in the context of \"molecular generation,\" which typically refers to creating novel drug-like molecules or structures relevant to biomedical applications. While the paper does not explicitly discuss healthcare or medical applications in depth, molecular generation is a key component of biomedicine AI as it plays a central role in therapeutic research and drug analytics.",
+    "year": 2023,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22904,
+    "completion_tokens": 187,
+    "total_tokens": 23091,
+    "Topic Axis I": {
+      "MainTopic": "N/A",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
+    },
+    "Topic Axis III": {
+      "MainTopic": "N/A",
+      "SubTopic": "N/A"
+    },
+    "method": "Classifier guidance; diffusion model composition; GFlowNets",
+    "application": "Molecular generation; image generation",
+    "code_link": "https://github.com/timgaripov/compositional-sculpting",
+    "dataset_name": [
+      "MNIST"
+    ]
+  },
+  {
+    "id": "antigen-specific_antibody_design_via_direct_energy",
+    "title": "Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization",
+    "authors": [
+      "Xiangxin Zhou",
+      "Dongyu Xue",
+      "Ruizhe Chen",
+      "Zaixiang Zheng",
+      "Liang Wang",
+      "Quanquan Gu"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Antibody design, a crucial task with significant implications across various disciplines such as therapeutics and biology, presents considerable challenges due to its intricate nature. In this paper, we tackle antigen-specific antibody sequence-structure co-design as an optimization problem towards specific preferences, considering both rationality and functionality. Leveraging a pre-trained conditional diffusion model that jointly models sequences and structures of antibodies with equivariant neural networks, we propose direct energy-based preference optimization to guide the generation of antibodies with both rational structures and considerable binding affinities to given antigens. Our method involves fine-tuning the pre-trained diffusion model using a residue-level decomposed energy preference. Additionally, we employ gradient surgery to address conflicts between various types of energy, such as attraction and repulsion. Experiments on RAbD benchmark show that our approach effectively optimizes the energy of generated antibodies and achieves state-of-the-art performance in designing high-quality antibodies with low total energy and high binding affinity simultaneously, demonstrating the superiority of our approach.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/daef77101ba5711084a57442c8cf2709-Paper-Conference.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper focuses on antigen-specific antibody design, which is directly relevant to biomedical research, particularly in therapeutics and drug discovery. Antibodies are critical in treating diseases and developing biological interventions, which closely aligns with the domain of Biomedicine AI. Concepts such as \"binding affinities to given antigens,\" \"antibody sequence-structure co-design,\" and \"experiments on RAbD benchmark\" affirm the paper's relevance to designing molecular therapies. Additionally, the use of machine learning methods (such as diffusion models and energy optimization) emphasizes that AI is being applied in a biomedical context to advance therapeutic developments.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22496,
+    "completion_tokens": 196,
+    "total_tokens": 22692,
+    "Topic Axis I": {
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "Target Identification & Validation"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "new-Multi-preference Energy Optimization"
+    },
+    "method": "Energy-based preference optimization; Diffusion model",
+    "application": "Antibody sequence-structure co-design",
+    "code_link": "N/A",
+    "dataset_name": [
+      "RAbD dataset"
+    ]
+  },
+  {
+    "id": "reverse-engineering_recurrent_neural_network_solut",
+    "title": "Reverse-engineering recurrent neural network solutions to a hierarchical inference task for mice",
+    "authors": [
+      "Rylan Schaeffer",
+      "Mikail Khona",
+      "Leenoy Meshulam",
+      "Brain Laboratory International",
+      "Ila Fiete"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "We study how recurrent neural networks (RNNs) solve a hierarchical inference task involving two latent variables and disparate timescales separated by 1-2 orders of magnitude. The task is of interest to the International Brain Laboratory, a global collaboration of experimental and theoretical neuroscientists studying how the mammalian brain generates behavior. We make four discoveries. First, RNNs learn behavior that is quantitatively similar to ideal Bayesian baselines. Second, RNNs perform inference by learning a two-dimensional subspace defining beliefs about the latent variables. Third, the geometry of RNN dynamics reflects an induced coupling between the two separate inference processes necessary to solve the task. Fourth, we perform model compression through a novel form of knowledge distillation on hidden representations  -- Representations and Dynamics Distillation (RADD)-- to reduce the RNN dynamics to a low-dimensional, highly interpretable model. This technique promises a useful tool for interpretability of high dimensional nonlinear dynamical systems. Altogether, this work yields predictions to guide exploration and analysis of mouse neural data and circuity.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/30f0641c041f03d94e95a76b9d8bd58f-Paper.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper appears relevant to Biomedicine AI due to its focus on modeling hierarchical inference tasks in mice, which are directly tied to neuroscience and neurobiological research. Specifically, the paper mentions guiding \"exploration and analysis of mouse neural data and circuity,\" which links the study to understanding mammalian brain function—a topic with potential implications for foundational biomedical research in brain disorders or neurobehavioral studies. Additionally, the affiliation with the International Brain Laboratory further highlights a biomedical context focused on brain and behavior, which is crucial for advancing neuroscience knowledge applicable to medicine and therapy.",
+    "year": 2020,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 13477,
+    "completion_tokens": 172,
+    "total_tokens": 13649,
+    "Topic Axis I": {
+      "MainTopic": "N/A",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis II": {
+      "MainTopic": "N/A",
+      "SubTopic": "N/A"
+    },
+    "Topic Axis III": {
+      "MainTopic": "N/A",
+      "SubTopic": "N/A"
+    },
+    "method": "N/A",
+    "application": "N/A",
+    "code_link": "N/A",
+    "dataset_name": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "a_sars-cov-2_interaction_dataset_and_vhh_sequence_",
+    "title": "A SARS-CoV-2 Interaction Dataset and VHH Sequence Corpus for Antibody Language Models",
+    "authors": [
+      "Hirofumi Tsuruta",
+      "Hiroyuki Yamazaki",
+      "Ryota Maeda",
+      "Ryotaro Tamura",
+      "Akihiro Imura"
+    ],
+    "institutes": "N/A",
+    "authors/institutes": "N/A",
+    "abstract": "Antibodies are crucial proteins produced by the immune system to eliminate harmful foreign substances and have become pivotal therapeutic agents for treating human diseases.To accelerate the discovery of antibody therapeutics, there is growing interest in constructing language models using antibody sequences.However, the applicability of pre-trained language models for antibody discovery has not been thoroughly evaluated due to the scarcity of labeled datasets.To overcome these limitations, we introduce AVIDa-SARS-CoV-2, a dataset featuring the antigen-variable domain of heavy chain of heavy chain antibody (VHH) interactions obtained from two alpacas immunized with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike proteins.AVIDa-SARS-CoV-2 includes binary labels indicating the binding or non-binding of diverse VHH sequences to 12 SARS-CoV-2 mutants, such as the Delta and Omicron variants.Furthermore, we release VHHCorpus-2M, a pre-training dataset for antibody language models, containing over two million VHH sequences.We report benchmark results for predicting SARS-CoV-2-VHH binding using VHHBERT pre-trained on VHHCorpus-2M and existing general protein and antibody-specific pre-trained language models.These results confirm that AVIDa-SARS-CoV-2 provides valuable benchmarks for evaluating the representation capabilities of antibody language models for binding prediction, thereby facilitating the development of AI-driven antibody discovery.The datasets are available at https://datasets.cognanous.com.",
+    "keywords": "",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d2a1e47f7dc635fac77fbd6e2ec799e4-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "is_healthcare": "Yes",
+    "reasoning": "**Reasoning**: The paper falls into the Biomedicine AI domain. It discusses the development of antibody language models to accelerate antibody therapeutic discovery, which is a key application in biomedical research. The abstract specifically mentions datasets related to SARS-CoV-2 (a pathogen with immense healthcare significance), VHH sequences, and antigen binding interactions, which are relevant to therapeutic development and biomedical data analysis. Additionally, the creation of a pre-training dataset (VHHCorpus-2M) and the focus on AI-driven antibody discovery connect this work to biomedicine and therapeutic research, aligning it with applications in Biomedicine AI.",
+    "year": 2024,
+    "conference": "NeurIPS (Neural Information Processing Systems)",
+    "prompt_tokens": 22546,
+    "completion_tokens": 238,
+    "total_tokens": 22784,
+    "Topic Axis I": {
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "Target Identification & Validation"
+    },
+    "Topic Axis II": {
+      "MainTopic": "Causal Inference & Reasoning",
+      "SubTopic": "Causal Representation Learning"
+    },
+    "Topic Axis III": {
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
+    },
+    "method": "Pre-trained antibody language model; statistical test for binding prediction; dimensionality reduction using Kidera factors and t-SNE",
+    "application": "Binding prediction – SARS-CoV-2 variants",
+    "code_link": "https://github.com/cognano/AVIDa-SARS-CoV-2",
+    "dataset_name": [
+      "AVIDa-SARS-CoV-2",
+      "VHHCorpus-2M"
+    ]
+  }
+]

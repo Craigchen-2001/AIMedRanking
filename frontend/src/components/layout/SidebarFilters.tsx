@@ -1,15 +1,92 @@
-import React, { useState, useMemo } from 'react'
-import { papers } from '@/mock/papers'
+"use client";
+import React, { useMemo, useState, useEffect, useDeferredValue } from "react";
+import { FixedSizeList as VList, ListChildComponentProps } from "react-window";
+
+type CodeAvail = "any" | "public" | "private";
 
 type Props = {
-  selectedConfs: string[]
-  setSelectedConfs: (val: string[]) => void
-  selectedYears: string[]
-  setSelectedYears: (val: string[]) => void
-  selectedAuthors: string[]
-  setSelectedAuthors: (val: string[]) => void
-  onApplyFilters?: () => void
-  onClearFilters?: () => void
+  selectedConfs: string[];
+  setSelectedConfs: (val: string[]) => void;
+  selectedYears: string[];
+  setSelectedYears: (val: string[]) => void;
+  selectedAuthors: string[];
+  setSelectedAuthors: (val: string[]) => void;
+  codeAvail: CodeAvail;
+  setCodeAvail: (v: CodeAvail) => void;
+  onApplyFilters?: () => void;
+  onClearFilters?: () => void;
+};
+
+const CONFERENCES = [
+  { value: "ICLR", label: "ICLR" },
+  { value: "ICML", label: "ICML" },
+  { value: "KDD", label: "KDD" },
+  { value: "NEURIPS", label: "NeurIPS" },
+] as const;
+
+const YEARS = ["2020", "2021", "2022", "2023", "2024", "2025"] as const;
+
+const CODE_OPTS: { value: CodeAvail; label: string }[] = [
+  { value: "any", label: "Any" },
+  { value: "public", label: "Public" },
+  { value: "private", label: "Private" },
+];
+
+function Pill({ active, children, onClick }: { active: boolean; children: React.ReactNode; onClick: () => void }) {
+  return (
+    <button
+      onClick={onClick}
+      className={[
+        "px-3 py-1.5 text-sm rounded-full border transition shadow-sm",
+        active
+          ? "bg-red-600 text-white border-red-600 hover:bg-red-700 hover:border-red-700 focus:ring-2 focus:ring-red-200"
+          : "bg-white text-gray-700 border-gray-200 hover:text-red-700 hover:border-red-300 focus:ring-2 focus:ring-red-100",
+      ].join(" ")}
+    >
+      {children}
+    </button>
+  );
+}
+
+function Section({
+  title,
+  count,
+  children,
+  onReset,
+  showResetAlways,
+}: {
+  title: string;
+  count?: number;
+  children: React.ReactNode;
+  onReset?: () => void;
+  showResetAlways?: boolean;
+}) {
+  const [open, setOpen] = useState(true);
+  return (
+    <div className="bg-white/90 backdrop-blur-sm rounded-2xl border border-red-100 shadow-sm">
+      <div className="flex items-center justify-between px-4 py-3">
+        <button className="flex items-center gap-2" onClick={() => setOpen((v) => !v)}>
+          <span className="font-semibold text-gray-900">{title}</span>
+          {typeof count === "number" && (
+            <span
+              className={[
+                "text-xs px-2 py-0.5 rounded-full",
+                count > 0 ? "bg-red-50 text-red-700 ring-1 ring-red-100" : "bg-gray-100 text-gray-600",
+              ].join(" ")}
+            >
+              {count}
+            </span>
+          )}
+        </button>
+        {onReset && (showResetAlways || (count && count > 0)) && (
+          <button className="text-xs text-red-700 hover:text-red-900 underline" onClick={onReset}>
+            Reset
+          </button>
+        )}
+      </div>
+      {open && <div className="px-4 pb-4">{children}</div>}
+    </div>
+  );
 }
 
 const SidebarFilters: React.FC<Props> = ({
@@ -19,152 +96,175 @@ const SidebarFilters: React.FC<Props> = ({
   setSelectedYears,
   selectedAuthors,
   setSelectedAuthors,
+  codeAvail,
+  setCodeAvail,
   onApplyFilters,
   onClearFilters,
 }) => {
-  const [authorQuery, setAuthorQuery] = useState('')
+  const [authorQuery, setAuthorQuery] = useState("");
+  const [allAuthors, setAllAuthors] = useState<string[]>([]);
+  const [loadingAuthors, setLoadingAuthors] = useState(false);
+  const deferredQuery = useDeferredValue(authorQuery);
 
-  const toggle = (val: string, arr: string[], setter: (v: string[]) => void) => {
-    if (arr.includes(val)) {
-      setter(arr.filter((v) => v !== val))
-    } else {
-      setter([...arr, val])
-    }
-  }
+  useEffect(() => {
+    let mounted = true;
+    setLoadingAuthors(true);
+    fetch("http://localhost:3001/authors")
+      .then((r) => r.json())
+      .then((data) => {
+        if (!mounted) return;
+        setAllAuthors(Array.isArray(data) ? data : []);
+      })
+      .catch(() => {
+        if (!mounted) return;
+        setAllAuthors([]);
+      })
+      .finally(() => mounted && setLoadingAuthors(false));
+    return () => {
+      mounted = false;
+    };
+  }, []);
 
-  const allAuthors = useMemo(() => {
-    const authorsSet = new Set<string>()
-    papers.forEach((p) => {
-      p.authors.forEach((a) => authorsSet.add(a))
-    })
-    return Array.from(authorsSet).sort()
-  }, [])
+  const toggle = (val: string, arr: string[], setter: (v: string[]) => void) =>
+    arr.includes(val) ? setter(arr.filter((v) => v !== val)) : setter([...arr, val]);
 
   const filteredAuthors = useMemo(() => {
-    return [...selectedAuthors, ...allAuthors.filter((a) => !selectedAuthors.includes(a))]
-      .filter((a) => a.toLowerCase().includes(authorQuery.toLowerCase()))
-      .slice(0, 50)
-  }, [authorQuery, allAuthors, selectedAuthors])
+    const q = deferredQuery.trim().toLowerCase();
+    const pinned = [...selectedAuthors];
+    const pool = q ? allAuthors.filter((a) => a.toLowerCase().includes(q)) : allAuthors;
+    const rest = pool.filter((a) => !selectedAuthors.includes(a));
+    return [...pinned, ...rest];
+  }, [deferredQuery, allAuthors, selectedAuthors]);
+
+  const Row = ({ index, style }: ListChildComponentProps) => {
+    const author = filteredAuthors[index];
+    const checked = selectedAuthors.includes(author);
+    return (
+      <label
+        style={style}
+        className="flex items-center gap-2 rounded-lg px-2 cursor-pointer hover:bg-red-50 text-sm text-gray-800"
+      >
+        <input
+          type="checkbox"
+          className="accent-red-700"
+          checked={checked}
+          onChange={() => toggle(author, selectedAuthors, setSelectedAuthors)}
+        />
+        <span className="truncate">{author}</span>
+      </label>
+    );
+  };
 
   return (
-    <div className="w-80 fixed left-0 top-20 px-6 py-6 border-r h-full overflow-y-auto bg-white">
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-2">Conference</h2>
-        <div className="grid grid-cols-3 gap-2">
-          {['ICLR', 'CVPR', 'ACL', 'KDD', 'WWW', 'ICML', 'NeurIPS', 'ICCV', 'ECCV', 'CHI', 'AAAI', 'IJCAI'].map((conf) => (
-            <label key={conf} className="text-sm flex items-center">
-              <input
-                type="checkbox"
-                className="mr-2"
-                checked={selectedConfs.includes(conf)}
-                onChange={() => toggle(conf, selectedConfs, setSelectedConfs)}
-              />
-              {conf}
-            </label>
-          ))}
-        </div>
-      </div>
+    <div className="w-60 md:w-64 lg:w-72 xl:w-80 fixed left-0 top-16 h-[calc(100dvh-4rem)] px-4 lg:px-6 py-4 lg:py-6 border-r border-red-100 bg-gradient-to-b from-white to-amber-50 overflow-y-auto">
+      <div className="space-y-4 text-gray-800">
+        <Section title="Conference" count={selectedConfs.length} onReset={() => setSelectedConfs([])}>
+          <div className="flex gap-2 flex-nowrap overflow-x-auto">
+            {CONFERENCES.map(({ value, label }) => (
+              <Pill key={value} active={selectedConfs.includes(value)} onClick={() => toggle(value, selectedConfs, setSelectedConfs)}>
+                {label}
+              </Pill>
+            ))}
+          </div>
+        </Section>
 
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-2">Year</h2>
-        <div className="grid grid-cols-3 gap-2">
-          {['2020', '2021', '2022', '2023', '2024', '2025'].map((year) => (
-            <label key={year} className="text-sm flex items-center">
-              <input
-                type="checkbox"
-                className="mr-2"
-                checked={selectedYears.includes(year)}
-                onChange={() => toggle(year, selectedYears, setSelectedYears)}
-              />
-              {year}
-            </label>
-          ))}
-        </div>
-      </div>
+        <Section title="Year" count={selectedYears.length} onReset={() => setSelectedYears([])}>
+          <div className="flex flex-wrap gap-2">
+            {YEARS.map((y) => (
+              <Pill key={y} active={selectedYears.includes(y)} onClick={() => toggle(y, selectedYears, setSelectedYears)}>
+                {y}
+              </Pill>
+            ))}
+          </div>
+        </Section>
 
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-2">Author</h2>
+        <Section
+          title="Author"
+          count={selectedAuthors.length}
+          onReset={() => {
+            setSelectedAuthors([]);
+            setAuthorQuery("");
+          }}
+          showResetAlways
+        >
+          <div className="mb-2">
+            <div className="rounded-xl p-[2px] bg-gradient-to-r from-red-700 via-rose-600 to-pink-600 shadow-[0_0_0_1px_rgba(0,0,0,0.02)]">
+              <div className="relative">
+                <input
+                  type="text"
+                  placeholder="Search author..."
+                  value={authorQuery}
+                  onChange={(e) => setAuthorQuery(e.target.value)}
+                  className="w-full bg-white rounded-[10px] px-3 pr-9 py-2 text-sm outline-none focus:ring-2 focus:ring-rose-200"
+                />
+                {authorQuery && (
+                  <button
+                    aria-label="clear"
+                    onClick={() => setAuthorQuery("")}
+                    className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-700 text-sm"
+                  >
+                    ×
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
 
-        <div className="relative mb-2">
-          <span className="absolute left-2 top-1.5 text-gray-500">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
-            </svg>
-          </span>
+          <div className="text-xs text-gray-600 mb-1">
+            {loadingAuthors ? "Loading..." : `Showing ${filteredAuthors.length} / ${allAuthors.length}`}
+          </div>
+          <div className="w-full rounded-xl border border-red-100 bg-white">
+            <VList height={180} width={"100%"} itemCount={filteredAuthors.length} itemSize={32}>
+              {Row}
+            </VList>
+          </div>
+        </Section>
 
-          <input
-            type="text"
-            className="w-full border border-red-500 pl-8 pr-8 py-1 text-sm rounded"
-            placeholder="Search author..."
-            value={authorQuery}
-            onChange={(e) => setAuthorQuery(e.target.value)}
-          />
+        <Section
+          title="Code"
+          count={codeAvail !== "any" ? 1 : 0}
+          onReset={() => setCodeAvail("any")}
+        >
+          <div className="flex gap-2">
+            {CODE_OPTS.map((o) => (
+              <Pill key={o.value} active={codeAvail === o.value} onClick={() => setCodeAvail(o.value)}>
+                {o.label}
+              </Pill>
+            ))}
+          </div>
+        </Section>
 
-          {authorQuery && (
-            <button
-              className="absolute right-2 top-1.5 text-gray-400 hover:text-black"
-              onClick={() => setAuthorQuery('')}
-            >
-              &#x2715;
-            </button>
-          )}
-        </div>
+        <Section title="Topic">
+          <p className="text-gray-400 text-sm italic">[TBD]</p>
+        </Section>
+        <Section title="Method">
+          <p className="text-gray-400 text-sm italic">[TBD]</p>
+        </Section>
+        <Section title="Application">
+          <p className="text-gray-400 text-sm italic">[TBD]</p>
+        </Section>
 
-        <div className="w-full border border-red-500 max-h-40 overflow-y-auto border rounded p-2 text-sm">
-          {filteredAuthors.map((author) => (
-            <label key={author} className="block">
-              <input
-                type="checkbox"
-                className="mr-2"
-                checked={selectedAuthors.includes(author)}
-                onChange={() => toggle(author, selectedAuthors, setSelectedAuthors)}
-              />
-              {author}
-            </label>
-          ))}
-        </div>
-
-        <div className="mt-2 text-right">
+        <div className="flex gap-2 pt-2">
           <button
-            className="text-xs text-gray-600 underline hover:text-black"
-            onClick={() => setSelectedAuthors([])}
+            onClick={onApplyFilters}
+            className="flex-1 bg-gradient-to-r from-red-700 to-rose-600 text-white px-4 py-2 rounded-xl shadow-sm hover:from-red-800 hover:to-rose-700 active:scale-[0.99] transition"
           >
-            Reset Authors
+            Apply Filters
+          </button>
+          <button
+            onClick={() => {
+              setAuthorQuery("");
+              setSelectedAuthors([]);
+              onClearFilters?.();
+            }}
+            className="border border-gray-300 text-gray-800 px-4 py-2 rounded-xl hover:bg-gray-50"
+          >
+            Clear
           </button>
         </div>
       </div>
-
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-2">Topic</h2>
-        <p className="text-gray-400 text-sm italic">[TBD]</p>
-      </div>
-
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-2">Method</h2>
-        <p className="text-gray-400 text-sm italic">[TBD]</p>
-      </div>
-
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold mb-2">Application</h2>
-        <p className="text-gray-400 text-sm italic">[TBD]</p>
-      </div>
-
-      <div className="flex gap-2 mt-4">
-        <button
-          onClick={onApplyFilters}
-          className="bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800"
-        >
-          Apply Filters
-        </button>
-        <button
-          onClick={onClearFilters}
-          className="border border-gray-500 text-gray-700 px-4 py-2 rounded hover:bg-gray-100"
-        >
-          Clear
-        </button>
-      </div>
     </div>
-  )
-}
+  );
+};
 
-export default SidebarFilters
+export default SidebarFilters;

@@ -1,4 +1,4 @@
-//Card.tsx
+///Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/frontend/src/components/ui/Card.tsx
 import * as React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -28,3 +28,4 @@ const CardContent = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDi
 CardContent.displayName = 'CardContent';
 
 export { Card, CardContent };
+

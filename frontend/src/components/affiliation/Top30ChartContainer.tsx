@@ -1,101 +1,116 @@
 "use client";
 
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-  Legend,
-} from "recharts";
-import { papers } from "@/mock/papers";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from "recharts";
 
-const conferenceColors: Record<string, string> = {
+type PaperItem = { conference: string; affiliations: string | null };
+
+const ALLOWED = ["ICLR", "ICML", "KDD", "NEURIPS"] as const;
+const COLORS: Record<(typeof ALLOWED)[number], string> = {
   ICLR: "#8884d8",
-  CVPR: "#82ca9d",
-  NeurIPS: "#ffc658",
   ICML: "#ff8042",
-  ACL: "#a28fd0",
   KDD: "#8dd1e1",
-  AAAI: "#d0ed57",
-  IJCAI: "#a4de6c",
-  CHI: "#d084c4",
-  WWW: "#ffbb28",
-  ECCV: "#c2c2f0",
-  ICCV: "#a1c4fd",
+  NEURIPS: "#ffc658",
 };
 
-const extractConferenceName = (full: string) => {
-  return full.split(" ")[0];
-};
+function tagConference(full: string): (typeof ALLOWED)[number] | null {
+  const t = (full || "").split(" ")[0].toUpperCase();
+  if (t === "NEURIPS") return "NEURIPS";
+  if (t === "ICLR") return "ICLR";
+  if (t === "ICML") return "ICML";
+  if (t === "KDD") return "KDD";
+  return null;
+}
 
-const Top30ChartContainer = () => {
-  const data = useMemo(() => {
-    const countMap: Record<string, Record<string, number>> = {};
+function splitAffiliations(s: string | null): string[] {
+  if (!s) return [];
+  return s
+    .split(/[;,|]/)
+    .map((x) => x.trim())
+    .filter(Boolean);
+}
 
-    papers.forEach((p) => {
-      const affiliations = Array.isArray(p.affiliation)
-        ? p.affiliation
-        : [p.affiliation || "N/A"];
-      const conf = extractConferenceName(p.conference);
+async function fetchAllPapers(): Promise<PaperItem[]> {
+  const take = 100;
+  let page = 1;
+  let totalPages = 1;
+  const out: PaperItem[] = [];
+  while (page <= totalPages) {
+    const res = await fetch(`/api/papers?page=${page}&take=${take}`, { cache: "no-store" });
+    if (!res.ok) break;
+    const data = await res.json();
+    totalPages = data.totalPages ?? 1;
+    const items = (data.items ?? []) as any[];
+    for (const p of items) {
+      out.push({ conference: p.conference, affiliations: p.affiliations ?? null });
+    }
+    page += 1;
+    if (page > 50) break;
+  }
+  return out;
+}
 
-      affiliations.forEach((aff) => {
-        if (!countMap[aff]) countMap[aff] = {};
-        countMap[aff][conf] = (countMap[aff][conf] || 0) + 1;
-      });
-    });
+export default function Top30ChartContainer() {
+  const [rows, setRows] = useState<PaperItem[]>([]);
+  const [loading, setLoading] = useState(true);
 
-    return Object.entries(countMap)
-      .map(([name, conferenceCounts]) => {
-        const total = Object.values(conferenceCounts).reduce((a, b) => a + b, 0);
-        return { name, ...conferenceCounts, total };
-      })
-      .sort((a, b) => b.total - a.total)
-      .slice(0, 30);
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      setLoading(true);
+      const items = await fetchAllPapers();
+      if (alive) setRows(items);
+      setLoading(false);
+    })();
+    return () => {
+      alive = false;
+    };
   }, []);
 
-  const conferenceList = useMemo(() => Object.keys(conferenceColors), []);
+  const data = useMemo(() => {
+    const countMap: Record<string, Partial<Record<(typeof ALLOWED)[number], number>>> = {};
+    for (const p of rows) {
+      const tag = tagConference(p.conference);
+      if (!tag || !ALLOWED.includes(tag)) continue;
+      const affs = splitAffiliations(p.affiliations);
+      if (affs.length === 0) affs.push("N/A");
+      for (const aff of affs) {
+        countMap[aff] ||= {};
+        countMap[aff][tag] = (countMap[aff][tag] || 0) + 1;
+      }
+    }
+    const arr = Object.entries(countMap).map(([name, counts]) => {
+      const row: any = { name, total: 0 };
+      for (const k of ALLOWED) {
+        const v = counts[k] || 0;
+        row[k] = v;
+        row.total += v;
+      }
+      return row;
+    });
+    return arr.sort((a, b) => b.total - a.total).slice(0, 30);
+  }, [rows]);
 
   return (
     <div className="w-full">
       <h2 className="text-lg font-semibold mb-4 text-center">Top 30 Affiliations</h2>
       <div className="w-full h-[700px]">
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart
-            layout="vertical"
-            data={data}
-            margin={{ top: 10, right: 20, left: 20, bottom: 20 }}
-          >
-            <XAxis type="number" />
-            <YAxis
-              type="category"
-              dataKey="name"
-              interval={0}
-              tick={{ fontSize: 12 }}
-              width={300}
-            />
-            <Tooltip />
-            <Legend
-              verticalAlign="top"
-              height={36}
-              formatter={(value) => <span className="text-xs">{value}</span>}
-            />
-            {conferenceList.map((conf) => (
-              <Bar
-                key={conf}
-                dataKey={conf}
-                stackId="a"
-                fill={conferenceColors[conf]}
-                name={conf}
-              />
-            ))}
-          </BarChart>
-        </ResponsiveContainer>
+        {loading ? (
+          <div className="w-full h-full flex items-center justify-center">Loading…</div>
+        ) : (
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart layout="vertical" data={data} margin={{ top: 10, right: 20, left: 20, bottom: 20 }}>
+              <XAxis type="number" />
+              <YAxis type="category" dataKey="name" interval={0} tick={{ fontSize: 12 }} width={300} />
+              <Tooltip />
+              <Legend verticalAlign="top" height={36} formatter={(value) => <span className="text-xs">{value}</span>} />
+              {ALLOWED.map((conf) => (
+                <Bar key={conf} dataKey={conf} stackId="a" fill={COLORS[conf]} name={conf} />
+              ))}
+            </BarChart>
+          </ResponsiveContainer>
+        )}
       </div>
     </div>
   );
-};
-
-export default Top30ChartContainer;
+}

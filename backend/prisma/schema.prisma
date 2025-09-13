@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Paper {
+  id                  String   @id
+  title               String
+  abstract            String?
+  keywords            String?
+  pdfUrl              String?
+  conference          String
+  year                Int
+  isHealthcare        Boolean  @default(false)
+  topic               String?
+  method              String?
+  application         String?
+  codeLink            String?
+  isPublic            Boolean  @default(false)
+  datasetNames        String[] @default([])
+  datasetLinks        String[] @default([])
+  authors             String[] @default([])
+  affiliations        String?
+  authorsAffiliations String?
+  reasoning           String?
+  topicAxis1          Json?
+  topicAxis2          Json?
+  topicAxis3          Json?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  favorites           Favorite[]
+}
+
+model User {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  name         String
+  passwordHash String
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  favorites    Favorite[]
+}
+
+model Favorite {
+  userId    String
+  paperId   String
+  createdAt DateTime @default(now())
+  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  paper     Paper  @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  @@id([userId, paperId])
+}
