@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { PrismaClient } from "@prisma/client";
+import { Prisma, PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -51,7 +51,7 @@ function pickAxis(src: any, which: 1 | 2 | 3) {
   const maps: Record<number, string[]> = {
     1: ["Topic Axis I", "Topic Axis I:", "TopicAxisI", "topicAxis1", "topicaxis1"],
     2: ["Topic Axis II", "Topic Axis II:", "TopicAxisII", "topicAxis2", "topicaxis2"],
-    3: ["Topic Axis III", "Topic Axis III:", "TopicAxisIII", "topicAxis3", "topicaxis3"],
+    3: ["Topic Axis III", "Topic Axis III:", "TopicAxisIII", "topicAxis3", "topicaxis3"]
   };
   let v = pickKey(src, maps[which]);
   if (Array.isArray(v)) v = v[0] ?? null;
@@ -89,6 +89,10 @@ function upsertOne(item: any) {
       ? item.code_public
       : toBool(item.is_public ?? item.code_public ?? item.public ?? null) || Boolean(codeLink);
 
+  const topicAxis1 = normalizeAxis(pickAxis(item, 1));
+  const topicAxis2 = normalizeAxis(pickAxis(item, 2));
+  const topicAxis3 = normalizeAxis(pickAxis(item, 3));
+
   const base = {
     year: Number(item.year),
     conference: String(item.conference),
@@ -104,27 +108,30 @@ function upsertOne(item: any) {
     affiliations: asString(item.affiliations ?? item.institutes),
     authorsAffiliations: asString(item["authors/affiliations"] ?? item["authors/institutes"]),
     reasoning: item.reasoning ?? null,
-    isPublic,
-    topicAxis1: normalizeAxis(pickAxis(item, 1)),
-    topicAxis2: normalizeAxis(pickAxis(item, 2)),
-    topicAxis3: normalizeAxis(pickAxis(item, 3)),
+    isPublic
   };
 
   return prisma.paper.upsert({
     where: { id: String(item.id) },
     update: {
       ...base,
+      ...(topicAxis1 !== null ? { topicAxis1: topicAxis1 as Prisma.InputJsonValue } : {}),
+      ...(topicAxis2 !== null ? { topicAxis2: topicAxis2 as Prisma.InputJsonValue } : {}),
+      ...(topicAxis3 !== null ? { topicAxis3: topicAxis3 as Prisma.InputJsonValue } : {}),
       datasetNames: { set: datasetNames },
       datasetLinks: { set: datasetLinks },
-      authors: { set: authors },
+      authors: { set: authors }
     },
     create: {
       id: String(item.id),
       ...base,
+      ...(topicAxis1 !== null ? { topicAxis1: topicAxis1 as Prisma.InputJsonValue } : {}),
+      ...(topicAxis2 !== null ? { topicAxis2: topicAxis2 as Prisma.InputJsonValue } : {}),
+      ...(topicAxis3 !== null ? { topicAxis3: topicAxis3 as Prisma.InputJsonValue } : {}),
       datasetNames,
       datasetLinks,
-      authors,
-    },
+      authors
+    }
   });
 }
 
