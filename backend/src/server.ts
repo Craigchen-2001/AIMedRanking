@@ -5,6 +5,8 @@ import authorsRouter from "./routes/authors.ts";
 import papersRouter from "./routes/papers.ts";
 import authRouter from "./routes/auth.ts";
 import favoritesRouter from "./routes/favorites.ts";
+import "dotenv/config";
+
 
 const app = express();
 
