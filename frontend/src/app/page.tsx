@@ -336,9 +336,9 @@ export default function HomePage() {
           onClearFilters={clearFilters}
         />
 
-        <main className="relative flex-1 ml-60 md:ml-64 lg:ml-72 xl:ml-80 p-6">
+        <main className="relative flex-1 pl-60 md:pl-64 lg:pl-72 xl:pl-80 px-6">
           <BackgroundArt />
-          <div className="relative max-w-6xl mx-auto">
+          <div className="relative w-full max-w-5xl mx-aut">
             {isHome && !bannerDismissed && (
               <div className="mb-4">
                 <WelcomeBanner onDismiss={() => setBannerDismissed(true)} />
