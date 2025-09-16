@@ -60,24 +60,6 @@ function WelcomeBanner({ onDismiss }: { onDismiss: () => void }) {
               <X size={18} />
             </button>
           </div>
-          <svg
-            viewBox="0 0 520 180"
-            className="pointer-events-none absolute -right-6 -bottom-10 w-[360px] h-[200px] text-black/15"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-          >
-            <path d="M10 130 Q60 80 110 130 T210 130 T310 130 T410 130 T510 130" />
-            <g transform="translate(280,20)">
-              <ellipse cx="20" cy="20" rx="6" ry="18" />
-              <ellipse cx="40" cy="20" rx="6" ry="18" transform="rotate(30 40 20)"/>
-              <ellipse cx="60" cy="20" rx="6" ry="18" transform="rotate(60 60 20)"/>
-              <path d="M10 20 C40 0, 50 40, 80 20" />
-              <path d="M10 26 C40 46, 50 6, 80 26" />
-            </g>
-            <circle cx="470" cy="40" r="16" />
-            <circle cx="500" cy="70" r="10" />
-          </svg>
         </div>
       </div>
     </div>
@@ -89,29 +71,6 @@ function BackgroundArt() {
     <div className="pointer-events-none absolute inset-0 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(1100px_620px_at_86%_8%,rgba(0,0,0,0.08),transparent_70%)]" />
       <div className="absolute right-0 top-24 bottom-0 w-[60%] opacity-[0.14] [background-image:radial-gradient(#000_1px,transparent_1px)] [background-size:18px_18px] [mask-image:linear-gradient(to_left,black,transparent)]" />
-      <svg viewBox="0 0 520 200" className="absolute right-10 top-8 w-[560px] h-[230px] text-black opacity-15" fill="none" stroke="currentColor" strokeWidth="1.6">
-        <path d="M10 150 Q60 90 110 150 T210 150 T310 150 T410 150 T510 150" />
-        <g transform="translate(120,20)">
-          <ellipse cx="20" cy="20" rx="6" ry="18" />
-          <ellipse cx="40" cy="20" rx="6" ry="18" transform="rotate(30 40 20)"/>
-          <ellipse cx="60" cy="20" rx="6" ry="18" transform="rotate(60 60 20)"/>
-          <path d="M10 20 C40 0, 50 40, 80 20" />
-          <path d="M10 26 C40 46, 50 6, 80 26" />
-        </g>
-        <circle cx="470" cy="46" r="14" />
-        <circle cx="500" cy="74" r="9" />
-      </svg>
-      <svg viewBox="0 0 420 420" className="absolute right-[-60px] bottom-[-60px] w-[420px] h-[420px] text-black opacity-[0.09]" fill="none" stroke="currentColor" strokeWidth="1.2">
-        <path d="M40 260 C120 180, 200 340, 280 260 S360 180, 400 220" />
-        <path d="M40 300 C120 220, 200 380, 280 300 S360 220, 400 260" />
-        <g>
-          <circle cx="120" cy="320" r="6" />
-          <circle cx="200" cy="360" r="5" />
-          <circle cx="300" cy="300" r="6" />
-          <line x1="120" y1="320" x2="200" y2="360" />
-          <line x1="200" y1="360" x2="300" y2="300" />
-        </g>
-      </svg>
     </div>
   );
 }
@@ -166,6 +125,17 @@ export default function HomePage() {
   const [pendingAuthors, setPendingAuthors] = useState<string[]>([]);
   const [pendingCodeAvail, setPendingCodeAvail] = useState<'any' | 'public' | 'private'>('any');
   const [codeAvail, setCodeAvail] = useState<'any' | 'public' | 'private'>('any');
+
+  const [selectedTopicsI, setSelectedTopicsI] = useState<string[]>([]);
+  const [pendingTopicsI, setPendingTopicsI] = useState<string[]>([]);
+  const [selectedTopicsII, setSelectedTopicsII] = useState<string[]>([]);
+  const [pendingTopicsII, setPendingTopicsII] = useState<string[]>([]);
+  const [selectedTopicsIII, setSelectedTopicsIII] = useState<string[]>([]);
+  const [pendingTopicsIII, setPendingTopicsIII] = useState<string[]>([]);
+
+  const [pendingMatchMode, setPendingMatchMode] = useState<"any" | "all">("any");
+  const [matchMode, setMatchMode] = useState<"any" | "all">("any");
+
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [expandedPaperId, setExpandedPaperId] = useState<string | null>(null);
   const [allMatched, setAllMatched] = useState<MockPaperShape[]>([]);
@@ -174,7 +144,15 @@ export default function HomePage() {
   const [sortOrder, setSortOrder] = useState<'desc' | 'asc'>('desc');
   const [primaryConf, setPrimaryConf] = useState<ConfKey | ''>('');
   const [bannerDismissed, setBannerDismissed] = useState<boolean>(false);
-  const { addFavorite, removeFavorite,  ensureAuth, favoriteIds } = useAuth();
+  const { addFavorite, removeFavorite, ensureAuth, favoriteIds } = useAuth();
+
+  const resetSorting = () => {
+    setSortOrder('desc')
+    setPrimaryConf('')
+    setCodeAvail('any')
+    setPage(1)
+  }
+  
 
   const fetchingRef = useRef(false);
 
@@ -242,7 +220,7 @@ export default function HomePage() {
   useEffect(() => {
     setPage(1);
     setExpandedPaperId(null);
-  }, [selectedAuthors, sortOrder, primaryConf, codeAvail]);
+  }, [selectedAuthors, sortOrder, primaryConf, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode]);
 
   const finalFiltered = useMemo(() => {
     let base = !selectedAuthors.length
@@ -251,10 +229,38 @@ export default function HomePage() {
           if (!Array.isArray(p.authors) || p.authors.length === 0) return false;
           return selectedAuthors.some((a) => p.authors.includes(a));
         });
-    if (codeAvail === 'any') return base;
-    const wantPublic = codeAvail === 'public';
-    return base.filter((p) => codeIsPublic(p) === wantPublic);
-  }, [allMatched, selectedAuthors, codeAvail]);
+    if (codeAvail !== 'any') {
+      const wantPublic = codeAvail === 'public';
+      base = base.filter((p) => codeIsPublic(p) === wantPublic);
+    }
+    if (selectedTopicsI.length || selectedTopicsII.length || selectedTopicsIII.length) {
+      base = base.filter((p) => {
+        const axesRaw = [
+          materializeAxis((p as any).topicAxis1 ?? (p as any)['Topic Axis I']),
+          materializeAxis((p as any).topicAxis2 ?? (p as any)['Topic Axis II']),
+          materializeAxis((p as any).topicAxis3 ?? (p as any)['Topic Axis III']),
+        ];
+        const axes = axesRaw.filter((x): x is {
+          MainTopic: string | null;
+          SubTopic: string | null;
+          "Main Topic": string | null;
+          "Sub Topic": string | null;
+        } => x != null);
+        const paperTopics = axes
+          .flatMap((a) => [a.MainTopic, a.SubTopic])
+          .filter((v): v is string => typeof v === "string" && v.length > 0);
+
+        const selectedAll = [...selectedTopicsI, ...selectedTopicsII, ...selectedTopicsIII];
+
+        if (matchMode === "any") {
+          return selectedAll.some((sel) => paperTopics.includes(sel));
+        } else {
+          return selectedAll.every((sel) => paperTopics.includes(sel));
+        }
+      });
+    }    
+    return base;
+  }, [allMatched, selectedAuthors, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode]);
 
   const sortedList = useMemo(() => {
     const arr = [...finalFiltered];
@@ -284,6 +290,10 @@ export default function HomePage() {
     setSelectedYears(pendingYears);
     setSelectedAuthors(pendingAuthors);
     setCodeAvail(pendingCodeAvail);
+    setSelectedTopicsI(pendingTopicsI);
+    setSelectedTopicsII(pendingTopicsII);
+    setSelectedTopicsIII(pendingTopicsIII);
+    setMatchMode(pendingMatchMode);
     setPage(1);
     setExpandedPaperId(null);
   };
@@ -302,6 +312,14 @@ export default function HomePage() {
     setPrimaryConf('');
     setBannerDismissed(false);
     setCodeAvail('any');
+    setPendingTopicsI([]);
+    setPendingTopicsII([]);
+    setPendingTopicsIII([]);
+    setSelectedTopicsI([]);
+    setSelectedTopicsII([]);
+    setSelectedTopicsIII([]);
+    setMatchMode('any');
+    setPendingMatchMode('any');
   };
 
   const isHome =
@@ -309,7 +327,10 @@ export default function HomePage() {
     selectedYears.length === 0 &&
     selectedAuthors.length === 0 &&
     !searchTerm &&
-    codeAvail === 'any';
+    codeAvail === 'any' &&
+    selectedTopicsI.length === 0 &&
+    selectedTopicsII.length === 0 &&
+    selectedTopicsIII.length === 0;
 
   const allTitles = useMemo(() => pagedList.map((p) => p.title), [pagedList]);
 
@@ -322,7 +343,7 @@ export default function HomePage() {
         onYearSelect={(year) => setSelectedYears([year])}
       />
 
-      <div className="flex pt-16">
+      <div className="flex pt-4">
         <SidebarFilters
           selectedConfs={pendingConfs}
           setSelectedConfs={setPendingConfs}
@@ -332,145 +353,162 @@ export default function HomePage() {
           setSelectedAuthors={setPendingAuthors}
           codeAvail={pendingCodeAvail}
           setCodeAvail={setPendingCodeAvail}
+          selectedTopicsI={pendingTopicsI}
+          setSelectedTopicsI={setPendingTopicsI}
+          selectedTopicsII={pendingTopicsII}
+          setSelectedTopicsII={setPendingTopicsII}
+          selectedTopicsIII={pendingTopicsIII}
+          setSelectedTopicsIII={setPendingTopicsIII}
+          matchMode={pendingMatchMode}
+          setMatchMode={setPendingMatchMode}
           onApplyFilters={applyFilters}
           onClearFilters={clearFilters}
         />
 
-        <main className="relative flex-1 pl-60 md:pl-64 lg:pl-72 xl:pl-80 px-6">
-          <BackgroundArt />
-          <div className="relative w-full max-w-5xl mx-aut">
-            {isHome && !bannerDismissed && (
-              <div className="mb-4">
-                <WelcomeBanner onDismiss={() => setBannerDismissed(true)} />
-              </div>
-            )}
+        <main className="relative flex-1 ml-60 md:ml-64 lg:ml-72 xl:ml-80 px-1">
+          <div className="relative z-0">
+            <BackgroundArt />
+            <div className="relative z-10 w-full max-w-5xl">
+              {isHome && !bannerDismissed && (
+                <div className="mb-4">
+                  <WelcomeBanner onDismiss={() => setBannerDismissed(true)} />
+                </div>
+              )}
 
-            {loading ? (
-              <div className="text-gray-600">Loading...</div>
-            ) : (
-              <>
-                <div className="mb-6 pb-4 border-b border-red-100 bg-white sticky top-16 z-10 rounded-xl p-4">
-                  <div className="flex items-center justify-between gap-4">
-                    <div className="text-sm text-gray-700">
-                      Showing <span className="font-semibold">{pagedList.length}</span> of{' '}
-                      <span className="font-semibold">{sortedList.length}</span> papers
-                      {selectedConfs.length > 0 && (
-                        <> from <span className="font-semibold">{selectedConfs.join(', ')}</span></>
-                      )}
-                      {selectedYears.length > 0 && (
-                        <> in <span className="font-semibold">{selectedYears.join(', ')}</span></>
-                      )}
-                      {selectedAuthors.length > 0 && (
-                        <> by <span className="font-semibold">{selectedAuthors.join(', ')}</span></>
-                      )}
-                      {searchTerm && <> for "<span className="italic">{searchTerm}</span>"</>}
-                    </div>
+              {loading ? (
+                <div className="text-gray-600">Loading...</div>
+              ) : (
+                <>
+                  <div className="mb-6 pb-4 border-b border-red-100 bg-white sticky top-16 z-10 rounded-xl p-4">
+                    <div className="flex items-center justify-between gap-4">
+                      <div className="text-sm text-gray-700">
+                        Showing <span className="font-semibold">{pagedList.length}</span> of{' '}
+                        <span className="font-semibold">{sortedList.length}</span> papers
+                        {selectedConfs.length > 0 && (
+                          <> from <span className="font-semibold">{selectedConfs.join(', ')}</span></>
+                        )}
+                        {selectedYears.length > 0 && (
+                          <> in <span className="font-semibold">{selectedYears.join(', ')}</span></>
+                        )}
+                        {selectedAuthors.length > 0 && (
+                          <> by <span className="font-semibold">{selectedAuthors.join(', ')}</span></>
+                        )}
+                        {searchTerm && <> for "<span className="italic">{searchTerm}</span>"</>}
+                      </div>
 
-                    <div className="flex items-center gap-2">
-                      <button
-                        disabled={page <= 1}
-                        onClick={() => setPage((x) => Math.max(1, x - 1))}
-                        className="px-3 py-1 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
-                      >
-                        Prev
-                      </button>
-                      <button
-                        disabled={page >= totalPagesUI}
-                        onClick={() => setPage((x) => Math.min(totalPagesUI, x + 1))}
-                        className="px-3 py-1 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
-                      >
-                        Next
-                      </button>
+                      <div className="flex items-center gap-2">
+                        <button
+                          disabled={page <= 1}
+                          onClick={() => setPage((x) => Math.max(1, x - 1))}
+                          className="px-3 py-1 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
+                        >
+                          Prev
+                        </button>
+                        <button
+                          disabled={page >= totalPagesUI}
+                          onClick={() => setPage((x) => Math.min(totalPagesUI, x + 1))}
+                          className="px-3 py-1 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
+                        >
+                          Next
+                        </button>
 
-                      <select
-                        value={sortOrder}
-                        onChange={(e) => setSortOrder(e.target.value as 'desc' | 'asc')}
-                        className="px-3 py-1 text-sm rounded-lg border border-black bg-black text-white focus:outline-none focus:ring-2 focus:ring-black"
-                      >
-                        <option value="desc">Newest</option>
-                        <option value="asc">Oldest</option>
-                      </select>
+                        <select
+                          value={sortOrder}
+                          onChange={(e) => setSortOrder(e.target.value as 'desc' | 'asc')}
+                          className="px-3 py-1 text-sm rounded-lg border border-black bg-black text-white focus:outline-none focus:ring-2 focus:ring-black"
+                        >
+                          <option value="desc">Newest</option>
+                          <option value="asc">Oldest</option>
+                        </select>
 
-                      <select
-                        value={primaryConf}
-                        onChange={(e) => setPrimaryConf(e.target.value as ConfKey | '')}
-                        className="px-3 py-1 text-sm rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-black"
-                        title="Pick a conference to appear first"
-                      >
-                        <option value="">Start with: Any conf</option>
-                        <option value="ICLR">Start with: ICLR</option>
-                        <option value="ICML">Start with: ICML</option>
-                        <option value="KDD">Start with: KDD</option>
-                        <option value="NEURIPS">Start with: NeurIPS</option>
-                      </select>
+                        <select
+                          value={primaryConf}
+                          onChange={(e) => setPrimaryConf(e.target.value as ConfKey | '')}
+                          className="px-3 py-1 text-sm rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-black"
+                          title="Pick a conference to appear first"
+                        >
+                          <option value="">Start with: Any conf</option>
+                          <option value="ICLR">Start with: ICLR</option>
+                          <option value="ICML">Start with: ICML</option>
+                          <option value="KDD">Start with: KDD</option>
+                          <option value="NEURIPS">Start with: NeurIPS</option>
+                        </select>
 
-                      <select
-                        value={codeAvail}
-                        onChange={(e) => setCodeAvail(e.target.value as 'any' | 'public' | 'private')}
-                        className="px-3 py-1 text-sm rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-black"
-                        title="Filter by code availability"
-                      >
-                        <option value="any">Code: Any</option>
-                        <option value="public">Code: Public</option>
-                        <option value="private">Code: Private</option>
-                      </select>
+                        <select
+                          value={codeAvail}
+                          onChange={(e) => setCodeAvail(e.target.value as 'any' | 'public' | 'private')}
+                          className="px-3 py-1 text-sm rounded-lg border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-black"
+                          title="Filter by code availability"
+                        >
+                          <option value="any">Code: Any</option>
+                          <option value="public">Code: Public</option>
+                          <option value="private">Code: Private</option>
+                        </select>
 
-                      <button
-                        className="px-3 py-1 text-sm text-white rounded-lg bg-red-600 hover:bg-red-700"
-                        onClick={clearFilters}
-                      >
-                        Reset Filter
-                      </button>
+                        {/* <button
+                          className="px-3 py-1 text-sm text-white rounded-lg bg-red-600 hover:bg-red-700"
+                          onClick={clearFilters}
+                        >
+                          Reset Filter
+                        </button> */}
+                        <button
+                          className="px-3 py-1 text-sm text-white rounded-lg bg-red-600 hover:bg-red-700 disabled:opacity-50"
+                          onClick={resetSorting}
+                          disabled={sortOrder === 'desc' && !primaryConf && codeAvail === 'any'}
+                        >
+                          Reset Sorting
+                        </button>
+
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <section id="papers">
-                  {pagedList.map((paper, idx) => {
-                    const p = {
-                      ...paper,
-                      topicAxis1: materializeAxis((paper as any).topicAxis1 ?? (paper as any)['Topic Axis I']),
-                      topicAxis2: materializeAxis((paper as any).topicAxis2 ?? (paper as any)['Topic Axis II']),
-                      topicAxis3: materializeAxis((paper as any).topicAxis3 ?? (paper as any)['Topic Axis III']),
-                    } as any;
-                    const isFav = favoriteIds.has(p.id);
-                    return (
-                      <div
-                        key={`${p.id}-${idx}`}
-                        className="mb-4 rounded-2xl border border-red-100 bg-white p-4 shadow-sm hover:shadow transition"
-                      >
-                        <div className="flex justify-between items-start gap-4">
-                          <div className="flex-1">
-                            <Link href={`/paper/${p.id}`} prefetch={false} className="group">
-                              <h3 className="text-blue-700 text-lg font-semibold mt-1 group-hover:underline">
-                                {p.title}
-                              </h3>
-                            </Link>
-                            <div className="mt-1 text-sm text-gray-700 italic">
-                              {p.authors && p.authors.length ? p.authors.join(', ') : 'Unknown author'}
+                  <section id="papers">
+                    {pagedList.map((paper, idx) => {
+                      const p = {
+                        ...paper,
+                        topicAxis1: materializeAxis((paper as any).topicAxis1 ?? (paper as any)['Topic Axis I']),
+                        topicAxis2: materializeAxis((paper as any).topicAxis2 ?? (paper as any)['Topic Axis II']),
+                        topicAxis3: materializeAxis((paper as any).topicAxis3 ?? (paper as any)['Topic Axis III']),
+                      } as any;
+                      const isFav = favoriteIds.has(p.id);
+                      return (
+                        <div
+                          key={`${p.id}-${idx}`}
+                          className="mb-4 rounded-2xl border border-red-100 bg-white p-4 shadow-sm hover:shadow transition"
+                        >
+                          <div className="flex justify-between items-start gap-4">
+                            <div className="flex-1">
+                              <Link href={`/paper/${p.id}`} prefetch={false} className="group">
+                                <h3 className="text-blue-700 text-lg font-semibold mt-1 group-hover:underline">
+                                  {p.title}
+                                </h3>
+                              </Link>
+                              <div className="mt-1 text-sm text-gray-700 italic">
+                                {p.authors && p.authors.length ? p.authors.join(', ') : 'Unknown author'}
+                              </div>
+                              <div className="mt-1 flex items-center gap-2 text-xs text-gray-600">
+                                <span className="inline-flex items-center rounded-full bg-red-50 text-red-700 px-2 py-0.5 border border-red-100">
+                                  {p.conference}
+                                </span>
+                                <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-700 px-2 py-0.5">
+                                  {p.year}
+                                </span>
+                              </div>
                             </div>
-                            <div className="mt-1 flex items-center gap-2 text-xs text-gray-600">
-                              <span className="inline-flex items-center rounded-full bg-red-50 text-red-700 px-2 py-0.5 border border-red-100">
-                                {p.conference}
-                              </span>
-                              <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-700 px-2 py-0.5">
-                                {p.year}
-                              </span>
-                            </div>
-                          </div>
 
-                          <div className="flex items-center gap-2">
-                            {(p as any).pdf_url && (
-                              <a
-                                href={(p as any).pdf_url} 
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-lg bg-red-600 text-white hover:bg-red-700"
-                                title="View PDF"
-                              >
-                                <FileText size={18} />
-                              </a>
-                            )}
+                            <div className="flex items-center gap-2">
+                              {(p as any).pdf_url && (
+                                <a
+                                  href={(p as any).pdf_url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded-lg bg-red-600 text-white hover:bg-red-700"
+                                  title="View PDF"
+                                >
+                                  <FileText size={18} />
+                                </a>
+                              )}
                               <button
                                 onClick={async () => {
                                   if (!ensureAuth()) return;
@@ -489,52 +527,52 @@ export default function HomePage() {
                                   fill={isFav ? "currentColor" : "none"}
                                 />
                               </button>
-
+                            </div>
                           </div>
-                        </div>
 
-                        <div className="mt-2">
-                          <button
-                            className="text-red-700 text-sm hover:underline"
-                            onClick={() =>
-                              setExpandedPaperId(expandedPaperId === p.id ? null : p.id)
-                            }
-                          >
-                            {expandedPaperId === p.id ? 'Hide details' : 'Show details'}
-                          </button>
-                        </div>
-
-                        {expandedPaperId === p.id && (
-                          <div className="mt-3">
-                            <ExpandedCard paper={p} onClose={() => setExpandedPaperId(null)} />
+                          <div className="mt-2">
+                            <button
+                              className="text-red-700 text-sm hover:underline"
+                              onClick={() =>
+                                setExpandedPaperId(expandedPaperId === p.id ? null : p.id)
+                              }
+                            >
+                              {expandedPaperId === p.id ? 'Hide details' : 'Show details'}
+                            </button>
                           </div>
-                        )}
-                      </div>
-                    );
-                  })}
-                </section>
 
-                <div className="flex items-center justify-center gap-3 pt-6">
-                  <button
-                    disabled={page <= 1}
-                    onClick={() => setPage((x) => Math.max(1, x - 1))}
-                    className="px-4 py-2 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
-                  >
-                    Prev
-                  </button>
-                  <div className="text-sm text-gray-700">
-                    Page {Math.min(page, totalPagesUI)} / {totalPagesUI}
+                          {expandedPaperId === p.id && (
+                            <div className="mt-3">
+                              <ExpandedCard paper={p} onClose={() => setExpandedPaperId(null)} />
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </section>
+
+                  <div className="flex items-center justify-center gap-3 pt-6">
+                    <button
+                      disabled={page <= 1}
+                      onClick={() => setPage((x) => Math.max(1, x - 1))}
+                      className="px-4 py-2 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
+                    >
+                      Prev
+                    </button>
+                    <div className="text-sm text-gray-700">
+                      Page {Math.min(page, totalPagesUI)} / {totalPagesUI}
+                    </div>
+                    <button
+                      disabled={page >= totalPagesUI}
+                      onClick={() => setPage((x) => Math.min(totalPagesUI, x + 1))}
+                      className="px-4 py-2 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
+                    >
+                      Next
+                    </button>
                   </div>
-                  <button
-                    disabled={page >= totalPagesUI}
-                    onClick={() => setPage((x) => Math.min(totalPagesUI, x + 1))}
-                    className="px-4 py-2 rounded-lg border border-red-200 text-red-700 disabled:opacity-50 hover:bg-red-50"
-                  >
-                    Next
-                  </button>
-                </div>
-              </>
-            )}
+                </>
+              )}
+            </div>
           </div>
         </main>
       </div>

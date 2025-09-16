@@ -6534,7 +6534,7 @@
     },
     "Topic Axis III": {
       "MainTopic": "Explainability & Interpretability (XAI)",
-      "SubTopic": "N/A"
+      "SubTopic": "Post-hoc Explanation Methods"
     },
     "method": "Denoising Diffusion Probabilistic Model (DDPM); SE(3)-equivariant model; Invariant Point Attention (IPA)",
     "application": "Protein structure generation",
@@ -9418,10 +9418,10 @@
       "MainTopic": "Explainability & Interpretability (XAI)",
       "SubTopic": "new-Integration of multiple fidelity levels in surrogate modeling"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Multi-fidelity generative modeling; Active learning; Surrogate modeling; Variational Autoencoders (VAEs); Gaussian Processes",
+    "application": "Drug molecule generation – binding affinity optimization",
     "code_link": "https://github.com/Rose-STL-Lab/MF-LAL",
-    "dataset_name": "N/A",
+    "dataset_name": ["ZINC250k", "BindingDB"],
     "is_public": true
   },
   {
@@ -10047,21 +10047,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "Healthcare Systems & Operations",
-      "SubTopic": "N/A"
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Proteomics & Protein Structure"
     },
     "Topic Axis II": {
-      "MainTopic": "Advanced Supervised & Representation Learning",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
     },
     "Topic Axis III": {
       "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
       "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Diffusion models; Protein language models; Representation learning",
+    "application": "Protein structure generation – molecular design",
     "code_link": "https://github.com/flagshippioneering/Flow-of-Options",
-    "dataset_name": "N/A",
+    "dataset_name": ["PDB", "UniProt"],
     "is_public": true
   },
   {
@@ -10546,8 +10546,8 @@
     "completion_tokens": 199,
     "total_tokens": 22601,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "Target Identification & Validation"
     },
     "Topic Axis II": {
       "MainTopic": "Advanced Supervised & Representation Learning",
@@ -13926,8 +13926,8 @@
     "completion_tokens": 232,
     "total_tokens": 22880,
     "Topic Axis I": {
-      "MainTopic": "Healthcare Systems & Operations",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
       "MainTopic": "Advanced Supervised & Representation Learning",
@@ -15328,7 +15328,7 @@
     },
     "Topic Axis III": {
       "MainTopic": "Explainability & Interpretability (XAI)",
-      "SubTopic": "N/A"
+      "SubTopic": "Post-hoc Explanation Methods"
     },
     "method": "RNA inverse folding; flow matching framework",
     "application": "RNA structure and sequence generation",
@@ -16006,15 +16006,15 @@
     "total_tokens": 22538,
     "Topic Axis I": {
       "MainTopic": "Clinical Data Science & Informatics",
-      "SubTopic": "N/A"
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "Generative & Foundation Models",
-      "SubTopic": "Other Generative Models"
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "Self-Supervised & Unsupervised Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "Explainability & Interpretability (XAI)",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
     "method": "Multimodal Variational Autoencoder; teacher forcing; dynamical systems reconstruction",
     "application": "Dynamical systems reconstruction using multimodal data",
@@ -18634,7 +18634,7 @@
     },
     "Topic Axis III": {
       "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
-      "SubTopic": "N/A"
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
     "method": "Masked Language Modeling; Self-supervised learning",
     "application": "Protein structure and function prediction",
@@ -18679,8 +18679,8 @@
     "completion_tokens": 226,
     "total_tokens": 22420,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Proteomics & Protein Structure"
     },
     "Topic Axis II": {
       "MainTopic": "Generative & Foundation Models",
@@ -21103,7 +21103,7 @@
     },
     "Topic Axis III": {
       "MainTopic": "Explainability & Interpretability (XAI)",
-      "SubTopic": "N/A"
+      "SubTopic": "Concept-based Explanations"
     },
     "method": "Flow-based generative modeling; Invertible Butterfly Layers",
     "application": "Density estimation tasks – structured datasets",

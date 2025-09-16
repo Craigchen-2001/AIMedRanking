@@ -793,19 +793,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "De Novo Molecule Design"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Graph Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Transformer-based models; Graph Neural Networks (GNN); DeepSets; Surrogate modeling",
+    "application": "Molecule structure generation",
     "code_link": "https://github.com/pluskal-lab/MassSpecGym",
     "dataset_name": "N/A",
     "is_public": true
@@ -2634,21 +2634,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "De Novo Molecule Design"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "new-Molecular geometry interpretability"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Equivariant flow matching; Diffusion models; Graph neural networks",
+    "application": "Molecular conformation generation",
     "code_link": "https://github.com/shenoynikhil/ETFlow",
-    "dataset_name": "N/A",
+    "dataset_name": ["GEOM-QM9", "GEOM-Drugs"],
     "is_public": true
   },
   {
@@ -2936,19 +2936,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Healthcare Systems & Operations",
+      "SubTopic": "new-LLM agent security evaluation"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "new-Red teaming and adversarial evaluation"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Safety & Failure Detection"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Adversarial red teaming; Poisoning attacks; Retrieval-augmented generation (RAG)",
+    "application": "Robustness evaluation – LLM agents",
     "code_link": "https://github.com/AI-secure/AgentPoison",
     "dataset_name": "N/A",
     "is_public": true
@@ -5766,21 +5766,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "Virtual Screening & Hit Generation"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Graph Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Graph Neural Networks (GNNs); Docking algorithms",
+    "application": "Molecular docking – drug discovery",
     "code_link": "https://github.com/jiaxianyan/DeltaDock",
-    "dataset_name": "N/A",
+    "dataset_name": ["CrossDocked2020", "PDBbind"],
     "is_public": true
   },
   {
@@ -6607,21 +6607,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Clinical Natural Language Processing"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Large Language Models (LLMs)"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "retrieval benchmarking; large language models",
+    "application": "retrieval evaluation – textual and reasoning tasks",
     "code_link": "https://github.com/snap-stanford/STaRK",
-    "dataset_name": "N/A",
+    "dataset_name": ["StaRK"],
     "is_public": true
   },
   {
@@ -8818,21 +8818,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "ADMET & Trial Outcome Prediction"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Graph Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Graph Neural Networks (GNNs); Sparse feature fusion",
+    "application": "Molecular property prediction",
     "code_link": "https://github.com/boqian333/E2ENet-Medical",
-    "dataset_name": "N/A",
+    "dataset_name": ["MoleculeNet"],
     "is_public": true
   },
   {
@@ -10714,21 +10714,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Sequential Decision Making & Reinforcement Learning",
+      "SubTopic": "Dynamic Treatment Regimes"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method":"Reinforcement learning; Policy evaluation",
+    "application": "Treatment policy optimization – ICU",
     "code_link": "https://github.com/Grosenick-Lab-Cornell/EpiCare",
-    "dataset_name": "N/A",
+    "dataset_name": ["MIMIC-IV"],
     "is_public": true
   },
   {
@@ -12560,21 +12560,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Genomics"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Large Language Models (LLMs)"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "large language model integration with phylogenetic inference",
+    "application":  "phylogenetic tree inference",
     "code_link": "N/A",
-    "dataset_name": "N/A",
+    "dataset_name": ["TreeBASE", "NCBI GenBank"],
     "is_public": false
   },
   {
@@ -13490,19 +13490,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Radiology"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Vision Foundation Models (VFMs)"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Algorithmic Fairness & Bias Mitigation"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Foundation models; Fairness benchmarking; Transfer learning",
+    "application": "Disease classification – radiology images",
     "code_link": "https://github.com/FairMedFM/FairMedFM",
     "dataset_name": "N/A",
     "is_public": true
@@ -15268,19 +15268,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Digital Health & Wearable Sensor Data"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Sequential Decision Making & Reinforcement Learning",
+      "SubTopic": "Reinforcement Learning for Clinical Policy"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Human-AI Interaction & Collaboration",
+      "SubTopic": "AI for Clinical Decision Support (CDS)"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method":  "contextual bandit; mixed-effects modeling; debiased machine learning",
+    "application": "mobile health intervention optimization",
     "code_link": "https://github.com/eastonhuch/RoME",
     "dataset_name": "N/A",
     "is_public": true
@@ -15312,21 +15312,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Clinical Natural Language Processing"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Large Language Models (LLMs)"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Large Language Models (LLMs); Benchmarking",
+    "application": "Question answering – discharge summaries",
     "code_link": "https://github.com/ji-youn-kim/EHRNoteQA",
-    "dataset_name": "N/A",
+    "dataset_name": ["MIMIC-IV", "EHRNoteQA"],
     "is_public": true
   },
   {
@@ -16464,23 +16464,21 @@
     "completion_tokens": 322,
     "total_tokens": 14876,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Healthcare Systems & Operations",
+      "SubTopic": "Clinical Trial Optimization"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "Data-Efficient Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Safety & Failure Detection"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "uncertainty-based active learning; dynamic acquisition",
+    "application": "cost-aware dynamic data acquisition",
     "code_link": "N/A",
-    "dataset_name": [
-      "N/A"
-    ],
+    "dataset_name": ["CIFAR-10", "CIFAR-100", "ImageNet"],
     "is_public": false
   },
   {
@@ -16838,21 +16836,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "De Novo Molecule Design"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Graph Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "geometric block attention network; sparse graph neural network",
+    "application": "molecule inverse folding – protein, RNA, material design",
     "code_link": "N/A",
-    "dataset_name": "N/A",
+    "dataset_name":["CATH4.3", "CASP15", "NovelPro", "RDesign", "CHILI-3K"],
     "is_public": false
   },
   {
@@ -17100,21 +17098,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Radiology"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Vision Foundation Models (VFMs)"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Human-AI Interaction & Collaboration",
+      "SubTopic": "Clinician-in-the-loop Systems"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method":"vision transformer; prompt-based segmentation; self-supervised learning",
+    "application": "volumetric medical image segmentation",
     "code_link": "https://github.com/BAAI-DCAI/SegVol",
-    "dataset_name": "N/A",
+    "dataset_name": ["AMOS22", "LUNA16", "CHAOS", "HaN-Seg", "FLARE22", "TotalSegmentator", "CT-ORG", "VerSe19", "VerSe20", "QUBIQ"],
     "is_public": true
   },
   {
@@ -19812,21 +19810,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Digital Health & Wearable Sensor Data"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Sequential Decision Making & Reinforcement Learning",
+      "SubTopic": "Offline Reinforcement Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "offline reinforcement learning; sub-optimal demonstration learning",
+    "application":  "policy learning from offline data",
     "code_link": "https://github.com/hmhuy0/SPRINQL",
-    "dataset_name": "N/A",
+    "dataset_name":  ["D4RL"],
     "is_public": true
   },
   {
@@ -20105,19 +20103,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Clinical Natural Language Processing"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Causal Inference & Reasoning",
+      "SubTopic": "Causal Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "probabilistic modeling; reranking algorithms",
+    "application": "language generation reranking",
     "code_link": "https://github.com/deep-spin/reranking-laws",
     "dataset_name": "N/A",
     "is_public": true
@@ -20842,21 +20840,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Other Imaging Modalities"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Deep learning; Registration algorithms",
+    "application": "Medical image registration",
     "code_link": "https://github.com/rohitrango/Magic-or-Mirage/",
-    "dataset_name": "N/A",
+    "dataset_name": ["MAGIC"],
     "is_public": true
   },
   {
@@ -21104,19 +21102,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Clinical Natural Language Processing"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Large Language Models (LLMs)"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Human-AI Interaction & Collaboration",
+      "SubTopic": "AI for Clinical Decision Support (CDS)"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "retrieval-augmented generation; ranking optimization",
+    "application": "knowledge-grounded text generation",
     "code_link": "N/A",
     "dataset_name": "N/A",
     "is_public": false
@@ -22064,21 +22062,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
-    },
-    "method": "N/A",
-    "application": "N/A",
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Inherently Interpretable Models"
+    },  
+    "method": "Matrix factorization; Representation learning",
+    "application": "Phenotype discovery – ICU",
     "code_link": "https://github.com/PhysiologicAILab/FactorizePhys",
-    "dataset_name": "N/A",
+    "dataset_name": ["MIMIC-III", "MIMIC-IV"],
     "is_public": true
   },
   {
@@ -23200,21 +23198,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Proteomics & Protein Structure"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "mass spectrometry analysis; machine learning",
+    "application": "post-translational modification identification",
     "code_link": "https://github.com/wilhelm-lab/PROSPECT?tab=readme-ov-file",
-    "dataset_name": "N/A",
+    "dataset_name":["Prospect PTMs"],
     "is_public": true
   },
   {
@@ -24807,21 +24805,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "linear models; deep learning; bias correction",
+    "application": "neural decoding – stereotactic EEG",
     "code_link": "https://github.com/gmentz/seegnificant",
-    "dataset_name": "N/A",
+    "dataset_name": ["sEEG datasets"],
     "is_public": true
   },
   {
@@ -25248,21 +25246,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Causal Inference & Reasoning",
+      "SubTopic": "Individualized Treatment Effect Estimation"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Causal inference; Marginal structural models; Reinforcement learning",
+    "application": "Treatment effect estimation – ICU",
     "code_link": "https://github.com/gloewing/causal_opto",
-    "dataset_name": "N/A",
+    "dataset_name": ["MIMIC-III"],
     "is_public": true
   },
   {
@@ -26031,21 +26029,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Radiology"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "Data-Efficient Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Data auditing; Benchmarking",
+    "application": "Robustness evaluation – chest X-ray datasets",
     "code_link": "N/A",
-    "dataset_name": "N/A",
+    "dataset_name": ["NIH ChestX-ray14", "CheXpert", "MIMIC-CXR"],
     "is_public": false
   },
   {
@@ -27204,21 +27202,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Genomics"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Representation learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Representation learning; Benchmark dataset construction",
+    "application": "Genetic variant effect prediction",
     "code_link": "https://github.com/bowang-lab/genomic-FM",
-    "dataset_name": "N/A",
+    "dataset_name": ["GV-Rep"],
     "is_public": true
   },
   {
@@ -30298,21 +30296,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Digital Pathology"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "Few-shot learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Human-AI Interaction & Collaboration",
+      "SubTopic": "Human-AI Collaborative Performance"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Few-shot learning; Vision-language models; Prompt learning",
+    "application": "Whole slide image classification – pathology",
     "code_link": "https://github.com/fukexue/FAST",
-    "dataset_name": "N/A",
+    "dataset_name": ["CAMELYON16", "TCGA-RENAL"],
     "is_public": true
   },
   {
@@ -30934,21 +30932,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Transformer-based models; Time series modeling",
+    "application": "Multivariate time series forecasting – healthcare",
     "code_link": "N/A",
-    "dataset_name": "N/A",
+    "dataset_name": ["MIMIC-III", "PhysioNet 2019 Challenge"],
     "is_public": false
   },
   {
@@ -31464,23 +31462,21 @@
     "completion_tokens": 210,
     "total_tokens": 10871,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Data-Centric & Privacy-Enhancing AI",
+      "SubTopic": "Self-Supervised & Unsupervised Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "self-supervised representation learning; benchmark design",
+    "application": "neural decoding tasks",
     "code_link": "https://github.com/mtneuro/mtneuro",
-    "dataset_name": [
-      "N/A"
-    ],
+    "dataset_name": ["MTNeuro"],
     "is_public": true
   },
   {
@@ -32249,19 +32245,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "De Novo Molecule Design"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Large Language Models (LLMs)"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Human-AI Interaction & Collaboration",
+      "SubTopic": "AI for Clinical Decision Support (CDS)"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Graph neural networks; Multi-level graph projector; Instruction tuning with LLM",
+    "application": "Molecule property prediction",
     "code_link": "https://github.com/mlvlab/LLaMo",
     "dataset_name": "N/A",
     "is_public": true
@@ -34724,21 +34720,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Radiology"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Diffusion Models"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Autoregressive diffusion models",
+    "application": "Image generation – radiology",
     "code_link": "https://github.com/mrirecon/aid",
-    "dataset_name": "N/A",
+    "dataset_name": ["ChestX-ray14", "MIMIC-CXR"],
     "is_public": true
   },
   {
@@ -36042,21 +36038,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Drug Discovery & Development",
+      "SubTopic": "De Novo Molecule Design"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Graph Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Trustworthy AI: Fairness, Robustness & Safety",
+      "SubTopic": "Model Robustness & Uncertainty Quantification"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "long-range attention mechanism; physics-inspired modeling",
+    "application": "molecular property prediction",
     "code_link": "https://github.com/OnlyLoveKFC/Neural_P3M",
-    "dataset_name": "N/A",
+    "dataset_name": ["QM9", "MoleculeNet"],
     "is_public": true
   },
   {
@@ -36132,21 +36128,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Healthcare Systems & Operations",
+      "SubTopic": "Clinical prediction"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Knowledge graph embedding"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Knowledge graph embedding; LLM-guided refinement; Hierarchical clustering",
+    "application": "Link prediction – biomedical knowledge graph",
     "code_link": "https://github.com/pat-jj/KG-FIT",
-    "dataset_name": "N/A",
+    "dataset_name": ["FB15K-237", "YAGO3-10", "PrimeKG"],
     "is_public": true
   },
   {
@@ -36717,21 +36713,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Transcriptomics"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Contrastive learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Post-hoc Explanation Methods"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Contrastive learning; Representation learning",
+    "application": "Cell response prediction",
     "code_link": "N/A",
-    "dataset_name": "N/A",
+    "dataset_name": ["CITE-seq"],
     "is_public": false
   },
   {
@@ -39227,19 +39223,19 @@
     "completion_tokens": 172,
     "total_tokens": 13649,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "Physiological Time Series Analysis"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Inherently Interpretable Models"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "recurrent neural networks; representation and dynamics distillation (RADD)",
+    "application": "hierarchical inference – mice neural data",
     "code_link": "https://github.com/FieteLab/NeurIPS-2020-Reverse-Engineering-RNNs",
     "dataset_name": [
       "N/A"
@@ -39889,21 +39885,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Clinical Data Science & Informatics",
+      "SubTopic": "EHR/EMR Predictive Modeling"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Novel Architectures for Time Series"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Human-AI Interaction & Collaboration",
+      "SubTopic": "AI for Clinical Decision Support (CDS)"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Multi-task learning; Transformer-based models",
+    "application": "Disease prediction – multiple conditions",
     "code_link": "https://github.com/SH-Src/AutoDP",
-    "dataset_name": "N/A",
+    "dataset_name": ["MIMIC-III", "MIMIC-IV"],
     "is_public": true
   },
   {
@@ -41449,19 +41445,19 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Computational Genomics & Multi-Omics",
+      "SubTopic": "Multi-Omics Integration"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Generative & Foundation Models",
+      "SubTopic": "Graph Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
+    "method": "Graph foundation model; Tree-structured representation learning",
+    "application": "Biological network prediction",
     "code_link": "https://github.com/Zehong-Wang/GFT",
     "dataset_name": "N/A",
     "is_public": true
