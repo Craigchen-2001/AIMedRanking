@@ -12,11 +12,12 @@ import { fetchFavorites, removeFavorite, type FavoritePaper } from '@/lib/favori
 const robotoSlab = Roboto_Slab({ subsets: ['latin'], weight: '700', display: 'swap' });
 
 const menuItems: Record<string, string[]> = {
-  Conference: ['ICLR', 'ICML', 'KDD', 'NeurIPS'],
-  Year: ['2020', '2021', '2022', '2023', '2024', '2025'],
-  'Ranking Plot': ['Author', 'Affiliation', 'Topic', 'Method', 'Application', 'Conference', 'Year'],
-  Map: ['XXX', 'XXX', 'XXX'],
-  AIChat: ['XXX', 'XXX', 'XXX'],
+  // Conference: ['ICLR', 'ICML', 'KDD', 'NeurIPS'],
+  // Year: ['2020', '2021', '2022', '2023', '2024', '2025'],
+  Ranking: ['Author', 'TBD', 'TBD', 'TBD'],
+  Trend:['TBD',]
+  // Map: ['XXX', 'XXX', 'XXX'],
+  // AIChat: ['XXX', 'XXX', 'XXX'],
 };
 
 const CONF_INFO = [
@@ -145,7 +146,7 @@ export default function Header({ onSearch, onConferenceSelect, onYearSelect, sug
             );
           })}
 
-          <div className="relative w-72">
+          <div className="relative w-[450px]">
             <input
               type="text"
               placeholder="Search paper title..."
