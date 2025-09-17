@@ -462,7 +462,9 @@ export default function HomePage() {
                       </div>
                     </div>
                   </div>
-
+                  <div className="h-6">
+                        
+                  </div>        
                   <section id="papers">
                     {pagedList.map((paper, idx) => {
                       const p = {
