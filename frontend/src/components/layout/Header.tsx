@@ -14,7 +14,7 @@ const robotoSlab = Roboto_Slab({ subsets: ['latin'], weight: '700', display: 'sw
 const menuItems: Record<string, string[]> = {
   // Conference: ['ICLR', 'ICML', 'KDD', 'NeurIPS'],
   // Year: ['2020', '2021', '2022', '2023', '2024', '2025'],
-  Ranking: ['Author', 'TBD', 'TBD', 'TBD'],
+  'Ranking Plot': ['Author', 'TBD', 'TBD', 'TBD'],
   Trend:['TBD',]
   // Map: ['XXX', 'XXX', 'XXX'],
   // AIChat: ['XXX', 'XXX', 'XXX'],
