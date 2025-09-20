@@ -19,11 +19,11 @@ export default function AuthorRankingPage() {
           <Image src="/logo02.png" alt="AI Med Logo" width={60} height={40} priority />
           <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AI MED RANKING</div>
         </div>
-        <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">Author</div>
+        <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">Author Ranking & Plots</div>
         <button onClick={() => router.back()} className="text-white text-sm underline">Return</button>
       </header>
 
-      <div className="w-full min-h-screen overflow-x-hidden px-6 py-4 pt-16">
+      <div className="w-full min-h-screen overflow-x-hidden px-6 py-4 pt-5">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-4 max-w-[580px] w-full h-full overflow-y-auto max-h-[95vh] border border-gray-300 rounded-lg bg-white shadow-sm">
             <AuthorList />

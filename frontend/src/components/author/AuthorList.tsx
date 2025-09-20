@@ -60,7 +60,8 @@ export default function AuthorList() {
     }
     return Object.entries(countMap)
       .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => b.count - a.count);
+      .sort((a, b) => b.count - a.count)
+      .map((x, i) => ({ ...x, rank: i + 1 }));
   }, [rows]);
 
   const filteredAuthors = useMemo(() => {
@@ -75,17 +76,38 @@ export default function AuthorList() {
     return allAuthors.find((x) => x.name.toLowerCase() === q) || null;
   }, [allAuthors, searchTerm]);
 
+  const topColors = [
+    "bg-yellow-400",
+    "bg-gray-400",
+    "bg-orange-500",
+    "bg-blue-400",
+    "bg-green-400",
+    "bg-purple-400",
+    "bg-pink-400",
+    "bg-indigo-400",
+    "bg-teal-400",
+    "bg-red-400",
+  ];
+
   return (
-    <div className="w-full h-full px-4 py-2">
-      <div className="w-full flex justify-start mb-3">
+    <div className="w-full h-full px-4 py-3">
+      <div className="flex items-center gap-3 mb-4">
         <input
           type="text"
+          inputMode="search"
+          lang="en"
+          autoCapitalize="none"
+          autoCorrect="off"
+          spellCheck={false}
           placeholder="Search author name..."
-          className="px-3 py-1 rounded border border-gray-300 w-52 text-sm"
+          className="px-4 py-2 rounded-lg border border-gray-300 w-full max-w-sm text-sm focus:ring-2 focus:ring-red-500 focus:border-red-500 focus:outline-none shadow-sm"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <button onClick={() => setSearchTerm("")} className="ml-2 text-sm text-red-700 underline">
+        <button
+          onClick={() => setSearchTerm("")}
+          className="text-xs font-medium text-red-600 bg-red-50 hover:bg-red-100 px-2 py-1 rounded-md transition"
+        >
           Clear
         </button>
       </div>
@@ -95,32 +117,52 @@ export default function AuthorList() {
       ) : (
         <>
           {searchedAuthor && (
-            <div className="my-2 text-sm font-medium text-gray-900">
-              <p>
-                <span className="font-semibold">{searchedAuthor.name}</span> has{" "}
-                <span className="text-blue-600">{searchedAuthor.count}</span> paper(s), ranked #
-                {allAuthors.findIndex((a) => a.name === searchedAuthor.name) + 1}
-              </p>
+            <div className="mb-3 p-3 bg-red-50 border border-red-100 rounded-lg text-sm">
+              <span className="font-semibold text-gray-900">{searchedAuthor.name}</span> has{" "}
+              <span className="text-red-600">{searchedAuthor.count}</span> paper(s), ranked{" "}
+              <span className="font-semibold">#{searchedAuthor.rank}</span>
             </div>
           )}
 
-          <div className="w-full h-[calc(100%-120px)] overflow-y-scroll border border-gray-300 rounded">
+          <div className="w-full h-[calc(100%-140px)] overflow-y-scroll border border-gray-200 rounded-xl shadow-md bg-white">
             <table className="w-full text-left text-sm">
-              <thead className="bg-gray-100 text-gray-700">
+              <thead className="bg-red-600 text-white sticky top-0">
                 <tr>
-                  <th className="px-3 py-2">#</th>
-                  <th className="px-3 py-2">Author</th>
-                  <th className="px-3 py-2">Count</th>
+                  <th className="px-3 py-2 font-medium">#</th>
+                  <th className="px-3 py-2 font-medium">Author</th>
+                  <th className="px-3 py-2 font-medium">Count</th>
                 </tr>
               </thead>
               <tbody>
-                {filteredAuthors.map((author, index) => (
-                  <tr key={author.name} className="border-t">
-                    <td className="px-3 py-2">{index + 1}</td>
-                    <td className="px-3 py-2 font-medium text-base">{author.name}</td>
-                    <td className="px-3 py-2">{author.count}</td>
-                  </tr>
-                ))}
+                {filteredAuthors.map((author) => {
+                  const isTop10 = author.rank <= 10;
+                  return (
+                    <tr
+                      key={author.name}
+                      className={`border-t transition hover:bg-red-50`}
+                    >
+                      <td className="px-3 py-3">
+                        {isTop10 ? (
+                          <span
+                            className={`${topColors[author.rank - 1]} text-white rounded-full px-2 py-1 text-xs font-bold`}
+                          >
+                            {author.rank}
+                          </span>
+                        ) : (
+                          author.rank
+                        )}
+                      </td>
+                      <td
+                        className={`px-3 py-3 ${
+                          isTop10 ? "font-bold text-gray-900" : "text-gray-900"
+                        }`}
+                      >
+                        {author.name}
+                      </td>
+                      <td className="px-3 py-3 text-gray-700">{author.count}</td>
+                    </tr>
+                  );
+                })}
                 {filteredAuthors.length === 0 && (
                   <tr>
                     <td colSpan={3} className="text-center py-6 text-gray-400 italic">
