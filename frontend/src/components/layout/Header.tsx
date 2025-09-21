@@ -12,12 +12,8 @@ import { fetchFavorites, removeFavorite, type FavoritePaper } from '@/lib/favori
 const robotoSlab = Roboto_Slab({ subsets: ['latin'], weight: '700', display: 'swap' });
 
 const menuItems: Record<string, string[]> = {
-  // Conference: ['ICLR', 'ICML', 'KDD', 'NeurIPS'],
-  // Year: ['2020', '2021', '2022', '2023', '2024', '2025'],
-  'Ranking Plot': ['Author', 'TBD', 'TBD', 'TBD'],
-  Trend:['TBD',]
-  // Map: ['XXX', 'XXX', 'XXX'],
-  // AIChat: ['XXX', 'XXX', 'XXX'],
+  'Ranking Plot': ['Author', 'Topic', 'TBD', 'TBD'],
+  Trend: ['Topic'],
 };
 
 const CONF_INFO = [
@@ -131,6 +127,7 @@ export default function Header({ onSearch, onConferenceSelect, onYearSelect, sug
                               if (label === 'Conference') onConferenceSelect(opt);
                               else if (label === 'Year') onYearSelect(opt);
                               else if (label === 'Ranking Plot') router.push(`/ranking/${opt.toLowerCase()}`);
+                              else if (label === 'Trend') router.push(`/trend/${opt.toLowerCase()}`);
                               setOpen(null);
                               setExpandedHelp(null);
                             }}
