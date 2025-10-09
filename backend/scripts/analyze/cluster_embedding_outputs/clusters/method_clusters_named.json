@@ -1,0 +1,498 @@
+[
+  {
+    "cluster_id": 0,
+    "label": "Tokenization and Encoding Techniques",
+    "examples": [
+      "Structure tokenization",
+      "Visual tokenization",
+      "Prototype-based tokenization",
+      "Video tokenization",
+      "Geometry-aware encoding"
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "label": "Recurrent Neural Networks (LSTM)",
+    "examples": [
+      "LSTM",
+      "LSTM Networks",
+      "LSTM models",
+      "Recurrent neural networks"
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "label": "Self-Supervised Learning",
+    "examples": [
+      "Self-supervised learning",
+      "Unsupervised representation learning",
+      "Contrastive pretraining",
+      "Masked self-prediction"
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "label": "Reinforcement Learning",
+    "examples": [
+      "Reinforcement Learning",
+      "Policy Gradient",
+      "Actor-Critic methods",
+      "Q-learning"
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "label": "Dimensionality Reduction and Matrix Factorization",
+    "examples": [
+      "Principal Component Analysis (PCA)",
+      "Factor Analysis",
+      "Matrix Factorization",
+      "Functional Principal Component Analysis"
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "label": "Optimization Methods (Convex, Gradient, Bi-Level)",
+    "examples": [
+      "Robust optimization",
+      "Convex optimization",
+      "Gradient-based optimization",
+      "Bi-level optimization"
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "label": "Contrastive Learning",
+    "examples": [
+      "Contrastive learning",
+      "Contrastive loss optimization",
+      "Local Contrastive Loss"
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "label": "Data Augmentation",
+    "examples": [
+      "Data augmentation",
+      "Random transformations",
+      "Synthetic sample generation"
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "label": "Transformer Models",
+    "examples": [
+      "Vision Transformer",
+      "Linear Transformer",
+      "Transformer-based models",
+      "Attention-based Transformers"
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "label": "Autoencoders and Variational Inference",
+    "examples": [
+      "Autoencoder",
+      "Variational Autoencoder (VAE)",
+      "Variational Inference",
+      "Bayesian latent variable modeling"
+    ]
+  },
+  {
+    "cluster_id": 10,
+    "label": "Graph Neural Networks (GNN, MPNN, Equivariant)",
+    "examples": [
+      "Graph Neural Networks (GNN)",
+      "Message Passing Neural Networks (MPNN)",
+      "Equivariant Graph Neural Networks",
+      "SE(3)-Equivariant models"
+    ]
+  },
+  {
+    "cluster_id": 11,
+    "label": "Representation Learning",
+    "examples": [
+      "Representation learning",
+      "Disentangled representation learning",
+      "Localized representation learning"
+    ]
+  },
+  {
+    "cluster_id": 12,
+    "label": "Statistical Inference and Estimation",
+    "examples": [
+      "Cross-validation",
+      "Random projection framework",
+      "Distribution-free predictive inference"
+    ]
+  },
+  {
+    "cluster_id": 13,
+    "label": "Feature Fusion and Multimodal Integration",
+    "examples": [
+      "Feature-level fusion",
+      "Task-guided multimodal fusion",
+      "Sparse feature fusion"
+    ]
+  },
+  {
+    "cluster_id": 14,
+    "label": "Convolutional Neural Networks (CNN, U-Net)",
+    "examples": [
+      "Convolutional Neural Networks",
+      "U-Net",
+      "ResNet",
+      "DenseNet"
+    ]
+  },
+  {
+    "cluster_id": 15,
+    "label": "Positional and Geometric Encoding",
+    "examples": [
+      "Position-aware encoding",
+      "3D positional encoding",
+      "Geometry-aware encoding"
+    ]
+  },
+  {
+    "cluster_id": 16,
+    "label": "Generative Modeling (GAN, Flow, Diffusion)",
+    "examples": [
+      "Generative Adversarial Networks (GAN)",
+      "Conditional generative modeling",
+      "Deep generative models"
+    ]
+  },
+  {
+    "cluster_id": 17,
+    "label": "Vision-Language Models and Pretraining",
+    "examples": [
+      "Vision-language models",
+      "Vision-language alignment",
+      "Cross-modal pretraining"
+    ]
+  },
+  {
+    "cluster_id": 18,
+    "label": "Conformal Prediction",
+    "examples": [
+      "Conformal prediction",
+      "Confidence calibration",
+      "Uncertainty quantification"
+    ]
+  },
+  {
+    "cluster_id": 19,
+    "label": "Adversarial Learning and Domain Adaptation",
+    "examples": [
+      "Adversarial domain adaptation",
+      "Adversarial learning",
+      "Adversarial training"
+    ]
+  },
+  {
+    "cluster_id": 20,
+    "label": "Attention Mechanisms",
+    "examples": [
+      "Multi-head attention networks",
+      "Cross-attention mechanisms",
+      "Self-attention layers"
+    ]
+  },
+  {
+    "cluster_id": 21,
+    "label": "Transfer Learning",
+    "examples": [
+      "Transfer learning",
+      "Fine-tuning",
+      "Domain adaptation"
+    ]
+  },
+  {
+    "cluster_id": 22,
+    "label": "Meta Learning",
+    "examples": [
+      "Meta-learning",
+      "Few-shot learning",
+      "Learning to learn"
+    ]
+  },
+  {
+    "cluster_id": 23,
+    "label": "Graph Representation and Embedding",
+    "examples": [
+      "Graph representation learning",
+      "Graph embedding",
+      "Node-level representation learning"
+    ]
+  },
+  {
+    "cluster_id": 24,
+    "label": "Generative Flow Networks (GFlowNets)",
+    "examples": [
+      "Generative Flow Networks (GFlowNets)",
+      "GFlowNet sampling"
+    ]
+  },
+  {
+    "cluster_id": 25,
+    "label": "Causal Inference and Counterfactual Learning",
+    "examples": [
+      "Causal inference",
+      "Counterfactual generation",
+      "Doubly robust estimation"
+    ]
+  },
+  {
+    "cluster_id": 26,
+    "label": "Diffusion and Flow-Based Models",
+    "examples": [
+      "Diffusion model",
+      "Denoising diffusion model",
+      "Flow Matching"
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "label": "Mutual Information Maximization",
+    "examples": [
+      "Mutual information maximization",
+      "Contrastive mutual information learning"
+    ]
+  },
+  {
+    "cluster_id": 28,
+    "label": "Conditional Normalizing Flows",
+    "examples": [
+      "Conditional Normalizing Flows",
+      "Continuous Normalizing Flows"
+    ]
+  },
+  {
+    "cluster_id": 29,
+    "label": "Regularization and Constraint Learning",
+    "examples": [
+      "Topological regularization",
+      "Causal regularization",
+      "Spatial regularization"
+    ]
+  },
+  {
+    "cluster_id": 30,
+    "label": "Bayesian Optimization and Gaussian Processes",
+    "examples": [
+      "Bayesian optimization",
+      "Gaussian Processes",
+      "Probabilistic surrogate modeling"
+    ]
+  },
+  {
+    "cluster_id": 31,
+    "label": "Neural Differential Equations",
+    "examples": [
+      "Neural Ordinary Differential Equations (ODE)",
+      "Neural Differential Equations"
+    ]
+  },
+  {
+    "cluster_id": 32,
+    "label": "Proximal Policy Optimization (PPO)",
+    "examples": [
+      "Proximal Policy Optimization (PPO)",
+      "Reinforcement Learning (PPO)"
+    ]
+  },
+  {
+    "cluster_id": 33,
+    "label": "Active Learning and Sampling",
+    "examples": [
+      "Active learning",
+      "Adaptive sampling",
+      "Guided Sampling"
+    ]
+  },
+  {
+    "cluster_id": 34,
+    "label": "Energy-Based Modeling",
+    "examples": [
+      "Energy-based modeling",
+      "Evolutionary modeling",
+      "Context-based modeling"
+    ]
+  },
+  {
+    "cluster_id": 35,
+    "label": "Riemannian Manifold Learning",
+    "examples": [
+      "Riemannian geometry",
+      "3D equivariant diffusion",
+      "Diffeomorphic mesh deformation"
+    ]
+  },
+  {
+    "cluster_id": 36,
+    "label": "Optimal Transport and Alignment",
+    "examples": [
+      "Optimal Transport",
+      "Cross-modal alignment",
+      "Multimodal alignment"
+    ]
+  },
+  {
+    "cluster_id": 37,
+    "label": "Knowledge Distillation",
+    "examples": [
+      "Knowledge distillation",
+      "Mutual Distillation",
+      "Contrastive reverse distillation"
+    ]
+  },
+  {
+    "cluster_id": 38,
+    "label": "Evolutionary and Genetic Algorithms",
+    "examples": [
+      "Genetic Algorithm",
+      "Evolutionary algorithms",
+      "Iterative search"
+    ]
+  },
+  {
+    "cluster_id": 39,
+    "label": "Clustering Algorithms",
+    "examples": [
+      "K-Means Clustering",
+      "Graph Clustering",
+      "Density-based clustering"
+    ]
+  },
+  {
+    "cluster_id": 40,
+    "label": "Ensemble Learning (Decision Trees)",
+    "examples": [
+      "Random Forests",
+      "Gradient Boosted Trees",
+      "Ensemble methods"
+    ]
+  },
+  {
+    "cluster_id": 41,
+    "label": "Deep Neural Networks",
+    "examples": [
+      "Deep Neural Networks",
+      "Neural Additive Models",
+      "Feedforward Neural Networks"
+    ]
+  },
+  {
+    "cluster_id": 42,
+    "label": "Ridge Regression and Linear Models",
+    "examples": [
+      "Ridge Regression",
+      "Linear Regression",
+      "Regularized linear modeling"
+    ]
+  },
+  {
+    "cluster_id": 43,
+    "label": "Markov Chain and Monte Carlo Methods",
+    "examples": [
+      "Markov Chain Monte Carlo (MCMC)",
+      "Monte Carlo simulation",
+      "Markov process modeling"
+    ]
+  },
+  {
+    "cluster_id": 44,
+    "label": "Expectation Maximization",
+    "examples": [
+      "Expectation-Maximization Algorithm",
+      "Maximum Likelihood Estimation"
+    ]
+  },
+  {
+    "cluster_id": 45,
+    "label": "Active Sampling and Projection Methods",
+    "examples": [
+      "Projection-based sampling",
+      "Optimization-based sampling"
+    ]
+  },
+  {
+    "cluster_id": 46,
+    "label": "Semi-Supervised Learning",
+    "examples": [
+      "Semi-supervised learning",
+      "Label propagation",
+      "Consistency regularization"
+    ]
+  },
+  {
+    "cluster_id": 47,
+    "label": "Retrieval-Augmented Generation (RAG)",
+    "examples": [
+      "Retrieval-augmented generation",
+      "RAG-based retrieval"
+    ]
+  },
+  {
+    "cluster_id": 48,
+    "label": "Classifier-Free and Training-Free Guidance",
+    "examples": [
+      "Classifier-free guidance",
+      "Training-free guidance"
+    ]
+  },
+  {
+    "cluster_id": 49,
+    "label": "Multi-Task Learning",
+    "examples": [
+      "Multi-task learning",
+      "Joint training across objectives"
+    ]
+  },
+  {
+    "cluster_id": 50,
+    "label": "Fine-Tuning and Adaptation",
+    "examples": [
+      "Fine-tuning",
+      "Parameter-efficient tuning",
+      "Domain adaptation"
+    ]
+  },
+  {
+    "cluster_id": 51,
+    "label": "Mutual and Contrastive Representation Learning",
+    "examples": [
+      "Mutual information maximization",
+      "Contrastive learning"
+    ]
+  },
+  {
+    "cluster_id": 52,
+    "label": "Benchmarking and Evaluation Frameworks",
+    "examples": [
+      "Benchmarking",
+      "Bootstrapping",
+      "Evaluation pipeline design"
+    ]
+  },
+  {
+    "cluster_id": 53,
+    "label": "Bandit Algorithms",
+    "examples": [
+      "Multi-armed bandits",
+      "Contextual bandits",
+      "Linear bandits"
+    ]
+  },
+  {
+    "cluster_id": 54,
+    "label": "Equivariant Neural Networks",
+    "examples": [
+      "SE(3)-equivariant models",
+      "Equivariant neural networks",
+      "Symmetry-aware architectures"
+    ]
+  },
+  {"cluster_id": 999, "label": "Others / Unclear Category", "examples": ["Not explicitly categorized", "Unclear methodology or mixed topics"]}
+]

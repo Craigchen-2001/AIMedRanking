@@ -14,6 +14,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import { ArrowLeft } from "lucide-react";
 
 const robotoSlab = Roboto_Slab({ subsets: ["latin"], weight: ["700"], display: "swap" });
 
@@ -33,16 +34,16 @@ interface Paper {
 }
 
 const chartColors = [
-  "#f59e0b",
-  "#6b7280",
-  "#d97706",
-  "#3b82f6",
-  "#10b981",
-  "#8b5cf6",
-  "#ec4899",
-  "#6366f1",
-  "#14b8a6",
+  "#b91c1c",
+  "#dc2626",
   "#ef4444",
+  "#f87171",
+  "#991b1b",
+  "#7f1d1d",
+  "#fecaca",
+  "#fca5a5",
+  "#fee2e2",
+  "#450a0a",
 ];
 
 function normalizeConf(name: string): "ICLR" | "ICML" | "NeurIPS" | "KDD" | "Other" {
@@ -174,37 +175,35 @@ export default function TopicTrendPage() {
 
   return (
     <div className="pt-20 w-full min-h-screen">
-      <header className="fixed top-0 left-0 right-0 z-50 bg-blue-800 h-20 flex items-center justify-between px-6 border-b">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-16 flex items-center justify-between px-6 border-b">
         <div className="flex items-center gap-3">
-          <Image src="/logo02.png" alt="AI Med Logo" width={70} height={50} priority />
-          <div className={`${robotoSlab.className} text-2xl font-bold text-white`}>
-            AI MED TRENDS
-          </div>
+          <Image src="/logo02.png" alt="AI Med Logo" width={60} height={40} priority />
+          <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AI MED RANKING</div>
         </div>
-        <div className="absolute left-1/2 -translate-x-1/2 text-white text-xl font-semibold">
+        <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">
           Trends
         </div>
         <div className="flex gap-3 items-center">
           <Link
             href="/"
-            className="px-4 py-2 rounded-lg bg-white text-blue-800 font-medium hover:bg-gray-100"
+            className="flex items-center gap-2 bg-white text-red-800 px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-red-100 transition"
           >
-            Home
+            <ArrowLeft size={16} /> Home
           </Link>
           <div className="relative group">
-            <button className="px-4 py-2 rounded-lg bg-white text-blue-800 font-medium hover:bg-gray-100">
+            <button className="flex items-center gap-2 bg-white text-red-800 px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-red-100 transition">
               Ranking ▾
             </button>
             <div className="absolute right-0 mt-2 w-40 bg-white border rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition">
               <Link
                 href="/ranking/topic"
-                className="block px-4 py-2 hover:bg-gray-100 text-blue-800"
+                className="block px-4 py-2 hover:bg-red-100 text-red-800"
               >
                 Topic Ranking
               </Link>
               <Link
                 href="/ranking/author"
-                className="block px-4 py-2 hover:bg-gray-100 text-blue-800"
+                className="block px-4 py-2 hover:bg-red-100 text-red-800"
               >
                 Author Ranking
               </Link>
@@ -213,13 +212,14 @@ export default function TopicTrendPage() {
         </div>
       </header>
 
+
       <main className="px-6 flex flex-col items-center">
         {loading ? (
           <div className="py-6 text-center text-gray-500">Loading…</div>
         ) : (
           <>
             <div className="w-5/6 max-w-6xl bg-white border border-gray-300 rounded-lg shadow-md p-6 mb-6">
-              <h3 className="text-xl font-bold mb-4 text-blue-700 border-b-2 border-blue-300 pb-2">
+              <h3 className="text-xl font-bold mb-4 text-red-700 border-b-2 border-red-300 pb-2">
                 Trend of MainTopics (Across All Axes) — Shows yearly shifts in overall research focus areas
               </h3>
               <ResponsiveContainer width="100%" height={700}>
@@ -246,7 +246,7 @@ export default function TopicTrendPage() {
             </div>
 
             <div className="w-5/6 max-w-6xl bg-white border border-gray-300 rounded-lg shadow-md p-6 mb-6">
-              <h3 className="text-xl font-bold mb-4 text-blue-700 border-b-2 border-blue-300 pb-2">
+              <h3 className="text-xl font-bold mb-4 text-red-700 border-b-2 border-red-300 pb-2">
                 Trend of Top 10 SubTopics (Across All Axes) — Highlights which detailed topics are rising or declining
               </h3>
               <ResponsiveContainer width="100%" height={600}>
@@ -273,7 +273,7 @@ export default function TopicTrendPage() {
             </div>
 
             <div className="w-5/6 max-w-6xl bg-white border border-gray-300 rounded-lg shadow-md p-6 mb-6">
-              <h3 className="text-xl font-bold mb-4 text-blue-700 border-b-2 border-blue-300 pb-2">
+              <h3 className="text-xl font-bold mb-4 text-red-700 border-b-2 border-red-300 pb-2">
                 Conference Comparison — Yearly number of AI in Medicine papers across ICLR, ICML, NeurIPS, KDD
               </h3>
               <ResponsiveContainer width="100%" height={700}>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useMemo, useState } from 'react';
 import { Roboto_Slab } from 'next/font/google';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import { ArrowLeft, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
 import {
   PieChart, Pie, Cell, Tooltip as ReTooltip, Legend,
   ResponsiveContainer, Treemap, BarChart, Bar, XAxis, YAxis
@@ -153,15 +153,27 @@ export default function TopicRankingPage() {
 
   return (
     <div className="pt-20 w-full min-h-screen">
-      <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-20 flex items-center justify-between px-6 border-b">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-16 flex items-center justify-between px-6 border-b">
         <div className="flex items-center gap-3">
-          <Image src="/logo02.png" alt="AI Med Logo" width={70} height={50} priority />
-          <div className={`${robotoSlab.className} text-2xl font-bold text-white`}>AI MED RANKING</div>
+          <Image src="/logo02.png" alt="AI Med Logo" width={60} height={40} priority />
+          <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AI MED RANKING</div>
         </div>
-        <div className="absolute left-1/2 -translate-x-1/2 text-white text-xl font-semibold">Topic Ranking</div>
+        <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">
+          Topic Ranking
+        </div>
         <div className="flex gap-3">
-          <Link href="/" className="px-4 py-2 rounded-lg bg-white text-red-800 font-medium hover:bg-gray-100">Home</Link>
-          <Link href="/ranking/author" className="px-4 py-2 rounded-lg bg-white text-red-800 font-medium hover:bg-gray-100">Author Ranking</Link>
+          <Link
+            href="/"
+            className="flex items-center gap-2 bg-white text-red-800 px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-red-100 transition"
+          >
+            <ArrowLeft size={16} /> Home
+          </Link>
+          <Link
+            href="/ranking/author"
+            className="flex items-center gap-2 bg-white text-red-800 px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-red-100 transition"
+          >
+            <BookOpen size={16} /> Author Ranking
+          </Link>
         </div>
       </header>
 
