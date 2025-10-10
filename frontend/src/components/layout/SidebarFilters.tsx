@@ -533,4 +533,3 @@ const SidebarFilters: React.FC<Props> = ({
 };
 
 export default SidebarFilters;
-

@@ -1,0 +1,9146 @@
+[
+  {
+    "id": "tartarus:_a_benchmarking_platform_for_realistic_an",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "generative_modeling_of_molecular_dynamics_trajecto",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "humus-net:_hybrid_unrolled_multi-scale_network_arc",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "approximating_mutual_information_of_high-dimension",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gflownet_assisted_biological_sequence_editing",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "cross-linked_unified_embedding_for_cross-modality_",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "units:_a_unified_multi-task_time_series_model",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "covariance-adaptive_best_arm_identification",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "representation_learning_for_integrating_multi-doma",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      },
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "dynamic_covid_risk_assessment_accounting_for_commu",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "gpu-accelerated_primal_learning_for_extremely_fast",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "opensrh:_optimizing_brain_tumor_surgery_using_intr",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "asep:_benchmarking_deep_learning_methods_for_antib",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "uncertainty_quantification_for_inferring_hawkes_ne",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "rppg-toolbox:_deep_remote_ppg_toolbox",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "explaining_latent_representations_with_a_corpus_of",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "neural_network_reparametrization_for_accelerated_o",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "massspecgym:_a_benchmark_for_the_discovery_and_ide",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "csdi:_conditional_score-based_diffusion_models_for",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "fourier-transform-based_attribution_priors_improve",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "online_reinforcement_learning_for_mixed_policy_sco",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "supervised_training_of_conditional_monge_maps",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "dewave:_discrete_encoding_of_eeg_waves_for_eeg_to_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "mediq:_question-asking_llms_and_a_benchmark_for_re",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "swift:_swin_4d_fmri_transformer",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "integrating_deep_metric_learning_with_coreset_for_",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "identifiability_guarantees_for_causal_disentanglem",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "balancing_memorization_and_generalization_in_rnns_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "proximal_causal_inference_with_text_data",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "an_efficient_graph_generative_model_for_navigating",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "an_information-theoretic_quantification_of_the_con",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "interaction-grounded_learning_with_action-inclusiv",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "cs4ml:_a_general_framework_for_active_learning_wit",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "reliable_off-policy_learning_for_dosage_combinatio",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "parallel-mentoring_for_offline_model-based_optimiz",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "proteinnpt:_improving_protein_property_prediction_",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "gauche:_a_library_for_gaussian_processes_in_chemis",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      },
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "dabs_2.0:_improved_datasets_and_algorithms_for_uni",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "counterbalancing_learning_and_strategic_incentives",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "discovery_of_the_hidden_world_with_large_language_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "conformal_pid_control_for_time_series_prediction",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      },
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "identification_and_estimation_of_the_bi-directiona",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "xmil:_insightful_explanations_for_multiple_instanc",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "human-in-the-loop_optimization_for_deep_stimulus_e",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "learning_robust_hierarchical_patterns_of_human_bra",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "latent_exploration_for_reinforcement_learning",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "bridging_model-based_optimization_and_generative_m",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "interpretable_multi-timescale_models_for_predictin",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ultramedical:_building_specialized_generalists_in_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "cross-care:_assessing_the_healthcare_implications_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_topology-agnostic_eeg_representations_wit",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "generalization_bounds_for_estimating_causal_effect",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "improving_policy-constrained_kidney_exchange_via_p",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "a_probabilistic_state_space_model_for_joint_infere",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "pulseimpute:_a_novel_benchmark_task_for_pulsative_",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "efficient_coding,_channel_capacity,_and_the_emerge",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "rvd:_a_handheld_device-based_fundus_video_dataset_",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "causal-bald:_deep_bayesian_active_learning_of_outc",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "et-flow:_equivariant_flow-matching_for_molecular_c",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "identifying_causal-effect_inference_failure_with_u",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "brainbits:_how_much_of_the_brain_are_generative_re",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "spatio-angular_convolutions_for_super-resolution_i",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "comir:_contrastive_multimodal_image_representation",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "shared_space_transfer_learning_for_analyzing_multi",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "trajectory_flow_matching_with_applications_to_clin",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "agentpoison:_red-teaming_llm_agents_via_poisoning_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "on_image_segmentation_with_noisy_labels:_character",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "estimating_epistemic_and_aleatoric_uncertainty_wit",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "bypassing_spike_sorting:_density-based_decoding_us",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "on_the_scalability_of_gnns_for_molecular_graphs",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "motif-based_graph_self-supervised_learning_for_mol",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "llava-med:_training_a_large_language-and-vision_as",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "olives_dataset:_ophthalmic_labels_for_investigatin",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "interpretable_and_personalized_apprenticeship_sche",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "msagpt:_neural_prompting_protein_structure_predict",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "muscles_in_time:_learning_to_understand_human_moti",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "a_teacher-teacher_framework_for_clinical_language_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "proteingym:_large-scale_benchmarks_for_protein_fit",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "a_new_inference_approach_for_training_shallow_and_",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "draco:_a_denoising-reconstruction_autoencoder_for_",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "convolution_monge_mapping_normalization_for_learni",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "towards_robust_and_generalizable_representations_o",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "model_inversion_networks_for_model-based_optimizat",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "multi-scale_representation_learning_on_proteins",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "multiply_robust_federated_estimation_of_targeted_a",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "property-aware_relation_networks_for_few-shot_mole",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "actsort:_an_active-learning_accelerated_cell_sorti",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "mri_banding_removal_via_adversarial_training",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "lvm-med:_learning_large-scale_self-supervised_visi",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      }
+    ]
+  },
+  {
+    "id": "online_neural_sequence_detection_with_hierarchical",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "learning_low-rank_feature_for_thorax_disease_class",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "explainable_brain_age_prediction_using_covariance_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hybrid_generative_ai_for_de_novo_design_of_co-crys",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "bioscan-5m:_a_multimodal_dataset_for_insect_biodiv",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_adaptive_tensorial_density_fields_for_cle",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "semi-supervised_knowledge_transfer_across_multi-om",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "exploring_forensic_dental_identification_with_deep",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "fabind:_fast_and_accurate_protein-ligand_binding",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "hybrid_neural_autoencoders_for_stimulus_encoding_i",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "multimodal_clinical_benchmark_for_emergency_care_(",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      },
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "contrast,_attend_and_diffuse_to_decode_high-resolu",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "diffusion_curvature_for_estimating_local_curvature",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "towards_a_\"universal_translator\"_for_neural_dynami",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "medsat:_a_public_health_dataset_for_england_featur",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "surdis:_a_surface_discontinuity_dataset_for_wearab",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "tensornet:_cartesian_tensor_representations_for_ef",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "probabilistic_decomposed_linear_dynamical_systems_",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "scaling_laws_for_language_encoding_models_in_fmri",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "moma:_multi-object_multi-actor_activity_parsing",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_robust_functional_em_algorithm_for_incomplete_pa",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "finer_metagenomic_reconstruction_via_biodiversity_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "differentiable_sorting_for_censored_time-to-event_",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "diffusion_twigs_with_loop_guidance_for_conditional",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "conformal_frequency_estimation_with_sketched_data",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "molecule_generation_by_principal_subgraph_mining_a",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "leveraging_tumor_heterogeneity:_heterogeneous_grap",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "medsafetybench:_evaluating_and_improving_the_medic",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "active_learning_of_neural_population_dynamics_usin",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "causal_fairness_for_outcome_control",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "free_lunch_in_pathology_foundation_model:_task-spe",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "mutaplm:_protein_language_modeling_for_mutation_ex",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "learning_elastic_costs_to_shape_monge_displacement",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "designing_cell-type-specific_promoter_sequences_us",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "pessimistic_backward_policy_for_gflownets",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      },
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "s-molsearch:_3d_semi-supervised_contrastive_learni",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "learning_to_group_auxiliary_datasets_for_molecule",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "probabilistic_entity_representation_model_for_reas",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "online_adaptation_to_label_distribution_shift",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "end-to-end_causal_effect_estimation_from_unstructu",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "deltadock:_a_unified_framework_for_accurate,_effic",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "g2d:_from_global_to_dense_radiography_representati",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      }
+    ]
+  },
+  {
+    "id": "wild-time:_a_benchmark_of_in-the-wild_distribution",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "the_rashomon_importance_distribution:_getting_rid_",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "dreamcatcher:_a_wearer-aware_multi-modal_sleep_eve",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "rethinking_semi-supervised_medical_image_segmentat",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "x-cal:_explicit_calibration_for_survival_analysis",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "fouriernets_enable_the_design_of_highly_non-local_",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "across-animal_odor_decoding_by_probabilistic_manif",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "physgnn:_a_physics--driven_graph_neural_network_ba",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hnpe:_leveraging_global_parameters_for_neural_post",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "accurate_point_cloud_registration_with_robust_opti",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_repeatable_speech_embeddings_using_an_int",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "exponentially_convergent_algorithms_for_supervised",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "proteininvbench:_benchmarking_protein_inverse_fold",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "experimental_design_for_mri_by_greedy_policy_searc",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "remap:_neural_model_reprogramming_with_network_inv",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "deft:_efficient_fine-tuning_of_diffusion_models_by",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "globem_dataset:_multi-year_datasets_for_longitudin",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "stark:_benchmarking_llm_retrieval_on_textual_and_r",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "auto-encoding_knowledge_graph_for_unsupervised_med",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "tanimoto_random_features_for_scalable_molecular_ma",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "analyzing_the_sample_complexity_of_self-supervised",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "image-aware_evaluation_of_generated_medical_report",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "transmil:_transformer_based_correlated_multiple_in",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "daw:_exploring_the_better_weighting_function_for_s",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "self-paced_contrastive_learning_for_semi-supervise",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "contrasting_with_symile:_simple_model-agnostic_rep",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "bigbio:_a_framework_for_data-centric_biomedical_na",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "biot:_biosignal_transformer_for_cross-data_learnin",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      },
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      },
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "pruning_neural_network_models_for_gene_regulatory_",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "deep_structural_causal_models_for_tractable_counte",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "amortized_active_causal_induction_with_deep_reinfo",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "efficient_identification_of_informative_features_i",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "wbcatt:_a_white_blood_cell_dataset_annotated_with_",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "seeing_the_forest_and_the_tree:_building_represent",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "a_direct_approximation_of_aixi_using_logical_state",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "barking_up_the_right_tree:_an_approach_to_search_o",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      }
+    ]
+  },
+  {
+    "id": "multi-objective_spibb:_seldonian_offline_policy_im",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "participatory_personalization_in_classification",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "neurobolt:_resting-state_eeg-to-fmri_synthesis_wit",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "regularized_molecular_conformation_fields",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "equivariant_spatio-hemispherical_networks_for_diff",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "metateacher:_coordinating_multi-model_domain_adapt",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "reactzyme:_a_benchmark_for_enzyme-reaction_predict",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "gimlet:_a_unified_graph-text_model_for_instruction",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "implicit_transfer_operator_learning:_multiple_time",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "exploring_question_decomposition_for_zero-shot_vqa",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "3d_molecule_generation_by_denoising_voxel_grids",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "geometric_trajectory_diffusion_models",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      },
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "retroxpert:_decompose_retrosynthesis_prediction_li",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      }
+    ]
+  },
+  {
+    "id": "stability_and_generalizability_in_sde_diffusion_mo",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "on_the_symmetries_of_the_synchronization_problem_i",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "cslp-ae:_a_contrastive_split-latent_permutation_au",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "deplm:_denoising_protein_language_models_for_prope",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "scale-space_hypernetworks_for_efficient_biomedical",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "miso:_optimizing_brain_stimulation_to_create_neura",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "bayesian_causal_structural_learning_with_zero-infl",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "learning_deep_input-output_stable_dynamics",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "rethinking_tokenizer_and_decoder_in_masked_graph_m",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "propensity_score_alignment_of_unpaired_multimodal_",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "learning_optimal_predictive_checklists",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "geodesic_optimization_for_predictive_shift_adaptat",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "expert_load_matters:_operating_networks_at_high_ac",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "procedure-aware_surgical_video-language_pretrainin",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_kernel_test_for_quasi-independence",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "no_free_lunch_from_deep_learning_in_neuroscience:_",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "multi-task_temporal_shift_attention_networks_for_o",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "sparsity_in_continuous-depth_neural_networks",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      },
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "e2enet:_dynamic_sparse_feature_fusion_for_accurate",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "disentangling_interpretable_factors_with_supervise",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "functional-group-based_diffusion_for_pocket-specif",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "fmri_predictors_based_on_language_models_of_increa",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "exploring_evolution-aware_&_-free_protein_language",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "multi-scale_representation_learning_for_protein_fi",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "online_decision_mediation",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "cryobench:_diverse_and_challenging_datasets_for_th",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "graph_neural_networks_with_adaptive_readouts",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "sg\u00d7p_:_a_sorghum_genotype_\u00d7_phenotype_prediction_d",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "leveraging_factored_action_spaces_for_efficient_of",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "a_hierarchical_training_paradigm_for_antibody_stru",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "crafting_interpretable_embeddings_for_language_neu",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "beyond_confidence:_reliable_models_should_also_con",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "plug-and-play_stability_for_intracortical_brain-co",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "estimating_graphical_models_for_count_data_with_ap",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "mind_reader:_reconstructing_complex_images_from_br",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "is_distance_matrix_enough_for_geometric_deep_learn",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "adversarial_graph_augmentation_to_improve_graph_co",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "time_series_as_images:_vision_transformer_for_irre",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "counterfactual_harm",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ultrafast_classical_phylogenetic_method_beats_larg",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "may_the_force_be_with_you:_unified_force-centric_p",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "unified_guidance_for_geometry-conditioned_molecula",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "smpl:_simulated_industrial_manufacturing_and_proce",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "abdiffuser:_full-atom_generation_of_in-vitro_funct",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "learning_to_search_efficiently_for_causally_near-o",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "rethinking_neural_operations_for_diverse_tasks",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "when_to_act_and_when_to_ask:_policy_learning_with_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "cat:_coordinating_anatomical-textual_prompts_for_m",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "stndt:_modeling_neural_population_activity_with_sp",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "equivariant_graph_hierarchy-based_neural_networks",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "lo-hi:_practical_ml_drug_discovery_benchmark",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "manifold_interpolating_optimal-transport_flows_for",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "reprogramming_pretrained_target-specific_diffusion",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "a_survey_and_benchmark_of_high-dimensional_bayesia",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "conditional_synthesis_of_3d_molecules_with_time_co",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "data-iq:_characterizing_subgroups_with_heterogeneo",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gmai-mmbench:_a_comprehensive_multimodal_evaluatio",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "benchmarking_counterfactual_image_generation",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "non-asymptotic_uncertainty_quantification_in_high-",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "equivariant_flow_matching",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "shape_analysis_for_time_series",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "epicare:_a_reinforcement_learning_benchmark_for_dy",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "approximation-aware_bayesian_optimization",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "deep_reconstruction_of_strange_attractors_from_tim",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "off-policy_evaluation_for_human_feedback",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "organite:_optimal_transplant_donor_organ_offering_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ssdm:_scalable_speech_dysfluency_modeling",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_probability_contrastive_learning_framework_for_3",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "deep_bidirectional_language-knowledge_graph_pretra",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "protein-nucleic_acid_complex_modeling_with_frame_a",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "granger_components_analysis:_unsupervised_learning",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      },
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "what_went_wrong_and_when?_instance-wise_feature_im",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "learning_dynamic_graph_representation_of_brain_con",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "towards_understanding_retrosynthesis_by_energy-bas",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      }
+    ]
+  },
+  {
+    "id": "opera:_automatic_offline_policy_evaluation_with_re",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "patch2self:_denoising_diffusion_mri_with_self-supe",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "poet:_a_generative_model_of_protein_families_as_se",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "fisher_flow_matching_for_generative_modeling_over_",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "neural_data_transformer_2:_multi-context_pretraini",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "mets-cov:_a_dataset_of_medical_entity_and_targeted",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "finding_counterfactually_optimal_action_sequences_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "on_umap's_true_loss_function",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "toward_a_well-calibrated_discrimination_via_surviv",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "$\\nabla^2$dft:_a_universal_quantum_chemistry_datas",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "event_stream_gpt:_a_data_pre-processing_and_modeli",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      },
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "sparse_fourier_backpropagation_in_cryo-em_reconstr",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "aligning_synthetic_medical_images_with_clinical_kn",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "inversion-based_latent_bayesian_optimization",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "minimax_optimal_nonparametric_estimation_of_hetero",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "torsional_diffusion_for_molecular_conformer_genera",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "contrastive_dimension_reduction:_when_and_how?",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "fasterrisk:_fast_and_accurate_interpretable_risk_s",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "doubly_robust_off-policy_value_and_gradient_estima",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "rescuing_neural_spike_train_models_from_bad_mle",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "coupled_reconstruction_of_cortical_surfaces_by_dif",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "xtrimogene:_an_efficient_and_scalable_representati",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "disc:_differential_spectral_clustering_of_features",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "direct:_diagnostic_reasoning_for_clinical_notes_vi",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "sm:_enhanced_localization_in_multiple_instance_lea",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      },
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "risk-averse_active_sensing_for_timely_outcome_pred",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "absorb_&_escape:_overcoming_single_model_limitatio",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "shine:_subhypergraph_inductive_neural_network",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      }
+    ]
+  },
+  {
+    "id": "genetic-guided_gflownets_for_sample_efficient_mole",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "dynamic_neural_regeneration:_enhancing_deep_learni",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "phylogen:_language_model-enhanced_phylogenetic_inf",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "inspect:_a_multimodal_dataset_for_patient_outcome_",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      },
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "retrieve,_reason,_and_refine:_generating_accurate_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "multitask_learning_with_no_regret:_from_improved_c",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "reliable_and_trustworthy_machine_learning_for_heal",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "dmnet:_self-comparison_driven_model_for_subject-in",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "flex-moe:_modeling_arbitrary_modality_combination_",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "multi-view_masked_contrastive_representation_learn",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      }
+    ]
+  },
+  {
+    "id": "dsr:_dynamical_surface_representation_as_implicit_",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "adanovo:_towards_robust_\\emph{de_novo}_peptide_seq",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "De Novo Peptide Design"
+      }
+    ]
+  },
+  {
+    "id": "symmetry-informed_geometric_representation_for_mol",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "dual-curriculum_contrastive_multi-instance_learnin",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "chammi:_a_benchmark_for_channel-adaptive_models_in",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "reinforcement_learning_with_state_observation_cost",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "peace:_a_dataset_of_pharmaceutical_care_for_cancer",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "using_surrogates_in_covariate-adjusted_response-ad",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "unified_insights:_harnessing_multi-modal_data_for_",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "combining_recurrent,_convolutional,_and_continuous",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "gemnet:_universal_directional_graph_neural_network",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "unscrambling_disease_progression_at_scale:_fast_in",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "savenet:_a_scalable_vector_network_for_enhanced_mo",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "fairmedfm:_fairness_benchmarking_for_medical_imagi",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "hyenadna:_long-range_genomic_sequence_modeling_at_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_complete_protein_representation_by_dynami",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "class-aware_adversarial_transformers_for_medical_i",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "local_latent_space_bayesian_optimization_over_stru",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "emgbench:_benchmarking_out-of-distribution_general",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "beyond_the_signs:_nonparametric_tensor_completion_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "does_gnn_pretraining_help_molecular_representation",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "towards_open_respiratory_acoustic_foundation_model",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "myriad:_a_real-world_testbed_to_bridge_trajectory_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "du-in:_discrete_units-guided_mask_modeling_for_dec",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "estimation_and_imputation_in_probabilistic_princip",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "latent_diffusion_for_neural_spiking_data",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "zero-shot_3d_drug_design_by_sketching_and_generati",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "graph_diffusion_policy_optimization",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "proportional_response:_contextual_bandits_for_simp",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "revisiting_k-mer_profile_for_effective_and_scalabl",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "graph_neural_network_bandits",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "practical_near_neighbor_search_via_group_testing",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "benchmarking_heterogeneous_treatment_effect_models",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "calanet:_cheap_all-layer_aggregation_for_human_act",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "directed_spectrum_measures_improve_latent_network_",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "autofocused_oracles_for_model-based_design",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "stochastic_normalizing_flows",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "graph_self-supervised_learning_with_accurate_discr",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "multi-granularity_cross-modal_alignment_for_genera",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      }
+    ]
+  },
+  {
+    "id": "knowledge-augmented_reasoning_distillation_for_sma",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "eegpt:_pretrained_transformer_for_universal_and_re",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "generalized_shape_metrics_on_neural_representation",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "provably_efficient_causal_reinforcement_learning_w",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "data-driven_network_neuroscience:_on_data_collecti",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "injecting_multimodal_information_into_rigid_protei",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "discrete-state_continuous-time_diffusion_for_graph",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "icam:_interpretable_classification_via_disentangle",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "trans-dimensional_generative_modeling_via_jump_dif",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "aligning_individual_brains_with_fused_unbalanced_g",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "counterfactual_explanations_in_sequential_decision",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "deep_direct_likelihood_knockoffs",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "statistically_valid_variable_importance_assessment",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "encoding_time-series_explanations_through_self-sup",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "rome:_a_robust_mixed-effects_bandit_algorithm_for_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ehrnoteqa:_an_llm_benchmark_for_real-world_clinica",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "learning_to_extrapolate_knowledge:_transductive_fe",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "graphein_-_a_python_library_for_geometric_deep_lea",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "evaluating_latent_space_robustness_and_uncertainty",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "finding_all_$\\epsilon$-good_arms_in_stochastic_ban",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "nis3d:_a_completely_annotated_benchmark_for_dense_",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "bayesian_target_optimisation_for_high-precision_ho",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "uncertainty_estimation_for_safety-critical_scene_s",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "efficient_architecture_search_for_diverse_tasks",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "flexible_mean_field_variational_inference_using_mi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "flexsbdd:_structure-based_drug_design_with_flexibl",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "learning_mutational_semantics",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ehrxqa:_a_multi-modal_question_answering_dataset_f",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      },
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "active_bipartite_ranking",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "amag:_additive,_multiplicative_and_adaptive_graph_",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "distance-restricted_folklore_weisfeiler-leman_gnns",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "one-to-multiple:_a_progressive_style_transfer_unsu",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "peer:_a_comprehensive_and_multi-task_benchmark_for",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "subgdiff:_a_subgraph_diffusion_model_to_improve_mo",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      },
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "discovering_plasticity_rules_that_organize_and_mai",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "resonet:_noise-trained_physics-informed_mri_off-re",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "amos:_a_large-scale_abdominal_multi-organ_benchmar",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "geomol:_torsional_geometric_generation_of_molecula",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "flexmol:_a_flexible_toolkit_for_benchmarking_molec",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "scalable_bayesian_optimization_via_focalized_spars",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hyper-skin:_a_hyperspectral_dataset_for_reconstruc",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "unfoldml:_cost-aware_and_uncertainty-based_dynamic",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "escada:_efficient_safety_and_context_aware_dose_al",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "motive:_a_drug-target_interaction_graph_for_induct",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "retrospective_for_the_dynamic_sensorium_competitio",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "multiorg:_a_multi-rater_organoid-detection_dataset",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "off-policy_policy_evaluation_for_sequential_decisi",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      },
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "breaking_the_dilemma_of_medical_image-to-image_tra",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "exploring_the_trade-off_between_deep-learning_and_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "uniif:_unified_molecule_inverse_folding",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "surgicai:_a_hierarchical_platform_for_fine-grained",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "avida-hil6:_a_large-scale_vhh_dataset_produced_fro",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "learning_robust_decision_policies_from_observation",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "rh-brainfs:_regional_heterogeneous_multimodal_brai",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "spd_domain-specific_batch_normalization_to_crack_i",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "segvol:_universal_and_interactive_volumetric_medic",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "multi-task_learning_with_summary_statistics",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "multi-armed_bandit_requiring_monotone_arm_sequence",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "drop,_swap,_and_generate:_a_self-supervised_approa",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "ppi:_pretraining_brain_signal_model_for_patient-in",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "rales:_a_benchmark_for_radiology_language_evaluati",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "low-rank_optimal_transport:_approximation,_statist",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "spatially_resolved_gene_expression_prediction_from",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "feature_selection_in_the_contrastive_analysis_sett",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "recontrast:_domain-specific_anomaly_detection_via_",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "welqrate:_defining_the_gold_standard_in_small_mole",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "accelerating_molecular_graph_neural_networks_via_k",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "predicting_mutational_effects_on_protein-protein_b",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "neuroclips:_towards_high-fidelity_and_smooth_fmri-",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "equivariant_flow_matching_with_hybrid_probability_",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "knowledge-empowered_dynamic_graph_network_for_irre",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "iscan:_identifying_causal_mechanism_shifts_among_n",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_highly-efficient_group_elastic_net_algorithm_wit",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "clues:_collaborative_private-domain_high-quality_d",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "what_do_deep_saliency_models_learn_about_visual_at",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "false_discovery_proportion_control_for_aggregated_",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "fair_exploration_via_axiomatic_bargaining",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "normalizing_flows_for_knockoff-free_controlled_fea",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "diffusion-based_molecule_generation_with_informati",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "spot_the_difference:_detection_of_topological_chan",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "mdagents:_an_adaptive_collaboration_of_llms_for_me",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "zero-shot_causal_learning",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "$\\textit{neuropath}$:_a_neural_pathway_transformer",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "physics-regularized_multi-modal_image_assimilation",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "block_coordinate_plug-and-play_methods_for_blind_i",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "artree:_a_deep_autoregressive_model_for_phylogenet",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "deep_jump_learning_for_off-policy_evaluation_in_co",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "learning_time-invariant_representations_for_indivi",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "pin-tuning:_parameter-efficient_in-context_tuning_",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "non-identifiability_and_the_blessings_of_misspecif",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "flow_network_based_generative_models_for_non-itera",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "trajectory_inference_via_mean-field_langevin_in_pa",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "constrained_optimization_to_train_neural_networks_",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "skincon:_a_skin_disease_dataset_densely_annotated_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "big_bird:_transformers_for_longer_sequences",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "estimating_koopman_operators_with_sketching_to_pro",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "three-dimensional_spike_localization_and_improved_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "contrastive_learning_of_global_and_local_features_",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "weisfeiler_and_lehman_go_cellular:_cw_networks",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "geophy:_differentiable_phylogenetic_inference_via_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "counterfactual-augmented_importance_sampling_for_s",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "tractable_function-space_variational_inference_in_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "human-robotic_prosthesis_as_collaborating_agents_f",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "disentangled_wasserstein_autoencoder_for_t-cell_re",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "generalized_bayesian_inference_for_scientific_simu",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "bayesian_clustering_of_neural_spiking_activity_usi",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "efficient_generation_of_structured_objects_with_co",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "gaussian_partial_information_decomposition:_bias_c",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "learning_causally_invariant_representations_for_ou",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "sample-efficient_multi-objective_molecular_optimiz",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "attribution_preservation_in_network_compression_fo",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_generative_nonparametric_bayesian_model_for_whol",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "maximum_a_posteriori_natural_scene_reconstruction_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "bandit_theory_and_thompson_sampling-guided_directe",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "score-based_3d_molecule_generation_with_neural_fie",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "disambiguated_attention_embedding_for_multi-instan",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "dynamic_analysis_of_higher-order_coordination_in_n",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "sprinql:_sub-optimal_demonstrations_driven_offline",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "predicting_molecular_conformation_via_dynamic_grap",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "equivariant_blurring_diffusion_for_hierarchical_mo",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "collapsing_bandits_and_their_application_to_public",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "directed_cyclic_graph_for_causal_discovery_from_mu",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "r$^2$-gaussian:_rectifying_radiative_gaussian_spla",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "uncovering_the_topology_of_time-varying_fmri_data_",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "reranking_laws_for_language_generation:_a_communic",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "deep_momentum_multi-marginal_schr\u00f6dinger_bridge",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "reconstructing_perceptive_images_from_brain_activi",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "learning_recourse_on_instance_environment_to_enhan",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "exploring_behavior-relevant_and_disentangled_neura",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "hyperbolic_procrustes_analysis_using_riemannian_ge",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "confounding-robust_policy_evaluation_in_infinite-h",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "multi-modal_transfer_learning_between_biological_f",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "antigen-specific_antibody_design_and_optimization_",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "can_fmri_reveal_the_representation_of_syntactic_st",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "gene-gene_relationship_modeling_based_on_genetic_e",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "nurvid:_a_large_expert-level_video_database_for_nu",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "adaptive_algorithms_for_relaxed_pareto_set_identif",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "3d_structure_prediction_of_atomic_systems_with_flo",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "saramis:_simulation_assets_for_robotic_assisted_an",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "towards_stable_representations_for_protein_interfa",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "mirror_and_preconditioned_gradient_descent_in_wass",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "deep_learning_in_medical_image_registration:_magic",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "the_rise_of_ai_language_pathologists:_exploring_tw",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "graphmorph:_tubular_structure_extraction_by_morphi",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "diffpack:_a_torsional_diffusion_model_for_autoregr",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "variational_flow_matching_for_graph_generation",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "achieving_rotational_invariance_with_bessel-convol",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "rankrag:_unifying_context_ranking_with_retrieval-a",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "individualized_dosing_dynamics_via_neural_eigen_de",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "adaptive_wavelet_distillation_from_neural_networks",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "learning_to_select_best_forecast_tasks_for_clinica",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "learning_individualized_treatment_rules_with_many_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "stressid:_a_multimodal_dataset_for_stress_identifi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "stochastic_segmentation_networks:_modelling_spatia",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "temporal_positive-unlabeled_learning_for_biomedica",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "cinematic_mindscapes:_high-quality_video_reconstru",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "robust_compressed_sensing_mri_with_deep_generative",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "towards_generic_semi-supervised_framework_for_volu",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "concept_activation_regions:_a_generalized_framewor",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "auditing_for_human_expertise",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "dynamic_causal_bayesian_optimization",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "cryospin:_improving_ab-initio_cryo-em_reconstructi",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "neuro-vision_to_language:_enhancing_brain_recordin",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "unbalanced_low-rank_optimal_transport_solvers",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "visual_explanations_of_image-text_representations_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "flamby:_datasets_and_benchmarks_for_cross-silo_fed",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "tankbind:_trigonometry-aware_neural_networks_for_d",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "tracking_functional_changes_in_nonstationary_signa",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "survite:_learning_heterogeneous_treatment_effects_",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "factorizephys:_matrix_factorization_for_multidimen",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "learning_cortico-muscular_dependence_through_ortho",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "does_invariant_graph_learning_via_environment_augm",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "inference_of_neural_dynamics_using_switching_recur",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "curriculum_fine-tuning_of_vision_foundation_model_",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "scl-wc:_cross-slide_contrastive_learning_for_weakl",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "knowledge-based_in_silico_models_and_dataset_for_t",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "brain_network_transformer",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "novobench:_benchmarking_deep_learning-based_\\emph{",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "training_transitive_and_commutative_multimodal_tra",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "rgfn:_synthesizable_molecular_generation_using_gfl",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "instruction_tuning_large_language_models_to_unders",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      },
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "optimizing_over_trained_gnns_via_symmetry_breaking",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "celle-2:_translating_proteins_to_pictures_and_back",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "a_variational_approach_for_learning_from_positive_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "openproteinset:_training_data_for_structural_biolo",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "meta-learning_with_an_adaptive_task_scheduler",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "federated_black-box_adaptation_for_semantic_segmen",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "doob's_lagrangian:_a_sample-efficient_variational_",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      },
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "co-evolution_transformer_for_protein_contact_predi",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "beyond_invariance:_test-time_label-shift_adaptatio",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "how_robust_are_the_estimated_effects_of_nonpharmac",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "adaptive_learning_of_rank-one_models_for_efficient",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "uni-med:_a_unified_medical_generalist_foundation_m",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      },
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "capturing_the_denoising_effect_of_pca_via_compress",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "prospect_ptms:_rich_labeled_tandem_mass_spectromet",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "corticalflow:_a_diffeomorphic_mesh_transformer_net",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "so3krates:_equivariant_attention_for_interactions_",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "a_scalable_generative_model_for_dynamical_system_r",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      },
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "strictly_batch_imitation_learning_by_energy-based_",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "sourcerer:_sample-based_maximum_entropy_source_dis",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "fine-grained_zero-shot_learning_with_dna_as_side_i",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "equivariant_neural_diffusion_for_molecule_generati",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "modeling_shared_responses_in_neuroimaging_studies_",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "linkernet:_fragment_poses_and_linker_co-design_wit",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "a_regularized_conditional_gan_for_posterior_sampli",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "benchmarking_encoder-decoder_architectures_for_bip",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "polyhedron_attention_module:_learning_adaptive-ord",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "med-unic:_unifying_cross-lingual_medical_vision-la",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      }
+    ]
+  },
+  {
+    "id": "system_identification_with_biophysical_constraints",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "touchstone_benchmark:_are_we_on_the_right_way_for_",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "towards_trustworthy_automatic_diagnosis_systems_by",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ddgs-ct:_direction-disentangled_gaussian_splatting",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "eye-gaze_guided_multi-modal_alignment_for_medical_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "training_compute-optimal_protein_language_models",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "sr-caco-2:_a_dataset_for_confocal_fluorescence_mic",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "unlocking_the_potential_of_global_human_expertise",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      },
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "improving_black-box_optimization_in_vae_latent_spa",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "end-to-end_reconstruction_meets_data-driven_regula",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "reverse_engineering_recurrent_neural_networks_with",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "classifier-guided_gradient_modulation_for_enhanced",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "counterfactual_temporal_point_processes",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "a_decision-language_model_(dlm)_for_dynamic_restle",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "uncertainty_of_thoughts:_uncertainty-aware_plannin",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "prefix-tree_decoding_for_predicting_mass_spectra_f",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "proteinshake:_building_datasets_and_benchmarks_for",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "smalltolarge_(s2l):_scalable_data_selection_for_fi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "protgo:_function-guided_protein_modeling_for_unifi",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "online_neural_connectivity_estimation_with_noisy_g",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "large-scale_differentiable_causal_discovery_of_fac",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "factorized_neural_processes_for_neural_processes:_",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "neural_decoding_from_stereotactic_eeg:_accounting_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "modeling_task_effects_on_meaning_representation_in",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "confoundergan:_protecting_image_data_privacy_with_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "robustness_via_uncertainty-aware_cycle_consistency",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "foundation_inference_models_for_markov_jump_proces",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "retrieval-augmented_multiple_instance_learning",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "recurrent_switching_dynamical_systems_models_for_m",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "abdomenatlas-8k:_annotating_8,000_ct_volumes_for_m",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "gradient_regularized_v-learning_for_dynamic_treatm",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "neural_additive_models:_interpretable_machine_lear",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "causal_inference_in_the_closed-loop:_marginal_stru",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "refine:_a_fine-grained_medication_recommendation_s",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      },
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "fuse:_fast_unified_simulation_and_estimation_for_p",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "amortized_inference_for_causal_structure_learning",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "grasp:_navigating_retrosynthetic_planning_with_goa",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      }
+    ]
+  },
+  {
+    "id": "attentive_transfer_entropy_to_exploit_transient_em",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "timewarp:_transferable_acceleration_of_molecular_d",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "learning_invariant_molecular_representation_in_lat",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "federated_split_task-agnostic__vision_transformer_",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "learning_invariances_in_neural_networks_from_train",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "crocs:_clustering_and_retrieval_of_cardiac_signals",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "goal_driven_discovery_of_distributional_difference",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "understanding_the_limitations_of_deep_models_for_m",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "medcalc-bench:_evaluating_large_language_models_fo",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_benchmark_for_prediction_of_transcriptomic_respo",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "motionttt:_2d_test-time-training_motion_estimation",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "reconstructing_the_mind's_eye:_fmri-to-image_with_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "copycats:_the_many_lives_of_a_publicly_available_m",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "local_spatiotemporal_representation_learning_for_l",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "association_graph_learning_for_multi-task_classifi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "efficiently_incorporating_quintuple_interactions_i",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "gnnguard:_defending_graph_neural_networks_against_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "can_contrastive_learning_avoid_shortcut_solutions?",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "low-dimensional_structure_in_the_space_of_language",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "scalable_thompson_sampling_using_sparse_gaussian_p",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "comenet:_towards_complete_and_efficient_message_pa",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "graph_diffusion_transformers_for_multi-conditional",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "accountability_in_offline_reinforcement_learning:_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "micro-bench:_a_microscopy_benchmark_for_vision-lan",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      },
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "modular_flows:_differential_molecular_generation",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "natural_image_synthesis_for_the_retina_with_variat",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "improving_compositional_generalization_using_itera",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "evaluating_self-supervised_learning_for_molecular_",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "dyngfn:_towards_bayesian_inference_of_gene_regulat",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "an_iterative_self-learning_framework_for_medical_d",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "text_promptable_surgical_instrument_segmentation_w",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "exponential_family_dynamical_systems_(xfads):_larg",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "fedmeki:_a_benchmark_for_scaling_medical_foundatio",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      },
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "learning_provably_robust_estimators_for_inverse_pr",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "neural_topographic_factor_analysis_for_fmri_data",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "transfer_learning_on_heterogeneous_feature_spaces_",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "benchmarking_large_language_models_on_cmexam_-_a_c",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "on_learning_necessary_and_sufficient_causal_graphs",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "navigating_chemical_space_with_latent_flows",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "gv-rep:_a_large-scale_dataset_for_genetic_variant_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_new_perspective_on_building_efficient_and_expres",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "optimal_efficiency-envy_trade-off_via_optimal_tran",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "mri:_multi-modal_3d_human_pose_estimation_dataset_",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "adversarial_auto-augment_with_label_preservation:_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "vaiphy:_a_variational_inference_based_algorithm_fo",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "survival_permanental_processes_for_survival_analys",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "learning_identifiable_factorized_causal_representa",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "intermediate_layers_matter_in_momentum_contrastive",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "r-learning_in_actor-critic_model_offers_a_biologic",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "matt:_a_manifold_attention_network_for_eeg_decodin",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "directional_message_passing_on_molecular_graphs_vi",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "transferable_boltzmann_generators",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "geometric_transformer_with_interatomic_positional_",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "integrating_expert_odes_into_neural_odes:_pharmaco",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "identifying_latent_state-transition_processes_for_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "bridge-if:_learning_inverse_protein_folding_with_m",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "combining_latent_space_and_structured_kernels_for_",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "enhancing_feature_diversity_boosts_channel-adaptiv",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "generative_modelling_of_structurally_constrained_g",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "bi-directional_weakly_supervised_knowledge_distill",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_model_combination:_an_instance-wise_appr",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "brain_treebank:_large-scale_intracranial_recording",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "exploring_molecular_pretraining_model_at_scale",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "self-supervised_learning_of_brain_dynamics_from_br",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "diffpo:_a_causal_diffusion_model_for_learning_dist",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "rethinking_transformer_for_long_contextual_histopa",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "learning_substructure_invariance_for_out-of-distri",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "differentiable_multiple_shooting_layers",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "arctique:_an_artificial_histopathological_dataset_",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "molecule_design_by_latent_prompt_transformer",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "healnet:_multimodal_fusion_for_heterogeneous_biome",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "randomized_sparse_matrix_compression_for_large-sca",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "discovery_of_single_independent_latent_variable",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "adaptive_sampling_for_discovery",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "reinforced_molecular_optimization_with_neighborhoo",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "cornn:_convex_optimization_of_recurrent_neural_net",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "msa_generation_with_seqs2seqs_pretraining:_advanci",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "stochastic_optimal_control_for_collective_variable",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "sloe:_a_faster_method_for_statistical_inference_in",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_structure_from_the_ground_up---hierarchic",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "contrastive_losses_as_generalized_models_of_global",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "neuralfluid:_nueral_fluidic_system_design_and_cont",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "medjourney:_benchmark_and_evaluation_of_large_lang",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "finding_regions_of_heterogeneity_in_decision-makin",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "interventional_sum-product_networks:_causal_infere",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "self-supervised_contrastive_pre-training_for_time_",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "fast_projection_onto_the_capped_simplex_with_appli",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Sparse Modeling in Bioinformatics"
+      }
+    ]
+  },
+  {
+    "id": "temporal_causal_mediation_through_a_point_process:",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "spatio-spectral_graph_neural_networks",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "non-stationary_experimental_design_under_linear_tr",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "neurograph:_benchmarks_for_graph_machine_learning_",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "3d_self-supervised_methods_for_medical_imaging",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "predicting_a_protein's_stability_under_a_million_m",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "glucosynth:_generating_differentially-private_synt",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "wildppg:_a_real-world_ppg_dataset_of_long_continuo",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "low-rank_optimal_transport_through_factor_relaxati",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "interactive_multi-fidelity_learning_for_cost-effec",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "dynamic_fusion_of_eye_movement_data_and_verbal_nar",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "uncertainty_quantification_via_neural_posterior_pr",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "principled_weight_initialisation_for_input-convex_",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "integrating_gnn_and_neural_odes_for_estimating_non",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "fastsurvival:_hidden_computational_blessings_in_tr",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "unsupervised_polychromatic_neural_representation_f",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "aligning_target-aware_molecule_diffusion_models_wi",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "mixture_of_neural_fields_for_heterogeneous_reconst",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "sample-efficient_optimization_in_the_latent_space_",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "bootstrapped_training_of_score-conditioned_generat",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "direct_preference-based_evolutionary_multi-objecti",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "interventions,_where_and_how?_experimental_design_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_conditional_randomization_test_for_sparse_logist",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "fast:_a_dual-tier_few-shot_learning_paradigm_for_w",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "generative_adversarial_model-based_optimization_vi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "samba:_severity-aware_recurrent_modeling_for_cross",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "subgraph_neural_networks",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "off-policy_selection_for_initiating_human-centric_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      },
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "extraction_and_recovery_of_spatio-temporal_structu",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "shape_and_structure_preserving_differential_privac",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "dart-eval:_a_comprehensive_dna_language_model_eval",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "diffinfinite:_large_mask-image_synthesis_via_paral",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "counterfactual_neural_temporal_point_process_for_e",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "banditpam:_almost_linear_time_k-medoids_clustering",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "quilt-1m:_one_million_image-text_pairs_for_histopa",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "horse:_hierarchical_representation_for_large-scale",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "smart:_towards_pre-trained_missing-aware_model_for",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "chimera:_effectively_modeling_multivariate_time_se",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "a_textbook_remedy_for_domain_shifts:_knowledge_pri",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "support_recovery_in_sparse_pca_with_incomplete_dat",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "uncovering_neural_scaling_laws_in_molecular_repres",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "closing_the_loop_in_medical_decision_support_by_un",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "leveraging_an_ecg_beat_diffusion_model_for_morphol",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "torsionnet:_a_reinforcement_learning_approach_to_s",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "a_3d_generative_model_for_structure-based_drug_des",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "ehrshot:_an_ehr_benchmark_for_few-shot_evaluation_",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      },
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "learning_via_surrogate_pac-bayes",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "advancing_bayesian_optimization_via_learning_corre",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "turbohopp:_accelerated_molecule_scaffold_hopping_w",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "mtneuro:__a_benchmark_for_evaluating_representatio",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "for_high-dimensional_hierarchical_models,_consider",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "recurrent_bayesian_classifier_chains_for_exact_mul",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "efficiently_factorizing_boolean_matrices_using_pro",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      }
+    ]
+  },
+  {
+    "id": "benchmarking_structural_inference_methods_for_inte",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "persistent_homology_for_high-dimensional_data_base",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "molecule_joint_auto-encoding:_trajectory_pretraini",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "calibrating_predictions_to_decisions:_a_novel_appr",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "when_and_how_to_lift_the_lockdown?_global_covid-19",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "transtab:_learning_transferable_tabular_transforme",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "scaling_up_continuous-time_markov_chains_helps_res",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      }
+    ]
+  },
+  {
+    "id": "equivariant_spatio-temporal_attentive_graph_networ",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "graph_coloring_via_neural_networks_for_haplotype_a",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "domain_generalization_for_medical_imaging_classifi",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "kermut:_composite_kernel_regression_for_protein_va",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "deep_molecular_representation_learning_via_fusing_",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "language_models_enable_zero-shot_prediction_of_the",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "active_observing_in_continuous-time_control",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "llamo:_large_language_model-based_molecular_graph_",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "association_pattern-aware_fusion_for_biological_en",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "bayrel:_bayesian_relational_learning_for_multi-omi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "molecule_generation_with_fragment_retrieval_augmen",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "keypoint-augmented_self-supervised_learning_for_me",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "implicitly_guided_design_with_propen:_match_your_d",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "empowering_active_learning_for_3d_molecular_graphs",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "stimage-1k4m:_a_histopathology_image-gene_expressi",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "full-atom_peptide_design_with_geometric_latent_dif",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "De Novo Peptide Design"
+      }
+    ]
+  },
+  {
+    "id": "no_subclass_left_behind:_fine-grained_robustness_i",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "synctwin:_treatment_effect_estimation_with_longitu",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "can_llms_solve_molecule_puzzles?_a_multimodal_benc",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "towards_multi-dimensional_explanation_alignment_fo",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "structured_recognition_for_generative_models_with_",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "long-range_brain_graph_transformer",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "conformal_alignment:_knowing_when_to_trust_foundat",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "deep_multi-modal_structural_equations_for_causal_e",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "realseudo_for_real-time_calcium_imaging_analysis",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "few-shot_algorithms_for_consistent_neural_decoding",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "improving_self-supervised_molecular_representation",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "pediatricsgpt:_large_language_models_as_chinese_me",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "muse-gnn:_learning_unified_gene_representation_fro",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "predicting_cellular_responses_to_novel_drug_pertur",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "generalized_protein_pocket_generation_with_prior-i",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "censored_quantile_regression_neural_networks_for_d",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "disentangling_human_error_from_ground_truth_in_seg",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "robust_sleep_staging_over_incomplete_multimodal_ph",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "capturing_implicit_hierarchical_structure_in_3d_bi",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "learning_from_mixtures_of_private_and_public_popul",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "darnet:_dual_attention_refinement_network_with_spa",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "into_the_single_cell_multiverse:_an_end-to-end_dat",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "conditioning_non-linear_and_infinite-dimensional_d",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "model_decides_how_to_tokenize:_adaptive_dna_sequen",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "brant:_foundation_model_for_intracranial_neural_si",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "variational_bayesian_monte_carlo_with_noisy_likeli",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "generating_highly_designable_proteins_with_geometr",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "prosst:_protein_language_modeling_with_quantized_s",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "bidirectional_recurrence_for_cardiac_motion_tracki",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "attention_boosted_individualized_regression",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "enhancing_vision-language_models_for_medical_imagi",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "fast_scalable_and_accurate_discovery_of_dags_using",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "enhancing_protein_mutation_effect_prediction_throu",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "unsupervised_protein-ligand_binding_energy_predict",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "codrug:_conformal_drug_property_prediction_with_de",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "disentangling_the_roles_of_distinct_cell_classes_w",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "reverse-complement_equivariant_networks_for_dna_se",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "beyond_efficiency:_molecular_data_pruning_for_enha",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "benchx:_a_unified_benchmark_framework_for_medical_",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "should_i_stop_or_should_i_go:_early_stopping_with_",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "nas-x:_neural_adaptive_smoothing_via_twisting",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "differentially_private_image_classification_by_lea",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "multimodn\u2014multimodal,_multi-task,_interpretable_mo",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "when_in_doubt:_neural_non-parametric_uncertainty_q",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "youtubepd:_a_multimodal_benchmark_for_parkinson\u2019s_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "robust_recursive_partitioning_for_heterogeneous_tr",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "autoregressive_image_diffusion:_generation_of_imag",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "a_case_for_reframing_automated_medical_image_class",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "learning_riemannian_metric_for_disease_progression",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "metropolis_sampling_for_constrained_diffusion_mode",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "reinforced_genetic_algorithm_for_structure-based_d",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "debiasing_averaged_stochastic_gradient_descent_to_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "unbalanced_sobolev_descent",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "beyond_concept_bottleneck_models:_how_to_make_blac",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "geo-sic:_learning_deformable_geometric_shapes_in_d",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "contrast_everything:_a_hierarchical_contrastive_fr",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      },
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      },
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "metric_flow_matching_for_smooth_interpolations_on_",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "vime:_extending_the_success_of_self-_and_semi-supe",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "treemoco:_contrastive_neuron_morphology_representa",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "reinforcement_learning_based_disease_progression_m",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "biomedical_visual_instruction_tuning_with_clinicia",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "conditional_generative_models_are_sufficient_to_sa",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "medformer:_a_multi-granularity_patching_transforme",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "conditioning_sparse_variational_gaussian_processes",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "qgym:_scalable_simulation_and_benchmarking_of_queu",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "assisted_learning:_a_framework_for_multi-organizat",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "data-efficient_pipeline_for_offline_reinforcement_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "modeling_latent_neural_dynamics_with_gaussian_proc",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "full-atom_protein_pocket_design_via_iterative_refi",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "causal_contrastive_learning_for_counterfactual_reg",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "debiased,_longitudinal_and_coordinated_drug_recomm",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      },
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "beacon:_benchmark_for_comprehensive_rna_tasks_and_",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ravl:_discovering_and_mitigating_spurious_correlat",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ehrcon:_dataset_for_checking_consistency_between_u",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "vigdet:_knowledge_informed_neural_temporal_point_p",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "probio:_a_protocol-guided_multimodal_dataset_for_m",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "neural_p$^3$m:_a_long-range_interaction_modeling_e",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "vtac:_a__benchmark_dataset_of_ventricular_tachycar",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "kg-fit:_knowledge_graph_fine-tuning_upon_open-worl",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "autobahn:_automorphism-based_graph_neural_nets",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "overcoming_common_flaws_in_the_evaluation_of_selec",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "can_graph_neural_networks_count_substructures?",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "data_augmentation_for_compositional_data:_advancin",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_neural_set_functions_under_the_optimal_su",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_diffusion_at_lightspeed",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "adaptive_labeling_for_efficient_out-of-distributio",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "cogmol:_target-specific_and_selective_drug_design_",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ecosystem-level_analysis_of_deployed_machine_learn",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "when_is_an_embedding_model__more_promising_than_an",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "extracting_training_data_from_molecular_pre-traine",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "etab:_a_benchmark_suite_for_visual_representation_",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      }
+    ]
+  },
+  {
+    "id": "how_molecules_impact_cells:_unlocking_contrastive_",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "additive_mil:_intrinsically_interpretable_multiple",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "conformal_prediction_with_temporal_quantile_adjust",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "who\u2019s_gaming_the_system?_a_causally-motivated_appr",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "fasme:_fast_and_sample-efficient_meta_estimator_fo",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "learning_image_priors_through_patch-based_diffusio",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "incorporating_interpretable_output_constraints_in_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "on_the_complexity_of_differentially_private_best-a",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "customized_subgraph_selection_and_encoding_for_dru",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "prospect:_labeled_tandem_mass_spectrometry_dataset",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "generating_multivariate_time_series_with_common_so",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "nanobaselib:_a_multi-task_benchmark_dataset_for_na",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gpex,_a_framework_for_interpreting_artificial_neur",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "graph_denoising_diffusion_for_inverse_protein_fold",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "ddxplus:_a_new_dataset_for_automatic_medical_diagn",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "visual_decoding_and_reconstruction_via_eeg_embeddi",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "learning_identifiable_and_interpretable_latent_mod",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "todd:_topological_compound_fingerprinting_in_compu",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "diagnosing_failures_of_fairness_transfer_across_di",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pre-training_protein_encoder_via_siamese_sequence-",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "learning_diverse_causally_emergent_representations",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "compositional_sculpting_of_iterative_generative_pr",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "large_language_model_validity_via_enhanced_conform",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "drugclip:_contrastive_protein-molecule_representat",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "brain_diffusion_for_visual_exploration:_cortical_d",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "creating_a_public_repository_for_joining_private_d",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "reliable_decisions_with_threshold_calibration",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "unitox:_leveraging_llms_to_curate_a_unified_datase",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "data_augmentations_for_improved_(large)_language_m",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "removing_inter-experimental_variability_from_funct",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "efficient_hierarchical_bayesian_inference_for_spat",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "iterative_structural_inference_of_directed_graphs",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_convolutional_auto-encoder_for_haplotype_assembl",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "de_novo_drug_design_using_reinforcement_learning_w",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "deep_markov_factor_analysis:_towards_concurrent_te",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "neural_regression,_representational_similarity,_mo",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "variational_model_inversion_attacks",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "cares:_a_comprehensive_benchmark_of_trustworthines",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      },
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "security_analysis_of_safe_and_seldonian_reinforcem",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "bubblewrap:_online_tiling_and_real-time_flow_predi",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "residual_multiplicative_filter_networks_for_multis",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "tabularbench:_benchmarking_adversarial_robustness_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "optimal_adaptive_electrode_selection_to_maximize_s",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "antigen-specific_antibody_design_via_direct_energy",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "upping_the_game:_how_2d_u-net_skip_connections_fli",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "jointly_modeling_inter-_&_intra-modality_dependenc",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "guiding_deep_molecular_optimization_with_genetic_e",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "decision-making_with_auto-encoding_variational_bay",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "functionally_regionalized_knowledge_transfer_for_l",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "genot:_entropic_(gromov)_wasserstein_flow_matching",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "hit_and_lead_discovery_with_explorative_rl_and_fra",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "sequence-augmented_se(3)-flow_matching_for_conditi",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "an_effective_framework_for_estimating_individualiz",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "from_predictions_to_decisions:_using_lookahead_reg",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "distribution-free_statistical_dispersion_control_f",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "deep_inference_of_latent_dynamics_with_spatio-temp",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "neural_distance_embeddings_for_biological_sequence",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "reverse-engineering_recurrent_neural_network_solut",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "mm-fi:_multi-modal_non-intrusive_4d_human_dataset_",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "finding_order_in_chaos:_a_novel_data_augmentation_",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "addressing_the_speed-accuracy_simulation_trade-off",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "smooth_normalizing_flows",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "cell_ontology_guided_transcriptome_foundation_mode",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "sampling_with_riemannian_hamiltonian_monte_carlo_i",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "image_reconstruction_via_autoencoding_sequential_d",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "importance-aware_co-teaching_for_offline_model-bas",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      },
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "scamps:_synthetics_for_camera_measurement_of_physi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pard:_permutation-invariant_autoregressive_diffusi",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "a_unified,_scalable_framework_for_neural_populatio",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "identifying_signal_and_noise_structure_in_neural_p",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "composite_feature_selection_using_deep_ensembles",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "deep_extrapolation_for_attribute-enhanced_generati",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "automated_multi-task_learning_for_joint_disease_pr",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "meta-learning_to_improve_pre-training",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_versatile_informative_diffusion_model_for_single",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "a_flexible_framework_for_designing_trainable_prior",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "bidirectional_learning_for_offline_infinite-width_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hest-1k:_a_dataset_for_spatial_transcriptomics_and",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "simple_and_scalable_sparse_k-means_clustering_via_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "unsupervised_anomaly_detection_in_the_presence_of_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "causal_effect_inference_for_structured_treatments",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "alleviating_the_semantic_gap_for_generalized_fmri-",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "self-supervised_graph_transformer_on_large-scale_m",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "practical_and_asymptotically_exact_conditional_sam",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "mmsite:_a_multi-modal_framework_for_the_identifica",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "the_geometry_of_hidden_representations_of_large_tr",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "structuring_uncertainty_for_fine-grained_sampling_",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "graph_mixture_of_experts:_learning_on_large-scale_",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "structure-aware_image_segmentation_with_homotopy_w",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "fragment-based_pretraining_and_finetuning_on_molec",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "modern_hopfield_networks_and_attention_for_immune_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "greedy_approximation_algorithms_for_active_sequent",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      }
+    ]
+  },
+  {
+    "id": "interpretable_sequence_learning_for_covid-19_forec",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "interaction_measures,_partition_lattices_and_kerne",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "inverse_learning_of_symmetries",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "are_nuclear_masks_all_you_need_for_improved_out-of",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "offline_reinforcement_learning_with_differential_p",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "smoothhess:_relu_network_feature_interactions_via_",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "causal_analysis_of_covid-19_spread_in_germany",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "modelling_cellular_perturbations_with_the_sparse_a",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "neural_circuits_for_fast_poisson_compressed_sensin",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "csmed:_bridging_the_dataset_gap_in_automated_citat",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "shared_independent_component_analysis_for_multi-su",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ecg-qa:_a_comprehensive_question_answering_dataset",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      },
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "learning_low-dimensional_generalizable_natural_fea",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "med-real2sim:_non-invasive_medical_digital_twins_u",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "human_expertise_in_algorithmic_prediction",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "a_sars-cov-2_interaction_dataset_and_vhh_sequence_",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "gft:_graph_foundation_model_with_transferable_tree",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "addressing_asynchronicity_in_clinical_multimodal_f",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "reproducibility_in_multiple_instance_learning:_a_c",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "lung250m-4b:_a_combined_3d_dataset_for_ct-_and_poi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "strokerehab:_a_benchmark_dataset_for_sub-second_ac",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "instructor-inspired_machine_learning_for_robust_mo",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "diffusionblend:_learning_3d_image_prior_through_po",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "intelligent_knee_sleeves:_a_real-time_multimodal_d",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "on_divergence_measures_for_training_gflownets",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "medical_dead-ends_and_learning_to_identify_high-ri",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "towards_semi-structured_automatic_icd_coding_via_t",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "protein_design_with_guided_discrete_diffusion",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "targeted_sequential_indirect_experiment_design",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "unsupervised_learning_from_incomplete_measurements",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "ehrsql:_a_practical_text-to-sql_benchmark_for_elec",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "covariate_shift_corrected_conditional_randomizatio",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "toward_conditional_distribution_calibration_in_sur",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "a_heat_diffusion_perspective_on_geodesic_preservin",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "dynamic_subgroup_identification_in_covariate-adjus",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "amortized_inference_for_heterogeneous_reconstructi",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "inverse-weighted_survival_games",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "learning_causal_models_under_independent_changes",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "sm3-text-to-query:_synthetic_multi-model_medical_t",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "data-driven_discovery_of_dynamical_systems_in_phar",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "care-mi:_chinese_benchmark_for_misinformation_eval",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "quantifying_aleatoric_uncertainty_of_the_treatment",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "probabilistic_transformer:_modelling_ambiguities_a",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "exploring_the_limits_of_out-of-distribution_detect",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "sample_efficiency_matters:_a_benchmark_for_practic",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "quantifying_&_modeling_multimodal_interactions:_an",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "brain-jepa:_brain_dynamics_foundation_model_with_g",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "cryogem:_physics-informed_generative_cryo-electron",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "care:_a_benchmark_suite_for_the_classification_and",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "the_devil_is_in_the_detail:_a_framework_for_macros",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  }
+]

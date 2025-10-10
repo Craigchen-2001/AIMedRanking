@@ -1,0 +1,1909 @@
+[
+  {
+    "id": "Xiong0JM25",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ZhangQ0LCZD20",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "XuAKMFY21",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "Wei0JK23",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "ZhuXW0ZQLL23",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      }
+    ]
+  },
+  {
+    "id": "XiYHL21",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "GuoDZ21",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Ye0CA00LWL23",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "SunXWCZ21",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "RahierHMRD21",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "XuJCXZD0WX24",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "WenOZQYZ22",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "LiuLLXYL25",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "LiFWSLSCY24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FooHLT22",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "AykentX22",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "0003QM0K23",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "LussCDSZST21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "MoomtaheenKOGMG22",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "LeeSJKH23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "XuZL0ZH024",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "TakedaHHPZSPKHC20",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "HaoLEQOS021",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "RenWZ22",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "KimPJK24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FuS22",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "0013DC22",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "TanZ23",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LenceGFHSZP25",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "NagpalGDD22",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "HaoLHWHLCL20",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "DuLT21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "MonsefiKZCDJ0R24",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "WuZCZ24",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "BarshatskiR21",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "GaoXGS20",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WangLYY023",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "JianKM22",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "XiaK21",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "YfantidouSCVQK24",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "HuGAZLKHSZ23",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "NambiarGOCBK23",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      },
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "LiuLWHK022",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "XueYTMU22",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "YinCYWC024",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "LuoYXM20",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "WanZS21",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "OzyurtKHF21",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "HoangP0ZTZ24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "HongXKPMAST20",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "00010YWXR0K22",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "GuZGY023",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "RenWZW21",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "KanLCYXYZGY23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ZhaoYDH23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "QiaoPCLS0R24",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "MaWYLHT22",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "YehudaFR23",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      },
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "WuNCVMY23",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "ChenWZ0G0QLXXWL21",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "0001S21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ZhangSHD022",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "XueJKFKAA022",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "LiuYLCSLZMLMZXH24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "BetleiDA21",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "OkawaI0TKK21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WuX023",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ChiamLT24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ZhaoZZGG0Z24",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "HartvigsenSKR20",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "00020LS23",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "BoominathanOZKS20",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "JinZMLWJDSWFGCL24",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "TranNNH25",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "0002LC025",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      },
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "JiaWLJ24",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "FuS22a",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "WangDL0L24",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "GaoWZPXH0QL0L23",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "0009LNX0TWURSQH21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ZhengQ0W0CZ22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ChangWLMDPKGRGM21",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      },
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "0002S021",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "LiZZ22",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "SegoviaDominguez21",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "ZhangGDS25",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "HerlihyPSD23",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "GaoPZ00025",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "HigashiguchiMKM25",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      },
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "XueSXLSYP023",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "ZhuXW0QZLL22",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "SuZZY25",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "0003YHXWG0Q22",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      }
+    ]
+  },
+  {
+    "id": "QuinnTC22",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "LancianoBG20",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FarhadlooML0SMM22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JhaXDZ21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "CuiPZW21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "NessU25",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "00020YLM25",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "ZhangWHHBWGCZ024",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "MansouriAZE20",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "YangZHSC21",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "WangDYSS24",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Wang025",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "YuanLYZH000025",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "MamecheKV22",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "LeeYNKP23",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "YinLZZ20",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "JinL0AT22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "CuiSTMWL20",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "YinM022",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "XiaWSZLH021",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FuX0GS21",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "ZhangCXXH024",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "KillianBST21",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "DohanGBBC21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "RozemberczkiHGG22",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LiuLS0HX21",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WangGZWXMZ23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ChenMGWZC24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ZhangC00S0Q0B25",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "WuZMQLZQFZZ24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Xu0HZ0WM22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FoumaniMGINS24",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "TanKY00ZHY22",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "PanYZY22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "LiDZKY23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "MizutaniSS22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ZhuLKS20",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "SrivastavaSLA022",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "DengGTL24",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "ShenWZPW24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "YinFYPCWC025",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "TurutovR25",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ZhangCMZWWZ22",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "DasWS23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "YinAHCZS20",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      },
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LiuYCJ20",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LuoYHLN0N24",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "SuQ0K22",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "TabarPWLBY20",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "ShiSD22",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "MaCVMMBL23",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "LiZ0HWXHD021",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "WenD00XT22",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "JayagopalXHWHTT24",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      },
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ZhaoYWWZCLCC23",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "AbrateB21",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ZhangWMTNLMJCZ025",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "LiaoZZWWCWM25",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "FuFMTH22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "NessBHU23",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      },
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "ZhangYCC024",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      },
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      },
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "WangWYLZ23",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "De Novo Peptide Design"
+      }
+    ]
+  },
+  {
+    "id": "NahmiasK20",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "DaiKGLLM20",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ZhongWWZWHXM24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ShiZ0LMWQ25",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "SchwabePF21",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "CaiC0LL23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "LiuZXL022",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "FengXFWZL22",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ChenMWWWX21",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "ZhouYLG0C24",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "KuzmanovicFHF24",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "XiaLWWZH23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WangALZKLSWL24",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LiuLGL25",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Dang0XBSCGSCM23",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "ZhangKAC20",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "MaCF0SZ022",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "YangSX0SS21",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "RahmanP23",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LiuPHSJS20",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "BagherianGBNYM21",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "QinDZY23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WangKNSNCVV022",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "Wen0YCSY25",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "RahmanP22",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "YangZCCHLLQWZ23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "HeWLZ20",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "JanakarajanBM22",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      }
+    ]
+  },
+  {
+    "id": "RahmanRMC24",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "XueZDDXZC20",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      },
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "TecJMD24",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "YinLC022",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "Adiga0HPPVLM21",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "HarrisonACRVMA23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JovanMMTCW23",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "LinTGS22",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ElhamodKMUBDBBM23",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "HaoX0H021",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "SuoCZZ20",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "ZangW20",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "Chen0YFMY22",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "ZhangZCBL23",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "WangZTY23",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LeiAQS20",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "MadhyasthaLSBVB20",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "LiuYYWGW022",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "WuCVMY22",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ChenLFW25",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  }
+]

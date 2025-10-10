@@ -1,0 +1,7089 @@
+[
+  {
+    "id": "qNrJJZAKI3",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods"
+      }
+    ]
+  },
+  {
+    "id": "DYypjaRdph2",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "fv9XU7CyN2",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "gHLWTzKiZV",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "BIveOmD1Nh",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "h0de3QWtGG",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "Je5SHCKpPa",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      }
+    ]
+  },
+  {
+    "id": "-w2oomO6qgc",
+    "method_labels": [
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "eJIJF3-LoZO",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "WwmtcGr4lP",
+    "method_labels": [
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "vaRCHVj0uGI",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "HklxbgBKvr",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 32,
+        "label": "Proximal Policy Optimization (PPO)"
+      }
+    ]
+  },
+  {
+    "id": "6IYp-35L-xJ",
+    "method_labels": [
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "Io9yFt7XH7",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "i5MrJ6g5G1",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 48,
+        "label": "Classifier-Free and Training-Free Guidance"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "BJg866NFvB",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Recurrent Neural Networks (LSTM)"
+      },
+      {
+        "id": 19,
+        "label": "Adversarial Learning and Domain Adaptation"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "MREQ0k6qvD",
+    "method_labels": [
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      }
+    ]
+  },
+  {
+    "id": "5FXKgOxmb2",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "aKcS3xojnwY",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "RQ428ZptQfU",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "Lwr8We4MIxn",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 23,
+        "label": "Graph Representation and Embedding"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "w_drCosT76",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "H0gdPxSwkPb",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 19,
+        "label": "Adversarial Learning and Domain Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "rzBskAEmoc",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "9X-hgLDLYkQ",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "2EpjkjzdCAa",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      }
+    ]
+  },
+  {
+    "id": "YuHQTo6G9S",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "KHkBpvmYVI",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "ArpwmicoYW",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "jZPqf2G9Sw",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "pAoqRlTBtY",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "TXfzH933qV",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      },
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "b0RuGUYo8pA",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Transfer Learning"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "YDJRFWBMNby",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "rklr9kHFDB",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "4ktJJBvvUd",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "S1eALyrYDH",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "s5epFPdIW6",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "GkJOCga62u",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "PSiijdQjNU",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks (GFlowNets)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "i2r7LDjba3",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "O8Vc52xFSUR",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "GQjaI9mLet",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "pzUhfQ74c5",
+    "method_labels": [
+      {
+        "id": 18,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "aGH43rjoe4",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "6LtdZCyuZR",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "AoIKgHu9Si",
+    "method_labels": [
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "7UhxsmbdaQ",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "5z9GjHgerY",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "oM7Jbxdk6Z",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 27,
+        "label": "Mutual Information Maximization"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      }
+    ]
+  },
+  {
+    "id": "S1esMkHYPr",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "lvw3UgeVxS",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "LbgIZpSUCe",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "xhEN0kJh4q",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "YIls9HEa52",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "DTatjJTDl1",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "HJlWWJSFDH",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "FVuqJt3c4L",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "bjkX6Kzb5H",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 46,
+        "label": "Semi-Supervised Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "mMhZS7qt0U",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "uNomADvF3s",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "rnL3OafDdw",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "n8O0trhost",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "xmcYx_reUn6",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "1HxTO6CTkz",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      }
+    ]
+  },
+  {
+    "id": "gQlxd3Mtru",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "UfBIxpTK10",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "KXrgDM3mVD",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "BbZy8nI1si",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "CoQw1dXtGb",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      },
+      {
+        "id": 27,
+        "label": "Mutual Information Maximization"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "QG31By6S6w",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "j7cyANIAxV",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "to3qCB3tOh9",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 51,
+        "label": "Mutual and Contrastive Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "6MRm3G4NiU",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "ua5MHdsbck",
+    "method_labels": [
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "qeXcMutEZY",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "96beVMeHh9",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "WBUVagRgsd",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "8efJYMBrNb",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      }
+    ]
+  },
+  {
+    "id": "r0xte-t40I",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "nYjAzwor9R",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      }
+    ]
+  },
+  {
+    "id": "ixP76Y33y1",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      },
+      {
+        "id": 19,
+        "label": "Adversarial Learning and Domain Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "DpLFmc09pC",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "FRxhHdnxt1",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "9qS3HzSDNv",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "HAwZGLcye3",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "6ve2CkeQe5S",
+    "method_labels": [
+      {
+        "id": 19,
+        "label": "Adversarial Learning and Domain Adaptation"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "rxlF2Zv8x0",
+    "method_labels": [
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "fXHl76nO2AZ",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Recurrent Neural Networks (LSTM)"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "8fLgt7PQza",
+    "method_labels": [
+      {
+        "id": 23,
+        "label": "Graph Representation and Embedding"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "q-cnWaaoUTH",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      }
+    ]
+  },
+  {
+    "id": "9htTvHkUhh",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "x5txICnnjC",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      }
+    ]
+  },
+  {
+    "id": "BqHaLnans2",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "AhizIPytk4",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Transfer Learning"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "FMMF1a9ifL",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      }
+    ]
+  },
+  {
+    "id": "3y1K6buO8c",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "7I12hXRi8F",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "H9UnNgdq0g",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      }
+    ]
+  },
+  {
+    "id": "gxhRR8vUQb",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "iezDdA9oeB",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "okYdj8Ysru",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "hm2tNDdgaFK",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "RyWypcIMiE",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "rQyg6MnsDb",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "hWmwL9gizZ",
+    "method_labels": [
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "xayT1nn8Mg",
+    "method_labels": [
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      }
+    ]
+  },
+  {
+    "id": "RemfXx7ebP",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "OmpTdjl7RV",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "LvTSvdiSwG",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "uH0FGECSEI",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks (GFlowNets)"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "QCrw0u9LQ7",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "XsgHl54yO7",
+    "method_labels": [
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "6Hz1Ko087B",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "uKB4cFNQFg",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "01KmhBsEPFO",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      }
+    ]
+  },
+  {
+    "id": "RIEW6M9YoV",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "W2tCmRrj7H",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "8g26Yv1EOu",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      }
+    ]
+  },
+  {
+    "id": "1YLJDvSx6J4",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "WQV9kB1qSU",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "P5Z-Zl9XJ7",
+    "method_labels": [
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      }
+    ]
+  },
+  {
+    "id": "10JOlFIPjt",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "zmmfsJpYcq",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "0WVNuEnqVu",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "aGfU_xziEX8",
+    "method_labels": [
+      {
+        "id": 44,
+        "label": "Expectation Maximization"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "iuxaCU3DI7",
+    "method_labels": [
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 46,
+        "label": "Semi-Supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "OUkZXbbwQr",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "NkGDNM8LB0",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      },
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      }
+    ]
+  },
+  {
+    "id": "jlzNb1iWs3",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "65XDF_nwI61",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "xQUe1pOKPam",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "TVQLu34bdw",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 48,
+        "label": "Classifier-Free and Training-Free Guidance"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "xcMmebCT7s",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "0kPL3xO4R5",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "tL89RnzIiCd",
+    "method_labels": [
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "CGON8Btleu",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "IwgmgidYPS",
+    "method_labels": [
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      }
+    ]
+  },
+  {
+    "id": "oCHsDpyawq",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "B5VEi5d3p2",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      }
+    ]
+  },
+  {
+    "id": "JQtuCumAFD",
+    "method_labels": [
+      {
+        "id": 18,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "L07zWidgdW",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "jqmptcSNVG",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      }
+    ]
+  },
+  {
+    "id": "txlWziuCE5W",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 21,
+        "label": "Transfer Learning"
+      }
+    ]
+  },
+  {
+    "id": "1vrpdV9U3i",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "6EUtjXAvmj",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "TUKt7ag0qq",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "PstM8YfhvI",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "H1gBhkBFDH",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "HNOo4UNPBF",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      }
+    ]
+  },
+  {
+    "id": "Rq13idF0F73",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "kJFIH23hXb",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "itGkF993gz",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "T1XmO8ScKim",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "rFpZnn11gj",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "cWEfRkYj46",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "uOb7rij7sR",
+    "method_labels": [
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "Yo06F8kfMa1",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "BpfsxFqhGa",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "lKxL5zkssv",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "hjROBHstZ3",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "iYC5hOMqUg",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "FtjLUHyZAO",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "2Mo7v69otj",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "fylclEqgvgd",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      }
+    ]
+  },
+  {
+    "id": "FBhKUXK7od",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "i1NNCrRxdM",
+    "method_labels": [
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "trj2Jq8riA",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "KSLkFYHlYg",
+    "method_labels": [
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "VbCMhg7MRmj",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "5yDS32hKJc",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "3usdM1AuI3",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Recurrent Neural Networks"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "sTYuRVrdK3",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "xnC8YwKUE3k",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "YeSxbRrDRl",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "KXRSh0sdVTP",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "78tc3EiUrN",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "WoPovNkM5h",
+    "method_labels": [
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 46,
+        "label": "Semi-Supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "S1e_9xrFvS",
+    "method_labels": [
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "MMHqnUOnl0",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "-HHJZlRpGb",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "Byg-wJSYDS",
+    "method_labels": [
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      }
+    ]
+  },
+  {
+    "id": "nYpPAT4L3D",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      }
+    ]
+  },
+  {
+    "id": "a6U41REOa5",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "owEQ0FTfVj",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "Y3BbxvAQS9",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "pe0Vdv7rsL",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "YH4M1Tbxfz",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "zDC3iCBxJb",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "YWtLZvLmud7",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "w-x7U26GM7j",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "xI4yNlkaqh",
+    "method_labels": [
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "NPNUHgHF2w",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "unI5ucw_Jk",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "5WEpbilssv",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "yfe1VMYAXa4",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 23,
+        "label": "Graph Representation and Embedding"
+      }
+    ]
+  },
+  {
+    "id": "iZl0VqEdxa",
+    "method_labels": [
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "PzcvxEMzvQC",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "9W6KaAcYlr",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 44,
+        "label": "Expectation Maximization"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "cXbnGtO0NZ",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "VGURexnlUL",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "AJsI-ymaKn_",
+    "method_labels": [
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "CS4463zx6Hi",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "GK5ni7tIHp",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 48,
+        "label": "Classifier-Free and Training-Free Guidance"
+      }
+    ]
+  },
+  {
+    "id": "YrXHEb2qMb",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "Fj7Fzm5lWL",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "OHpvivXrQr",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      }
+    ]
+  },
+  {
+    "id": "P1QUVhOtEFP",
+    "method_labels": [
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "XQlccqJpCC",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "9YlaeLfuhJF",
+    "method_labels": [
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "uNd289HjLi",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "OtEDS2NWhqa",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "0mtz0pet1z",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "gFR4QwK53h",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "5cFfz6yMVPU",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "xOmC5LiVuN",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "BksqWM8737",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "12RoR2o32T",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "7zwIEbSTDy",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "AZW3qlCGTe",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      }
+    ]
+  },
+  {
+    "id": "kHSu4ebxFXY",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "lVgB2FUbzuQ",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "wg8NPfeMF9",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Tqdsruwyac",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "p66a00KLWN",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 21,
+        "label": "Transfer Learning"
+      }
+    ]
+  },
+  {
+    "id": "hLwcNSFhC2",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "QaTBHSqmH9",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "MBBRHDuiwM",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "agHLCOBM5jP",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      }
+    ]
+  },
+  {
+    "id": "JSB171dSUU",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "Qc_OopMEBnC",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3xqqYOKILp",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "kKF8_K-mBbS",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "kzGuiRXZrQ",
+    "method_labels": [
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "B1xIj3VYvr",
+    "method_labels": [
+      {
+        "id": 46,
+        "label": "Semi-Supervised Learning"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "snOgiCYZgJ7",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "nYPuSzGE3X",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "B07dLVWLyD",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      }
+    ]
+  },
+  {
+    "id": "_geIwiOyUhZ",
+    "method_labels": [
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "pH543jrbe8",
+    "method_labels": [
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "Lb91pXwZMR",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "C4BikKsgmK",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "3b9SKkRAKw",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "d_2lcDh0Y9c",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 44,
+        "label": "Expectation Maximization"
+      }
+    ]
+  },
+  {
+    "id": "kYwTmlq6Vn",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "eGqQyTAbXC",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "77lSWa-Tm3Z",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "dsHpulHpOK",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3MnMGLctKb",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 28,
+        "label": "Conditional Normalizing Flows"
+      }
+    ]
+  },
+  {
+    "id": "peX9zpWgg4",
+    "method_labels": [
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "CUfSCwcgqm",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hhvkdRdWt1F",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "WcOohbsF4H",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "6jjAYmppGQ",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "NialiwI2V6",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "aN57tSd5Us",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "DsEhqQtfAG",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "gVkX9QMBO3",
+    "method_labels": [
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "AXbN2qMNiW",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "LI2bhrE_2A",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "WQwV7Y8qwa",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "T4sMzjy7fO",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "PnR1MNen7u",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "ZTsoE8G3GG",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "uQnvYP7yX9",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "7B9FCDoUzB",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "Nq7yKYL0Bp",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "9rPyHyjfwP",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "uMAujpVi9m",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "lBB3eSn6fY",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "TUBpc5rqGA",
+    "method_labels": [
+      {
+        "id": 53,
+        "label": "Bandit Algorithms"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "3Fgylj4uqL",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "noUF58SMra",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "ozZG5FXuTV",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "6TxBxqNME1Y",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "LFHFQbjxIiP",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "NJxCpMt0sf",
+    "method_labels": [
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      },
+      {
+        "id": 27,
+        "label": "Mutual Information Maximization"
+      }
+    ]
+  },
+  {
+    "id": "pRCMXcfdihq",
+    "method_labels": [
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "6K2RM6wVqKu",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "KE_wJD2RK4",
+    "method_labels": [
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "RgE1qiO2ek",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "ZK6vTvb84s",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "dx4b7lm8jMM",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "0dELcFHig2",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "mpqMVWgqjn",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 18,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      }
+    ]
+  },
+  {
+    "id": "4S2L519nIX",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 21,
+        "label": "Transfer Learning"
+      }
+    ]
+  },
+  {
+    "id": "9yJKTosUex",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      }
+    ]
+  },
+  {
+    "id": "1mNFsbvo2P",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "Y0QqruhqIa",
+    "method_labels": [
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      }
+    ]
+  },
+  {
+    "id": "ox2ATRM90I",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Recurrent Neural Networks (LSTM)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      }
+    ]
+  },
+  {
+    "id": "xiyzCfXTS6",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 53,
+        "label": "Bandit Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "nqlymMx42E",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "BdmVgLMvaf",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks (GFlowNets)"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "nf3A0WZsXS5",
+    "method_labels": [
+      {
+        "id": 46,
+        "label": "Semi-Supervised Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "A1HhtITVEi",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "w8LMtFY97b",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "RwI7ZEfR27",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "ZxdkjTgK_Dl",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "yu1vqQqKkx",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      }
+    ]
+  },
+  {
+    "id": "AD5yx2xq8R",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      }
+    ]
+  },
+  {
+    "id": "q8vgHfPdoQP",
+    "method_labels": [
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ySCL-NG_I3",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "OdnqG1fYpo",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      }
+    ]
+  },
+  {
+    "id": "0ctvBgKFgc",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "lUYY2qsRTI",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "lzdFImKK8w",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "D_KeYoqCYC",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      },
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      }
+    ]
+  },
+  {
+    "id": "4c0J6lwQ4_",
+    "method_labels": [
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "Kwm8I7dU-l5",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "m9LCdYgN8-6",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "QfTXQiGYudJ",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 19,
+        "label": "Adversarial Learning and Domain Adaptation"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "mXHTifc1Fn",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "rkxawlHKDr",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "P4XmKjXTrM",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "q9VherQJd8_",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "YEPlTU5mZC",
+    "method_labels": [
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      }
+    ]
+  },
+  {
+    "id": "aX7X9z3vQS",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "XGagtiJ8XC",
+    "method_labels": [
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "k9bx1EfHI_-",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "nZOUYEN6Wvy",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "S8gbnkCgxZ",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      }
+    ]
+  },
+  {
+    "id": "085y6YPaYjP",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 21,
+        "label": "Transfer Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "P07dq7iSAGr",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "bcTjW5kS4W",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "BAelAyADqn",
+    "method_labels": [
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "qH9nrMNTIW",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "xkgfLXZ4e0",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      }
+    ]
+  },
+  {
+    "id": "DnG75_KyHjX",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "l0t2rumAvR",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      }
+    ]
+  },
+  {
+    "id": "kavTY__jxp",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      }
+    ]
+  },
+  {
+    "id": "ICYasJBlZNs",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "yRrPfKyJQ2",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "E1m5yGMOiV",
+    "method_labels": [
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "Q95MaWfF4e",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Ridge Regression and Linear Models"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "OXP9Ns0gnIq",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "UaAD-Nu86WX",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      }
+    ]
+  },
+  {
+    "id": "IjbXZdugdj",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Recurrent Neural Networks (LSTM)"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      }
+    ]
+  },
+  {
+    "id": "zcTLpIfj9u",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pB1XSj2y4X",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks (GFlowNets)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "FEZOLWexPb",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      }
+    ]
+  },
+  {
+    "id": "vDFA1tpuLvk",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "sO1QiAftQFv",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "vgt2rSf6al",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "U834XHJuqk",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "1iuaxjssVp",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "9OmCr1q54Z",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "27Qk18IZum",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 23,
+        "label": "Graph Representation and Embedding"
+      }
+    ]
+  },
+  {
+    "id": "1z3SOCwst9",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "b57IG6N20B",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "buC4E91xZE",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Vision-Language Models and Pretraining"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "ARQIJXFcTH",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "kQ2SOflIOVC",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "ZwhHSOHMTM",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "Ombm8S40zN",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "KtH8W3S_RE",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "Do9MOlwWHu0",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "9SYczU3Qgm",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "vFanHFE4Qv",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 51,
+        "label": "Mutual and Contrastive Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "l0mSUROpwY",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "rI0LYgGeYaw",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "DGez4B2a6Y",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "liKkG1zcWq",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "NSVtmmzeRB",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks (GFlowNets)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "zgQ0PHeGnL",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "OzUNDnpQyd",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "cUSNs8nGaV",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      }
+    ]
+  },
+  {
+    "id": "v3y68gz-WEz",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 35,
+        "label": "Riemannian Manifold Learning"
+      }
+    ]
+  },
+  {
+    "id": "At9JmGF3xy",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "oYemKnlIrO",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "zaq4LV55xHl",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 38,
+        "label": "Evolutionary and Genetic Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "C03Ajc-NS5W",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "SjMtxqdQ73",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "G328D1xt4W",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "0vqjc50HfcC",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "wsZsjOSytRA",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "7TOs9gjAg1",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Mutual Information Maximization"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      }
+    ]
+  },
+  {
+    "id": "qFZnAC4GHR",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "BHFs80Jf5V",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "Yt9CFhOOFe",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "qg2boc2AwU",
+    "method_labels": [
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "DqziS8DG4M",
+    "method_labels": [
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "mOpNrrV2zH",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "jHefDGsorp5",
+    "method_labels": [
+      {
+        "id": 38,
+        "label": "Evolutionary and Genetic Algorithms"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 44,
+        "label": "Expectation Maximization"
+      }
+    ]
+  },
+  {
+    "id": "cKAUvMePUN",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Recurrent Neural Networks (LSTM)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "2UnCj3jeao",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      }
+    ]
+  },
+  {
+    "id": "tnB94WQGrn",
+    "method_labels": [
+      {
+        "id": 23,
+        "label": "Graph Representation and Embedding"
+      },
+      {
+        "id": 47,
+        "label": "Retrieval-Augmented Generation (RAG)"
+      }
+    ]
+  },
+  {
+    "id": "rQ7fz9NO7f",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "Mfnh1Sqdwf",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "w60btE_8T2m",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "RJDjSXNuAZ",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      }
+    ]
+  },
+  {
+    "id": "XrMWUuEevr",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "4MsfQ2H0lP",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "4MbGnp4iPQ",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "v9EjwMM55Y",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      }
+    ]
+  },
+  {
+    "id": "wxPnuFp8fZ",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "otHZ8JAIgh",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 27,
+        "label": "Mutual Information Maximization"
+      }
+    ]
+  },
+  {
+    "id": "770DetV8He",
+    "method_labels": [
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      }
+    ]
+  },
+  {
+    "id": "QzTpTRVtrP",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      }
+    ]
+  },
+  {
+    "id": "lcSfirnflpW",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "2o58Mbqkd2",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "IxmWIkcKs5",
+    "method_labels": [
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 7,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "wyF5vNIsO7",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 45,
+        "label": "Active Sampling and Projection Methods"
+      }
+    ]
+  },
+  {
+    "id": "TVjLza1t4hI",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3kiZ5S5WkY",
+    "method_labels": [
+      {
+        "id": 44,
+        "label": "Expectation Maximization"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 27,
+        "label": "Mutual Information Maximization"
+      }
+    ]
+  },
+  {
+    "id": "BKXvPDekud",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "tnSo6VRLmT",
+    "method_labels": [
+      {
+        "id": 18,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 40,
+        "label": "Ensemble Learning (Decision Trees)"
+      }
+    ]
+  },
+  {
+    "id": "op-ceGueqc4",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      }
+    ]
+  },
+  {
+    "id": "FE99-fDrWd5",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      }
+    ]
+  },
+  {
+    "id": "iOMnn1hSBO",
+    "method_labels": [
+      {
+        "id": 18,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "g3VCIM94ke",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      }
+    ]
+  },
+  {
+    "id": "zg3ec1TdAP",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "n34taxF0TC",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      },
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "_X9Yl1K2mD",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "E48QvQppIN",
+    "method_labels": [
+      {
+        "id": 30,
+        "label": "Bayesian Optimization and Gaussian Processes"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "9UIGyJJpay",
+    "method_labels": [
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "ja4rpheN2n",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "Tlsdsb6l9n",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "j8hdRqOUhN",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 33,
+        "label": "Active Learning and Sampling"
+      }
+    ]
+  },
+  {
+    "id": "L238BAx0wP",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "PoDkdFQIu3",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 4,
+        "label": "Dimensionality Reduction and Matrix Factorization"
+      }
+    ]
+  },
+  {
+    "id": "CjTHVo1dvR",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "6xrDPHhwD3",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ztpy1gsUpT",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "IuU0wcO0mo",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      },
+      {
+        "id": 21,
+        "label": "Transfer Learning"
+      }
+    ]
+  },
+  {
+    "id": "jE5ZbtMtcU",
+    "method_labels": [
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 37,
+        "label": "Knowledge Distillation"
+      }
+    ]
+  },
+  {
+    "id": "UvPdpa4LuV",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      }
+    ]
+  },
+  {
+    "id": "ULfq0qR25dY",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "SJxUjlBtwB",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 41,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 15,
+        "label": "Positional and Geometric Encoding"
+      }
+    ]
+  },
+  {
+    "id": "9UGfOJBuL8",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "jJCeMiwHdH",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 23,
+        "label": "Graph Representation and Embedding"
+      },
+      {
+        "id": 13,
+        "label": "Feature Fusion and Multimodal Integration"
+      }
+    ]
+  },
+  {
+    "id": "61ss5RA1MM",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 48,
+        "label": "Classifier-Free and Training-Free Guidance"
+      }
+    ]
+  },
+  {
+    "id": "kSISSDUYFh",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Convolutional Neural Networks (CNN, U-Net)"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "ZYm1Ql6udy",
+    "method_labels": [
+      {
+        "id": 39,
+        "label": "Clustering Algorithms"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "k2uUeLCrQq",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "oDFvtxzPOx",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "F4IMiNhim1",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      }
+    ]
+  },
+  {
+    "id": "g3xuCtrG6H",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "uwO71a8wET",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Neural Differential Equations"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 25,
+        "label": "Causal Inference and Counterfactual Learning"
+      }
+    ]
+  },
+  {
+    "id": "SJlRUkrFPS",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "yb4QE6b22f",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "oMsN9TYwJ0j",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "CsOIYMOZaV",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Autoencoders and Variational Inference"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "awWiNvQwf3",
+    "method_labels": [
+      {
+        "id": 38,
+        "label": "Evolutionary and Genetic Algorithms"
+      },
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "zMPHKOmQNb",
+    "method_labels": [
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      }
+    ]
+  },
+  {
+    "id": "uvHmnahyp1",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks (GFlowNets)"
+      },
+      {
+        "id": 29,
+        "label": "Regularization and Constraint Learning"
+      }
+    ]
+  },
+  {
+    "id": "tVTN7Zs0ml",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      },
+      {
+        "id": 23,
+        "label": "Graph Representation and Embedding"
+      }
+    ]
+  },
+  {
+    "id": "hwnObmOTrV",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 36,
+        "label": "Optimal Transport and Alignment"
+      },
+      {
+        "id": 48,
+        "label": "Classifier-Free and Training-Free Guidance"
+      }
+    ]
+  },
+  {
+    "id": "oMLQB4EZE1",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 0,
+        "label": "Tokenization and Encoding Techniques"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 20,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "pC3WJHf51j",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Self-Supervised Learning"
+      },
+      {
+        "id": 6,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods"
+      }
+    ]
+  },
+  {
+    "id": "6cFcw1Rxww",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks (GFlowNets)"
+      },
+      {
+        "id": 5,
+        "label": "Optimization Methods (Convex, Gradient, Bi-Level)"
+      }
+    ]
+  },
+  {
+    "id": "kJqXEPXMsE0",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 54,
+        "label": "Equivariant Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "k581sTMyPt",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 50,
+        "label": "Fine-Tuning and Adaptation"
+      },
+      {
+        "id": 52,
+        "label": "Benchmarking and Evaluation Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "X41c4uB4k0",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 43,
+        "label": "Markov Chain and Monte Carlo Methods"
+      },
+      {
+        "id": 48,
+        "label": "Classifier-Free and Training-Free Guidance"
+      },
+      {
+        "id": 34,
+        "label": "Energy-Based Modeling"
+      }
+    ]
+  },
+  {
+    "id": "zZ6TT254Np",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Generative Modeling (GAN, Flow, Diffusion)"
+      },
+      {
+        "id": 26,
+        "label": "Diffusion and Flow-Based Models"
+      },
+      {
+        "id": 12,
+        "label": "Statistical Inference and Estimation"
+      },
+      {
+        "id": 10,
+        "label": "Graph Neural Networks (GNN, MPNN, Equivariant)"
+      }
+    ]
+  },
+  {
+    "id": "6P9Y25Pljl6",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 49,
+        "label": "Multi-Task Learning"
+      }
+    ]
+  }
+]

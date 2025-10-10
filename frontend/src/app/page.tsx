@@ -361,6 +361,10 @@ export default function HomePage() {
           setSelectedTopicsIII={setPendingTopicsIII}
           matchMode={pendingMatchMode}
           setMatchMode={setPendingMatchMode}
+          // selectedMethods={pendingMethods}                
+          // setSelectedMethods={setPendingMethods}           
+          // selectedApps={pendingApps}                       
+          // setSelectedApps={setPendingApps}   
           onApplyFilters={applyFilters}
           onClearFilters={clearFilters}
         />

@@ -1,0 +1,4397 @@
+[
+  {
+    "id": "qNrJJZAKI3",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "DYypjaRdph2",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "fv9XU7CyN2",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "gHLWTzKiZV",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "BIveOmD1Nh",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "h0de3QWtGG",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "Je5SHCKpPa",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "-w2oomO6qgc",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "eJIJF3-LoZO",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "WwmtcGr4lP",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "vaRCHVj0uGI",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "HklxbgBKvr",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "6IYp-35L-xJ",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "Io9yFt7XH7",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "i5MrJ6g5G1",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "BJg866NFvB",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "MREQ0k6qvD",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "5FXKgOxmb2",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "aKcS3xojnwY",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "RQ428ZptQfU",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Lwr8We4MIxn",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      },
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "w_drCosT76",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "H0gdPxSwkPb",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "rzBskAEmoc",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "9X-hgLDLYkQ",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "2EpjkjzdCAa",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      },
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "YuHQTo6G9S",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      },
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "KHkBpvmYVI",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "ArpwmicoYW",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "jZPqf2G9Sw",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "pAoqRlTBtY",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "TXfzH933qV",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "b0RuGUYo8pA",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "YDJRFWBMNby",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "rklr9kHFDB",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "4ktJJBvvUd",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "S1eALyrYDH",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "s5epFPdIW6",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "GkJOCga62u",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "PSiijdQjNU",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "i2r7LDjba3",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "O8Vc52xFSUR",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "GQjaI9mLet",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "pzUhfQ74c5",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "aGH43rjoe4",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      },
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "6LtdZCyuZR",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "AoIKgHu9Si",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "7UhxsmbdaQ",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "5z9GjHgerY",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "oM7Jbxdk6Z",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "S1esMkHYPr",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "lvw3UgeVxS",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "LbgIZpSUCe",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "xhEN0kJh4q",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "YIls9HEa52",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "DTatjJTDl1",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "HJlWWJSFDH",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "FVuqJt3c4L",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "bjkX6Kzb5H",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "mMhZS7qt0U",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "uNomADvF3s",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "rnL3OafDdw",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "n8O0trhost",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "xmcYx_reUn6",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "1HxTO6CTkz",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "gQlxd3Mtru",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "UfBIxpTK10",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "KXrgDM3mVD",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "BbZy8nI1si",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "CoQw1dXtGb",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "QG31By6S6w",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "j7cyANIAxV",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "to3qCB3tOh9",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "6MRm3G4NiU",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ua5MHdsbck",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "qeXcMutEZY",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "96beVMeHh9",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "WBUVagRgsd",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "8efJYMBrNb",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "r0xte-t40I",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "nYjAzwor9R",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "ixP76Y33y1",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "DpLFmc09pC",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FRxhHdnxt1",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "9qS3HzSDNv",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "HAwZGLcye3",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "6ve2CkeQe5S",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "rxlF2Zv8x0",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "fXHl76nO2AZ",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "8fLgt7PQza",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "q-cnWaaoUTH",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "9htTvHkUhh",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "x5txICnnjC",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "BqHaLnans2",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "AhizIPytk4",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "FMMF1a9ifL",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "3y1K6buO8c",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "7I12hXRi8F",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "H9UnNgdq0g",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "gxhRR8vUQb",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "iezDdA9oeB",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "okYdj8Ysru",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hm2tNDdgaFK",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "RyWypcIMiE",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "rQyg6MnsDb",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "hWmwL9gizZ",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "xayT1nn8Mg",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "RemfXx7ebP",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "OmpTdjl7RV",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "LvTSvdiSwG",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "uH0FGECSEI",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "QCrw0u9LQ7",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "XsgHl54yO7",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "6Hz1Ko087B",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "uKB4cFNQFg",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "01KmhBsEPFO",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "RIEW6M9YoV",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "W2tCmRrj7H",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "8g26Yv1EOu",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "1YLJDvSx6J4",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "WQV9kB1qSU",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "P5Z-Zl9XJ7",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "10JOlFIPjt",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "zmmfsJpYcq",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "0WVNuEnqVu",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "aGfU_xziEX8",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "iuxaCU3DI7",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "OUkZXbbwQr",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "NkGDNM8LB0",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "jlzNb1iWs3",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "65XDF_nwI61",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "xQUe1pOKPam",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "TVQLu34bdw",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "xcMmebCT7s",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      },
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "0kPL3xO4R5",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "tL89RnzIiCd",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "CGON8Btleu",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "IwgmgidYPS",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "oCHsDpyawq",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "B5VEi5d3p2",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "JQtuCumAFD",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "L07zWidgdW",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "jqmptcSNVG",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "De Novo Peptide Design"
+      }
+    ]
+  },
+  {
+    "id": "txlWziuCE5W",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "1vrpdV9U3i",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "6EUtjXAvmj",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "TUKt7ag0qq",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "PstM8YfhvI",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "H1gBhkBFDH",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      },
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      }
+    ]
+  },
+  {
+    "id": "HNOo4UNPBF",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "Rq13idF0F73",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "kJFIH23hXb",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "itGkF993gz",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "T1XmO8ScKim",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "rFpZnn11gj",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "cWEfRkYj46",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "uOb7rij7sR",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "Yo06F8kfMa1",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "BpfsxFqhGa",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "lKxL5zkssv",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "hjROBHstZ3",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Causal Inference and Trajectory Analysis"
+      }
+    ]
+  },
+  {
+    "id": "iYC5hOMqUg",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "FtjLUHyZAO",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "2Mo7v69otj",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "fylclEqgvgd",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "FBhKUXK7od",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      },
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "i1NNCrRxdM",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "trj2Jq8riA",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "KSLkFYHlYg",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "VbCMhg7MRmj",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "5yDS32hKJc",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "3usdM1AuI3",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "sTYuRVrdK3",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "xnC8YwKUE3k",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      },
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      },
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "YeSxbRrDRl",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "KXRSh0sdVTP",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "78tc3EiUrN",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "WoPovNkM5h",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "S1e_9xrFvS",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "MMHqnUOnl0",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "-HHJZlRpGb",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "Byg-wJSYDS",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "nYpPAT4L3D",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "a6U41REOa5",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "owEQ0FTfVj",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Y3BbxvAQS9",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "pe0Vdv7rsL",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "YH4M1Tbxfz",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "zDC3iCBxJb",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "YWtLZvLmud7",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "w-x7U26GM7j",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "xI4yNlkaqh",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "NPNUHgHF2w",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "unI5ucw_Jk",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      }
+    ]
+  },
+  {
+    "id": "5WEpbilssv",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "yfe1VMYAXa4",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "iZl0VqEdxa",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "PzcvxEMzvQC",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "9W6KaAcYlr",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "cXbnGtO0NZ",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "VGURexnlUL",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "AJsI-ymaKn_",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "CS4463zx6Hi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "GK5ni7tIHp",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "YrXHEb2qMb",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "Fj7Fzm5lWL",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "OHpvivXrQr",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "P1QUVhOtEFP",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "XQlccqJpCC",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "9YlaeLfuhJF",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "uNd289HjLi",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "OtEDS2NWhqa",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "0mtz0pet1z",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "gFR4QwK53h",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "5cFfz6yMVPU",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      },
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      },
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "xOmC5LiVuN",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "BksqWM8737",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "12RoR2o32T",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "7zwIEbSTDy",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "AZW3qlCGTe",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "kHSu4ebxFXY",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "lVgB2FUbzuQ",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "COVID-19 Trend Forecasting"
+      }
+    ]
+  },
+  {
+    "id": "wg8NPfeMF9",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Tqdsruwyac",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "p66a00KLWN",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "hLwcNSFhC2",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "QaTBHSqmH9",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "MBBRHDuiwM",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "agHLCOBM5jP",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JSB171dSUU",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "Qc_OopMEBnC",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "3xqqYOKILp",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "kKF8_K-mBbS",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "kzGuiRXZrQ",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "B1xIj3VYvr",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "snOgiCYZgJ7",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "nYPuSzGE3X",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "B07dLVWLyD",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "_geIwiOyUhZ",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "pH543jrbe8",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Lb91pXwZMR",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      },
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "C4BikKsgmK",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "3b9SKkRAKw",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "d_2lcDh0Y9c",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "kYwTmlq6Vn",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "eGqQyTAbXC",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "77lSWa-Tm3Z",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "dsHpulHpOK",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "3MnMGLctKb",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "peX9zpWgg4",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "CUfSCwcgqm",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "hhvkdRdWt1F",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WcOohbsF4H",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "6jjAYmppGQ",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "NialiwI2V6",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "aN57tSd5Us",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "DsEhqQtfAG",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "gVkX9QMBO3",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "AXbN2qMNiW",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LI2bhrE_2A",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "WQwV7Y8qwa",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "T4sMzjy7fO",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "PnR1MNen7u",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "ZTsoE8G3GG",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "uQnvYP7yX9",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "7B9FCDoUzB",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Nq7yKYL0Bp",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "9rPyHyjfwP",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "uMAujpVi9m",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "lBB3eSn6fY",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "TUBpc5rqGA",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "3Fgylj4uqL",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "noUF58SMra",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ozZG5FXuTV",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "6TxBxqNME1Y",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "LFHFQbjxIiP",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "NJxCpMt0sf",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Multi-Task Learning in Medical Vision"
+      },
+      {
+        "id": 10,
+        "label": "Radiology Disease Classification"
+      },
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "pRCMXcfdihq",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "6K2RM6wVqKu",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "KE_wJD2RK4",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "RgE1qiO2ek",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "ZK6vTvb84s",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "dx4b7lm8jMM",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "0dELcFHig2",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "mpqMVWgqjn",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "4S2L519nIX",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "9yJKTosUex",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      },
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "1mNFsbvo2P",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "Y0QqruhqIa",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "ox2ATRM90I",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      },
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      },
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "xiyzCfXTS6",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "nqlymMx42E",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      },
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "BdmVgLMvaf",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "nf3A0WZsXS5",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "A1HhtITVEi",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "w8LMtFY97b",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "RwI7ZEfR27",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ZxdkjTgK_Dl",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "yu1vqQqKkx",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "AD5yx2xq8R",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "q8vgHfPdoQP",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Treatment Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ySCL-NG_I3",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "OdnqG1fYpo",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "0ctvBgKFgc",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "lUYY2qsRTI",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      },
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "lzdFImKK8w",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      },
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "D_KeYoqCYC",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "4c0J6lwQ4_",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Kwm8I7dU-l5",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Treatment Optimization (ICU/Sepsis)"
+      }
+    ]
+  },
+  {
+    "id": "m9LCdYgN8-6",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "QfTXQiGYudJ",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "mXHTifc1Fn",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "rkxawlHKDr",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "P4XmKjXTrM",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "q9VherQJd8_",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "YEPlTU5mZC",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Alzheimer\u2019s Disease Diagnosis"
+      },
+      {
+        "id": 14,
+        "label": "EEG Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "aX7X9z3vQS",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "XGagtiJ8XC",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "k9bx1EfHI_-",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "nZOUYEN6Wvy",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "S8gbnkCgxZ",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "085y6YPaYjP",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "P07dq7iSAGr",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "bcTjW5kS4W",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "BAelAyADqn",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "qH9nrMNTIW",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "xkgfLXZ4e0",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "DnG75_KyHjX",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "l0t2rumAvR",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "kavTY__jxp",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ICYasJBlZNs",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "yRrPfKyJQ2",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "E1m5yGMOiV",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "Q95MaWfF4e",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "OXP9Ns0gnIq",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "UaAD-Nu86WX",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "IjbXZdugdj",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "zcTLpIfj9u",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Clinical Risk Prediction (EHR)"
+      },
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "pB1XSj2y4X",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "FEZOLWexPb",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "vDFA1tpuLvk",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "sO1QiAftQFv",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "vgt2rSf6al",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "U834XHJuqk",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      },
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "1iuaxjssVp",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "9OmCr1q54Z",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Robust Medical Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "27Qk18IZum",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "1z3SOCwst9",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "b57IG6N20B",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "buC4E91xZE",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "ARQIJXFcTH",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "kQ2SOflIOVC",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "ZwhHSOHMTM",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "Ombm8S40zN",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "KtH8W3S_RE",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Cancer Genomics Clustering"
+      }
+    ]
+  },
+  {
+    "id": "Do9MOlwWHu0",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "9SYczU3Qgm",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "vFanHFE4Qv",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "l0mSUROpwY",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "rI0LYgGeYaw",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "DGez4B2a6Y",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "liKkG1zcWq",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "NSVtmmzeRB",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "zgQ0PHeGnL",
+    "application_labels": [
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "OzUNDnpQyd",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Biomolecular Dynamics Simulation"
+      }
+    ]
+  },
+  {
+    "id": "cUSNs8nGaV",
+    "application_labels": [
+      {
+        "id": 34,
+        "label": "Time-Series Analysis (General)"
+      }
+    ]
+  },
+  {
+    "id": "v3y68gz-WEz",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "At9JmGF3xy",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "fMRI Brain Activity Analysis"
+      }
+    ]
+  },
+  {
+    "id": "oYemKnlIrO",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "zaq4LV55xHl",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "C03Ajc-NS5W",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "SjMtxqdQ73",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "De Novo Peptide Design"
+      }
+    ]
+  },
+  {
+    "id": "G328D1xt4W",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "0vqjc50HfcC",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "wsZsjOSytRA",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "7TOs9gjAg1",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "qFZnAC4GHR",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "BHFs80Jf5V",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "Yt9CFhOOFe",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "qg2boc2AwU",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "DqziS8DG4M",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "mOpNrrV2zH",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "jHefDGsorp5",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "cKAUvMePUN",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "2UnCj3jeao",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "tnB94WQGrn",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "rQ7fz9NO7f",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      },
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "Mfnh1Sqdwf",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "w60btE_8T2m",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Molecular Graph Generation"
+      }
+    ]
+  },
+  {
+    "id": "RJDjSXNuAZ",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "XrMWUuEevr",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "4MsfQ2H0lP",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "4MbGnp4iPQ",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "v9EjwMM55Y",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "wxPnuFp8fZ",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "otHZ8JAIgh",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Survival Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "770DetV8He",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Retrosynthetic Pathway Design"
+      }
+    ]
+  },
+  {
+    "id": "QzTpTRVtrP",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "lcSfirnflpW",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Tabular Clinical Modeling (EHR)"
+      }
+    ]
+  },
+  {
+    "id": "2o58Mbqkd2",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "IxmWIkcKs5",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "wyF5vNIsO7",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "TVjLza1t4hI",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3kiZ5S5WkY",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "BKXvPDekud",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      },
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "tnSo6VRLmT",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "op-ceGueqc4",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "FE99-fDrWd5",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "iOMnn1hSBO",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "g3VCIM94ke",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "zg3ec1TdAP",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "n34taxF0TC",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "ICU Mortality Prediction"
+      }
+    ]
+  },
+  {
+    "id": "_X9Yl1K2mD",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "E48QvQppIN",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "9UIGyJJpay",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      },
+      {
+        "id": 17,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ja4rpheN2n",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "Gene Function and Expression Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Tlsdsb6l9n",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "j8hdRqOUhN",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "L238BAx0wP",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "PoDkdFQIu3",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "CjTHVo1dvR",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "6xrDPHhwD3",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Digital Pathology Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "ztpy1gsUpT",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Medical Visual Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "IuU0wcO0mo",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "jE5ZbtMtcU",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 43,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "UvPdpa4LuV",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ULfq0qR25dY",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "SJxUjlBtwB",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Cryo-EM Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "9UGfOJBuL8",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Clinical Outcome Forecasting (Longitudinal)"
+      }
+    ]
+  },
+  {
+    "id": "jJCeMiwHdH",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "61ss5RA1MM",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "De Novo Peptide Design"
+      }
+    ]
+  },
+  {
+    "id": "kSISSDUYFh",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "ZYm1Ql6udy",
+    "application_labels": [
+      {
+        "id": 37,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "k2uUeLCrQq",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "oDFvtxzPOx",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "F4IMiNhim1",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "g3xuCtrG6H",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "uwO71a8wET",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "SJlRUkrFPS",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "yb4QE6b22f",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Human Motion Analysis (Rehabilitation)"
+      }
+    ]
+  },
+  {
+    "id": "oMsN9TYwJ0j",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Protein Design and Generation"
+      }
+    ]
+  },
+  {
+    "id": "CsOIYMOZaV",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "awWiNvQwf3",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "zMPHKOmQNb",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Antibody Design and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "uvHmnahyp1",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      }
+    ]
+  },
+  {
+    "id": "tVTN7Zs0ml",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "General Clinical Prediction Modeling"
+      }
+    ]
+  },
+  {
+    "id": "hwnObmOTrV",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Single-Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "oMLQB4EZE1",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pC3WJHf51j",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "ECG Signal Analysis"
+      }
+    ]
+  },
+  {
+    "id": "6cFcw1Rxww",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 35,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "kJqXEPXMsE0",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Molecule Generation \u2013 Drug Discovery"
+      },
+      {
+        "id": 44,
+        "label": "Protein-Ligand Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "k581sTMyPt",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "X41c4uB4k0",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Molecule Generation (General)"
+      }
+    ]
+  },
+  {
+    "id": "zZ6TT254Np",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Medical Image Reconstruction (MRI/CT)"
+      }
+    ]
+  },
+  {
+    "id": "6P9Y25Pljl6",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  }
+]
