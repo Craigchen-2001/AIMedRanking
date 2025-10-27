@@ -199,7 +199,7 @@ export default function TopicRankingPage() {
   }, [papers, yearSel, levelSel, topNFlex]);
 
   return (
-    <div className="pt-1 w-full min-h-screen">
+    <div className="pt-10 w-full min-h-screen">
       <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-14 flex items-center justify-between px-6 border-b">
         <div className="flex items-center gap-3">
           <img src="/logo02.png" alt="AI Med Logo" width={52} height={34} />
@@ -213,7 +213,7 @@ export default function TopicRankingPage() {
           </Link>
           <Link href="/ranking/author" className="flex items-center gap-2 bg-white text-red-800 px-3 py-1.5 rounded-lg text-sm font-medium hover:bg-red-100 transition">
             <BookOpen size={16} />
-            Author Ranking
+            Author Ranking 
           </Link>
         </div>
       </header>
