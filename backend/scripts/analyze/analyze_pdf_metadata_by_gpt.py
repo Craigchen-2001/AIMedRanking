@@ -69,7 +69,7 @@ def main():
     json_path   = input("Enter input JSON path: ").strip()
     prompt_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/prompts/pdf_extraction_instruction.txt"
     fewshot_path = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/prompts/few_shot_examples.md"
-    output_json = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ICLR_metadata_debug_filter.json"
+    output_json = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ACL_metadata.json"
 
     with open(prompt_path, "r", encoding="utf-8") as f:
         base_instruction = f.read()

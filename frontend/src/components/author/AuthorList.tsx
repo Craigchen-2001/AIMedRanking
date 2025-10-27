@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 
 type PaperItem = { conference: string; authors: string[] };
 
-const ALLOWED = ["ICLR", "ICML", "KDD", "NEURIPS"] as const;
+const ALLOWED = ["ICLR", "ICML", "KDD", "NEURIPS","ACL"] as const;
 
 function tagConference(full: string): (typeof ALLOWED)[number] | null {
   const t = (full || "").split(" ")[0].toUpperCase();
@@ -12,6 +12,7 @@ function tagConference(full: string): (typeof ALLOWED)[number] | null {
   if (t === "ICLR") return "ICLR";
   if (t === "ICML") return "ICML";
   if (t === "KDD") return "KDD";
+  if (t === "ACL") return "ACL"; 
   return null;
 }
 

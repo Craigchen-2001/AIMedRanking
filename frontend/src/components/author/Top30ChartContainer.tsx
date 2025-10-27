@@ -5,7 +5,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } fro
 
 type PaperItem = { conference: string; year: number; authors: string[] };
 
-const ALLOWED = ["ICLR", "ICML", "KDD", "NEURIPS"] as const;
+const ALLOWED = ["ICLR", "ICML", "KDD", "NEURIPS","ACL"] as const;
 const YEAR_COLORS: Record<number, string> = { 2020: "#ccc", 2021: "#aabbee", 2022: "#82ca9d", 2023: "#8884d8", 2024: "#ffc658", 2025: "#ff8042" };
 
 function tagConference(full: string): (typeof ALLOWED)[number] | null {
@@ -14,6 +14,7 @@ function tagConference(full: string): (typeof ALLOWED)[number] | null {
   if (t === "ICLR") return "ICLR";
   if (t === "ICML") return "ICML";
   if (t === "KDD") return "KDD";
+  if (t === "ACL") return "ACL";
   return null;
 }
 

@@ -161,18 +161,19 @@ def extractData(filepath, base_instruction):
 
 
 def checkStatus(thread, run):
-    """
-    Poll the run status until it completes, and return the final status.
-    """
     start = time.time()
     status = run.status
     while status not in ["completed", "cancelled", "expired", "failed"]:
+        if time.time() - start > 600:
+            print("Timeout reached (10 minutes). Skipping this file.")
+            return "timeout"
         time.sleep(5)
         run = client.beta.threads.runs.retrieve(thread_id=thread.id, run_id=run.id)
         status = run.status
         print(f" Waiting... Status: {status}")
     print(f"Final Status: {status} (elapsed {int(time.time()-start)}s)")
     return status
+
 
 
 def extractFromAbstract(title, abstract, keywords, base_instruction):

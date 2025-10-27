@@ -13,14 +13,45 @@ const robotoSlab = Roboto_Slab({ subsets: ['latin'], weight: '700', display: 'sw
 
 const menuItems: Record<string, string[]> = {
   'Ranking Plot': ['Author', 'Topic', 'TBD', 'TBD'],
-  Trend: ['Topic'],
+  Trend: [''],
 };
 
 const CONF_INFO = [
-  { key: 'ICLR', title: 'ICLR', full: 'International Conference on Learning Representations', count: 455, desc: '...' },
-  { key: 'ICML', title: 'ICML', full: 'International Conference on Machine Learning', count: 628, desc: '...' },
-  { key: 'NeurIPS', title: 'NeurIPS', full: 'Conference on Neural Information Processing Systems', count: 972, desc: '...' },
-  { key: 'KDD', title: 'KDD', full: 'ACM SIGKDD Conference on Knowledge Discovery and Data Mining', count: 203, desc: '...' },
+  {
+    key: 'ICLR',
+    title: 'ICLR',
+    full: 'International Conference on Learning Representations',
+    count: 455,
+    desc: 'ICLR is one of the most influential venues for deep learning and representation learning research. It emphasizes advances in neural architectures, optimization, generative modeling, and transfer learning. In AI in Medicine, many ICLR papers focus on representation learning for medical imaging, multi-modal fusion, and explainability in clinical AI systems.',
+  },
+  {
+    key: 'ICML',
+    title: 'ICML',
+    full: 'International Conference on Machine Learning',
+    count: 628,
+    desc: 'ICML covers foundational and applied research across all areas of machine learning. Topics include probabilistic modeling, causal inference, reinforcement learning, and optimization theory. Within the medical AI domain, ICML papers often explore generalizable and interpretable models, fairness and robustness in healthcare data, and theoretical analyses of biomedical learning algorithms.',
+  },
+  {
+    key: 'NeurIPS',
+    title: 'NeurIPS',
+    full: 'Conference on Neural Information Processing Systems',
+    count: 972,
+    desc: 'NeurIPS is the largest AI and machine learning conference, featuring cutting-edge developments in deep learning, neuroscience-inspired computation, and AI systems. It serves as a major hub for interdisciplinary research combining AI with biology, neuroscience, and health data. Many NeurIPS works extend AI foundations into biomedicine, healthcare operations, and medical data synthesis using generative models.',
+  },
+  {
+    key: 'KDD',
+    title: 'KDD',
+    full: 'ACM SIGKDD Conference on Knowledge Discovery and Data Mining',
+    count: 203,
+    desc: 'KDD focuses on large-scale data mining, knowledge discovery, and AI-driven analytics. It bridges theory and application, often highlighting industrial-scale AI systems. In healthcare and biomedicine, KDD papers frequently address predictive modeling with EHR data, epidemiological surveillance, and population-level health informatics using graph mining and temporal analysis.',
+  },
+  {
+    key: 'ACL',
+    title: 'ACL',
+    full: 'Annual Meeting of the Association for Computational Linguistics',
+    count: 183,
+    desc: 'ACL is the premier conference for natural language processing and computational linguistics. It covers topics such as large language models, multimodal language understanding, and domain-specific text mining. In the medical field, ACL papers contribute to clinical NLP, biomedical entity recognition, medical report summarization, and trustworthy LLMs for clinical text understanding.',
+  },
 ] as const;
 
 interface HeaderProps {
@@ -100,48 +131,49 @@ export default function Header({ onSearch, onConferenceSelect, onYearSelect, sug
           <div className={`${robotoSlab.className} text-2xl font-bold text-white`}>AI MED RANKING</div>
         </div>
         <nav ref={menuRef} className={`${robotoSlab.className} flex items-center gap-6 text-base text-white relative`}>
-          {Object.entries(menuItems).map(([label, options]) => {
-            const isOpen = open === label;
-            return (
-              <div
-                key={label}
-                className="relative flex items-center gap-1 cursor-pointer"
-                onMouseEnter={() => openMenu(label)}
-                onMouseLeave={closeMenuWithDelay}
-              >
-                <span className="hover:underline select-none">{label}</span>
-                {isOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
-                {isOpen && (
-                  <div
-                    className="fixed left-0 right-0 top-16 bg-red-900/95 shadow-lg border-t border-red-700/50 z-50"
-                    onMouseEnter={() => openMenu(label)}
-                    onMouseLeave={closeMenuWithDelay}
-                  >
-                    <div className="max-w-7xl mx-auto px-10 py-4">
-                      <div className="grid grid-cols-4 gap-8">
-                        {options.map((opt, idx) => (
-                          <div
-                            key={`${label}-${opt}-${idx}`}
-                            className="text-white text-sm cursor-pointer hover:underline text-center"
-                            onClick={() => {
-                              if (label === 'Conference') onConferenceSelect(opt);
-                              else if (label === 'Year') onYearSelect(opt);
-                              else if (label === 'Ranking Plot') router.push(`/ranking/${opt.toLowerCase()}`);
-                              else if (label === 'Trend') router.push(`/trend/${opt.toLowerCase()}`);
-                              setOpen(null);
-                              setExpandedHelp(null);
-                            }}
-                          >
-                            {opt}
-                          </div>
-                        ))}
-                      </div>
+        {Object.entries(menuItems).map(([label, options]) => {
+          const isOpen = open === label;
+          const hasSubmenu = options.length > 0;
+          return (
+            <div
+              key={label}
+              className="relative flex items-center gap-1 cursor-pointer"
+              onClick={() => {
+                if (label === 'Trend') router.push('/trend/topic');
+              }}
+              onMouseEnter={() => hasSubmenu && openMenu(label)}
+              onMouseLeave={() => hasSubmenu && closeMenuWithDelay()}
+            >
+              <span className="hover:underline select-none">{label}</span>
+              {hasSubmenu && (isOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />)}
+              {hasSubmenu && isOpen && (
+                <div
+                  className="fixed left-0 right-0 top-16 bg-red-900/95 shadow-lg border-t border-red-700/50 z-50"
+                  onMouseEnter={() => openMenu(label)}
+                  onMouseLeave={closeMenuWithDelay}
+                >
+                  <div className="max-w-7xl mx-auto px-10 py-4">
+                    <div className="grid grid-cols-4 gap-8">
+                      {options.map((opt, idx) => (
+                        <div
+                          key={`${label}-${opt}-${idx}`}
+                          className="text-white text-sm cursor-pointer hover:underline text-center"
+                          onClick={() => {
+                            if (label === 'Ranking Plot') router.push(`/ranking/${opt.toLowerCase()}`);
+                            setOpen(null);
+                            setExpandedHelp(null);
+                          }}
+                        >
+                          {opt}
+                        </div>
+                      ))}
                     </div>
                   </div>
-                )}
-              </div>
-            );
-          })}
+                </div>
+              )}
+            </div>
+          );
+        })}
 
           <div className="relative w-[450px]">
             <input

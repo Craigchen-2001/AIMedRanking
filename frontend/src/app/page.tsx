@@ -9,7 +9,7 @@ import { fetchPapers, type MockPaperShape } from '@/lib/api';
 import Link from 'next/link';
 import { useAuth } from '@/components/auth/AuthProvider';
 
-const ALLOWED_CONFS = ['ICLR', 'ICML', 'KDD', 'NEURIPS'] as const;
+const ALLOWED_CONFS = ['ICLR', 'ICML', 'KDD', 'NEURIPS', 'ACL'] as const;
 type ConfKey = (typeof ALLOWED_CONFS)[number];
 const PAGE_SIZE = 20;
 
@@ -20,6 +20,7 @@ function tagConference(full: string): ConfKey | null {
   if (u.startsWith('ICLR') || u.includes('INTERNATIONAL CONFERENCE ON LEARNING REPRESENTATIONS')) return 'ICLR';
   if (u.startsWith('ICML') || u.includes('INTERNATIONAL CONFERENCE ON MACHINE LEARNING')) return 'ICML';
   if (u.startsWith('KDD') || u.includes('SIGKDD') || u.includes('KNOWLEDGE DISCOVERY')) return 'KDD';
+  if (u.startsWith('ACL') || u.includes('ASSOCIATION FOR COMPUTATIONAL LINGUISTICS')) return 'ACL';
   return null;
 }
 
@@ -436,6 +437,7 @@ export default function HomePage() {
                           <option value="ICML">Start with: ICML</option>
                           <option value="KDD">Start with: KDD</option>
                           <option value="NEURIPS">Start with: NeurIPS</option>
+                          <option value="ACL">Start with: ACL</option>
                         </select>
 
                         <select
@@ -585,3 +587,4 @@ export default function HomePage() {
     </div>
   );
 }
+

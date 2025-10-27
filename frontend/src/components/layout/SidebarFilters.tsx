@@ -32,6 +32,7 @@ const CONFERENCES = [
   { value: "ICML", label: "ICML" },
   { value: "KDD", label: "KDD" },
   { value: "NEURIPS", label: "NeurIPS" },
+  { value: "ACL", label: "ACL" },
 ] as const;
 
 const YEARS = ["2020", "2021", "2022", "2023", "2024", "2025"] as const;

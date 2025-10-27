@@ -74,7 +74,7 @@ function normalizeAxis(v: any) {
 
 const ROOT = path.resolve(__dirname, "../../");
 const DATA_DIR = path.join(ROOT, "main");
-const FILES = ["ICLR_metadata.json", "ICML_metadata.json", "KDD_metadata.json", "NeurIPS_metadata.json"];
+const FILES = ["ICLR_metadata.json", "ICML_metadata.json", "KDD_metadata.json", "NeurIPS_metadata.json","ACL_metadata.json"];
 
 function upsertOne(item: any) {
   const authors = asArray(item.authors ?? []);
