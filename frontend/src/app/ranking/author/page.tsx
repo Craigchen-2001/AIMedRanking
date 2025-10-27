@@ -19,7 +19,7 @@ export default function AuthorRankingPage() {
           <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AI MED RANKING</div>
         </div>
         <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">
-          Author Ranking & Plots
+          Author Ranking
         </div>
         <div className="flex gap-3">
           <Link

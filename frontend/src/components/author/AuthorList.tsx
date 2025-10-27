@@ -92,6 +92,7 @@ export default function AuthorList() {
 
   return (
     <div className="w-full h-full px-4 py-3">
+      <h3 className="text-lg font-bold text-red-700 mb-4">Author Ranking Table</h3>
       <div className="flex items-center gap-3 mb-4">
         <input
           type="text"

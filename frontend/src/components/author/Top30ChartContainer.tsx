@@ -87,7 +87,7 @@ export default function Top30ChartContainer() {
 
   return (
     <div className="w-full px-4 py-2">
-      <h2 className="text-lg font-semibold mb-4 text-center">Top 30 Authors</h2>
+      <h3 className="text-lg font-bold text-center text-red-700 mb-4">Top 30 Authors</h3>
       <div className="w-full overflow-x-auto max-w-full">
         <div className="min-w-[1200px] h-[500px] bg-white rounded-xl shadow px-4 py-2">
           {loading ? (

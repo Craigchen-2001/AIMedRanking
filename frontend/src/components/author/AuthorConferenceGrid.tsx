@@ -105,7 +105,7 @@ function ChartByConference({ conference }: { conference: (typeof ALLOWED)[number
 export default function AuthorConferenceGrid() {
   return (
     <div className="">
-      <h2 className="text-lg font-semibold text-center mb-4">Top 10 Authors by Conference</h2>
+      <h3 className="text-lg font-bold text-red-700 text-center mb-4">Top 10 Authors by Conference</h3>
       <div className="flex flex-col gap-6">
         {CONFS_TO_SHOW.map((conf) => (
           <ChartByConference key={conf} conference={conf} />
