@@ -13,7 +13,7 @@ const robotoSlab = Roboto_Slab({ subsets: ['latin'], weight: '700', display: 'sw
 
 const menuItems: Record<string, string[]> = {
   'Ranking Plot': ['Author', 'Topic', 'TBD', 'TBD'],
-  Trend: [''],
+  Trend: ['Dashboard'],
 };
 
 const CONF_INFO = [
@@ -127,7 +127,7 @@ export default function Header({ onSearch, onConferenceSelect, onYearSelect, sug
     <header className="fixed top-0 left-0 w-full z-50 bg-red-800">
       <div className="flex items-center justify-between px-6 h-16 border-b border-red-700/50">
         <div className="flex items-center gap-3">
-          <Image src="/logo02.png" alt="AI Med Logo" width={60} height={40} priority />
+          <img src="/logo02.png" alt="AI Med Logo" width={60} height={40} />
           <div className={`${robotoSlab.className} text-2xl font-bold text-white`}>AI MED RANKING</div>
         </div>
         <nav ref={menuRef} className={`${robotoSlab.className} flex items-center gap-6 text-base text-white relative`}>

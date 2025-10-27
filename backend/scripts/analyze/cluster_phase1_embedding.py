@@ -17,7 +17,7 @@ input_files = [
     f"{base_root}/main/ICML_metadata.json",
     f"{base_root}/main/NeurIPS_metadata.json",
     f"{base_root}/main/KDD_metadata.json",
-    
+    f"{base_root}/main/ACL_metadata.json", 
 ]
 out_root = f"{base_root}/scripts/analyze/cluster_embedding_outputs"
 embed_dir = f"{out_root}/embeddings"

@@ -1,48 +1,688 @@
 [
-  {"cluster_id": 0, "label": "Sparse Modeling in Bioinformatics", "examples": ["Sparse neural network pruning for gene regulatory dynamics", "Polygenic score prediction; Sparse probabilistic PCA", "Sparse regression – bioinformatics", "Annotation for fine-tuning domain-specific language models", "Feature reduction for Sparse-Group Lasso"]},
-  {"cluster_id": 1, "label": "Survival Outcome Prediction", "examples": ["Risk prediction – survival analysis", "Survival prediction – cancer", "Survival prediction – Clinical", "Survival prediction – Cancer", "Survival prediction"]},
-  {"cluster_id": 2, "label": "Biological Sequence Optimization", "examples": ["Biological sequence design optimization", "Biological sequence design optimization", "Biological sequence design – optimization", "Molecule optimization and biological sequence design", "Biological sequence design"]},
-  {"cluster_id": 3, "label": "Digital Pathology Image Classification", "examples": ["Whole slide image classification – pathology", "Whole Slide Image classification – Pathology", "Few-shot histological image classification", "Lesion classification – Digital Pathology", "Classification – Whole Slide Images (WSI); Tumor classification; Cancer subtype classification"]},
-  {"cluster_id": 4, "label": "Retrosynthetic Pathway Design", "examples": ["Retrosynthetic Planning; Molecule Synthesis Optimization", "Molecular generation and retrosynthetic planning", "Multi-step retrosynthesis planning; Synthesizable molecular design", "Retrosynthetic pathway planning – Chemistry", "Retrosynthetic planning"]},
-  {"cluster_id": 5, "label": "Drug Interaction Prediction", "examples": ["Drug response prediction", "Drug-Target Interaction prediction", "Drug–drug interaction prediction", "Drug-drug interaction prediction", "Drug-drug interaction prediction; Retrosynthesis; Molecular property prediction"]},
-  {"cluster_id": 6, "label": "fMRI Brain Activity Analysis", "examples": ["Brain activity prediction – fMRI", "Brain connectivity analysis tasks – fMRI", "fMRI-based brain activity prediction", "Brain disease detection – fMRI", "Brain activity prediction"]},
-  {"cluster_id": 7, "label": "Treatment Policy Optimization", "examples": ["Policy evaluation and optimization – clinical decision-making", "Optimization of treatment regimens", "Treatment decision optimization – longitudinal healthcare management", "Medical diagnosis and treatment optimization", "Policy optimization and selection – Healthcare"]},
-  {"cluster_id": 8, "label": "Medical Image Reconstruction (MRI/CT)", "examples": ["MRI image reconstruction", "MRI image reconstruction", "Medical imaging reconstruction – MRI", "Image reconstruction – CT/MRI", "Image reconstruction – 3D CT and MRI"]},
-  {"cluster_id": 9, "label": "Protein Design and Generation", "examples": ["Protein sequence generation and design", "Protein sequence and structure generation", "Protein structure generation", "Protein structure generation", "Protein structure generation"]},
-  {"cluster_id": 10, "label": "Radiology Disease Classification", "examples": ["Disease classification – Radiology", "Disease classification – Radiology", "Disease classification – radiology images", "Disease classification – Radiology", "Disease classification – Brain MRI and Chest Radiography"]},
-  {"cluster_id": 11, "label": "Multi-Task Learning in Medical Vision", "examples": ["Decision support for medical and general classification tasks", "Multi-task performance optimization; medical visual question answering, report generation, and image classification.", "Robustness improvement – Multi-task learning in medical image analysis", "Image classification - Visual tasks", "Multiregion neural communication modeling – decision-making tasks"]},
-  {"cluster_id": 12, "label": "Cancer Genomics Clustering", "examples": ["Cell-type clustering – genomics", "Cluster assignment and feature selection – genomic data", "Gene expression clustering – cancer types", "Prognostic gene identification – cancer genomics", "Survival factor identification – Cancer genomics"]},
-  {"cluster_id": 13, "label": "Medical Image Segmentation", "examples": ["Medical image segmentation", "Medical image segmentation", "Medical image segmentation", "Medical image segmentation", "Medical image segmentation"]},
-  {"cluster_id": 14, "label": "EEG Sleep Staging", "examples": ["EEG signal classification and analysis", "Sleep stage classification – EEG", "Sleep stage classification – EEG", "EEG classification tasks; sleep stage classification", "EEG data classification"]},
-  {"cluster_id": 15, "label": "Treatment Effect Estimation", "examples": ["Treatment effect estimation", "Individual treatment effect estimation", "Individualized treatment effect estimation", "Conditional average treatment effect estimation", "Treatment effect estimation – survival analysis"]},
-  {"cluster_id": 16, "label": "Treatment Optimization (ICU/Sepsis)", "examples": ["Medication recommendation – ICU", "Medication recommendation – ICU", "Dynamic treatment recommendation – ICU", "Treatment optimization – ICU sepsis", "Treatment recommendation – Sepsis"]},
-  {"cluster_id": 17, "label": "Protein Structure Prediction", "examples": ["Protein structure-function prediction", "Protein structure prediction", "Protein structure and function prediction", "Protein structure prediction", "Protein function prediction"]},
-  {"cluster_id": 18, "label": "Molecule Generation (General)", "examples": ["Molecule generation", "Molecule generation", "Molecule generation", "Molecule generation", "Molecular conformation generation"]},
-  {"cluster_id": 19, "label": "COVID-19 Trend Forecasting", "examples": ["Epidemic forecasting – COVID-19 case prediction", "COVID-19 transmission forecasting", "Disease progression forecasting – COVID-19", "Disease case prediction – COVID-19", "COVID-19 progression forecasting"]},
-  {"cluster_id": 20, "label": "Tabular Clinical Modeling (EHR)", "examples": ["Disease diagnosis using tabular medical datasets", "Ranking fairness enhancement – medical EHR datasets", "Medical diagnosis robustness evaluation", "Binary classification – healthcare datasets", "Regression modeling – medical datasets"]},
-  {"cluster_id": 21, "label": "Clinical Risk Prediction (EHR)", "examples": ["Disease prediction", "Diagnosis prediction; Disease risk prediction – EHR data", "Disease Diagnosis; Patient Risk Prediction", "Mortality prediction; Readmission prediction", "Mortality prediction; Readmission prediction"]},
-  {"cluster_id": 22, "label": "Gene Function and Expression Prediction", "examples": ["Gene expression prediction", "Gene expression prediction", "Gene function prediction", "Mutation effect prediction", "Gene expression outcome prediction under perturbations"]},
-  {"cluster_id": 23, "label": "Molecular Property Prediction", "examples": ["Molecular property prediction", "Molecular property prediction", "Molecular property prediction", "Molecular property prediction", "Molecular property prediction"]},
-  {"cluster_id": 24, "label": "Alzheimer’s Disease Diagnosis", "examples": ["Disease diagnosis – Alzheimer's", "Disease classification – Alzheimer's detection", "Brain disease diagnosis", "Alzheimer's Disease classification", "Alzheimer's Disease classification"]},
-  {"cluster_id": 25, "label": "Biomolecular Dynamics Simulation", "examples": ["Equilibrium sampling of molecular systems", "Molecular dynamics simulation; Equilibrium density approximation", "Coarse-graining simulations – Molecular systems", "Two-body interaction estimation – collective motion models", "Time-coarsened dynamics simulation of biomolecules"]},
-  {"cluster_id": 26, "label": "Single-Cell Trajectory Inference", "examples": ["Trajectory prediction and analysis – single-cell RNA sequencing data", "Trajectory inference – single-cell RNA-seq", "Trajectory inference – Single-cell RNA sequencing data", "Transcriptional perturbation prediction – Single-cell data", "Trajectory inference in single-cell transcriptomics"]},
-  {"cluster_id": 27, "label": "Molecule Generation – Drug Discovery", "examples": ["Molecule optimization and generation – drug discovery", "Molecule generation – drug discovery", "Molecule generation – drug design", "Molecule optimization – drug discovery", "Molecule generation for drug discovery"]},
-  {"cluster_id": 28, "label": "ICU Mortality Prediction", "examples": ["Mortality prediction – ICU", "Mortality prediction – ICU", "Mortality prediction – ICU", "Mortality prediction – ICU", "Mortality prediction – ICU"]},
-  {"cluster_id": 29, "label": "Cryo-EM Structure Reconstruction", "examples": ["3D protein structure reconstruction – Cryo-EM", "3D structure reconstruction – Cryo-EM", "Protein structure reconstruction – cryo-EM", "3D structure reconstruction – electron cryo-microscopy", "3D Density Map Reconstruction – Cryo-EM"]},
-  {"cluster_id": 30, "label": "Molecular Graph Generation", "examples": ["Molecular graph generation", "Molecular graph generation", "Molecular graph generation", "Molecular graph generation", "Molecular graph generation"]},
-  {"cluster_id": 31, "label": "Human Motion Analysis (Rehabilitation)", "examples": ["3D human pose estimation; temporal action detection – rehabilitation exercises", "3D human pose estimation and action recognition", "Human activity recognition; Gait metric regression", "Action recognition and detection – nursing procedures", "Finger movement prediction – Brain-machine interface"]},
-  {"cluster_id": 32, "label": "Clinical Outcome Forecasting (Longitudinal)", "examples": ["Property prediction", "Time-to-event prediction", "Time-to-event prediction", "Long-term trajectory prediction", "Event prediction"]},
-  {"cluster_id": 33, "label": "ECG Signal Analysis", "examples": ["Cardiac arrhythmia detection – ECG time series", "ECG-based cardiovascular disease detection", "ECG reconstruction – Cardiac diagnosis", "ECG anomaly detection and interpretation", "Imputation and classification – ECG signals"]},
-  {"cluster_id": 34, "label": "Time-Series Analysis (General)", "examples": ["Time series forecasting and classification", "Time series forecasting", "Time-series forecasting", "Multivariate time series forecasting", "Multivariate time series classification"]},
-  {"cluster_id": 35, "label": "Molecular Property Optimization", "examples": ["Molecular optimization", "Molecular optimization", "Molecular property optimization", "Molecular property optimization", "Molecular property optimization"]},
-  {"cluster_id": 36, "label": "General Clinical Prediction Modeling", "examples": ["Clinical intervention prediction – ICU", "Clinical outcome prediction", "Clinical outcome prediction", "Clinical diagnosis prediction", "Clinical prediction tasks – EHR"]},
-  {"cluster_id": 37, "label": "Neural Dynamics Modeling", "examples": ["Neural dynamics modeling", "Neuronal dynamics modeling", "Neural population modeling and inference", "Brain activity modeling – neural dynamics", "Neural dynamics modeling during decision making"]},
-  {"cluster_id": 38, "label": "Causal Inference and Trajectory Analysis", "examples": ["Trajectory inference", "Causal graph estimation – neuroscience", "Causal inference; High-dimensional image generation", "Connectivity inference – neural networks", "Causal inference – Health data"]},
-  {"cluster_id": 39, "label": "Antibody Design and Optimization", "examples": ["Antibody sequence design and optimization", "Antibody design and optimization", "Antibody sequence-structure co-design", "Antibody sequence-structure co-design", "Antibody sequence and structure co-design"]},
-  {"cluster_id": 40, "label": "Medical Visual Question Answering", "examples": ["Medical Visual Question Answering (VQA) – Radiology", "Medical question answering", "Medical Visual Question Answering (VQA) – Multi-modal Clinical Analysis", "Medical Visual Question Answering", "Image question-answering – Medical imaging"]},
-  {"cluster_id": 41, "label": "De Novo Peptide Design", "examples": ["De novo peptide sequencing", "De novo peptide sequencing", "De novo peptide sequencing", "De novo molecular design optimization", "De novo molecular design optimization"]},
-  {"cluster_id": 42, "label": "Robust Medical Image Analysis", "examples": ["Medical image classification under noisy labels", "Image segmentation under noisy labels", "Out-of-distribution detection – classification tasks", "Image classification under adversarial attacks", "Explainable image classification"]},
-  {"cluster_id": 43, "label": "Neural Activity Decoding", "examples": ["Neural activity decoding", "Neural decoding – Brain-computer interfaces", "Neural decoding", "Brain network modeling and decoding", "Decoding and interpreting neural activity – neuroscience tasks"]},
-  {"cluster_id": 44, "label": "Protein-Ligand Docking Prediction", "examples": ["Protein-ligand docking prediction", "Molecular docking – protein-ligand binding predictions", "Protein-ligand molecular docking", "Protein-ligand docking", "Protein-ligand docking"]},
-  {"cluster_id": 999, "label": "Others / Unclear Category", "examples": ["Not explicitly categorized", "Unclear methodology or mixed topics"]}
+  {
+    "cluster_id": 0,
+    "label": "Neural Activity Analysis (Electrophysiology)",
+    "examples": [
+      "Neural spiking activity clustering",
+      "Neural trajectory analysis – electrophysiological recordings",
+      "Neural activation modeling – MEG/EEG",
+      "Neural population activity pattern optimization",
+      "Neuronal response prediction",
+      "Neural response prediction; Functional clustering of neurons",
+      "Detection of spatiotemporal patterns in neural activity",
+      "Neural Activity Prediction – Electrophysiology"
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "label": "Molecular Property Prediction",
+    "examples": [
+      "Molecular property prediction",
+      "Molecular property prediction",
+      "Molecular property prediction",
+      "Molecular property prediction",
+      "Molecular property prediction",
+      "Molecular property prediction",
+      "Molecular property prediction",
+      "Molecular property prediction"
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "label": "Histopathology Image Analysis",
+    "examples": [
+      "Image segmentation – Digital Pathology",
+      "Whole slide image classification – pathology",
+      "Synthetic histopathology image generation; Classification and segmentation",
+      "Whole Slide Image classification – Pathology",
+      "Cancer detection – Histopathology",
+      "Few-shot histological image classification",
+      "Lesion classification – Digital Pathology",
+      "Fine-grained classification – Histopathology"
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "label": "Protein Structure Prediction",
+    "examples": [
+      "Protein structure generation",
+      "Protein structure generation",
+      "Protein structure generation",
+      "Protein sequence and structure generation",
+      "Protein backbone structure generation",
+      "Protein sequence generation",
+      "Protein sequence generation",
+      "Protein conformation generation"
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "label": "Medical Image Classification",
+    "examples": [
+      "Medical image classification and temporal classification tasks",
+      "Medical imaging classification tasks",
+      "Multi-label medical image classification",
+      "Decision support for medical and general classification tasks",
+      "Image classification - Visual tasks",
+      "Medical image classification and segmentation; Domain generalization",
+      "Medical classification and prediction tasks",
+      "Medical image classification under noisy labels"
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "label": "Mental Health Counseling Analysis",
+    "examples": [
+      "Mental health counseling dialogue generation",
+      "Psychological counseling dialogue response generation and evaluation",
+      "Mental disorder detection – Social media text",
+      "Depression detection – Social media text",
+      "Emotion-adaptive conversational agent for mental health counseling",
+      "Mental health counseling summarization",
+      "Depression prediction from interview transcripts",
+      "Client behavior classification – Mental health counseling"
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "label": "Electrocardiogram Signal Classification",
+    "examples": [
+      "ECG-based cardiovascular disease detection",
+      "Cardiac arrhythmia detection – ECG time series",
+      "ECG reconstruction – Cardiac diagnosis",
+      "ECG anomaly detection and interpretation",
+      "Imputation and classification – ECG signals",
+      "ECG heartbeat classification",
+      "Zero-shot classification – ECG",
+      "ECG classification; ECG report generation"
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "label": "Clinical Diagnosis Prediction",
+    "examples": [
+      "Disease diagnosis and prognosis",
+      "Clinical diagnosis prediction",
+      "Medical diagnosis",
+      "Symptom querying and disease diagnosis",
+      "Disease diagnosis; clinical rationale generation",
+      "Medical prognosis and diagnosis",
+      "Medical prognosis and diagnosis",
+      "Differential diagnosis prediction"
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "label": "Molecule Generation",
+    "examples": [
+      "Molecule generation",
+      "Molecule generation",
+      "Molecule generation",
+      "Molecule generation",
+      "Molecular structure generation",
+      "Molecular conformation generation",
+      "Molecular conformation generation",
+      "Molecular conformation generation"
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "label": "Personalized Treatment Prediction",
+    "examples": [
+      "Personalized prediction; Treatment-effect estimation; Active sensing pathway tasks",
+      "Few-shot link prediction; Analogical reasoning tasks",
+      "Domain-aware personalized prediction",
+      "Parameter inference and model identification – scientific simulators",
+      "Human activity recognition; Gait metric regression",
+      "Self-supervised learning across diverse scientific domains",
+      "3D human pose estimation and action recognition",
+      "Domain adaptation for semantic processing"
+    ]
+  },
+  {
+    "cluster_id": 10,
+    "label": "Gene Regulatory Network Inference",
+    "examples": [
+      "Gene regulatory network inference",
+      "Gene regulatory network inference",
+      "Gene regulatory network inference",
+      "Gene regulatory network inference",
+      "Gene regulatory network inference",
+      "Gene regulatory network inference – single-cell RNA-seq",
+      "Gene regulatory network construction",
+      "Gene regulation inference – Single-cell multimodal data"
+    ]
+  },
+  {
+    "cluster_id": 11,
+    "label": "Drug Interaction Prediction",
+    "examples": [
+      "Drug response prediction",
+      "Drug-drug interaction prediction",
+      "Drug–drug interaction prediction",
+      "Drug-Target Interaction prediction",
+      "drug-drug interaction prediction",
+      "Drug property prediction",
+      "Drug property prediction",
+      "Drug property prediction"
+    ]
+  },
+  {
+    "cluster_id": 12,
+    "label": "Treatment Effect Estimation",
+    "examples": [
+      "Treatment effect estimation",
+      "Individual treatment effect estimation",
+      "Individualized treatment effect estimation",
+      "Conditional average treatment effect estimation",
+      "Treatment effect estimation – survival analysis",
+      "Individual Treatment Effect Estimation",
+      "Causal inference for treatment effect estimation",
+      "Treatment effect estimation – time-varying treatments"
+    ]
+  },
+  {
+    "cluster_id": 13,
+    "label": "3D Structure Reconstruction",
+    "examples": [
+      "3D structure reconstruction – Cryo-EM",
+      "3D structure reconstruction – electron cryo-microscopy",
+      "Computed Tomography (CT) reconstruction",
+      "3D Density Map Reconstruction – Cryo-EM",
+      "3D protein structure reconstruction – Cryo-EM",
+      "Heterogeneous reconstruction – cryo-EM",
+      "3D tomographic reconstruction and denoising - cryo-ET",
+      "3D shape reconstruction and analysis"
+    ]
+  },
+  {
+    "cluster_id": 14,
+    "label": "Medical Image Segmentation",
+    "examples": [
+      "Medical image segmentation",
+      "Medical image segmentation",
+      "Medical image segmentation",
+      "Medical image segmentation",
+      "Medical image segmentation",
+      "3D medical image segmentation",
+      "Medical image classification and segmentation",
+      "Image segmentation – Medical imaging"
+    ]
+  },
+  {
+    "cluster_id": 15,
+    "label": "Antibody Design Optimization",
+    "examples": [
+      "Antibody design and optimization",
+      "Antibody sequence design and optimization",
+      "Antibody sequence-structure co-design",
+      "Antibody sequence-structure co-design",
+      "Antibody sequence and structure co-design",
+      "Antibody sequence and structure co-design",
+      "Antibody sequence and structure design",
+      "Antibody sequence and structure generation"
+    ]
+  },
+  {
+    "cluster_id": 16,
+    "label": "Spatial Transcriptomics Analysis",
+    "examples": [
+      "Spatial transcriptomics analysis",
+      "Gene expression prediction – Transcriptomics",
+      "Spatial transcriptomics imputation",
+      "Spatial imputation in transcriptomics; Gene expression prediction",
+      "Transcriptomic identity prediction",
+      "Modality prediction – Transcriptomics",
+      "Biological perturbation modeling – Transcriptomics",
+      "Spatial transcriptomics alignment – biological developmental analysis"
+    ]
+  },
+  {
+    "cluster_id": 17,
+    "label": "Genomic Data Analysis",
+    "examples": [
+      "Cell-type clustering – genomics",
+      "Gene sequence clustering and clustering – Viral genome classification",
+      "Genome sequence modeling and classification",
+      "Genomic sequence classification",
+      "Cluster assignment and feature selection – genomic data",
+      "Bayesian phylogeny inference",
+      "Phylogenetic inference – COVID-19 genomic data",
+      "phylogenetic tree inference"
+    ]
+  },
+  {
+    "cluster_id": 18,
+    "label": "Protein Structure Function Prediction",
+    "examples": [
+      "Protein structure prediction",
+      "Protein structure prediction",
+      "Protein structure-function prediction",
+      "Protein structure and function prediction",
+      "Protein Structure Prediction",
+      "Protein function prediction",
+      "Protein function prediction",
+      "Protein function prediction"
+    ]
+  },
+  {
+    "cluster_id": 19,
+    "label": "Biomedical Information Extraction",
+    "examples": [
+      "Entity and relation extraction – biomedical text",
+      "Biomedical information extraction – scientific literature",
+      "Named entity recognition – biomedical domain",
+      "Named entity recognition (NER) – biomedical domain",
+      "Disease named entity recognition and normalization – Biomedical text",
+      "Biomedical relation extraction tasks",
+      "Named Entity Recognition (NER) – clinical text",
+      "information extraction – clinical text"
+    ]
+  },
+  {
+    "cluster_id": 20,
+    "label": "Cancer Prognosis Prediction",
+    "examples": [
+      "Cancer survival prediction – pathology/genomics",
+      "Cancer prognosis analysis",
+      "Cancer classification; Disease type prediction",
+      "Survival prediction – cancer",
+      "Cancer subtype prediction; Metastasis detection",
+      "Prognostic gene identification – cancer genomics",
+      "Survival prediction – Cancer",
+      "Survival factor identification – Cancer genomics"
+    ]
+  },
+  {
+    "cluster_id": 21,
+    "label": "Medical Image Reconstruction",
+    "examples": [
+      "MRI image reconstruction",
+      "MRI image reconstruction",
+      "Medical imaging reconstruction – MRI",
+      "Image reconstruction – CT/MRI",
+      "fMRI-to-image reconstruction",
+      "Image reconstruction – 3D CT and MRI",
+      "MRI reconstruction",
+      "MRI reconstruction"
+    ]
+  },
+  {
+    "cluster_id": 22,
+    "label": "High-dimensional Biomedical Data Analysis",
+    "examples": [
+      "Dimensionality reduction – high-throughput biological data",
+      "Feature group discovery in high-dimensional biological datasets",
+      "Feature selection – high-dimensional clinical and omics data",
+      "Dimensionality reduction – Biomedical transcriptomics and imaging datasets",
+      "Causal inference; High-dimensional image generation",
+      "Causal discovery for multivariate biological signals",
+      "Interventional sample generation – High-dimensional causal graphs",
+      "Variable importance assessment--heterogeneous biomedical datasets"
+    ]
+  },
+  {
+    "cluster_id": 23,
+    "label": "Medical Image Anomaly Detection",
+    "examples": [
+      "Unsupervised anomaly detection – medical images",
+      "Anomaly detection – Medical imaging",
+      "Medical image abnormality detection and diagnosis text generation",
+      "Zero-shot anomaly detection and segmentation",
+      "Anomaly detection – Radiology",
+      "Cancer detection on high-resolution images",
+      "Medical image captioning",
+      "Generalization and robustness analysis in medical imaging models"
+    ]
+  },
+  {
+    "cluster_id": 24,
+    "label": "Molecular Property Optimization",
+    "examples": [
+      "Molecular design optimization",
+      "Molecular optimization",
+      "Molecular optimization",
+      "Molecular structure optimization",
+      "Molecular synthesis optimization",
+      "Molecular property optimization",
+      "Molecular property optimization",
+      "Molecular property optimization"
+    ]
+  },
+  {
+    "cluster_id": 25,
+    "label": "Neural Dynamics Modeling",
+    "examples": [
+      "Neural dynamics modeling",
+      "Neuronal dynamics modeling",
+      "Neural population modeling and inference",
+      "Time series modeling – neural dynamics",
+      "Latent neural dynamics modeling",
+      "Neural dynamics modeling during decision making",
+      "Latent dynamics inference – neuroscience",
+      "Brain activity modeling – neural dynamics"
+    ]
+  },
+  {
+    "cluster_id": 26,
+    "label": "Neural Activity Decoding",
+    "examples": [
+      "Neural activity decoding",
+      "Neural decoding – Brain-computer interfaces",
+      "Brain network modeling and decoding",
+      "Decoding and interpreting neural activity – neuroscience tasks",
+      "Neural decoding",
+      "Visual decoding from brain signals",
+      "Behavior decoding and neural image prediction",
+      "neural decoding tasks"
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "label": "Functional Magnetic Resonance Imaging Analysis",
+    "examples": [
+      "Brain activity prediction – fMRI",
+      "fMRI-based brain activity prediction",
+      "Brain connectivity analysis tasks – fMRI",
+      "Brain disease detection – fMRI",
+      "Brain activity prediction",
+      "Neuroimaging-based brain response prediction and optimization",
+      "Brain activity prediction using multi-modal stimuli",
+      "Brain region detection - fMRI; Brain network classification"
+    ]
+  },
+  {
+    "cluster_id": 28,
+    "label": "Disease Classification",
+    "examples": [
+      "Disease classification",
+      "Disease classification",
+      "Disease classification",
+      "Disease classification – Radiology",
+      "Disease classification – Radiology",
+      "Disease classification – Radiology",
+      "Disease classification – radiology images",
+      "Disease subtype classification"
+    ]
+  },
+  {
+    "cluster_id": 29,
+    "label": "Electroencephalography Seizure Detection",
+    "examples": [
+      "EEG signal classification and analysis",
+      "Human action recognition; EEG classification",
+      "Seizure detection – EEG/iEEG",
+      "EEG data classification",
+      "Epileptic seizure detection – EEG",
+      "Pathology detection; disease classification – EEG",
+      "Seizure detection – EEG and SEEG",
+      "EEG Compression; Seizure Detection – EEG"
+    ]
+  },
+  {
+    "cluster_id": 30,
+    "label": "Radiology Report Generation",
+    "examples": [
+      "Radiology report generation – Chest X-ray",
+      "Radiology report generation – Chest X-rays",
+      "Radiology report generation – chest X-rays",
+      "Medical report generation - radiology (X-ray)",
+      "Medical report generation - chest radiology",
+      "Radiology report generation",
+      "Radiology report generation",
+      "Radiology report generation"
+    ]
+  },
+  {
+    "cluster_id": 31,
+    "label": "Treatment Regimen Optimization",
+    "examples": [
+      "Optimization of treatment regimens",
+      "Dose optimization – Clinical Trials",
+      "Dose optimization in clinical trials",
+      "Optimal dose identification – adaptive clinical trials",
+      "Symptom-to-drug recommendation",
+      "Clinical trial management with adaptive targeting",
+      "Individualized treatment recommendation",
+      "Chemotherapy dosage optimization"
+    ]
+  },
+  {
+    "cluster_id": 32,
+    "label": "Molecular Docking Prediction",
+    "examples": [
+      "Protein-ligand docking prediction",
+      "Molecular docking – protein-ligand binding predictions",
+      "Protein-ligand molecular docking",
+      "Protein-ligand docking",
+      "Protein-ligand docking",
+      "Protein-ligand binding structure prediction",
+      "Protein structure modeling; Ligand Binding Affinity Prediction",
+      "Molecular property prediction; Protein-ligand binding pose prediction"
+    ]
+  },
+  {
+    "cluster_id": 33,
+    "label": "Clinical Outcome Prediction",
+    "examples": [
+      "Disease prediction",
+      "Disease progression prediction",
+      "Disease Incidence Prediction",
+      "Disease progression prediction – COVID-19",
+      "Disease case prediction – COVID-19",
+      "Epidemic forecasting – COVID-19 case prediction",
+      "Disease progression forecasting – COVID-19",
+      "Clinical outcome prediction"
+    ]
+  },
+  {
+    "cluster_id": 34,
+    "label": "Protein Structure and Function Prediction",
+    "examples": [
+      "Molecular property prediction; Protein function prediction",
+      "Protein function prediction; Protein-protein interaction prediction; Mutational effect prediction",
+      "Protein folding prediction; Molecular simulation dynamics",
+      "Molecular property prediction; Protein pocket classification; Rigid protein docking",
+      "Protein structure generation; sequence-structure co-generation; folding prediction",
+      "Molecular interaction prediction; drug-drug interaction prediction; graph similarity prediction",
+      "Cross-modality retrieval; Protein-protein interaction prediction; Drug discovery tasks",
+      "Structure-function relationships; Ligand affinity prediction; Protein-protein interface analysis"
+    ]
+  },
+  {
+    "cluster_id": 35,
+    "label": "Genetic Variant Effect Prediction",
+    "examples": [
+      "Mutation effect prediction",
+      "Genetic variant effect prediction",
+      "Mutation effect prediction – protein-protein interactions",
+      "Variant effect prediction",
+      "Variant effect prediction",
+      "Mutational effect prediction",
+      "Gene expression prediction",
+      "Gene expression prediction"
+    ]
+  },
+  {
+    "cluster_id": 36,
+    "label": "Clinical Decision Policy Optimization",
+    "examples": [
+      "Policy evaluation and optimization – clinical decision-making",
+      "Policy optimization and selection – Healthcare",
+      "Treatment decision optimization – longitudinal healthcare management",
+      "Clinical Decision Policy Optimization",
+      "Fair decision-making in clinical resource allocation",
+      "Policy optimization for safety-critical decision-making",
+      "Optimal decision rule validation – healthcare",
+      "Fraud probability estimation; hospital allocation optimization"
+    ]
+  },
+  {
+    "cluster_id": 37,
+    "label": "Molecule Generation and Optimization",
+    "examples": [
+      "Molecule optimization and generation – drug discovery",
+      "Molecule generation – drug discovery",
+      "Molecule optimization – drug discovery",
+      "Molecule generation – drug design",
+      "Molecule generation for drug discovery",
+      "Molecular optimization – drug discovery",
+      "Molecule optimization – drug design",
+      "3D molecule generation – Drug discovery"
+    ]
+  },
+  {
+    "cluster_id": 38,
+    "label": "Single Cell Trajectory Inference",
+    "examples": [
+      "Trajectory inference – single-cell RNA-seq",
+      "Trajectory prediction and analysis – single-cell RNA sequencing data",
+      "Trajectory inference – Single-cell RNA sequencing data",
+      "Trajectory inference in single-cell transcriptomics",
+      "Trajectory inference – single-cell data",
+      "Transcriptional perturbation prediction – Single-cell data",
+      "Prediction of cellular processes – single-cell RNA sequencing",
+      "Trajectory prediction in single-cell transcriptomic data"
+    ]
+  },
+  {
+    "cluster_id": 39,
+    "label": "Peptide Sequencing",
+    "examples": [
+      "Peptide sequencing",
+      "Peptide sequencing",
+      "De novo peptide sequencing",
+      "De novo peptide sequencing",
+      "De novo peptide sequencing",
+      "De Novo Peptide Sequencing",
+      "Peptide drug design",
+      "De novo peptide sequencing using mass spectrometry"
+    ]
+  },
+  {
+    "cluster_id": 40,
+    "label": "Clinical Outcome Prediction",
+    "examples": [
+      "Mortality prediction – ICU",
+      "Mortality prediction – ICU",
+      "Mortality prediction – ICU",
+      "Mortality prediction – ICU",
+      "Mortality prediction – ICU",
+      "Mortality prediction – ICU",
+      "Mortality prediction – ICU",
+      "Mortality prediction – ICU"
+    ]
+  },
+  {
+    "cluster_id": 41,
+    "label": "Alzheimer's Disease Prediction",
+    "examples": [
+      "Disease classification – Alzheimer's detection",
+      "Disease pattern detection – Alzheimer's Disease",
+      "Disease diagnosis – Alzheimer's",
+      "Disease progression prediction – Alzheimer's Disease",
+      "Early diagnosis and classification of Alzheimer's disease patients",
+      "Long-term cognition trajectory prediction – Alzheimer’s Disease",
+      "Alzheimer's Disease classification",
+      "Alzheimer's Disease classification"
+    ]
+  },
+  {
+    "cluster_id": 42,
+    "label": "Biological Sequence Optimization",
+    "examples": [
+      "Biological sequence design optimization",
+      "Biological sequence design optimization",
+      "Biological sequence design – optimization",
+      "Biological sequence design",
+      "Biological sequence design",
+      "Biological sequence design",
+      "Biological sequence design; Molecular optimization",
+      "Molecule optimization and biological sequence design"
+    ]
+  },
+  {
+    "cluster_id": 43,
+    "label": "Electronic Health Record Phenotyping",
+    "examples": [
+      "Clinical prediction tasks – EHR",
+      "Outcome prediction; Patient clustering – EHR data",
+      "Patient classification – EHR",
+      "Clinical reading comprehension – EMRs",
+      "Clinical condition prediction – EHR; Note segmentation – Clinical NLP",
+      "Query generation task – EHR systems",
+      "Automated diagnostic and procedural ICD coding from clinical text",
+      "clinical action item extraction – ICU discharge notes"
+    ]
+  },
+  {
+    "cluster_id": 44,
+    "label": "Electroencephalography Sleep Staging",
+    "examples": [
+      "Sleep stage classification",
+      "Sleep stage classification",
+      "Sleep stage classification",
+      "sleep stage classification",
+      "Sleep stage classification – EEG",
+      "Sleep stage classification – EEG",
+      "EEG classification tasks; sleep stage classification",
+      "Sleep stage classification; Sleep-disordered breathing detection"
+    ]
+  },
+  {
+    "cluster_id": 45,
+    "label": "Medical Question Answering",
+    "examples": [
+      "Medical question answering",
+      "Medical question answering",
+      "Medical fact evaluation; Question answering",
+      "medical question answering",
+      "Medical question-answering",
+      "Biomedical question answering",
+      "Biomedical question answering",
+      "medical question answering tasks"
+    ]
+  },
+  {
+    "cluster_id": 46,
+    "label": "Protein Sequence Design",
+    "examples": [
+      "Protein sequence design",
+      "Protein sequence design",
+      "Protein sequence design",
+      "Protein sequence design optimization",
+      "Protein design optimization",
+      "Protein sequence optimization",
+      "Protein sequence optimization",
+      "Protein sequence generation and design"
+    ]
+  },
+  {
+    "cluster_id": 47,
+    "label": "Physiological Time Series Analysis",
+    "examples": [
+      "Time series forecasting and classification",
+      "Time series forecasting",
+      "Time-series forecasting",
+      "Multivariate time series forecasting",
+      "Multivariate time series classification",
+      "Time series classification",
+      "Probabilistic forecasting — Time Series",
+      "Time series forecasting – physiological time series"
+    ]
+  },
+  {
+    "cluster_id": 48,
+    "label": "Clinical Outcome Prediction",
+    "examples": [
+      "Mortality prediction",
+      "Mortality prediction",
+      "Mortality prediction",
+      "Mortality prediction",
+      "Mortality and morbidity prediction",
+      "Mortality prediction – clinical; Length-of-stay prediction",
+      "Mortality prediction; Readmission prediction",
+      "Mortality prediction; Readmission prediction"
+    ]
+  }
 ]

@@ -1,0 +1,49 @@
+0. Neural Activity Analysis (Electrophysiology)
+1. Molecular Property Prediction
+2. Histopathology Image Analysis
+3. Protein Structure Prediction
+4. Medical Image Classification
+5. Mental Health Counseling Analysis
+6. Electrocardiogram Signal Classification
+7. Clinical Diagnosis Prediction
+8. Molecule Generation
+9. Personalized Treatment Prediction
+10. Gene Regulatory Network Inference
+11. Drug Interaction Prediction
+12. Treatment Effect Estimation
+13. 3D Structure Reconstruction
+14. Medical Image Segmentation
+15. Antibody Design Optimization
+16. Spatial Transcriptomics Analysis
+17. Genomic Data Analysis
+18. Protein Structure Function Prediction
+19. Biomedical Information Extraction
+20. Cancer Prognosis Prediction
+21. Medical Image Reconstruction
+22. High-dimensional Biomedical Data Analysis
+23. Medical Image Anomaly Detection
+24. Molecular Property Optimization
+25. Neural Dynamics Modeling
+26. Neural Activity Decoding
+27. Functional Magnetic Resonance Imaging Analysis
+28. Disease Classification
+29. Electroencephalography Seizure Detection
+30. Radiology Report Generation
+31. Treatment Regimen Optimization
+32. Molecular Docking Prediction
+33. Clinical Outcome Prediction
+34. Protein Structure and Function Prediction
+35. Genetic Variant Effect Prediction
+36. Clinical Decision Policy Optimization
+37. Molecule Generation and Optimization
+38. Single Cell Trajectory Inference
+39. Peptide Sequencing
+40. Clinical Outcome Prediction
+41. Alzheimer's Disease Prediction
+42. Biological Sequence Optimization
+43. Electronic Health Record Phenotyping
+44. Electroencephalography Sleep Staging
+45. Medical Question Answering
+46. Protein Sequence Design
+47. Physiological Time Series Analysis
+48. Clinical Outcome Prediction

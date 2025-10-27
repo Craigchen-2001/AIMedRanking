@@ -17,23 +17,43 @@ def ask_label(examples, mode):
     ex = "\n".join([f"- {t}" for t in examples])
     if mode == "method":
         prompt = (
-            "You standardize AI in Medicine research method phrases into precise technical clusters.\n"
-            "Given the following method phrases, output a single short label that best captures the shared technique.\n"
-            "Constraints: 2–5 words, Title Case, no quotes, letters/spaces only, avoid vague terms, be specific (e.g., Graph Neural Networks, Counterfactual Inference, Score Based Diffusion, Knowledge Graph Embeddings, Federated Learning, Meta Learning).\n"
+            "You standardize AI-in-Medicine method phrases into one precise technical cluster label.\n"
+            "Goal:\n"
+            "Return a single canonical method label that best summarizes the shared technique across the phrases.\n"
+            "Rules:\n"
+            "1) 2–5 words, Title Case, ASCII only, no punctuation, no quotes, no trailing dot.\n"
+            "2) Use full names, avoid abbreviations. Prefer 'Graph Neural Networks' over 'GNN', 'Causal Inference' over 'CI'.\n"
+            "3) Be specific to the technique, not the dataset or domain. Do not include application words like 'ICU', 'radiology', 'clinical'.\n"
+            "4) Avoid vague or meta labels: General Methods, Machine Learning, Deep Learning, Neural Networks, Representation Learning, Optimization, Others, Misc, Various.\n"
+            "5) Prefer the most central shared method when multiple appear. If the phrases mix variants of the same family, choose the umbrella family name (e.g., Contrastive Learning, Knowledge Graph Embeddings, Counterfactual Inference, Score Based Diffusion, Federated Learning, Meta Learning, Time Series Forecasting).\n"
+            "6) If phrases are too narrow or implementation-specific (e.g., loss names, optimizer names), lift to the nearest well-known method family.\n"
             "Phrases:\n"
             f"{ex}\n"
             "Answer with the label only."
         )
     else:
         prompt = (
-            "You standardize biomedical application phrases into precise task/domain clusters.\n"
-            "Given the following application phrases, output a single short label that best captures the shared medical task/domain.\n"
-            "Constraints: 2–5 words, Title Case, no quotes, letters/spaces only, avoid vague terms, be specific (e.g., Molecular Docking, Drug Response Prediction, Medical Image Reconstruction, EEG Sleep Staging, Protein Structure Prediction, Clinical Outcome Prediction).\n"
+            "You standardize biomedical application phrases into one precise task/domain cluster label.\n"
+            "Goal:\n"
+            "Return a single canonical application label that best summarizes the shared medical task or problem.\n"
+            "Rules:\n"
+            "1) 2–5 words, Title Case, ASCII only, no punctuation, no quotes, no trailing dot.\n"
+            "2) Use full names, avoid abbreviations. Prefer 'Electroencephalography Sleep Staging' over 'EEG Sleep Staging', 'Electronic Health Record Phenotyping' over 'EHR Phenotyping'.\n"
+            "3) Use 'task + domain' when relevant. Examples: Medical Image Segmentation, Protein Structure Prediction, Drug Response Prediction, Clinical Outcome Prediction, Molecular Docking, Electronic Health Record Phenotyping, Electrocardiogram Arrhythmia Detection.\n"
+            "4) Avoid vague or meta labels: Healthcare AI, Biomedical NLP, Clinical AI, Diagnosis, Prognosis, Others, Misc.\n"
+            "5) Do not include specific dataset names, hospitals, countries, or modality-only labels (e.g., X Ray) unless intrinsic to the task. Prefer the concrete task.\n"
+            "6) If phrases span close variants of one task, choose the umbrella task name.\n"
             "Phrases:\n"
             f"{ex}\n"
             "Answer with the label only."
         )
-    r = client.chat.completions.create(model=CHAT_MODEL, messages=[{"role":"user","content":prompt}], temperature=0.2, max_tokens=32)
+    r = client.chat.completions.create(
+        model=CHAT_MODEL,
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0,
+        top_p=0.1,
+        max_tokens=16
+    )
     return r.choices[0].message.content.strip()
 
 def name_clusters(emb, labels, texts, topn, mode, outpath):
@@ -67,6 +87,7 @@ for p in [
     "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ICML_metadata.json",
     "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/NeurIPS_metadata.json",
     "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/KDD_metadata.json",
+    "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main/ACL_metadata.json"
 ]:
     with open(p,"r") as f: entries.extend(json.load(f))
 
@@ -78,5 +99,5 @@ for e in entries:
     if e.get("application","").strip():
         application_texts.append(e.get("application","").strip())
 
-name_clusters(method_emb, method_labels, method_texts, topn=5, mode="method", outpath=f"{cluster_dir}/method_clusters_named.json")
-name_clusters(app_emb, app_labels, application_texts, topn=5, mode="application", outpath=f"{cluster_dir}/application_clusters_named.json")
+name_clusters(method_emb, method_labels, method_texts, topn=8, mode="method", outpath=f"{cluster_dir}/method_clusters_named.json")
+name_clusters(app_emb, app_labels, application_texts, topn=8, mode="application", outpath=f"{cluster_dir}/application_clusters_named.json")

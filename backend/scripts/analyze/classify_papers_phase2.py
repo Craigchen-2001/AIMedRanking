@@ -5,11 +5,8 @@ from tqdm import tqdm
 os.environ["AZURE_OPENAI_API_KEY"] = "27K1tUZVh5hh0DHdB72hBUdpWxX3zYLzCNa8UAYkYiEmKPx6IMRiJQQJ99BFACYeBjFXJ3w3AAABACOGEt0r"
 os.environ["AZURE_OPENAI_ENDPOINT"] = "https://weichi.openai.azure.com/"
 
-client = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-    api_version="2025-03-01-preview",
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
-)
+client = AzureOpenAI(api_key=os.getenv("AZURE_OPENAI_API_KEY"), api_version="2023-05-15", azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"))
+
 
 deployment_name = "gpt-4o"
 
@@ -18,7 +15,8 @@ input_map = {
     "ICLR": f"{base_root}/main/ICLR_metadata.json",
     "ICML": f"{base_root}/main/ICML_metadata.json",
     "NeurIPS": f"{base_root}/main/NeurIPS_metadata.json",
-    "KDD": f"{base_root}/main/KDD_metadata.json"
+    "KDD": f"{base_root}/main/KDD_metadata.json",
+    "ACL": f"{base_root}/main/ACL_metadata.json"
 }
 out_root = f"{base_root}/scripts/analyze/cluster_embedding_outputs/classified_outputs"
 os.makedirs(out_root, exist_ok=True)
@@ -58,18 +56,25 @@ def build_prompt(paper, prompt_type):
 
 def normalize_result(paper, parsed, prompt_type):
     key = f"{prompt_type}_labels"
-    out = {"id": paper.get("id")}
+    out = {
+        "id": paper.get("id"),
+        "title": paper.get("title", "N/A"),
+        "abstract": paper.get("abstract", "N/A"),
+    }
+    if prompt_type == "method":
+        out["original_method"] = paper.get("method", "N/A")
+    elif prompt_type == "application":
+        out["original_application"] = paper.get("application", "N/A")
     labels = parsed.get(key) if isinstance(parsed, dict) else None
     if not labels or not isinstance(labels, list):
         labels = [{"id": 999, "label": "Others"}]
     clean = []
     for item in labels:
-        if not isinstance(item, dict):
-            continue
-        cid = item.get("id")
-        name = item.get("label")
-        if isinstance(cid, int) and isinstance(name, str) and name:
-            clean.append({"id": cid, "label": name})
+        if isinstance(item, dict):
+            cid = item.get("id")
+            name = item.get("label")
+            if isinstance(cid, int) and isinstance(name, str) and name:
+                clean.append({"id": cid, "label": name})
     if not clean:
         clean = [{"id": 999, "label": "Others"}]
     out[key] = clean
@@ -78,24 +83,25 @@ def normalize_result(paper, parsed, prompt_type):
 def classify(paper, prompt_type):
     filled_prompt = build_prompt(paper, prompt_type)
     try:
-        resp = client.responses.create(
+        resp = client.chat.completions.create(
             model=deployment_name,
-            input=filled_prompt,
+            messages=[
+                {"role": "system", "content": "You are a careful JSON-only classifier. Reply with valid JSON only."},
+                {"role": "user", "content": filled_prompt}
+            ],
             temperature=0,
-            max_output_tokens=800,
+            max_tokens=800,
             timeout=120
         )
-        txt = resp.output[0].content[0].text.strip()
+        txt = resp.choices[0].message.content.strip()
         if not txt:
             raise ValueError("Empty response")
-        print("\n========== RAW OUTPUT ==========")
-        print(f"Paper ID (source): {paper.get('id')}")
-        print(txt[:2000])
-        print("================================\n")
+
         if '```json' in txt:
             txt = txt.split('```json')[-1].split('```')[0].strip()
         elif '```' in txt:
             txt = txt.split('```')[-1].strip()
+
         parsed = json.loads(txt)
         result = normalize_result(paper, parsed, prompt_type)
     except Exception as e:
@@ -106,7 +112,8 @@ def classify(paper, prompt_type):
         result = {"id": paper.get("id"), f"{prompt_type}_labels": [{"id": 999, "label": "Others"}]}
     return result
 
-conf = input("Enter conference (ICLR / ICML / NeurIPS / KDD / all): ").strip()
+
+conf = input("Enter conference (ICLR / ICML / NeurIPS / KDD / ACL / all): ").strip()
 entries = load_entries(conf)
 n_total = len(entries)
 
