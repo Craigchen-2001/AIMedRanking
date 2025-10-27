@@ -187,7 +187,7 @@ export default function TopicTrendPage() {
     <div className="w-full min-h-screen bg-gray-50">
       <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-16 flex items-center justify-between px-6 border-b">
         <div className="flex items-center gap-3">
-          <Image src="/logo02.png" alt="AI Med Logo" width={60} height={40} priority />
+          <img src="/logo02.png" alt="AI Med Logo" width={60} height={40}/>
           <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AI MED RANKING</div>
         </div>
         <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">AI-MED Trend Dashboard</div>
