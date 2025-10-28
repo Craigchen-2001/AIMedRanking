@@ -87,7 +87,9 @@ router.get("/", async (req: Request, res: Response) => {
       updatedAt: true,
       topicAxis1: true,
       topicAxis2: true,
-      topicAxis3: true
+      topicAxis3: true,
+      methodLabels: true,
+      applicationLabels: true
     } as const;
     const [total, rows] = await Promise.all([
       prisma.paper.count({ where }),
@@ -115,6 +117,8 @@ router.get("/", async (req: Request, res: Response) => {
       datasetLinks: p.datasetLinks,
       dataset_name: p.datasetNames,
       updatedAt: p.updatedAt,
+      methodLabels: p.methodLabels,
+      applicationLabels: p.applicationLabels,
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
@@ -151,7 +155,9 @@ router.get("/:id", async (req: Request, res: Response) => {
       updatedAt: true,
       topicAxis1: true,
       topicAxis2: true,
-      topicAxis3: true
+      topicAxis3: true,
+      methodLabels: true,
+      applicationLabels: true 
     } as const;
     const p = await prisma.paper.findUnique({ where: { id }, select });
     if (!p) return res.status(404).json({ error: "not_found" });
@@ -177,6 +183,8 @@ router.get("/:id", async (req: Request, res: Response) => {
       datasetLinks: p.datasetLinks,
       dataset_name: p.datasetNames,
       updatedAt: p.updatedAt,
+      methodLabels: p.methodLabels,
+      applicationLabels: p.applicationLabels,
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
