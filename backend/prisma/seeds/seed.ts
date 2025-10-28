@@ -74,7 +74,13 @@ function normalizeAxis(v: any) {
 
 const ROOT = path.resolve(__dirname, "../../");
 const DATA_DIR = path.join(ROOT, "main");
-const FILES = ["ICLR_metadata.json", "ICML_metadata.json", "KDD_metadata.json", "NeurIPS_metadata.json","ACL_metadata.json"];
+const FILES = [
+  "ICLR_metadata.json",
+  "ICML_metadata.json",
+  "KDD_metadata.json",
+  "NeurIPS_metadata.json",
+  "ACL_metadata.json"
+];
 
 function upsertOne(item: any) {
   const authors = asArray(item.authors ?? []);
@@ -92,6 +98,9 @@ function upsertOne(item: any) {
   const topicAxis1 = normalizeAxis(pickAxis(item, 1));
   const topicAxis2 = normalizeAxis(pickAxis(item, 2));
   const topicAxis3 = normalizeAxis(pickAxis(item, 3));
+
+  const methodLabels = item.method_labels ?? item.methodLabels ?? null;
+  const applicationLabels = item.application_labels ?? item.applicationLabels ?? null;
 
   const base = {
     year: Number(item.year),
@@ -118,6 +127,8 @@ function upsertOne(item: any) {
       ...(topicAxis1 !== null ? { topicAxis1: topicAxis1 as Prisma.InputJsonValue } : {}),
       ...(topicAxis2 !== null ? { topicAxis2: topicAxis2 as Prisma.InputJsonValue } : {}),
       ...(topicAxis3 !== null ? { topicAxis3: topicAxis3 as Prisma.InputJsonValue } : {}),
+      ...(methodLabels ? { methodLabels: methodLabels as Prisma.InputJsonValue } : {}),
+      ...(applicationLabels ? { applicationLabels: applicationLabels as Prisma.InputJsonValue } : {}),
       datasetNames: { set: datasetNames },
       datasetLinks: { set: datasetLinks },
       authors: { set: authors }
@@ -128,6 +139,8 @@ function upsertOne(item: any) {
       ...(topicAxis1 !== null ? { topicAxis1: topicAxis1 as Prisma.InputJsonValue } : {}),
       ...(topicAxis2 !== null ? { topicAxis2: topicAxis2 as Prisma.InputJsonValue } : {}),
       ...(topicAxis3 !== null ? { topicAxis3: topicAxis3 as Prisma.InputJsonValue } : {}),
+      ...(methodLabels ? { methodLabels: methodLabels as Prisma.InputJsonValue } : {}),
+      ...(applicationLabels ? { applicationLabels: applicationLabels as Prisma.InputJsonValue } : {}),
       datasetNames,
       datasetLinks,
       authors
@@ -141,12 +154,18 @@ async function seedFile(fileName: string) {
   const raw = JSON.parse(fs.readFileSync(full, "utf-8")) as any[];
   const batches = chunk(raw, 200);
   let processed = 0;
+  let withLabels = 0;
+
   for (const b of batches) {
     await prisma.$transaction(b.map((it) => upsertOne(it)));
     processed += b.length;
+    withLabels += b.filter(
+      (it) => (it.method_labels && it.method_labels.length) || (it.application_labels && it.application_labels.length)
+    ).length;
     console.log(`Upserted ${processed}/${raw.length} from ${fileName}`);
   }
-  console.log(`Seeded from ${fileName}: ${raw.length} items`);
+
+  console.log(`Seeded from ${fileName}: ${raw.length} items (${withLabels} with labels)`);
 }
 
 async function main() {
@@ -160,7 +179,7 @@ async function main() {
 
 main()
   .then(async () => {
-    console.log("Seed completed");
+    console.log("All seeding completed");
     await prisma.$disconnect();
   })
   .catch(async (e) => {

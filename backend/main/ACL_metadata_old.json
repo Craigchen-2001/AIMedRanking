@@ -41,23 +41,7 @@
       "FollowupBench-FB Real",
       "FB-Synth"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 47,
-        "label": "Multi-Agent Systems"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2024.acl-long.484",
@@ -106,31 +90,7 @@
       "STRING",
       "Mol-Instructions"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      },
-      {
-        "id": 18,
-        "label": "Protein Structure Function Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 65,
-        "label": "Tokenization Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1079",
@@ -175,31 +135,7 @@
     "dataset_name": [
       "AnnoMI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.39",
@@ -247,39 +183,7 @@
       "MIMIC-III",
       "MeQSum"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.390",
@@ -326,23 +230,7 @@
       "ClueWeb09-B",
       "Robust04"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.384",
@@ -384,27 +272,7 @@
       "Abridge AI medical dataset",
       "AMI corpus"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.533",
@@ -448,31 +316,7 @@
       "MedMCQA",
       "MMLU-Medical"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.240",
@@ -513,27 +357,7 @@
     "dataset_name": [
       "MISSCI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.138",
@@ -575,27 +399,7 @@
       "DDI",
       "GAD"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.886",
@@ -637,27 +441,7 @@
       "MACCROBAT-EE",
       "ACE05"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0366",
@@ -704,27 +488,7 @@
       "Suicide Risk Prediction dataset",
       "PsyEvent dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_1078",
@@ -765,27 +529,7 @@
       "ChEBI-20",
       "L+M"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      },
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.286",
@@ -828,31 +572,7 @@
       "Gynaecology EMR dataset",
       "Respiration EMR dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.210",
@@ -893,19 +613,7 @@
       "PMC Open Access Subset",
       "MEDLINE Collection"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.723",
@@ -948,27 +656,7 @@
       "EXPERT",
       "WEAK SUPERVISION"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 37,
-        "label": "Linear Regression"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.134",
@@ -1011,23 +699,7 @@
       "GENIA",
       "BC5CDR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.853",
@@ -1071,27 +743,7 @@
       "Mental health datasets from subreddits",
       "eRisk collections"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 39,
-        "label": "Masked Language Modeling (MLM)"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2021.acl-long.387",
@@ -1133,27 +785,7 @@
       "Open-i",
       "MIMIC-CXR"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.305",
@@ -1193,31 +825,7 @@
     "dataset_name": [
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 40,
-        "label": "Message Passing Neural Networks"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1319",
@@ -1259,27 +867,7 @@
       "ADReSS",
       "Canary"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 41,
-        "label": "Alzheimer's Disease Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.520",
@@ -1322,23 +910,7 @@
       "ShARe 13",
       "ShARe 14"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.219",
@@ -1380,27 +952,7 @@
       "NCBI disease corpus",
       "BioCreative V CDR task corpus"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0615",
@@ -1449,31 +1001,7 @@
       "CMB-Exam",
       "CMB-Clin"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.739",
@@ -1517,31 +1045,7 @@
       "Re-DocRED",
       "PubTator Central"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2022.acl-long.175",
@@ -1586,35 +1090,7 @@
       "SciFact",
       "MedMentions"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 65,
-        "label": "Tokenization Methods"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.881",
@@ -1656,31 +1132,7 @@
       "Twitter COVID-19 Event Extraction dataset",
       "W-NUT 2020 COVID-19 event extraction shared task"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 0,
-        "label": "Active Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0572",
@@ -1726,39 +1178,7 @@
       "MIMIC-III",
       "MIMIC-IV"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 31,
-        "label": "Knowledge Distillation"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.234",
@@ -1799,19 +1219,7 @@
       "MIMIC-CXR",
       "IU-Xray"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2024.acl-long.324",
@@ -1857,27 +1265,7 @@
       "ProteinKG25",
       "PDB-QA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.572",
@@ -1921,27 +1309,7 @@
       "SemEval 2018 Task 6",
       "Food security reports"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 0,
-        "label": "Active Learning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.719",
@@ -1982,31 +1350,7 @@
     "dataset_name": [
       "Medical co-occurrence graph (20 million clinical notes)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.282",
@@ -2051,31 +1395,7 @@
       "MIMIC-III 50",
       "MIMIC-II"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2024.acl-long.708",
@@ -2120,31 +1440,7 @@
       "MMCQS",
       "MM_CliConSummation"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.335",
@@ -2188,27 +1484,7 @@
       "BC5CDR Chemical",
       "TAC2017ADR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.896",
@@ -2255,27 +1531,7 @@
       "QUAERO French Medical Corpus",
       "FrenchMedMCQA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.140",
@@ -2319,27 +1575,7 @@
       "BC5CDR-Disease",
       "NCBI-Disease"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2020.acl-main.137",
@@ -2381,19 +1617,7 @@
     "dataset_name": [
       "FOBIE dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0798",
@@ -2445,31 +1669,7 @@
       "MUV",
       "BACE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0029",
@@ -2518,27 +1718,7 @@
       "COVID-19 integration dataset",
       "Immune Human dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 17,
-        "label": "Genomic Data Analysis"
-      },
-      {
-        "id": 38,
-        "label": "Single Cell Trajectory Inference"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0571",
@@ -2580,27 +1760,7 @@
       "MecDDI",
       "DDInter2.0"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0674",
@@ -2644,31 +1804,7 @@
       "TBX11K",
       "KVASIR"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 23,
-        "label": "Medical Image Anomaly Detection"
-      },
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_1436",
@@ -2714,23 +1850,7 @@
       "PubMedQA",
       "MedQA-US"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.416",
@@ -2775,27 +1895,7 @@
       "MDACE",
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.127",
@@ -2838,39 +1938,7 @@
       "COVID-19-Stance",
       "SemEval2016 Task 6"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.461",
@@ -2911,27 +1979,7 @@
     "dataset_name": [
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.457",
@@ -2981,35 +2029,7 @@
       "WebMedQA",
       "cMedQA"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0463",
@@ -3050,23 +2070,7 @@
       "BioGen 2024",
       "TREC 2024"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.577",
@@ -3111,31 +2115,7 @@
       "PsyQA",
       "Althoff et al. mental health corpus"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1580",
@@ -3177,27 +2157,7 @@
       "MIMIC-IV",
       "i2b2"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.588",
@@ -3239,27 +2199,7 @@
       "i2b2/VA Shared-Task",
       "Child Welfare Case Notes (CN)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.419",
@@ -3302,27 +2242,7 @@
     "dataset_name": [
       "MedMCQA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0677",
@@ -3371,31 +2291,7 @@
       "APTOS 2019 Blindness",
       "DRIMDB"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 4,
-        "label": "Medical Image Classification"
-      },
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.549",
@@ -3440,31 +2336,7 @@
       "Cochrane",
       "MS^2"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.82",
@@ -3509,31 +2381,7 @@
       "FB15k-237",
       "FB15k-237-Sparse"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 31,
-        "label": "Knowledge Distillation"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1347",
@@ -3579,35 +2427,7 @@
       "CHEXPERT-PLUS",
       "IU X-RAY"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0703",
@@ -3657,31 +2477,7 @@
       "EHR-Halt",
       "LongHalt"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0717",
@@ -3726,31 +2522,7 @@
       "iCRAFT-MD",
       "RareBench"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.119",
@@ -3797,27 +2569,7 @@
       "iCliniq",
       "MEDIQA RQE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.234",
@@ -3864,31 +2616,7 @@
       "RCT abstracts",
       "manual validation dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0058",
@@ -3931,31 +2659,7 @@
       "SoulChatCorpus",
       "PsyDTCorpus"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0104",
@@ -4018,23 +2722,7 @@
     "dataset_name": [
       "AfriMed-QA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0892",
@@ -4082,39 +2770,7 @@
       "MTSamples",
       "MIMIC II"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 18,
-        "label": "Evolutionary Algorithms"
-      },
-      {
-        "id": 47,
-        "label": "Multi-Agent Systems"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.393",
@@ -4158,35 +2814,7 @@
       "ZuCo v1.0",
       "ZuCo v2.0"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 26,
-        "label": "Neural Activity Decoding"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 38,
-        "label": "Masked Autoencoder Models (MAE)"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.116",
@@ -4230,31 +2858,7 @@
       "i2b2",
       "HoC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 31,
-        "label": "Knowledge Distillation"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1140",
@@ -4296,31 +2900,7 @@
       "CSL-EMG_Array",
       "Gaddy Closed Vocabulary Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.322",
@@ -4367,27 +2947,7 @@
     "dataset_name": [
       "Mobile Assessment for the Prediction of Suicide (MAPS)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1418",
@@ -4441,23 +3001,7 @@
       "SLAKE",
       "Rad-Restruct"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.230",
@@ -4503,27 +3047,7 @@
       "AG News",
       "PersonaChat"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 1,
-        "label": "Adversarial Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_1424",
@@ -4567,31 +3091,7 @@
       "MIMIC-CXR",
       "IU-Xray"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0048",
@@ -4633,23 +3133,7 @@
       "MIMIC-III",
       "MIMIC-IV"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2021.acl-long.120",
@@ -4690,23 +3174,7 @@
       "OntoNotes-ZS",
       "MedMentions-ZS"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2022.acl-long.15",
@@ -4747,27 +3215,7 @@
     "dataset_name": [
       "MS2"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.109",
@@ -4814,31 +3262,7 @@
       "MIMIC-III",
       "CLIP"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.329",
@@ -4881,27 +3305,7 @@
     "dataset_name": [
       "UMLS MedLAMA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0061",
@@ -4943,23 +3347,7 @@
       "Russian National Corpus",
       "Readability Test"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.525",
@@ -5002,23 +3390,7 @@
       "WLP Corpus",
       "WNUT 2020"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_1586",
@@ -5060,31 +3432,7 @@
       "DDxReasoning Dataset",
       "MedQA"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2024.acl-long.386",
@@ -5132,39 +3480,7 @@
       "CMD (Reward)",
       "Safety-Prompts"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1547",
@@ -5207,27 +3523,7 @@
       "MIMIC-III",
       "SHAC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0315",
@@ -5277,27 +3573,7 @@
       "NHANES",
       "Food and Nutrient Database for Dietary Studies (FNDDS)"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_1157",
@@ -5343,27 +3619,7 @@
     "dataset_name": [
       "MolPuzzle"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 45,
-        "label": "Monte Carlo Methods"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.227",
@@ -5407,23 +3663,7 @@
       "ESConv",
       "FeedbackESConv"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.141",
@@ -5466,23 +3706,7 @@
       "CDR",
       "GDA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.122",
@@ -5525,23 +3749,7 @@
       "MDS",
       "FactBank"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.458",
@@ -5580,27 +3788,7 @@
     "dataset_name": [
       "N/A"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      },
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2021.acl-long.485",
@@ -5642,27 +3830,7 @@
       "NCBI",
       "BC5CDR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.62",
@@ -5708,35 +3876,7 @@
       "InterPro",
       "UniProtKB"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 46,
-        "label": "Protein Sequence Design"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.225",
@@ -5778,35 +3918,7 @@
       "ESConv",
       "MI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.741",
@@ -5850,35 +3962,7 @@
       "Narratives",
       "ZuCo1.0"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 26,
-        "label": "Neural Activity Decoding"
-      },
-      {
-        "id": 27,
-        "label": "Functional Magnetic Resonance Imaging Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2021.acl-long.488",
@@ -5920,27 +4004,7 @@
       "BioRelEx",
       "ADE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.131",
@@ -5984,27 +4048,7 @@
       "DementiaBank",
       "CCC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 41,
-        "label": "Alzheimer's Disease Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.463",
@@ -6050,31 +4094,7 @@
       "MIMIC-II",
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 31,
-        "label": "Knowledge Distillation"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1403",
@@ -6115,31 +4135,7 @@
       "SEPR PHI",
       "MEDDOCAN"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 3,
-        "label": "Autoregressive Modeling"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.350",
@@ -6183,31 +4179,7 @@
       "MuZhi-2",
       "Ped"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 3,
-        "label": "Autoregressive Modeling"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.558",
@@ -6249,31 +4221,7 @@
       "CMCQA",
       "ExplainCPE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1370",
@@ -6325,23 +4273,7 @@
       "MIMIC-CXR",
       "CheXpert Plus"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.766",
@@ -6389,27 +4321,7 @@
       "PTB",
       "Snips"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 31,
-        "label": "Knowledge Distillation"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.489",
@@ -6453,27 +4365,7 @@
       "GENIA 2011",
       "COVID-19 scientific literature dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1238",
@@ -6522,31 +4414,7 @@
       "MIMIC-CXR",
       "DeepDRiD"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.93",
@@ -6592,27 +4460,7 @@
       "Maddela et al. (2023)",
       "Sharma et al. (2023b)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.823",
@@ -6653,27 +4501,7 @@
     "dataset_name": [
       "ADReSS"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 41,
-        "label": "Alzheimer's Disease Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 65,
-        "label": "Tokenization Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1616",
@@ -6715,27 +4543,7 @@
     "dataset_name": [
       "PubMed systematic reviews"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 47,
-        "label": "Multi-Agent Systems"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.359",
@@ -6777,27 +4585,7 @@
       "Galdakao-Usansolo EHR Corpus",
       "Bilingual dictionary for clinical term generation"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.139",
@@ -6842,27 +4630,7 @@
       "Wikidata",
       "Wikipedia"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0290",
@@ -6907,31 +4675,7 @@
       "Mental-Health-Stigma-Interview-Corpus",
       "Attribution Questionnaire-27"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0284",
@@ -6974,27 +4718,7 @@
       "MultiMedQA",
       "PubMedQA"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 22,
-        "label": "Flow Matching"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2020.acl-main.576",
@@ -7040,27 +4764,7 @@
       "Chunyu Doctor Dialogue Dataset",
       "2010 i2b2 challenge dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0469",
@@ -7103,23 +4807,7 @@
       "eRisk 2019",
       "eRisk 2020"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.555",
@@ -7165,35 +4853,7 @@
       "Thought Records Dataset",
       "Mental Health America (MHA)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.748",
@@ -7236,27 +4896,7 @@
       "SMM4H-17",
       "MCN"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0643",
@@ -7298,27 +4938,7 @@
     "dataset_name": [
       "KokoroChat"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2022.acl-long.137",
@@ -7358,23 +4978,7 @@
       "ClinicalTrials.gov",
       "PubMed"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.459",
@@ -7416,27 +5020,7 @@
       "IU X-Ray",
       "MIMIC-CXR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.335",
@@ -7476,27 +5060,7 @@
     "dataset_name": [
       "Textomics"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 17,
-        "label": "Genomic Data Analysis"
-      },
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.176",
@@ -7535,35 +5099,7 @@
     "dataset_name": [
       "DementiaBank"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      },
-      {
-        "id": 41,
-        "label": "Alzheimer's Disease Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 42,
-        "label": "Mixture of Experts"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.2",
@@ -7603,27 +5139,7 @@
     "dataset_name": [
       "Distress Analysis Interview Corpus (DAIC)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1404",
@@ -7666,31 +5182,7 @@
       "SHINES",
       "CESM-100"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.320",
@@ -7734,23 +5226,7 @@
       "MIMIC-CXR",
       "OpenI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0281",
@@ -7793,31 +5269,7 @@
       "TREC2021",
       "Cohrane Reviews"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.199",
@@ -7864,31 +5316,7 @@
       "MIMIC-IV",
       "MIMIC-CXR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      },
-      {
-        "id": 48,
-        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.215",
@@ -7934,27 +5362,7 @@
     "dataset_name": [
       "N/A"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_1570",
@@ -7998,27 +5406,7 @@
     "dataset_name": [
       "ChiDrug Benchmark"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      },
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.587",
@@ -8066,23 +5454,7 @@
       "MIMIC-CXR",
       "Pubmed"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.593",
@@ -8124,23 +5496,7 @@
     "dataset_name": [
       "CSConv"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.242",
@@ -8190,39 +5546,7 @@
       "Lipophilicity",
       "DDI dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      },
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0334",
@@ -8268,27 +5592,7 @@
     "dataset_name": [
       "Medical-Meadow-Wikidoc"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 12,
-        "label": "Curriculum Learning"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0485",
@@ -8335,27 +5639,7 @@
       "MERFISH",
       "Visium"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 16,
-        "label": "Spatial Transcriptomics Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.613",
@@ -8397,23 +5681,7 @@
       "Khresmoi Query Translation Test Data",
       "UFAL Medical Corpus"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0719",
@@ -8462,27 +5730,7 @@
       "PathVQA",
       "PMC-15M"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.382",
@@ -8526,27 +5774,7 @@
       "AnnoMI",
       "MITI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2020.acl-main.410",
@@ -8587,23 +5815,7 @@
       "emrQA",
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.301",
@@ -8643,27 +5855,7 @@
       "BIOASQ",
       "Natural Questions"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1177",
@@ -8704,23 +5896,7 @@
     "dataset_name": [
       "VITAL"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 42,
-        "label": "Mixture of Experts"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.109",
@@ -8762,31 +5938,7 @@
       "Radiology reports from Princeton Radiology, Princeton",
       "University of Colorado Health"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 47,
-        "label": "Multi-Agent Systems"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2020.acl-main.570",
@@ -8826,35 +5978,7 @@
       "BioInfer",
       "HRPD50"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0490",
@@ -8903,35 +6027,7 @@
       "MIMIC-CXR",
       "OmniMedVQA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      },
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 42,
-        "label": "Mixture of Experts"
-      },
-      {
-        "id": 70,
-        "label": "Vision Transformers (ViTs)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.275",
@@ -8974,31 +6070,7 @@
       "ACE2005",
       "GENIA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0651",
@@ -9044,35 +6116,7 @@
       "UniProt",
       "Swiss-Prot"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 46,
-        "label": "Protein Sequence Design"
-      },
-      {
-        "id": 42,
-        "label": "Biological Sequence Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0178",
@@ -9117,31 +6161,7 @@
       "Gene Description Facts",
       "Clinical Trial Outcomes"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      },
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0434",
@@ -9184,23 +6204,7 @@
       "NLM-Gene",
       "Medmentions-ST21PV"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1104",
@@ -9239,23 +6243,7 @@
     "dataset_name": [
       "PsyDial"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.681",
@@ -9298,31 +6286,7 @@
       "RSDD",
       "eRisk2018"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.372",
@@ -9367,19 +6331,7 @@
       "GENIA",
       "ACE05"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.350",
@@ -9420,27 +6372,7 @@
     "dataset_name": [
       "N/A"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2022.acl-long.79",
@@ -9481,23 +6413,7 @@
     "dataset_name": [
       "Chunyu Yisheng"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2021.acl-long.165",
@@ -9539,27 +6455,7 @@
       "SciFact",
       "Fever"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.459",
@@ -9605,31 +6501,7 @@
       "FactPICO",
       "Evidence Inference V2.0"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.133",
@@ -9670,27 +6542,7 @@
     "dataset_name": [
       "Custom internal dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1463",
@@ -9736,27 +6588,7 @@
       "Dataloch",
       "MIMIC-IV"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.495",
@@ -9799,23 +6631,7 @@
     "dataset_name": [
       "RESTORE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0998",
@@ -9865,39 +6681,7 @@
       "MedFlow",
       "ClinicalBench"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      },
-      {
-        "id": 48,
-        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 42,
-        "label": "Mixture of Experts"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.654",
@@ -9942,23 +6726,7 @@
       "SafeUT Sessions Dataset",
       "SafeUT Utterance Dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.668",
@@ -10000,27 +6768,7 @@
       "ADReSS",
       "Alzheimer’s Disease Research Center (ADRC)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 41,
-        "label": "Alzheimer's Disease Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.26",
@@ -10061,31 +6809,7 @@
       "ReDocRED",
       "ChemDisGene"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.544",
@@ -10147,31 +6871,7 @@
       "CHIP-STC",
       "CBLUE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.578",
@@ -10215,27 +6915,7 @@
       "eRisk2018",
       "TRT"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1076",
@@ -10282,23 +6962,7 @@
     "dataset_name": [
       "AnnoMI"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0546",
@@ -10342,23 +7006,7 @@
       "DementiaBank Pittsburgh Corpus",
       "Carolina Conversations Collection"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 41,
-        "label": "Alzheimer's Disease Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.877",
@@ -10402,31 +7050,7 @@
       "THYME",
       "i2b2"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.644",
@@ -10468,31 +7092,7 @@
       "HoC (Hallmarks of Cancer)",
       "PubMedQA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 1,
-        "label": "Adversarial Learning"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0591",
@@ -10544,27 +7144,7 @@
       "CMB-Exam",
       "CMB-Clin"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 65,
-        "label": "Tokenization Methods"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2024.acl-long.514",
@@ -10608,27 +7188,7 @@
       "MIMIC-CXR",
       "OpenI"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 69,
-        "label": "Vector Quantization"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2023.acl-long.453",
@@ -10673,31 +7233,7 @@
       "MidMed",
       "MedDialog"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.394",
@@ -10742,27 +7278,7 @@
     "dataset_name": [
       "Primock57"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.343",
@@ -10802,27 +7318,7 @@
       "WikiHop",
       "MedHop"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "2020.acl-main.458",
@@ -10865,23 +7361,7 @@
       "Stanford",
       "RH"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.8",
@@ -10928,31 +7408,7 @@
       "TDMSci",
       "CoNLL 2003"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0143",
@@ -11000,27 +7456,7 @@
       "MeQSum",
       "ACI-Bench"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2022.acl-long.551",
@@ -11063,31 +7499,7 @@
       "MedQA-USMLE",
       "BLURB"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 39,
-        "label": "Masked Language Modeling (MLM)"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.280",
@@ -11135,27 +7547,7 @@
       "FEVER",
       "CommonsenseQA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 42,
-        "label": "Mixture of Experts"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1288",
@@ -11196,27 +7588,7 @@
       "MuMOInstruct",
       "ZINC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 24,
-        "label": "Molecular Property Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.531",
@@ -11258,23 +7630,7 @@
       "COVIDET",
       "COVIDET-EXT"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2024.acl-long.107",
@@ -11320,27 +7676,7 @@
       "TruthfulQA",
       "BioGEN"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0586",
@@ -11387,27 +7723,7 @@
       "PDB2020 (PP)",
       "SHS27k"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1317",
@@ -11449,27 +7765,7 @@
       "I2B2 2012",
       "E3C"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0009",
@@ -11511,27 +7807,7 @@
       "MIMIC-CXR",
       "MIMIC-IV-ED"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.451",
@@ -11574,23 +7850,7 @@
       "MIMIC-CXR",
       "IU X-RAY"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 30,
-        "label": "Radiology Report Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0784",
@@ -11644,35 +7904,7 @@
       "MedicationQA",
       "ExpertQA-Biomed"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1302",
@@ -11717,27 +7949,7 @@
       "KD-DTI",
       "DDI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_1458",
@@ -11785,31 +7997,7 @@
       "MedMCQA",
       "DiverseHealth"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "acl2025_temp_0752",
@@ -11857,27 +8045,7 @@
       "Quilt-Red",
       "Quilt-NoRed"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 2,
-        "label": "Histopathology Image Analysis"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "2023.acl-long.685",
@@ -11920,23 +8088,7 @@
       "EPE-HLCC",
       "EMPATHETIC-DIALOGUES"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "acl2025_temp_0154",
@@ -11975,38 +8127,6 @@
     "dataset_name": [
       "L+M-24"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   }
 ]

@@ -56,23 +56,7 @@
       "ADNI",
       "ABIDE I"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 27,
-        "label": "Functional Magnetic Resonance Imaging Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangQ0LCZD20",
@@ -148,31 +132,7 @@
       "Diabetes cohort",
       "Chronic Kidney Disease cohort"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 68,
-        "label": "Variational Inference"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "XuAKMFY21",
@@ -240,31 +200,7 @@
     "dataset_name": [
       "University of Tokyo Ophthalmology Dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "Wei0JK23",
@@ -322,31 +258,7 @@
     "dataset_name": [
       "Grady Hospital System (2018-2019)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhuXW0ZQLL23",
@@ -427,27 +339,7 @@
       "QM9",
       "USPTO-50K"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XiYHL21",
@@ -505,27 +397,7 @@
     "dataset_name": [
       "Clinical ultrasound reports from Cancer Center of Sun Yat-sen University"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "GuoDZ21",
@@ -580,27 +452,7 @@
       "Randomgeometric graphs",
       "Protein Structure dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 3,
-        "label": "Protein Structure Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 40,
-        "label": "Message Passing Neural Networks"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      },
-      {
-        "id": 49,
-        "label": "Mutual Information Maximization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "Ye0CA00LWL23",
@@ -683,27 +535,7 @@
     "dataset_name": [
       "SPORT"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "SunXWCZ21",
@@ -772,39 +604,7 @@
       "toxcast",
       "sider"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 49,
-        "label": "Mutual Information Maximization"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "RahierHMRD21",
@@ -867,23 +667,7 @@
     "dataset_name": [
       "CRITEO-UPLIFT1"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XuJCXZD0WX24",
@@ -968,27 +752,7 @@
       "MIMIC-IV",
       "eICU"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 48,
-        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WenOZQYZ22",
@@ -1056,27 +820,7 @@
     "dataset_name": [
       "Prescription Drug Monitoring Program (PDMP)"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 1,
-        "label": "Adversarial Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LiuLLXYL25",
@@ -1144,23 +888,7 @@
     "dataset_name": [
       "matRad"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LiFWSLSCY24",
@@ -1242,23 +970,7 @@
       "Hos#4",
       "Pki-3"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 23,
-        "label": "Medical Image Anomaly Detection"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "FooHLT22",
@@ -1318,31 +1030,7 @@
       "MSD-Brain",
       "Indian Diabetic Retinopathy Image Dataset (IDRID)"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 14,
-        "label": "Medical Image Segmentation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "AykentX22",
@@ -1391,31 +1079,7 @@
       "Protein Structure Ranking Dataset",
       "PDBBind"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 3,
-        "label": "Protein Structure Prediction"
-      },
-      {
-        "id": 18,
-        "label": "Protein Structure Function Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      },
-      {
-        "id": 40,
-        "label": "Message Passing Neural Networks"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "0003QM0K23",
@@ -1480,31 +1144,7 @@
       "CC-359",
       "IBSR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 14,
-        "label": "Medical Image Segmentation"
-      },
-      {
-        "id": 21,
-        "label": "Medical Image Reconstruction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LussCDSZST21",
@@ -1579,27 +1219,7 @@
       "CelebA",
       "Fashion-MNIST"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "MoomtaheenKOGMG22",
@@ -1677,27 +1297,7 @@
     "dataset_name": [
       "NIR DNA library"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      },
-      {
-        "id": 24,
-        "label": "Molecular Property Optimization"
-      },
-      {
-        "id": 42,
-        "label": "Biological Sequence Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LeeSJKH23",
@@ -1760,31 +1360,7 @@
     "dataset_name": [
       "Reddit Bipolar Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      },
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XuZL0ZH024",
@@ -1859,35 +1435,7 @@
       "MIMIC-CXR",
       "MIMIC-NOTE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      },
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 42,
-        "label": "Mixture of Experts"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "TakedaHHPZSPKHC20",
@@ -2025,27 +1573,7 @@
     "dataset_name": [
       "QM9"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      },
-      {
-        "id": 18,
-        "label": "Evolutionary Algorithms"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "HaoLEQOS021",
@@ -2122,23 +1650,7 @@
       "FMA",
       "NCI"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "RenWZ22",
@@ -2192,35 +1704,7 @@
       "MIMIC",
       "Gestational Diabetes"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 1,
-        "label": "Adversarial Learning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "KimPJK24",
@@ -2282,31 +1766,7 @@
       "NATOPS",
       "Cricket"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 23,
-        "label": "Medical Image Anomaly Detection"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "FuS22",
@@ -2355,31 +1815,7 @@
       "RCSB",
       "CATH"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 46,
-        "label": "Protein Sequence Design"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 45,
-        "label": "Monte Carlo Methods"
-      },
-      {
-        "id": 60,
-        "label": "Sampling Methods"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "0013DC22",
@@ -2434,31 +1870,7 @@
       "Baron",
       "MNIST"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 38,
-        "label": "Single Cell Trajectory Inference"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "TanZ23",
@@ -2506,23 +1918,7 @@
     "dataset_name": [
       "CASP-14"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 3,
-        "label": "Protein Structure Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LenceGFHSZP25",
@@ -2597,27 +1993,7 @@
       "LUDB",
       "Generepol"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "NagpalGDD22",
@@ -2676,31 +2052,7 @@
       "ALLHAT",
       "ACCORD"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      },
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 19,
-        "label": "Expectation Maximization Algorithm"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HaoLHWHLCL20",
@@ -2779,27 +2131,7 @@
       "QM9",
       "OPV"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 0,
-        "label": "Active Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "DuLT21",
@@ -2856,23 +2188,7 @@
       "Arxiv",
       "Aminer"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "MonsefiKZCDJ0R24",
@@ -2951,43 +2267,7 @@
       "BTCV",
       "MSD"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 14,
-        "label": "Medical Image Segmentation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 38,
-        "label": "Masked Autoencoder Models (MAE)"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 70,
-        "label": "Vision Transformers (ViTs)"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WuZCZ24",
@@ -3046,23 +2326,7 @@
       "TV-MNIST",
       "Semi-synthetic COVID-19"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 62,
-        "label": "Score Based Diffusion Models"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "BarshatskiR21",
@@ -3111,27 +2375,7 @@
       "DrugBank",
       "CORE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 37,
-        "label": "Molecule Generation and Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "GaoXGS20",
@@ -3191,31 +2435,7 @@
       "MIMIC-III",
       "IQVIA"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WangLYY023",
@@ -3280,27 +2500,7 @@
       "AIWIN",
       "Mixed-Set"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 6,
-        "label": "Electrocardiogram Signal Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 1,
-        "label": "Adversarial Learning"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "JianKM22",
@@ -3354,31 +2554,7 @@
       "McPAS",
       "VDJdb"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 32,
-        "label": "Molecular Docking Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      },
-      {
-        "id": 17,
-        "label": "Energy-Based Models (EBMs)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XiaK21",
@@ -3430,31 +2606,7 @@
       "membrane",
       "PDB25"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 3,
-        "label": "Protein Structure Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "YfantidouSCVQK24",
@@ -3524,31 +2676,7 @@
       "MESA",
       "GLOBEM"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HuGAZLKHSZ23",
@@ -3634,27 +2762,7 @@
       "Chest ImaGenome",
       "VinDr-CXR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "NambiarGOCBK23",
@@ -3722,27 +2830,7 @@
     "dataset_name": [
       "Singapore Diabetes Registry"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      },
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 17,
-        "label": "Energy-Based Models (EBMs)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LiuLWHK022",
@@ -3810,27 +2898,7 @@
     "dataset_name": [
       "EHR Activity Logs Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XueYTMU22",
@@ -3894,23 +2962,7 @@
       "Tokyo COVID-19 Task Force Website",
       "Yahoo Japan mobility and web search data"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YinCYWC024",
@@ -3980,31 +3032,7 @@
       "AmsterdamUMCdb",
       "OSUWMC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 0,
-        "label": "Active Learning"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LuoYXM20",
@@ -4064,23 +3092,7 @@
       "Heart Failure",
       "Kidney Disease"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WanZS21",
@@ -4134,27 +3146,7 @@
       "Chinese Demographic Dataset",
       "Baidu Qianxi Mobility Data"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 5,
-        "label": "Bayesian Optimization"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "OzyurtKHF21",
@@ -4212,27 +3204,7 @@
     "dataset_name": [
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HoangP0ZTZ24",
@@ -4300,27 +3272,7 @@
     "dataset_name": [
       "ADNI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 22,
-        "label": "High-dimensional Biomedical Data Analysis"
-      },
-      {
-        "id": 27,
-        "label": "Functional Magnetic Resonance Imaging Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HongXKPMAST20",
@@ -4398,23 +3350,7 @@
     "dataset_name": [
       "pediatric cardio ICU data"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 5,
-        "label": "Bayesian Optimization"
-      },
-      {
-        "id": 18,
-        "label": "Evolutionary Algorithms"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "00010YWXR0K22",
@@ -4492,31 +3428,7 @@
     "dataset_name": [
       "MNIST"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "GuZGY023",
@@ -4581,27 +3493,7 @@
       "Pancreas-CT",
       "Medical Segmentation Decathlon"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 4,
-        "label": "Medical Image Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 1,
-        "label": "Adversarial Learning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "RenWZW21",
@@ -4659,31 +3551,7 @@
     "dataset_name": [
       "Prenatal care examination records (Beijing Hospital)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "KanLCYXYZGY23",
@@ -4770,23 +3638,7 @@
       "ABIDE",
       "TCGA-Cancer"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 22,
-        "label": "High-dimensional Biomedical Data Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhaoYDH23",
@@ -4844,27 +3696,7 @@
     "dataset_name": [
       "County Health Rankings"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 45,
-        "label": "Monte Carlo Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "QiaoPCLS0R24",
@@ -4941,27 +3773,7 @@
       "GRABMyo",
       "WISDM"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 12,
-        "label": "Curriculum Learning"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "MaWYLHT22",
@@ -5031,35 +3843,7 @@
       "GoodReads",
       "Microsoft Teams"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YehudaFR23",
@@ -5114,35 +3898,7 @@
       "Physikalisch-Technische Bundesanstalt (PTB-XL)",
       "Temple University Hospital (TUH) EEG corpus"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 6,
-        "label": "Electrocardiogram Signal Classification"
-      },
-      {
-        "id": 29,
-        "label": "Electroencephalography Seizure Detection"
-      },
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WuNCVMY23",
@@ -5210,27 +3966,7 @@
     "dataset_name": [
       "LEAM-US"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 0,
-        "label": "Active Learning"
-      },
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ChenWZ0G0QLXXWL21",
@@ -5354,23 +4090,7 @@
       "China Cardiometabolic Disease and Cancer Cohort (4C) Study",
       "Sentiment dataset (multi-domain Amazon reviews)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "0001S21",
@@ -5419,27 +4139,7 @@
       "Coswara",
       "COVID-19 Sounds"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhangSHD022",
@@ -5502,23 +4202,7 @@
     "dataset_name": [
       "CHIP-CDN"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XueJKFKAA022",
@@ -5597,31 +4281,7 @@
       "MIMIC-III",
       "BJC Healthcare System"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LiuYLCSLZMLMZXH24",
@@ -5731,31 +4391,7 @@
       "PubMedQA",
       "MedMCQA"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 47,
-        "label": "Multi-Agent Systems"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "BetleiDA21",
@@ -5809,23 +4445,7 @@
       "Hillstrom",
       "Criteo-UPLIFT v2"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "OkawaI0TKK21",
@@ -5896,27 +4516,7 @@
       "Protest",
       "Crime"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WuX023",
@@ -5970,27 +4570,7 @@
       "MIMIC-III",
       "Medical Claims"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ChiamLT24",
@@ -6043,23 +4623,7 @@
     "dataset_name": [
       "Healthy 365 mobile app"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhaoZZGG0Z24",
@@ -6133,23 +4697,7 @@
       "Pancreas-CT",
       "LIDC-IDRI"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 4,
-        "label": "Medical Image Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 61,
-        "label": "Score Based Diffusion"
-      },
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HartvigsenSKR20",
@@ -6208,23 +4756,7 @@
       "HAR",
       "ExtraSensory"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "00020LS23",
@@ -6283,35 +4815,7 @@
       "Flickr",
       "BlogCatalog"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      },
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 50,
-        "label": "Neural Ordinary Differential Equations"
-      },
-      {
-        "id": 1,
-        "label": "Adversarial Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "BoominathanOZKS20",
@@ -6375,27 +4879,7 @@
       "Massachusetts General Hospital EHR",
       "Brigham & Women’s Hospital EHR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "JinZMLWJDSWFGCL24",
@@ -6513,31 +4997,7 @@
     "dataset_name": [
       "RJUA-MedDQA"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      },
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "TranNNH25",
@@ -6596,35 +5056,7 @@
       "GFP",
       "AAV"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 42,
-        "label": "Biological Sequence Optimization"
-      },
-      {
-        "id": 46,
-        "label": "Protein Sequence Design"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 43,
-        "label": "Model Evaluation Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "0002LC025",
@@ -6685,31 +5117,7 @@
       "Synthetic Dataset B",
       "IHDP"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      },
-      {
-        "id": 9,
-        "label": "Personalized Treatment Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "JiaWLJ24",
@@ -6768,27 +5176,7 @@
       "ISRUC-III",
       "MASS-SS3"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 44,
-        "label": "Electroencephalography Sleep Staging"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 31,
-        "label": "Knowledge Distillation"
-      },
-      {
-        "id": 32,
-        "label": "Knowledge Extraction"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "FuS22a",
@@ -6836,23 +5224,7 @@
     "dataset_name": [
       "SAbDab"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 15,
-        "label": "Antibody Design Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 17,
-        "label": "Energy-Based Models (EBMs)"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WangDL0L24",
@@ -6925,31 +5297,7 @@
       "Lipophilicity",
       "PCQM4Mv2"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "GaoWZPXH0QL0L23",
@@ -7043,27 +5391,7 @@
       "Structural Antibody Database (SAbDab)",
       "Coronavirus Antibody Database"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 15,
-        "label": "Antibody Design Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "0009LNX0TWURSQH21",
@@ -7178,27 +5506,7 @@
       "MS MARCO",
       "TREC-COVID"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhengQ0W0CZ22",
@@ -7271,27 +5579,7 @@
     "dataset_name": [
       "N/A"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ChangWLMDPKGRGM21",
@@ -7391,23 +5679,7 @@
       "New York Times COVID-19 death reports",
       "US Census"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "0002S021",
@@ -7461,27 +5733,7 @@
       "JHU CSSE COVID-19 Dataset",
       "SafeGraph Social Distancing Metrics"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 50,
-        "label": "Neural Ordinary Differential Equations"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LiZZ22",
@@ -7545,35 +5797,7 @@
       "ESOL",
       "Lipophilicity"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "SegoviaDominguez21",
@@ -7642,31 +5866,7 @@
       "MODIS",
       "Census County Adjacency"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangGDS25",
@@ -7725,27 +5925,7 @@
       "European Nucleotide Archive (ENA)",
       "SRAToolkit FASTQ"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 17,
-        "label": "Genomic Data Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "HerlihyPSD23",
@@ -7804,23 +5984,7 @@
       "CPAP Adherence Dataset",
       "Synthetic Transition Matrices"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "GaoPZ00025",
@@ -7888,23 +6052,7 @@
     "dataset_name": [
       "PDBBind"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 32,
-        "label": "Molecular Docking Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 60,
-        "label": "Sampling Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HigashiguchiMKM25",
@@ -7968,23 +6116,7 @@
       "GoogleTrends",
       "COVID-19 Open Data Repository"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 50,
-        "label": "Neural Ordinary Differential Equations"
-      },
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XueSXLSYP023",
@@ -8064,35 +6196,7 @@
       "BJC Dataset",
       "IHDP Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      },
-      {
-        "id": 9,
-        "label": "Personalized Treatment Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhuXW0QZLL22",
@@ -8182,35 +6286,7 @@
       "GEOM-QM9",
       "GEOM-Drugs"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      },
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "SuZZY25",
@@ -8269,31 +6345,7 @@
       "MIMIC-IV",
       "ODIR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      },
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "0003YHXWG0Q22",
@@ -8372,23 +6424,7 @@
       "USPTO",
       "USPTO-EXT"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "QuinnTC22",
@@ -8442,23 +6478,7 @@
       "DUS (state-level US Covid cases)",
       "DEU (European-country-level Covid cases)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LancianoBG20",
@@ -8514,27 +6534,7 @@
       "ABIDE EyesClosed",
       "ABIDE Male"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      },
-      {
-        "id": 27,
-        "label": "Functional Magnetic Resonance Imaging Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "FarhadlooML0SMM22",
@@ -8617,27 +6617,7 @@
     "dataset_name": [
       "MxIF"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      },
-      {
-        "id": 20,
-        "label": "Cancer Prognosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "JhaXDZ21",
@@ -8702,31 +6682,7 @@
       "BIOSSES",
       "MedSTS"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 12,
-        "label": "Curriculum Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "CuiPZW21",
@@ -8788,27 +6744,7 @@
       "COMPAS",
       "Adult"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 52,
-        "label": "Optimal Transport"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "NessU25",
@@ -8860,23 +6796,7 @@
       "support",
       "heart-failure"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 37,
-        "label": "Linear Regression"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "00020YLM25",
@@ -8940,23 +6860,7 @@
       "Fed-ISIC19",
       "CIFAR-100"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 4,
-        "label": "Medical Image Classification"
-      },
-      {
-        "id": 14,
-        "label": "Medical Image Segmentation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 31,
-        "label": "Knowledge Distillation"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangWHHBWGCZ024",
@@ -9044,27 +6948,7 @@
     "dataset_name": [
       "NHANES Dietary Graph"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "MansouriAZE20",
@@ -9123,23 +7007,7 @@
       "AC power transmission system data",
       "longitudinal cognitive health study"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YangZHSC21",
@@ -9203,27 +7071,7 @@
       "COVIDx",
       "Kvasir"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 4,
-        "label": "Medical Image Classification"
-      },
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WangDYSS24",
@@ -9293,31 +7141,7 @@
       "EC50-scaffold",
       "EC50-size"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "Wang025",
@@ -9366,27 +7190,7 @@
       "Google Community Mobility Reports",
       "Covid-19 aggregated data from German districts"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 3,
-        "label": "Autoregressive Modeling"
-      },
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YuanLYZH000025",
@@ -9470,27 +7274,7 @@
       "ProtAnnotation",
       "DeepLoc"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 46,
-        "label": "Protein Sequence Design"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 62,
-        "label": "Score Based Diffusion Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "MamecheKV22",
@@ -9543,31 +7327,7 @@
     "dataset_name": [
       "Sachs et al. Protein-signaling Networks Dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 37,
-        "label": "Linear Regression"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LeeYNKP23",
@@ -9632,31 +7392,7 @@
       "FreeSolv",
       "CompSol"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      },
-      {
-        "id": 32,
-        "label": "Molecular Docking Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YinLZZ20",
@@ -9715,27 +7451,7 @@
       "DACMI",
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "JinL0AT22",
@@ -9806,27 +7522,7 @@
       "Texas",
       "Wisconsin"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 49,
-        "label": "Mutual Information Maximization"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "CuiSTMWL20",
@@ -9895,31 +7591,7 @@
       "Diabetes Dataset",
       "Cancer Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YinM022",
@@ -9972,35 +7644,7 @@
     "dataset_name": [
       "AREDS"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XiaWSZLH021",
@@ -10075,35 +7719,7 @@
       "Chinese corpus containing 60 clinical medical textbooks",
       "Baidu Medical Knowledge Graph"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 19,
-        "label": "Biomedical Information Extraction"
-      },
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "FuX0GS21",
@@ -10169,31 +7785,7 @@
       "ZINC Molecule Database",
       "ICD-10 Coding System"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      },
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhangCXXH024",
@@ -10262,35 +7854,7 @@
       "MIMIC-III",
       "CRADLE"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      },
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "KillianBST21",
@@ -10348,23 +7912,7 @@
     "dataset_name": [
       "N/A"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "DohanGBBC21",
@@ -10428,27 +7976,7 @@
       "UniRef50",
       "Pfam"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 18,
-        "label": "Protein Structure Function Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "RozemberczkiHGG22",
@@ -10548,23 +8076,7 @@
       "Drugbank DDI",
       "TWOSIDES"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LiuLS0HX21",
@@ -10635,23 +8147,7 @@
       "MZ dataset",
       "Synthetic dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WangGZWXMZ23",
@@ -10726,23 +8222,7 @@
       "Ask Ubuntu",
       "Mathematica Stack Exchange"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ChenMGWZC24",
@@ -10813,31 +8293,7 @@
       "HPO Dataset",
       "Orphanet"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangC00S0Q0B25",
@@ -10925,23 +8381,7 @@
       "SimpleQA",
       "Sciq"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 45,
-        "label": "Medical Question Answering"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WuZMQLZQFZZ24",
@@ -11030,23 +8470,7 @@
       "InsComAllocation",
       "HosInvestigation"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "Xu0HZ0WM22",
@@ -11121,27 +8545,7 @@
       "Medical Treatment Sessions",
       "Reason for Medical Consultations"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 12,
-        "label": "Curriculum Learning"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "FoumaniMGINS24",
@@ -11214,31 +8618,7 @@
       "STEW",
       "DriverDistraction"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 29,
-        "label": "Electroencephalography Seizure Detection"
-      },
-      {
-        "id": 44,
-        "label": "Electroencephalography Sleep Staging"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 38,
-        "label": "Masked Autoencoder Models (MAE)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "TanKY00ZHY22",
@@ -11317,31 +8697,7 @@
       "MIMIC-III",
       "NELL"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      },
-      {
-        "id": 11,
-        "label": "Drug Interaction Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "PanYZY22",
@@ -11401,27 +8757,7 @@
       "IWPC Dataset",
       "FashionMNIST"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LiDZKY23",
@@ -11484,27 +8820,7 @@
     "dataset_name": [
       "WU-Minn Human Connectome Project"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 27,
-        "label": "Functional Magnetic Resonance Imaging Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "MizutaniSS22",
@@ -11557,23 +8873,7 @@
     "dataset_name": [
       "HuSB1"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhuLKS20",
@@ -11631,23 +8931,7 @@
     "dataset_name": [
       "Warfarin Thrombosis Study Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 5,
-        "label": "Bayesian Optimization"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "SrivastavaSLA022",
@@ -11711,27 +8995,7 @@
       "MEMO",
       "ChiCCo"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 5,
-        "label": "Mental Health Counseling Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 53,
-        "label": "Pretrained Language Models"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "DengGTL24",
@@ -11792,23 +9056,7 @@
       "S&P 500",
       "Dodgers Loop Sensor Traffic"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 62,
-        "label": "Score Based Diffusion Models"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ShenWZPW24",
@@ -11873,35 +9121,7 @@
       "DrugOOD",
       "QM9"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      },
-      {
-        "id": 23,
-        "label": "Medical Image Anomaly Detection"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 62,
-        "label": "Score Based Diffusion Models"
-      },
-      {
-        "id": 52,
-        "label": "Optimal Transport"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "YinFYPCWC025",
@@ -11981,27 +9201,7 @@
       "AmsterdamUMCdb",
       "OSUWMC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "TurutovR25",
@@ -12050,27 +9250,7 @@
       "Open TG-GATEs",
       "Drug Matrix"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 37,
-        "label": "Molecule Generation and Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangCMZWWZ22",
@@ -12144,27 +9324,7 @@
       "Ocular Disease Intelligent Recognition (ODIR)",
       "Ophthalmic Vitrectomy (OV)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 23,
-        "label": "Gaussian Processes"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "DasWS23",
@@ -12218,23 +9378,7 @@
       "Breast Cancer Trial (NCT00174655)",
       "Lung Cancer Trial (NCT01439568)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YinAHCZS20",
@@ -12304,35 +9448,7 @@
       "CMS",
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      },
-      {
-        "id": 48,
-        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LiuYCJ20",
@@ -12392,27 +9508,7 @@
       "Docking Benchmark version 4 (DB4)",
       "Docking Benchmark version 5 (DB5)"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 3,
-        "label": "Protein Structure Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LuoYHLN0N24",
@@ -12494,39 +9590,7 @@
       "CheBI-20",
       "MVST"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 33,
-        "label": "Knowledge Graph Representation Learning"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      },
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "SuQ0K22",
@@ -12586,27 +9650,7 @@
       "CC359",
       "IBSR"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 14,
-        "label": "Medical Image Segmentation"
-      },
-      {
-        "id": 21,
-        "label": "Medical Image Reconstruction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "TabarPWLBY20",
@@ -12674,19 +9718,7 @@
     "dataset_name": [
       "Dataset from 1,400 homeless youth surveyed"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ShiSD22",
@@ -12739,27 +9771,7 @@
     "dataset_name": [
       "AX-CPT"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "MaCVMMBL23",
@@ -12835,31 +9847,7 @@
       "Social",
       "MRSA"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LiZ0HWXHD021",
@@ -12943,27 +9931,7 @@
       "PDBbind v2016",
       "CSAR-HiQ"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 32,
-        "label": "Molecular Docking Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WenD00XT22",
@@ -13033,27 +10001,7 @@
       "ADT",
       "ATAC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 22,
-        "label": "High-dimensional Biomedical Data Analysis"
-      },
-      {
-        "id": 16,
-        "label": "Spatial Transcriptomics Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "JayagopalXHWHTT24",
@@ -13145,31 +10093,7 @@
       "GENIE BPC CRC v2.0-public",
       "GENIE BPC NSCLC v2.0-public"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 9,
-        "label": "Personalized Treatment Prediction"
-      },
-      {
-        "id": 17,
-        "label": "Genomic Data Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 21,
-        "label": "Fine Tuning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhaoYWWZCLCC23",
@@ -13254,23 +10178,7 @@
       "MiniGrid-FourRoom",
       "DoorKey"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 49,
-        "label": "Mutual Information Maximization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "AbrateB21",
@@ -13319,31 +10227,7 @@
       "ABIDE",
       "USCB"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangWMTNLMJCZ025",
@@ -13436,31 +10320,7 @@
     "dataset_name": [
       "NHANES"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      },
-      {
-        "id": 35,
-        "label": "Large Language Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LiaoZZWWCWM25",
@@ -13541,23 +10401,7 @@
       "Sepsis",
       "eICU"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 48,
-        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "FuFMTH22",
@@ -13637,31 +10481,7 @@
       "HighSchool",
       "MIT"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "NessBHU23",
@@ -13719,31 +10539,7 @@
     "dataset_name": [
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      },
-      {
-        "id": 48,
-        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
-      },
-      {
-        "id": 43,
-        "label": "Electronic Health Record Phenotyping"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangYCC024",
@@ -13808,35 +10604,7 @@
       "ISRUC",
       "HMC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 47,
-        "label": "Physiological Time Series Analysis"
-      },
-      {
-        "id": 44,
-        "label": "Electroencephalography Sleep Staging"
-      },
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 48,
-        "label": "Multimodal Alignment"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WangWYLZ23",
@@ -13900,27 +10668,7 @@
       "UniProt",
       "Antimicrobial Peptide Database (APD)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 69,
-        "label": "Vector Quantization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "NahmiasK20",
@@ -13968,27 +10716,7 @@
     "dataset_name": [
       "TUH EEG Corpus"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 0,
-        "label": "Neural Activity Analysis (Electrophysiology)"
-      },
-      {
-        "id": 29,
-        "label": "Electroencephalography Seizure Detection"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "DaiKGLLM20",
@@ -14057,31 +10785,7 @@
       "MNIST variants",
       "Synthetic fMRI data"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 4,
-        "label": "Medical Image Classification"
-      },
-      {
-        "id": 27,
-        "label": "Functional Magnetic Resonance Imaging Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhongWWZWHXM24",
@@ -14160,23 +10864,7 @@
       "MIMIC-III",
       "Breast Cancer Trial"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 62,
-        "label": "Score Based Diffusion Models"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ShiZ0LMWQ25",
@@ -14250,23 +10938,7 @@
       "Dataset 1",
       "Dataset 2"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "SchwabePF21",
@@ -14320,27 +10992,7 @@
       "Swisscom Mobility Data",
       "COVID-19 open data repository"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "CaiC0LL23",
@@ -14404,27 +11056,7 @@
       "TUSZ",
       "SEED"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 29,
-        "label": "Electroencephalography Seizure Detection"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LiuZXL022",
@@ -14497,27 +11129,7 @@
       "ogbg-ClinTox",
       "ogbg-SIDER"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 13,
-        "label": "Data Augmentation"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "FengXFWZL22",
@@ -14585,31 +11197,7 @@
     "dataset_name": [
       "PAPW Simulation Environment"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 68,
-        "label": "Variational Inference"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ChenMWWWX21",
@@ -14680,27 +11268,7 @@
       "PDpe.va.",
       "PDid.te."
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhouYLG0C24",
@@ -14769,31 +11337,7 @@
       "Titanic",
       "Lalonde"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "KuzmanovicFHF24",
@@ -14853,35 +11397,7 @@
       "UN SDG indicator database",
       "World Bank database"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 7,
-        "label": "Causal Modeling"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XiaLWWZH23",
@@ -14950,31 +11466,7 @@
       "JD Logistics Delivery Task Data",
       "PHEs Dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 68,
-        "label": "Variational Inference"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WangALZKLSWL24",
@@ -15059,27 +11551,7 @@
       "Mutagenicity",
       "Dipole"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 67,
-        "label": "Variational Autoencoders"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LiuLGL25",
@@ -15137,27 +11609,7 @@
     "dataset_name": [
       "QM9"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      },
-      {
-        "id": 44,
-        "label": "Molecular Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "Dang0XBSCGSCM23",
@@ -15245,27 +11697,7 @@
     "dataset_name": [
       "COVID-19 Audio Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 47,
-        "label": "Physiological Time Series Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 50,
-        "label": "Neural Ordinary Differential Equations"
-      },
-      {
-        "id": 68,
-        "label": "Variational Inference"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ZhangKAC20",
@@ -15324,27 +11756,7 @@
       "MIMIC-III",
       "ACTFAST"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "MaCF0SZ022",
@@ -15420,27 +11832,7 @@
       "HD-UCI",
       "Proprietary Metabolic"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 7,
-        "label": "Clinical Diagnosis Prediction"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 59,
-        "label": "Retrieval Augmented Generation"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "YangSX0SS21",
@@ -15509,27 +11901,7 @@
       "Health Tensor (HT)",
       "Google COVID-19 Symptoms Search (GCSS)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "RahmanP23",
@@ -15578,27 +11950,7 @@
       "METABRIC",
       "SUPPORT"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "LiuPHSJS20",
@@ -15668,27 +12020,7 @@
       "Large Synthetic Dataset",
       "MUTAG"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "BagherianGBNYM21",
@@ -15757,23 +12089,7 @@
       "COCO",
       "Mouse Retina Electrophysiological Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 25,
-        "label": "Neural Dynamics Modeling"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "QinDZY23",
@@ -15834,27 +12150,7 @@
       "CIFAR-100",
       "eICU"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 42,
-        "label": "Mixture of Experts"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WangKNSNCVV022",
@@ -15937,23 +12233,7 @@
     "dataset_name": [
       "N/A"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 37,
-        "label": "Linear Regression"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "Wen0YCSY25",
@@ -16023,27 +12303,7 @@
       "IBM",
       "CMNIST"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 12,
-        "label": "Treatment Effect Estimation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 0,
-        "label": "Active Learning"
-      },
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "RahmanP22",
@@ -16093,31 +12353,7 @@
       "SUPPORT",
       "FLCHAIN"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 20,
-        "label": "Cancer Prognosis Prediction"
-      },
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YangZCCHLLQWZ23",
@@ -16213,27 +12449,7 @@
       "Ionosphere",
       "Connectionist Bench (Sonar, Mines vs. Rocks)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 27,
-        "label": "Gradient Descent Optimization"
-      },
-      {
-        "id": 52,
-        "label": "Optimal Transport"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HeWLZ20",
@@ -16291,27 +12507,7 @@
     "dataset_name": [
       "MIMIC-III"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      },
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "JanakarajanBM22",
@@ -16367,35 +12563,7 @@
       "Molecular Signatures Database (MSigDB)",
       "UniProt"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 16,
-        "label": "Encoder Decoder Models"
-      },
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "RahmanRMC24",
@@ -16453,23 +12621,7 @@
     "dataset_name": [
       "ECOCYC"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 60,
-        "label": "Sampling Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "XueZDDXZC20",
@@ -16542,27 +12694,7 @@
     "dataset_name": [
       "MIMIC-III"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      },
-      {
-        "id": 33,
-        "label": "Clinical Outcome Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "TecJMD24",
@@ -16620,27 +12752,7 @@
     "dataset_name": [
       "Medicare claims data"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 48,
-        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 6,
-        "label": "Causal Inference"
-      },
-      {
-        "id": 56,
-        "label": "Regularization Techniques"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "YinLC022",
@@ -16699,27 +12811,7 @@
       "MIMIC-III",
       "AmsterdamUMCdb"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      },
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 57,
-        "label": "Reinforcement Learning"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "Adiga0HPPVLM21",
@@ -16797,31 +12889,7 @@
     "dataset_name": [
       "Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) dashboard"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "HarrisonACRVMA23",
@@ -16895,27 +12963,7 @@
       "TN",
       "VA (Synthetic Networks)"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "JovanMMTCW23",
@@ -16983,31 +13031,7 @@
     "dataset_name": [
       "Custom wristband dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      },
-      {
-        "id": 47,
-        "label": "Physiological Time Series Analysis"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 11,
-        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LinTGS22",
@@ -17065,31 +13089,7 @@
     "dataset_name": [
       "CRASH"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 27,
-        "label": "Functional Magnetic Resonance Imaging Analysis"
-      },
-      {
-        "id": 25,
-        "label": "Neural Dynamics Modeling"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 55,
-        "label": "Recurrent Neural Networks (RNNs)"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ElhamodKMUBDBBM23",
@@ -17218,27 +13218,7 @@
       "FishShapes v1.0",
       "Great Lakes Invasives Network Project"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 69,
-        "label": "Vector Quantization"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "HaoX0H021",
@@ -17302,19 +13282,7 @@
       "Beijing Dataset",
       "Shanghai Dataset"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "SuoCZZ20",
@@ -17373,35 +13341,7 @@
       "MIMIC-III",
       "tieredImageNet"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 28,
-        "label": "Disease Classification"
-      },
-      {
-        "id": 36,
-        "label": "Clinical Decision Policy Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 41,
-        "label": "Meta Learning"
-      },
-      {
-        "id": 20,
-        "label": "Few-shot Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 34,
-        "label": "Knowledge Guided Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZangW20",
@@ -17450,39 +13390,7 @@
       "QM9",
       "ZINC250K"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 8,
-        "label": "Molecule Generation"
-      },
-      {
-        "id": 24,
-        "label": "Molecular Property Optimization"
-      },
-      {
-        "id": 37,
-        "label": "Molecule Generation and Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 51,
-        "label": "Normalizing Flows"
-      },
-      {
-        "id": 24,
-        "label": "Generative Flow Networks"
-      },
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "Chen0YFMY22",
@@ -17550,27 +13458,7 @@
     "dataset_name": [
       "SEEG Dataset"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 29,
-        "label": "Electroencephalography Seizure Detection"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 10,
-        "label": "Contrastive Learning"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "ZhangZCBL23",
@@ -17635,27 +13523,7 @@
       "MIMIC-III",
       "Human Activity"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 40,
-        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      },
-      {
-        "id": 2,
-        "label": "Attention Mechanisms"
-      },
-      {
-        "id": 58,
-        "label": "Representation Learning"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "WangZTY23",
@@ -17715,35 +13583,7 @@
       "GEOM-Drugs",
       "PCQM4Mv2"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 1,
-        "label": "Molecular Property Prediction"
-      },
-      {
-        "id": 13,
-        "label": "3D Structure Reconstruction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 25,
-        "label": "Generative Modeling"
-      },
-      {
-        "id": 46,
-        "label": "Multi Task Learning"
-      },
-      {
-        "id": 26,
-        "label": "Geometric Deep Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LeiAQS20",
@@ -17805,31 +13645,7 @@
       "LCI-CPA2",
       "IF3"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 3,
-        "label": "Protein Structure Prediction"
-      },
-      {
-        "id": 18,
-        "label": "Protein Structure Function Prediction"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 64,
-        "label": "Self-supervised Learning"
-      },
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "MadhyasthaLSBVB20",
@@ -17902,27 +13718,7 @@
     "dataset_name": [
       "Larval Drosophila mushroom body connectome"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 15,
-        "label": "Dimensionality Reduction"
-      },
-      {
-        "id": 4,
-        "label": "Bayesian Inference"
-      },
-      {
-        "id": 8,
-        "label": "Clustering Methods"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "LiuYYWGW022",
@@ -17997,27 +13793,7 @@
       "Biological Process",
       "Cellular Component"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 29,
-        "label": "Graph Representation Learning"
-      },
-      {
-        "id": 28,
-        "label": "Graph Neural Networks"
-      },
-      {
-        "id": 66,
-        "label": "Transformer Models"
-      }
-    ]
+    "is_public": false
   },
   {
     "id": "WuCVMY22",
@@ -18081,27 +13857,7 @@
       "AS-SIR data sets",
       "Climate data sets"
     ],
-    "is_public": true,
-    "application_labels": [
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 14,
-        "label": "Deep Neural Networks"
-      },
-      {
-        "id": 36,
-        "label": "Latent State-Space Models (LSSMs)"
-      },
-      {
-        "id": 68,
-        "label": "Variational Inference"
-      }
-    ]
+    "is_public": true
   },
   {
     "id": "ChenLFW25",
@@ -18160,22 +13916,6 @@
       "MIMIC-III",
       "MIMIC-IV"
     ],
-    "is_public": false,
-    "application_labels": [
-      {
-        "id": 31,
-        "label": "Treatment Regimen Optimization"
-      }
-    ],
-    "method_labels": [
-      {
-        "id": 9,
-        "label": "Conformal Prediction"
-      },
-      {
-        "id": 999,
-        "label": "Others"
-      }
-    ]
+    "is_public": false
   }
 ]

@@ -30,6 +30,8 @@ model Paper {
   topicAxis1          Json?
   topicAxis2          Json?
   topicAxis3          Json?
+  methodLabels       Json?
+  applicationLabels  Json?
   createdAt           DateTime @default(now())
   updatedAt           DateTime @updatedAt
   favorites           Favorite[]
