@@ -134,6 +134,11 @@ export default function HomePage() {
   const [selectedTopicsIII, setSelectedTopicsIII] = useState<string[]>([]);
   const [pendingTopicsIII, setPendingTopicsIII] = useState<string[]>([]);
 
+  const [selectedMethods, setSelectedMethods] = useState<string[]>([]);
+  const [pendingMethods, setPendingMethods] = useState<string[]>([]);
+  const [selectedApplications, setSelectedApplications] = useState<string[]>([]);
+  const [pendingApplications, setPendingApplications] = useState<string[]>([]);
+
   const [pendingMatchMode, setPendingMatchMode] = useState<"any" | "all">("any");
   const [matchMode, setMatchMode] = useState<"any" | "all">("any");
 
@@ -148,14 +153,19 @@ export default function HomePage() {
   const { addFavorite, removeFavorite, ensureAuth, favoriteIds } = useAuth();
 
   const resetSorting = () => {
-    setSortOrder('desc')
-    setPrimaryConf('')
-    setCodeAvail('any')
-    setPage(1)
-  }
-  
+    setSortOrder('desc');
+    setPrimaryConf('');
+    setCodeAvail('any');
+    setPage(1);
+  };
 
   const fetchingRef = useRef(false);
+  useEffect(() => {
+    if (allMatched.length > 0) {
+      console.log('SAMPLE PAPER KEYS:', Object.keys(allMatched[0]));
+      console.log('FIRST PAPER SAMPLE:', allMatched[0]);
+    }
+  }, [allMatched]);
 
   useEffect(() => {
     let cancelled = false;
@@ -221,7 +231,7 @@ export default function HomePage() {
   useEffect(() => {
     setPage(1);
     setExpandedPaperId(null);
-  }, [selectedAuthors, sortOrder, primaryConf, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode]);
+  }, [selectedAuthors, sortOrder, primaryConf, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode, selectedMethods, selectedApplications]);
 
   const finalFiltered = useMemo(() => {
     let base = !selectedAuthors.length
@@ -250,18 +260,37 @@ export default function HomePage() {
         const paperTopics = axes
           .flatMap((a) => [a.MainTopic, a.SubTopic])
           .filter((v): v is string => typeof v === "string" && v.length > 0);
-
         const selectedAll = [...selectedTopicsI, ...selectedTopicsII, ...selectedTopicsIII];
-
         if (matchMode === "any") {
           return selectedAll.some((sel) => paperTopics.includes(sel));
         } else {
           return selectedAll.every((sel) => paperTopics.includes(sel));
         }
       });
-    }    
+    }
+    if (selectedMethods.length) {
+      base = base.filter((p) => {
+        const methodLabels = (p as any).method_labels || [];
+        if (!Array.isArray(methodLabels)) return false;
+        const labels = methodLabels.map((m: any) => String(m.label || "").toLowerCase());
+        const selected = selectedMethods.map((m) => m.toLowerCase());
+        return selected.some((m) => labels.includes(m));
+      });
+    }
+    
+    if (selectedApplications.length) {
+      base = base.filter((p) => {
+        const appLabels = (p as any).application_labels || [];
+        if (!Array.isArray(appLabels)) return false;
+        const labels = appLabels.map((a: any) => String(a.label || "").toLowerCase());
+        const selected = selectedApplications.map((a) => a.toLowerCase());
+        return selected.some((a) => labels.includes(a));
+      });
+    }
+    
+    
     return base;
-  }, [allMatched, selectedAuthors, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode]);
+  }, [allMatched, selectedAuthors, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode, selectedMethods, selectedApplications]);
 
   const sortedList = useMemo(() => {
     const arr = [...finalFiltered];
@@ -294,6 +323,8 @@ export default function HomePage() {
     setSelectedTopicsI(pendingTopicsI);
     setSelectedTopicsII(pendingTopicsII);
     setSelectedTopicsIII(pendingTopicsIII);
+    setSelectedMethods(pendingMethods);
+    setSelectedApplications(pendingApplications);
     setMatchMode(pendingMatchMode);
     setPage(1);
     setExpandedPaperId(null);
@@ -319,6 +350,10 @@ export default function HomePage() {
     setSelectedTopicsI([]);
     setSelectedTopicsII([]);
     setSelectedTopicsIII([]);
+    setPendingMethods([]);
+    setSelectedMethods([]);
+    setPendingApplications([]);
+    setSelectedApplications([]);
     setMatchMode('any');
     setPendingMatchMode('any');
   };
@@ -331,7 +366,9 @@ export default function HomePage() {
     codeAvail === 'any' &&
     selectedTopicsI.length === 0 &&
     selectedTopicsII.length === 0 &&
-    selectedTopicsIII.length === 0;
+    selectedTopicsIII.length === 0 &&
+    selectedMethods.length === 0 &&
+    selectedApplications.length === 0;
 
   const allTitles = useMemo(() => pagedList.map((p) => p.title), [pagedList]);
 
@@ -360,12 +397,12 @@ export default function HomePage() {
           setSelectedTopicsII={setPendingTopicsII}
           selectedTopicsIII={pendingTopicsIII}
           setSelectedTopicsIII={setPendingTopicsIII}
+          selectedMethods={pendingMethods}
+          setSelectedMethods={setPendingMethods}
+          selectedApplications={pendingApplications}
+          setSelectedApplications={setPendingApplications}
           matchMode={pendingMatchMode}
           setMatchMode={setPendingMatchMode}
-          // selectedMethods={pendingMethods}                
-          // setSelectedMethods={setPendingMethods}           
-          // selectedApps={pendingApps}                       
-          // setSelectedApps={setPendingApps}   
           onApplyFilters={applyFilters}
           onClearFilters={clearFilters}
         />
@@ -451,12 +488,6 @@ export default function HomePage() {
                           <option value="private">Code: Private</option>
                         </select>
 
-                        {/* <button
-                          className="px-3 py-1 text-sm text-white rounded-lg bg-red-600 hover:bg-red-700"
-                          onClick={clearFilters}
-                        >
-                          Reset Filter
-                        </button> */}
                         <button
                           className="px-3 py-1 text-sm text-white rounded-lg bg-red-600 hover:bg-red-700 disabled:opacity-50"
                           onClick={resetSorting}
@@ -464,13 +495,12 @@ export default function HomePage() {
                         >
                           Reset Sorting
                         </button>
-
                       </div>
                     </div>
                   </div>
-                  <div className="h-6">
-                        
-                  </div>        
+
+                  <div className="h-0.5"></div>
+
                   <section id="papers">
                     {pagedList.map((paper, idx) => {
                       const p = {
@@ -587,4 +617,3 @@ export default function HomePage() {
     </div>
   );
 }
-

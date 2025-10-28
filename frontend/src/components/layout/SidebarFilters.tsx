@@ -1,4 +1,3 @@
-//SidebarFilter
 "use client";
 import React, { useMemo, useState, useEffect, useDeferredValue } from "react";
 import { FixedSizeList as VList, ListChildComponentProps } from "react-window";
@@ -25,6 +24,10 @@ type Props = {
   setMatchMode: (v: "any" | "all") => void;
   onApplyFilters?: () => void;
   onClearFilters?: () => void;
+  selectedMethods: string[];
+  setSelectedMethods: (v: string[]) => void;
+  selectedApplications: string[];
+  setSelectedApplications: (v: string[]) => void;
 };
 
 const CONFERENCES = [
@@ -86,7 +89,6 @@ function Pill({ active, children, onClick }: { active: boolean; children: React.
 function Section({ title, count, children, onReset, showResetAlways }: { title: string | React.ReactNode; count?: number; children: React.ReactNode; onReset?: () => void; showResetAlways?: boolean; }) {
   const isDefaultOpen = title === "Conference" || title === "Year" || title === "Author";
   const [open, setOpen] = useState(isDefaultOpen);
-
   return (
     <div className="bg-white/90 backdrop-blur-sm rounded-2xl border border-red-100 shadow-sm">
       <div className="flex items-center justify-between px-4 py-3">
@@ -129,7 +131,6 @@ function DropdownMulti({ placeholder, options, selected, onToggle, disabled }: {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
   const ref = React.useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) {
@@ -146,13 +147,11 @@ function DropdownMulti({ placeholder, options, selected, onToggle, disabled }: {
       document.removeEventListener("keydown", handleEsc);
     };
   }, []);
-
   const filtered = useMemo(() => {
     const s = q.trim().toLowerCase();
     if (!s) return options;
     return options.filter((x) => x.toLowerCase().includes(s));
   }, [q, options]);
-
   return (
     <div ref={ref} className="relative">
       <button
@@ -185,9 +184,7 @@ function DropdownMulti({ placeholder, options, selected, onToggle, disabled }: {
         ) : (
           <span className="text-gray-500">{placeholder}</span>
         )}
-
       </button>
-
       {open && !disabled && (
         <div className="relative mt-1 w-full rounded-xl border-2 border-red-400 bg-white shadow-lg z-10">
           <div className="p-2 border-b">
@@ -222,7 +219,6 @@ function DropdownMulti({ placeholder, options, selected, onToggle, disabled }: {
   );
 }
 
-// 新增: toggleMain
 const toggleMain = (val: string, arr: string[], setter: (v: string[]) => void, axisData: { main: string; sub: string[] }[]) => {
   if (arr.includes(val)) {
     const subs = axisData.find((t) => t.main === val)?.sub || [];
@@ -251,12 +247,62 @@ const SidebarFilters: React.FC<Props> = ({
   setMatchMode,
   onApplyFilters,
   onClearFilters,
+  selectedMethods,
+  setSelectedMethods,
+  selectedApplications,
+  setSelectedApplications,
 }) => {
+  const [methodQuery, setMethodQuery] = useState("")
+  const [openGroups, setOpenGroups] = useState<string[]>([])
+  const [applicationQuery, setApplicationQuery] = useState("")
+  const [openAppGroups, setOpenAppGroups] = useState<string[]>([])
+
+  const allApplications = ["Neural Activity Analysis (Electrophysiology)", "Molecular Property Prediction", "Histopathology Image Analysis", "Protein Structure Prediction", "Medical Image Classification", "Mental Health Counseling Analysis", "Electrocardiogram Signal Classification", "Clinical Diagnosis Prediction", "Molecule Generation", "Personalized Treatment Prediction", "Gene Regulatory Network Inference", "Drug Interaction Prediction", "Treatment Effect Estimation", "3D Structure Reconstruction", "Medical Image Segmentation", "Antibody Design Optimization", "Spatial Transcriptomics Analysis", "Genomic Data Analysis", "Protein Structure Function Prediction", "Biomedical Information Extraction", "Cancer Prognosis Prediction", "Medical Image Reconstruction", "High-dimensional Biomedical Data Analysis", "Medical Image Anomaly Detection", "Molecular Property Optimization", "Neural Dynamics Modeling", "Neural Activity Decoding", "Functional Magnetic Resonance Imaging Analysis", "Disease Classification", "Electroencephalography Seizure Detection", "Radiology Report Generation", "Treatment Regimen Optimization", "Molecular Docking Prediction", "Clinical Outcome Prediction", "Protein Structure and Function Prediction", "Genetic Variant Effect Prediction", "Clinical Decision Policy Optimization", "Molecule Generation and Optimization", "Single Cell Trajectory Inference", "Peptide Sequencing", "Clinical Outcome Prediction", "Alzheimer's Disease Prediction", "Biological Sequence Optimization", "Electronic Health Record Phenotyping", "Electroencephalography Sleep Staging", "Medical Question Answering", "Protein Sequence Design", "Physiological Time Series Analysis", "Clinical Outcome Prediction", "Others"]
+
+  const filteredApplications = useMemo(() => {
+    const q = applicationQuery.trim().toLowerCase()
+    return allApplications.filter((a) => a.toLowerCase().includes(q))
+  }, [applicationQuery])
+
+  const filteredApplicationGroups = useMemo(() => {
+    const groups: Record<string, string[]> = {}
+    filteredApplications.forEach((a) => {
+      const letter = a[0].toUpperCase()
+      if (!groups[letter]) groups[letter] = []
+      groups[letter].push(a)
+    })
+    return Object.entries(groups).map(([letter, items]) => ({ letter, items }))
+  }, [filteredApplications])
+
+  const toggleAppGroup = (letter: string) =>
+    setOpenAppGroups((prev) =>
+      prev.includes(letter)
+        ? prev.filter((l) => l !== letter)
+        : [...prev, letter]
+    )
+
+  const allMethods = [
+    "Active Learning","Adversarial Learning","Attention Mechanisms","Autoregressive Modeling","Bayesian Inference","Bayesian Optimization","Causal Inference","Causal Modeling","Clustering Methods","Conformal Prediction","Contrastive Learning","Convolutional and Graph Convolutional Networks (CNN/GCN)","Curriculum Learning","Data Augmentation","Deep Neural Networks","Dimensionality Reduction","Encoder Decoder Models","Energy-Based Models (EBMs)","Evolutionary Algorithms","Expectation Maximization Algorithm","Few-shot Learning","Fine Tuning","Flow Matching","Gaussian Processes","Generative Flow Networks","Generative Modeling","Geometric Deep Learning","Gradient Descent Optimization","Graph Neural Networks","Graph Representation Learning","Importance Sampling","Knowledge Distillation","Knowledge Extraction","Knowledge Graph Representation Learning","Knowledge Guided Learning","Large Language Models","Latent State-Space Models (LSSMs)","Linear Regression","Masked Autoencoder Models (MAE)","Masked Language Modeling (MLM)","Message Passing Neural Networks","Meta Learning","Mixture of Experts","Model Evaluation Techniques","Molecular Representation Learning","Monte Carlo Methods","Multi Task Learning","Multi-Agent Systems","Multimodal Alignment","Mutual Information Maximization","Neural Ordinary Differential Equations","Normalizing Flows","Optimal Transport","Pretrained Language Models","Principal Component Analysis","Recurrent Neural Networks (RNNs)","Regularization Techniques","Reinforcement Learning","Representation Learning","Retrieval Augmented Generation","Sampling Methods","Score Based Diffusion","Score Based Diffusion Models","Score Matching","Self-supervised Learning","Tokenization Methods","Transformer Models","Variational Autoencoders","Variational Inference","Vector Quantization","Vision Transformers (ViTs)","Others"
+  ]
+  const filteredMethods = useMemo(() => {
+    const q = methodQuery.trim().toLowerCase()
+    return allMethods.filter((m) => m.toLowerCase().includes(q))
+  }, [methodQuery])
+  const filteredMethodGroups = useMemo(() => {
+    const groups: Record<string, string[]> = {}
+    filteredMethods.forEach((m) => {
+      const letter = m[0].toUpperCase()
+      if (!groups[letter]) groups[letter] = []
+      groups[letter].push(m)
+    })
+    return Object.entries(groups).map(([letter, items]) => ({ letter, items }))
+  }, [filteredMethods])
+  const toggleGroup = (letter: string) => setOpenGroups((prev) => (prev.includes(letter) ? prev.filter((l) => l !== letter) : [...prev, letter]))
+
   const [authorQuery, setAuthorQuery] = useState("");
   const [allAuthors, setAllAuthors] = useState<string[]>([]);
   const [loadingAuthors, setLoadingAuthors] = useState(false);
   const deferredQuery = useDeferredValue(authorQuery);
-
   useEffect(() => {
     let mounted = true;
     setLoadingAuthors(true);
@@ -275,10 +321,7 @@ const SidebarFilters: React.FC<Props> = ({
       mounted = false;
     };
   }, []);
-
-  const toggle = (val: string, arr: string[], setter: (v: string[]) => void) =>
-    arr.includes(val) ? setter(arr.filter((v) => v !== val)) : setter([...arr, val]);
-
+  const toggle = (val: string, arr: string[], setter: (v: string[]) => void) => arr.includes(val) ? setter(arr.filter((v) => v !== val)) : setter([...arr, val]);
   const filteredAuthors = useMemo(() => {
     const q = deferredQuery.trim().toLowerCase();
     const pinned = [...selectedAuthors];
@@ -286,7 +329,6 @@ const SidebarFilters: React.FC<Props> = ({
     const rest = pool.filter((a) => !selectedAuthors.includes(a));
     return [...pinned, ...rest];
   }, [deferredQuery, allAuthors, selectedAuthors]);
-
   const Row = ({ index, style }: ListChildComponentProps) => {
     const author = filteredAuthors[index];
     const checked = selectedAuthors.includes(author);
@@ -297,7 +339,6 @@ const SidebarFilters: React.FC<Props> = ({
       </label>
     );
   };
-
   const axisIMains = useMemo(() => TOPIC_AXIS_I.map((t) => t.main), []);
   const axisISelectedMains = useMemo(() => selectedTopicsI.filter((x) => axisIMains.includes(x)), [selectedTopicsI, axisIMains]);
   const axisISubs = useMemo(() => {
@@ -307,7 +348,6 @@ const SidebarFilters: React.FC<Props> = ({
     });
     return Array.from(set);
   }, [axisISelectedMains]);
-
   const axisIIMains = useMemo(() => TOPIC_AXIS_II.map((t) => t.main), []);
   const axisIISelectedMains = useMemo(() => selectedTopicsII.filter((x) => axisIIMains.includes(x)), [selectedTopicsII, axisIIMains]);
   const axisIISubs = useMemo(() => {
@@ -317,7 +357,6 @@ const SidebarFilters: React.FC<Props> = ({
     });
     return Array.from(set);
   }, [axisIISelectedMains]);
-
   const axisIIIMains = useMemo(() => TOPIC_AXIS_III.map((t) => t.main), []);
   const axisIIISelectedMains = useMemo(() => selectedTopicsIII.filter((x) => axisIIIMains.includes(x)), [selectedTopicsIII, axisIIIMains]);
   const axisIIISubs = useMemo(() => {
@@ -327,7 +366,6 @@ const SidebarFilters: React.FC<Props> = ({
     });
     return Array.from(set);
   }, [axisIIISelectedMains]);
-
   return (
     <div className="w-60 md:w-64 lg:w-75 xl:w-88 2xl:w-89 fixed left-0 top-16 h-[calc(100dvh-4rem)] px-4 lg:px-6 py-4 lg:py-6 border-r border-red-100 bg-gradient-to-b from-white to-amber-50 overflow-y-scroll">
       <div className="space-y-4 text-gray-800">
@@ -340,7 +378,6 @@ const SidebarFilters: React.FC<Props> = ({
             ))}
           </div>
         </Section>
-
         <Section title="Year" count={selectedYears.length} onReset={() => setSelectedYears([])}>
           <div className="flex flex-wrap gap-2">
             {YEARS.map((y) => (
@@ -350,7 +387,6 @@ const SidebarFilters: React.FC<Props> = ({
             ))}
           </div>
         </Section>
-
         <Section title="Author" count={selectedAuthors.length} onReset={() => { setSelectedAuthors([]); setAuthorQuery(""); }} showResetAlways>
           <div className="mb-2">
             <div className="rounded-xl p-[2px] bg-gradient-to-r from-red-700 via-rose-600 to-pink-600 shadow-[0_0_0_1px_rgba(0,0,0,0.02)]">
@@ -361,20 +397,14 @@ const SidebarFilters: React.FC<Props> = ({
                     ×
                   </button>
                 )}
-                            </div>
+              </div>
             </div>
           </div>
-
-          <div className="text-xs text-gray-600 mb-1">
-            {loadingAuthors ? "Loading..." : `Showing ${filteredAuthors.length} / ${allAuthors.length}`}
-          </div>
+          <div className="text-xs text-gray-600 mb-1">{loadingAuthors ? "Loading..." : `Showing ${filteredAuthors.length} / ${allAuthors.length}`}</div>
           <div className="w-full rounded-xl border border-red-100 bg-white">
-            <VList height={180} width={"100%"} itemCount={filteredAuthors.length} itemSize={32}>
-              {Row}
-            </VList>
+            <VList height={180} width={"100%"} itemCount={filteredAuthors.length} itemSize={32}>{Row}</VList>
           </div>
         </Section>
-
         <Section title="Code" count={codeAvail !== "any" ? 1 : 0} onReset={() => setCodeAvail("any")}>
           <div className="flex gap-2">
             {CODE_OPTS.map((o) => (
@@ -384,7 +414,6 @@ const SidebarFilters: React.FC<Props> = ({
             ))}
           </div>
         </Section>
-
         <Section
           title={
             <div className="flex flex-col w-full">
@@ -428,7 +457,6 @@ const SidebarFilters: React.FC<Props> = ({
           }}
         >
           <div className="space-y-3">
-            {/* Axis I */}
             <div>
               <div className="text-sm font-medium text-gray-700 mb-1">
                 Axis I: Application Domains <span className="text-gray-400 text-xs">(What)</span>
@@ -448,8 +476,6 @@ const SidebarFilters: React.FC<Props> = ({
                 />
               </div>
             </div>
-
-            {/* Axis II */}
             <div>
               <div className="text-sm font-medium text-gray-700 mb-1">
                 Axis II: Methodology <span className="text-gray-400 text-xs">(How)</span>
@@ -469,8 +495,6 @@ const SidebarFilters: React.FC<Props> = ({
                 />
               </div>
             </div>
-
-            {/* Axis III */}
             <div>
               <div className="text-sm font-medium text-gray-700 mb-1">
                 Axis III: Translation & Deployment <span className="text-gray-400 text-xs">(How Well)</span>
@@ -493,44 +517,146 @@ const SidebarFilters: React.FC<Props> = ({
           </div>
         </Section>
 
-        <Section title="Method">
-          <div className="text-sm text-gray-500 italic">[TBD]</div>
+        <Section title="Method" count={selectedMethods?.length || 0} onReset={() => setSelectedMethods([])}>
+          <div className="mb-2">
+            <div className="flex flex-wrap items-center gap-1 bg-white rounded-lg border border-red-200 px-2 py-1.5 text-sm focus-within:ring-2 focus-within:ring-red-200">
+              {selectedMethods.slice(0, 2).map((m) => (
+                <span key={m} className="flex items-center bg-red-100 text-red-700 px-2 py-0.5 rounded-full text-xs">
+                  {m.length > 15 ? m.slice(0, 15) + "…" : m}
+                  <button
+                    onClick={() => toggle(m, selectedMethods, setSelectedMethods)}
+                    className="ml-1 text-red-500 hover:text-red-700"
+                  >
+                    ×
+                  </button>
+                </span>
+              ))}
+              {selectedMethods.length > 2 && (
+                <span className="text-xs text-gray-500">+{selectedMethods.length - 2}</span>
+              )}
+              <input
+                type="text"
+                placeholder="Search method..."
+                value={methodQuery}
+                onChange={(e) => setMethodQuery(e.target.value)}
+                className="flex-1 bg-transparent outline-none text-sm px-1 py-0.5"
+              />
+            </div>
+          </div>
+          <div className="max-h-52 overflow-y-auto rounded-xl border border-red-100 bg-white divide-y divide-red-50">
+            {filteredMethodGroups.map(({ letter, items }) => (
+              <div key={letter}>
+                <button onClick={() => toggleGroup(letter)} className="w-full flex justify-between items-center px-3 py-1.5 text-sm font-medium text-red-700 hover:bg-red-50">
+                  <span>{letter}</span>
+                  <span>{openGroups.includes(letter) ? "–" : "+"}</span>
+                </button>
+                {openGroups.includes(letter) && (
+                  <div className="pl-3 pb-1">
+                    {items.map((m) => {
+                      const checked = selectedMethods.includes(m);
+                      return (
+                        <label key={m} className="flex items-center gap-2 px-2 py-1 text-sm cursor-pointer hover:bg-red-50">
+                          <input type="checkbox" className="accent-red-700" checked={checked} onChange={() => toggle(m, selectedMethods, setSelectedMethods)} />
+                          <span className="truncate">{m}</span>
+                        </label>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </Section>
+        <Section title="Application" count={selectedApplications.length} onReset={() => setSelectedApplications([])}>
+        <div className="flex flex-wrap items-center gap-1 bg-white rounded-lg border border-red-200 px-2 py-1.5 text-sm mb-2 focus-within:ring-2 focus-within:ring-red-200">
+          {selectedApplications.slice(0, 2).map((a) => (
+            <span key={a} className="flex items-center bg-red-100 text-red-700 px-2 py-0.5 rounded-full text-xs">
+              {a.length > 15 ? a.slice(0, 15) + "…" : a}
+              <button
+                onClick={() => toggle(a, selectedApplications, setSelectedApplications)}
+                className="ml-1 text-red-500 hover:text-red-700"
+              >
+                ×
+              </button>
+            </span>
+          ))}
+          {selectedApplications.length > 2 && (
+            <span className="text-xs text-gray-500">+{selectedApplications.length - 2}</span>
+          )}
+          <input
+            type="text"
+            placeholder="Search application..."
+            value={applicationQuery}
+            onChange={(e) => setApplicationQuery(e.target.value)}
+            className="flex-1 bg-transparent outline-none text-sm px-1 py-0.5"
+          />
+        </div>
 
-        <Section title="Application">
-          <div className="text-sm text-gray-500 italic">[TBD]</div>
+          <div className="max-h-52 overflow-y-auto rounded-xl border border-red-100 bg-white divide-y divide-red-50">
+            {filteredApplicationGroups.map(({ letter, items }) => (
+              <div key={letter}>
+                <button
+                  onClick={() => toggleAppGroup(letter)}
+                  className="w-full flex justify-between items-center px-3 py-1.5 text-sm font-medium text-red-700 hover:bg-red-50"
+                >
+                  <span>{letter}</span>
+                  <span>{openAppGroups.includes(letter) ? "–" : "+"}</span>
+                </button>
+                {openAppGroups.includes(letter) && (
+                  <div className="pl-3 pb-1">
+                    {items.map((a) => {
+                      const checked = selectedApplications.includes(a)
+                      return (
+                        <label key={a} className="flex items-center gap-2 px-2 py-1 text-sm cursor-pointer hover:bg-red-50">
+                          <input
+                            type="checkbox"
+                            className="accent-red-700"
+                            checked={checked}
+                            onChange={() => toggle(a, selectedApplications, setSelectedApplications)}
+                          />
+                          <span className="truncate">{a}</span>
+                        </label>
+                      )
+                    })}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </Section>
 
         <div className="flex gap-2 pt-2">
+        <button
+          onClick={() => {
+            if (onApplyFilters) onApplyFilters();
+          }}
+          className="flex-1 bg-gradient-to-r from-red-700 to-rose-600 text-white px-4 py-2 rounded-xl shadow-sm hover:from-red-800 hover:to-rose-700 active:scale-[0.99] transition"
+        >
+          Apply Filters
+        </button>
           <button
             onClick={() => {
-              if (onApplyFilters) onApplyFilters();
-            }}
-            className="flex-1 bg-gradient-to-r from-red-700 to-rose-600 text-white px-4 py-2 rounded-xl shadow-sm hover:from-red-800 hover:to-rose-700 active:scale-[0.99] transition"
-          >
-            Apply Filters
-          </button>
-          <button
-            onClick={() => {
-              setSelectedConfs([]);
-              setSelectedYears([]);
-              setSelectedAuthors([]);
-              setCodeAvail("any");
-              setSelectedTopicsI([]);
-              setSelectedTopicsII([]);
-              setSelectedTopicsIII([]);
-              setMatchMode("any");
-              setAuthorQuery("");
-              onClearFilters?.();
+              setSelectedConfs([])
+              setSelectedYears([])
+              setSelectedAuthors([])
+              setCodeAvail("any")
+              setSelectedTopicsI([])
+              setSelectedTopicsII([])
+              setSelectedTopicsIII([])
+              setMatchMode("any")
+              setAuthorQuery("")
+              setSelectedMethods([])
+              setSelectedApplications([])
+              onClearFilters?.()
             }}
             className="border border-gray-300 text-gray-800 px-4 py-2 rounded-xl hover:bg-gray-50"
           >
             Clear
           </button>
+
         </div>
       </div>
     </div>
   );
 };
-
 export default SidebarFilters;
