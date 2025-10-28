@@ -19,6 +19,8 @@ export type ApiPaper = {
   topicAxis1?: AxisJson
   topicAxis2?: AxisJson
   topicAxis3?: AxisJson
+  methodLabels?: { id: number; label: string }[]
+  applicationLabels?: { id: number; label: string }[]
 }
 
 export type ApiListResponse = {
@@ -55,6 +57,8 @@ export type MockPaperShape = {
   'Topic Axis III': { MainTopic: string; SubTopic: string }
   abstract?: string | null
   keywords?: string | null
+  methodLabels?: { id: number; label: string }[]
+  applicationLabels?: { id: number; label: string }[]
 }
 
 function norm(s: string) {
@@ -114,6 +118,8 @@ function mapApiToMock(p: ApiPaper): MockPaperShape {
     'Topic Axis III': a3,
     abstract: p.abstract,
     keywords: p.keywords,
+    methodLabels: (p as any).methodLabels ?? [],
+    applicationLabels: (p as any).applicationLabels ?? [],
   }
 }
 

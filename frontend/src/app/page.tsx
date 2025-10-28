@@ -270,7 +270,7 @@ export default function HomePage() {
     }
     if (selectedMethods.length) {
       base = base.filter((p) => {
-        const methodLabels = (p as any).method_labels || [];
+        const methodLabels = (p as any).methodLabels || []; 
         if (!Array.isArray(methodLabels)) return false;
         const labels = methodLabels.map((m: any) => String(m.label || "").toLowerCase());
         const selected = selectedMethods.map((m) => m.toLowerCase());
@@ -280,14 +280,13 @@ export default function HomePage() {
     
     if (selectedApplications.length) {
       base = base.filter((p) => {
-        const appLabels = (p as any).application_labels || [];
+        const appLabels = (p as any).applicationLabels || []; 
         if (!Array.isArray(appLabels)) return false;
         const labels = appLabels.map((a: any) => String(a.label || "").toLowerCase());
         const selected = selectedApplications.map((a) => a.toLowerCase());
         return selected.some((a) => labels.includes(a));
       });
     }
-    
     
     return base;
   }, [allMatched, selectedAuthors, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode, selectedMethods, selectedApplications]);
@@ -421,7 +420,7 @@ export default function HomePage() {
                 <div className="text-gray-600">Loading...</div>
               ) : (
                 <>
-                  <div className="mb-6 pb-4 border-b border-red-100 bg-white sticky top-16 z-10 rounded-xl p-4">
+                  <div className="mb-13 pb-4 border-b border-red-100 bg-white sticky top-16 z-10 rounded-xl p-4">
                     <div className="flex items-center justify-between gap-4">
                       <div className="text-sm text-gray-700">
                         Showing <span className="font-semibold">{pagedList.length}</span> of{' '}
