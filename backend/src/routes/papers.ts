@@ -46,8 +46,8 @@ function normalizeAxis(v: any) {
   return { MainTopic: m === "" ? null : m ?? null, SubTopic: s === "" ? null : s ?? null };
 }
 
-// ✅ 核心修正：強制 JSON.parse JSON 內容，不論 Prisma 是字串還是物件
-function forceJsonArray(v: any) {
+// ✅ 修正版：確保不論來源是字串、物件或 JSONB，都能正確解析
+function safeJsonArray(v: any) {
   if (!v) return [];
   try {
     if (Array.isArray(v)) return v;
@@ -119,14 +119,6 @@ router.get("/", async (req: Request, res: Response) => {
       prisma.paper.findMany({ where, orderBy: [{ year: "desc" }, { id: "asc" }], skip, take, select })
     ]);
 
-    console.log("=== RAW ROWS SAMPLE ===");
-    console.log("RAW:", rows[0]);
-    console.log("methodLabels type:", typeof rows[0]?.methodLabels);
-    console.log("applicationLabels type:", typeof rows[0]?.applicationLabels);
-    console.log("methodLabels raw string:", JSON.stringify(rows[0]?.methodLabels));
-    console.log("applicationLabels raw string:", JSON.stringify(rows[0]?.applicationLabels));
-
-
     const items = rows.map(p => ({
       id: p.id,
       year: p.year,
@@ -149,15 +141,12 @@ router.get("/", async (req: Request, res: Response) => {
       datasetLinks: p.datasetLinks,
       dataset_name: p.datasetNames,
       updatedAt: p.updatedAt,
-      methodLabels: forceJsonArray(p.methodLabels),
-      applicationLabels: forceJsonArray(p.applicationLabels),
+      methodLabels: safeJsonArray(p.methodLabels),
+      applicationLabels: safeJsonArray(p.applicationLabels),
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
     }));
-
-    console.log("=== FIRST ITEM AFTER MAP ===");
-    console.log(items[0]);
 
     res.json({ pageNum: page, pageSize: take, total, totalPages: Math.max(1, Math.ceil(total / take)), items });
   } catch (err) {
@@ -171,60 +160,45 @@ router.get("/:id", async (req: Request, res: Response) => {
     const id = String(req.params.id || "");
     if (!id) return res.status(400).json({ error: "invalid_id" });
 
-    const select = {
-      id: true,
-      year: true,
-      conference: true,
-      title: true,
-      authors: true,
-      affiliations: true,
-      authorsAffiliations: true,
-      abstract: true,
-      keywords: true,
-      pdfUrl: true,
-      isHealthcare: true,
-      reasoning: true,
-      topic: true,
-      method: true,
-      application: true,
-      codeLink: true,
-      datasetNames: true,
-      datasetLinks: true,
-      updatedAt: true,
-      topicAxis1: true,
-      topicAxis2: true,
-      topicAxis3: true,
-      methodLabels: true,
-      applicationLabels: true 
-    } as const;
+    const p = await prisma.paper.findUnique({
+      where: { id },
+      select: {
+        id: true,
+        year: true,
+        conference: true,
+        title: true,
+        authors: true,
+        affiliations: true,
+        authorsAffiliations: true,
+        abstract: true,
+        keywords: true,
+        pdfUrl: true,
+        isHealthcare: true,
+        reasoning: true,
+        topic: true,
+        method: true,
+        application: true,
+        codeLink: true,
+        datasetNames: true,
+        datasetLinks: true,
+        updatedAt: true,
+        topicAxis1: true,
+        topicAxis2: true,
+        topicAxis3: true,
+        methodLabels: true,
+        applicationLabels: true
+      }
+    });
 
-    const p = await prisma.paper.findUnique({ where: { id }, select });
     if (!p) return res.status(404).json({ error: "not_found" });
 
     res.json({
-      id: p.id,
-      year: p.year,
-      conference: p.conference,
-      title: p.title,
-      authors: p.authors,
-      affiliations: p.affiliations,
-      authorsAffiliations: p.authorsAffiliations,
-      abstract: p.abstract,
-      keywords: p.keywords,
+      ...p,
       pdf_url: p.pdfUrl,
-      isHealthcare: p.isHealthcare,
-      reasoning: p.reasoning,
-      topic: p.topic,
-      method: p.method,
-      application: p.application,
-      codeLink: p.codeLink,
       code_link: p.codeLink,
-      datasetNames: p.datasetNames,
-      datasetLinks: p.datasetLinks,
       dataset_name: p.datasetNames,
-      updatedAt: p.updatedAt,
-      methodLabels: forceJsonArray(p.methodLabels),
-      applicationLabels: forceJsonArray(p.applicationLabels),
+      methodLabels: safeJsonArray(p.methodLabels),
+      applicationLabels: safeJsonArray(p.applicationLabels),
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
