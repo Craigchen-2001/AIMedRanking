@@ -7,6 +7,7 @@ const router = Router();
 function nk(s: string) {
   return String(s || "").toLowerCase().replace(/[\s_:-]/g, "");
 }
+
 function findKey(obj: any, names: string[]) {
   if (!obj) return null;
   const map = Object.keys(obj).reduce<Record<string, string>>((m, k) => {
@@ -19,6 +20,7 @@ function findKey(obj: any, names: string[]) {
   }
   return null;
 }
+
 function tryParse(v: any) {
   if (v == null) return null;
   if (typeof v === "object") return v;
@@ -32,6 +34,7 @@ function tryParse(v: any) {
   }
   return null;
 }
+
 function normalizeAxis(v: any) {
   if (v == null) return { MainTopic: null, SubTopic: null };
   const obj = tryParse(v) ?? v;
@@ -42,22 +45,19 @@ function normalizeAxis(v: any) {
   const s = sk ? obj[sk] : null;
   return { MainTopic: m === "" ? null : m ?? null, SubTopic: s === "" ? null : s ?? null };
 }
+
+// ✅ 核心修正：強制 JSON.parse JSON 內容，不論 Prisma 是字串還是物件
 function forceJsonArray(v: any) {
   if (!v) return [];
-  if (Array.isArray(v)) return v;
-  if (typeof v === "object") {
-    try {
-      return JSON.parse(JSON.stringify(v));
-    } catch {
-      return [];
+  try {
+    if (Array.isArray(v)) return v;
+    if (typeof v === "object") return JSON.parse(JSON.stringify(v));
+    if (typeof v === "string") {
+      const parsed = JSON.parse(v);
+      return Array.isArray(parsed) ? parsed : [];
     }
-  }
-  if (typeof v === "string") {
-    try {
-      return JSON.parse(v);
-    } catch {
-      return [];
-    }
+  } catch {
+    return [];
   }
   return [];
 }
@@ -71,6 +71,7 @@ router.get("/", async (req: Request, res: Response) => {
     const years = ((req.query.years as string) || "").split(",").map(s => parseInt(s, 10)).filter(n => Number.isFinite(n));
     const where: any = {};
     const and: any[] = [];
+
     if (q) {
       and.push({
         OR: [
@@ -80,9 +81,11 @@ router.get("/", async (req: Request, res: Response) => {
         ]
       });
     }
+
     if (confs.length) and.push({ OR: confs.map(c => ({ conference: { contains: c, mode: "insensitive" } })) });
     if (years.length) and.push({ year: { in: years } });
     if (and.length) where.AND = and;
+
     const skip = (page - 1) * take;
     const select = {
       id: true,
@@ -110,12 +113,15 @@ router.get("/", async (req: Request, res: Response) => {
       methodLabels: true,
       applicationLabels: true
     } as const;
+
     const [total, rows] = await Promise.all([
       prisma.paper.count({ where }),
       prisma.paper.findMany({ where, orderBy: [{ year: "desc" }, { id: "asc" }], skip, take, select })
     ]);
+
     console.log("=== RAW ROWS SAMPLE ===");
     console.log(rows[0]?.id, rows[0]?.methodLabels, rows[0]?.applicationLabels);
+
     const items = rows.map(p => ({
       id: p.id,
       year: p.year,
@@ -144,8 +150,10 @@ router.get("/", async (req: Request, res: Response) => {
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
     }));
+
     console.log("=== FIRST ITEM AFTER MAP ===");
     console.log(items[0]);
+
     res.json({ pageNum: page, pageSize: take, total, totalPages: Math.max(1, Math.ceil(total / take)), items });
   } catch (err) {
     console.error("Error in /papers:", err);
@@ -157,6 +165,7 @@ router.get("/:id", async (req: Request, res: Response) => {
   try {
     const id = String(req.params.id || "");
     if (!id) return res.status(400).json({ error: "invalid_id" });
+
     const select = {
       id: true,
       year: true,
@@ -183,8 +192,10 @@ router.get("/:id", async (req: Request, res: Response) => {
       methodLabels: true,
       applicationLabels: true 
     } as const;
+
     const p = await prisma.paper.findUnique({ where: { id }, select });
     if (!p) return res.status(404).json({ error: "not_found" });
+
     res.json({
       id: p.id,
       year: p.year,
