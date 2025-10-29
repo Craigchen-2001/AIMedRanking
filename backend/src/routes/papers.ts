@@ -119,8 +119,8 @@ router.get("/", async (req: Request, res: Response) => {
       updatedAt: p.updatedAt,
       // methodLabels: p.methodLabels,
       // applicationLabels: p.applicationLabels,
-      methodLabels: JSON.parse(JSON.stringify(p.methodLabels ?? [])),
-      applicationLabels: JSON.parse(JSON.stringify(p.applicationLabels ?? [])),
+      methodLabels: Array.isArray(p.methodLabels) ? p.methodLabels : JSON.parse(JSON.stringify(p.methodLabels ?? [])),
+      applicationLabels: Array.isArray(p.applicationLabels) ? p.applicationLabels : JSON.parse(JSON.stringify(p.applicationLabels ?? [])),
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
@@ -187,8 +187,8 @@ router.get("/:id", async (req: Request, res: Response) => {
       updatedAt: p.updatedAt,
       // methodLabels: p.methodLabels,
       // applicationLabels: p.applicationLabels,
-      methodLabels: JSON.parse(JSON.stringify(p.methodLabels ?? [])),
-      applicationLabels: JSON.parse(JSON.stringify(p.applicationLabels ?? [])),
+      methodLabels: Array.isArray(p.methodLabels) ? p.methodLabels : JSON.parse(JSON.stringify(p.methodLabels ?? [])),
+      applicationLabels: Array.isArray(p.applicationLabels) ? p.applicationLabels : JSON.parse(JSON.stringify(p.applicationLabels ?? [])),
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
