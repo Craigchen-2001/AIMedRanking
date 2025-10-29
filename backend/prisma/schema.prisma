@@ -8,32 +8,32 @@ datasource db {
 }
 
 model Paper {
-  id                  String   @id
+  id                  String     @id
   title               String
   abstract            String?
   keywords            String?
   pdfUrl              String?
   conference          String
   year                Int
-  isHealthcare        Boolean  @default(false)
+  isHealthcare        Boolean    @default(false)
   topic               String?
   method              String?
   application         String?
   codeLink            String?
-  isPublic            Boolean  @default(false)
-  datasetNames        String[] @default([])
-  datasetLinks        String[] @default([])
-  authors             String[] @default([])
+  datasetNames        String[]   @default([])
+  createdAt           DateTime   @default(now())
+  updatedAt           DateTime   @updatedAt
+  authors             String[]   @default([])
+  reasoning           String?
   affiliations        String?
   authorsAffiliations String?
-  reasoning           String?
+  datasetLinks        String[]   @default([])
+  isPublic            Boolean    @default(false)
   topicAxis1          Json?
   topicAxis2          Json?
   topicAxis3          Json?
-  methodLabels       Json?
-  applicationLabels  Json?
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
+  applicationLabels   Json?
+  methodLabels        Json?
   favorites           Favorite[]
 }
 
@@ -51,7 +51,8 @@ model Favorite {
   userId    String
   paperId   String
   createdAt DateTime @default(now())
-  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
-  paper     Paper  @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  paper     Paper    @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
   @@id([userId, paperId])
 }
