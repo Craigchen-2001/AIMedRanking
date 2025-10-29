@@ -11,6 +11,7 @@ function tagConference(full?: string) {
   if (u.startsWith("ICLR")) return "ICLR";
   if (u.startsWith("ICML")) return "ICML";
   if (u.startsWith("KDD")) return "KDD";
+  if (u.startsWith("ACL")) return "ACL";
   return "OTHER";
 }
 
@@ -43,7 +44,7 @@ export default function AccountDialog({
       const k = tagConference((p as any).conference);
       m[k] = (m[k] || 0) + 1;
     }
-    const order = ["ICLR", "ICML", "KDD", "NEURIPS", "OTHER"];
+    const order = ["ICLR", "ICML", "KDD", "NEURIPS","ACL","OTHER"];
     return order.filter((k) => m[k]).map((k) => [k, m[k]] as const);
   }, [favItems]);
 
