@@ -1,10 +1,10 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import authorsRouter from "./routes/authors.ts";
-import papersRouter from "./routes/papers.ts";
-import authRouter from "./routes/auth.ts";
-import favoritesRouter from "./routes/favorites.ts";
+import authorsRouter from "./routes/authors";
+import papersRouter from "./routes/papers";
+import authRouter from "./routes/auth";
+import favoritesRouter from "./routes/favorites";
 import "dotenv/config";
 
 

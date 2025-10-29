@@ -5,8 +5,7 @@ import { Prisma, PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.resolve(); 
 
 function asString(v: unknown): string | null {
   if (v === undefined || v === null) return null;
