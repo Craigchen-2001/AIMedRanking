@@ -95,6 +95,8 @@ router.get("/", async (req: Request, res: Response) => {
       prisma.paper.count({ where }),
       prisma.paper.findMany({ where, orderBy: [{ year: "desc" }, { id: "asc" }], skip, take, select })
     ]);
+    console.log("=== RAW ROWS SAMPLE ===");
+    console.log(rows[0]?.id, rows[0]?.methodLabels, rows[0]?.applicationLabels);
     const items = rows.map(p => ({
       id: p.id,
       year: p.year,
@@ -125,6 +127,8 @@ router.get("/", async (req: Request, res: Response) => {
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
     }));
+    console.log("=== FIRST ITEM AFTER MAP ===");
+    console.log(items[0]);
     res.json({ pageNum: page, pageSize: take, total, totalPages: Math.max(1, Math.ceil(total / take)), items });
   } catch {
     res.status(500).json({ error: "internal_error" });
