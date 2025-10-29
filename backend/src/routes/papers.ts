@@ -120,7 +120,12 @@ router.get("/", async (req: Request, res: Response) => {
     ]);
 
     console.log("=== RAW ROWS SAMPLE ===");
-    console.log(rows[0]?.id, rows[0]?.methodLabels, rows[0]?.applicationLabels);
+    console.log("RAW:", rows[0]);
+    console.log("methodLabels type:", typeof rows[0]?.methodLabels);
+    console.log("applicationLabels type:", typeof rows[0]?.applicationLabels);
+    console.log("methodLabels raw string:", JSON.stringify(rows[0]?.methodLabels));
+    console.log("applicationLabels raw string:", JSON.stringify(rows[0]?.applicationLabels));
+
 
     const items = rows.map(p => ({
       id: p.id,
