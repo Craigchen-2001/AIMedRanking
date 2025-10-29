@@ -16,7 +16,14 @@ const ORIGIN =
   process.env.NEXT_PUBLIC_SITE_ORIGIN ||
   "http://localhost:3000";
 
-app.use(cors({ origin: ORIGIN, credentials: true }));
+  app.use(cors({
+    origin: [
+      process.env.NEXT_PUBLIC_SITE_ORIGIN || "http://localhost:3000",
+      process.env.NEXT_PUBLIC_API_TARGET || "http://52.14.215.176:3000"
+    ],
+    credentials: true
+  }));
+  
 app.use(express.json());
 app.use(cookieParser());
 
