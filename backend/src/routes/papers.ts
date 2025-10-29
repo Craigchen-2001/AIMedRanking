@@ -42,13 +42,22 @@ function normalizeAxis(v: any) {
   const s = sk ? obj[sk] : null;
   return { MainTopic: m === "" ? null : m ?? null, SubTopic: s === "" ? null : s ?? null };
 }
-function safeArray(v: any) {
-  try {
-    if (Array.isArray(v)) return v;
-    if (typeof v === "string") return JSON.parse(v);
-    if (v && typeof v === "object") return JSON.parse(JSON.stringify(v));
-  } catch {
-    return [];
+function forceJsonArray(v: any) {
+  if (!v) return [];
+  if (Array.isArray(v)) return v;
+  if (typeof v === "object") {
+    try {
+      return JSON.parse(JSON.stringify(v));
+    } catch {
+      return [];
+    }
+  }
+  if (typeof v === "string") {
+    try {
+      return JSON.parse(v);
+    } catch {
+      return [];
+    }
   }
   return [];
 }
@@ -101,15 +110,12 @@ router.get("/", async (req: Request, res: Response) => {
       methodLabels: true,
       applicationLabels: true
     } as const;
-
     const [total, rows] = await Promise.all([
       prisma.paper.count({ where }),
       prisma.paper.findMany({ where, orderBy: [{ year: "desc" }, { id: "asc" }], skip, take, select })
     ]);
-
     console.log("=== RAW ROWS SAMPLE ===");
     console.log(rows[0]?.id, rows[0]?.methodLabels, rows[0]?.applicationLabels);
-
     const items = rows.map(p => ({
       id: p.id,
       year: p.year,
@@ -132,16 +138,14 @@ router.get("/", async (req: Request, res: Response) => {
       datasetLinks: p.datasetLinks,
       dataset_name: p.datasetNames,
       updatedAt: p.updatedAt,
-      methodLabels: safeArray(p.methodLabels),
-      applicationLabels: safeArray(p.applicationLabels),
+      methodLabels: forceJsonArray(p.methodLabels),
+      applicationLabels: forceJsonArray(p.applicationLabels),
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
     }));
-
     console.log("=== FIRST ITEM AFTER MAP ===");
     console.log(items[0]);
-
     res.json({ pageNum: page, pageSize: take, total, totalPages: Math.max(1, Math.ceil(total / take)), items });
   } catch (err) {
     console.error("Error in /papers:", err);
@@ -179,10 +183,8 @@ router.get("/:id", async (req: Request, res: Response) => {
       methodLabels: true,
       applicationLabels: true 
     } as const;
-
     const p = await prisma.paper.findUnique({ where: { id }, select });
     if (!p) return res.status(404).json({ error: "not_found" });
-
     res.json({
       id: p.id,
       year: p.year,
@@ -205,8 +207,8 @@ router.get("/:id", async (req: Request, res: Response) => {
       datasetLinks: p.datasetLinks,
       dataset_name: p.datasetNames,
       updatedAt: p.updatedAt,
-      methodLabels: safeArray(p.methodLabels),
-      applicationLabels: safeArray(p.applicationLabels),
+      methodLabels: forceJsonArray(p.methodLabels),
+      applicationLabels: forceJsonArray(p.applicationLabels),
       "Topic Axis I": normalizeAxis(p.topicAxis1),
       "Topic Axis II": normalizeAxis(p.topicAxis2),
       "Topic Axis III": normalizeAxis(p.topicAxis3)
@@ -218,6 +220,7 @@ router.get("/:id", async (req: Request, res: Response) => {
 });
 
 export default router;
+
 
 // import { Router, Request, Response } from "express";
 // import { PrismaClient } from "@prisma/client";
