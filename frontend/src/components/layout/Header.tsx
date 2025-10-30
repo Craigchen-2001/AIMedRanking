@@ -12,7 +12,7 @@ import { fetchFavorites, removeFavorite, type FavoritePaper } from '@/lib/favori
 const robotoSlab = Roboto_Slab({ subsets: ['latin'], weight: '700', display: 'swap' });
 
 const menuItems: Record<string, string[]> = {
-  'Ranking Plot': ['Author', 'Topic', 'TBD', 'TBD'],
+  'Ranking Plot': ['Author', 'Topic'],
   Trend: ['Dashboard'],
 };
 

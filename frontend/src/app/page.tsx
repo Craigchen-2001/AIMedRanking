@@ -240,6 +240,10 @@ export default function HomePage() {
           if (!Array.isArray(p.authors) || p.authors.length === 0) return false;
           return selectedAuthors.some((a) => p.authors.includes(a));
         });
+    if (searchTerm) {
+      const q = searchTerm.toLowerCase();
+      base = base.filter((p) => String(p.title || "").toLowerCase().includes(q));
+    }
     if (codeAvail !== 'any') {
       const wantPublic = codeAvail === 'public';
       base = base.filter((p) => codeIsPublic(p) === wantPublic);
@@ -369,7 +373,7 @@ export default function HomePage() {
     selectedMethods.length === 0 &&
     selectedApplications.length === 0;
 
-  const allTitles = useMemo(() => pagedList.map((p) => p.title), [pagedList]);
+  const allTitles = useMemo(() => sortedList.map((p) => p.title), [sortedList]);
 
   return (
     <div className="min-h-screen">
