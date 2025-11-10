@@ -632,7 +632,7 @@
     },
     "method": "T5-based generative text-to-text model; Mention identification; Scheduled sampling; Contrastive learning",
     "application": "Clinical event extraction – medical NLP",
-    "code_link": "https://github.com/mdkma/DICE",
+    "code_link": "https://derek.ma/DICE",
     "dataset_name": [
       "MACCROBAT-EE",
       "ACE05"
@@ -823,12 +823,12 @@
     },
     "method": "Entity-aware Convolutional Neural Networks (ECNN); Bayesian Network Ensembles",
     "application": "Disease classification – EMR documents",
-    "code_link": "N/A",
+    "code_link": "https://github.com/PaddlePaddle/Research/tree/master/KG/ACL2020_SignOrSymptom_Relationship",
     "dataset_name": [
       "Gynaecology EMR dataset",
       "Respiration EMR dataset"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 7,
@@ -1444,12 +1444,12 @@
     },
     "method": "Retrieval-augmented generation (RAG); Zero-shot reasoning capabilities; Hypothesis knowledge graph-enhanced extraction",
     "application": "medical question answering tasks",
-    "code_link": "https://github.com/Artessay/HyKGE",
+    "code_link": "N/A",
     "dataset_name": [
       "CMB-Exam",
       "CMB-Clin"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 45,
@@ -1651,12 +1651,12 @@
     },
     "method": "Claim Extraction; Question-Answering Models; Stance Classification; Human-in-the-loop evaluations",
     "application": "COVID-19 misinformation detection",
-    "code_link": "https://github.com/ethanm88/hitl-evaluation-early-misinformation-detection",
+    "code_link": "N/A",
     "dataset_name": [
       "Twitter COVID-19 Event Extraction dataset",
       "W-NUT 2020 COVID-19 event extraction shared task"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 999,
@@ -2248,7 +2248,7 @@
     },
     "method": "Transformer-based models (RoBERTa); continual pre-training",
     "application": "Biomedical language modeling – French medical NLP tasks",
-    "code_link": "https://github.com/qanastek/drbert",
+    "code_link": "https://drbert.univ-avignon.fr/",
     "dataset_name": [
       "NACHOS",
       "MUSCA-DET",
@@ -2313,13 +2313,13 @@
     },
     "method": "Transformer-based models (BERT, RoBERTa, CRF); Noise-aware loss function; Weak supervision",
     "application": "Biomedical named entity recognition",
-    "code_link": "https://github.com/amzn/amazon-weak-ner-needle",
+    "code_link": "N/A",
     "dataset_name": [
       "BC5CDR-Chem",
       "BC5CDR-Disease",
       "NCBI-Disease"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 19,
@@ -2907,11 +2907,11 @@
     },
     "method": "Meta-learning; Reptile; Normalized Negative Conditional Entropy",
     "application": "clinical section classification – low-resource scenarios",
-    "code_link": "N/A",
+    "code_link": "https://github.com/huggingface/pytorch-pretrained-BERT",
     "dataset_name": [
       "MIMIC-III"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 19,
@@ -2970,7 +2970,7 @@
     },
     "method": "Transformer-based models (BERT), Knowledge-enhanced language models; Hybrid attention mechanism",
     "application": "entity relation extraction – medical domain",
-    "code_link": "https://github.com/MatNLP/SMedBERT",
+    "code_link": "N/A",
     "dataset_name": [
       "DXY-NER",
       "DXY-RE",
@@ -2981,7 +2981,7 @@
       "WebMedQA",
       "cMedQA"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 19,
@@ -3364,14 +3364,14 @@
     },
     "method": "Transformer-based models",
     "application": "Disease classification",
-    "code_link": "https://github.com/FreedomIntelligence/Med-MAT",
+    "code_link": "N/A",
     "dataset_name": [
       "RFMiD 2.0",
       "Adam Dataset",
       "APTOS 2019 Blindness",
       "DRIMDB"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 4,
@@ -3858,7 +3858,7 @@
     },
     "method": "Question generation using GPT models; Natural Language Inference pipeline",
     "application": "Information loss detection – Randomized Controlled Trials",
-    "code_link": "https://infolossqa.ikim.nrw/#/",
+    "code_link": "https://Together.AI",
     "dataset_name": [
       "INFOLOSSQA",
       "RCT abstracts",
@@ -4153,12 +4153,12 @@
     },
     "method": "Contrastive learning; Masked autoencoder",
     "application": "EEG-to-text generation",
-    "code_link": "N/A",
+    "code_link": "https://huggingface.co/facebook/bart-large",
     "dataset_name": [
       "ZuCo v1.0",
       "ZuCo v2.0"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 26,
@@ -4363,11 +4363,11 @@
     },
     "method": "Multimodal models; Support Vector Machines (SVM); Multilayer Perceptron (MLP); Noisy Identity MLP (NI-MLP)",
     "application": "Mood prediction – adolescents at high risk for suicide",
-    "code_link": "N/A",
+    "code_link": "https://github.com/huggingface",
     "dataset_name": [
       "Mobile Assessment for the Prediction of Suicide (MAPS)"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 999,
@@ -4495,7 +4495,7 @@
     },
     "method": "Adversarial training; embedding inversion; surrogate modeling",
     "application": "Sensitive information recovery from embeddings",
-    "code_link": "https://github.com/coffree0123/TEIA",
+    "code_link": "N/A",
     "dataset_name": [
       "MIMIC-III",
       "QNLI",
@@ -4503,7 +4503,7 @@
       "AG News",
       "PersonaChat"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 999,
@@ -4743,11 +4743,11 @@
     },
     "method": "Token probability marginalization; BERT-based method; BART model",
     "application": "Multi-document summarization – system literature reviews",
-    "code_link": "N/A",
+    "code_link": "https://disi-unibo-nlp.github.io/projects/damen",
     "dataset_name": [
       "MS2"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 19,
@@ -5055,12 +5055,12 @@
     },
     "method": "Local analysis and global synthesis; structured differential diagnosis reasoning; GPT-4o generation",
     "application": "Interactive diagnostic tutoring system development",
-    "code_link": "https://github.com/med-air/DDxTutor",
+    "code_link": "N/A",
     "dataset_name": [
       "DDxReasoning Dataset",
       "MedQA"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 7,
@@ -5202,12 +5202,12 @@
     },
     "method": "Chain-of-Thought (CoT) prompting; warning-based strategies; in-context learning",
     "application": "Social determinants of health (SDOH) extraction; drug status time classification",
-    "code_link": "N/A",
+    "code_link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
     "dataset_name": [
       "MIMIC-III",
       "SHAC"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 19,
@@ -5773,7 +5773,7 @@
     },
     "method": "Seq2Seq learning; multi-task learning; BlenderBot-based model; retrieval-augmented generation",
     "application": "Emotional support conversation system for mixed-initiative interaction",
-    "code_link": "https://github.com/dengyang17/KEMI?tab=readme-ov-file",
+    "code_link": "https://huggingface.co/facebook/blenderbot_small-90M",
     "dataset_name": [
       "ESConv",
       "MI"
@@ -6320,7 +6320,7 @@
     },
     "method": "Structured Radiology Report Generation; Fine-grained Disease Classification with SRR-BERT",
     "application": "Radiology report generation – Chest X-ray",
-    "code_link": "https://github.com/jbdel/StructEval/tree/main",
+    "code_link": "https://stanford-aimi.github.io/srrg.html",
     "dataset_name": [
       "MIMIC-CXR",
       "CheXpert Plus"
@@ -6517,7 +6517,7 @@
     },
     "method": "Multi-modal fusion for medical question-answering and report generation; multi-specialty evaluation",
     "application": "Radiology report generation",
-    "code_link": "https://github.com/Asclepius-Med/Asclepius",
+    "code_link": "https://asclepius-med.github.io/",
     "dataset_name": [
       "MIMIC-CXR",
       "DeepDRiD"
@@ -6649,11 +6649,11 @@
     },
     "method": "Token-level semantic perturbation; BERT-based textual embedding; zonal-mixing augmentation method",
     "application": "Alzheimer’s disease detection from speech transcripts",
-    "code_link": "N/A",
+    "code_link": "https://github.com/google-research/bert",
     "dataset_name": [
       "ADReSS"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 41,
@@ -6772,12 +6772,12 @@
     },
     "method": "Transformer-based models; Backtranslation method; Feature Decay Algorithm (FDA)",
     "application": "Translation – Clinical texts from Basque to Spanish",
-    "code_link": "N/A",
+    "code_link": "https://github.com/rsennrich/subword-nmt",
     "dataset_name": [
       "Galdakao-Usansolo EHR Corpus",
       "Bilingual dictionary for clinical term generation"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 999,
@@ -7294,11 +7294,11 @@
     },
     "method": "Transformer-based models (GPT, LLaMA); Fine-tuning; QLoRA for efficient adaptation",
     "application": "Psychological counseling dialogue response generation and evaluation",
-    "code_link": "https://github.com/UEC-InabaLab/KokoroChat",
+    "code_link": "N/A",
     "dataset_name": [
       "KokoroChat"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 5,
@@ -7531,7 +7531,7 @@
     },
     "method": "Long Short-Term Memory (LSTM); Interpolation; Evaluation via Leave-One-Out Cross Validation (LOOCV); Pretrained embeddings for skipgram subword",
     "application": "Diagnostic classification – dementia transcription analysis",
-    "code_link": "https://github.com/treversec/tale_of_two_perplexities",
+    "code_link": "https://github.com/dmlc/gluon-nlp",
     "dataset_name": [
       "DementiaBank"
     ],
@@ -7661,12 +7661,12 @@
     },
     "method": "Multi-task fine-tuning; Intent differentiation; Emoji sensitivity modeling (CESM-100); LLM-based rationale generation",
     "application": "Self-harm detection – Social media posts",
-    "code_link": "N/A",
+    "code_link": "https://www.iitp.ac.in/~ai-nlp-ml/resources.html#SHINES",
     "dataset_name": [
       "SHINES",
       "CESM-100"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 999,
@@ -7788,7 +7788,7 @@
     },
     "method": "Semi-supervised learning; Question-Answer representation; Local and global contrastive training; BioBERT backbone encoder",
     "application": "Clinical trial document similarity search",
-    "code_link": "https://github.com/trishad2/SECRET",
+    "code_link": "https://github.com/secret-repository",
     "dataset_name": [
       "TREC2021",
       "Cohrane Reviews"
@@ -8061,12 +8061,12 @@
     },
     "method": "Transformer-based models",
     "application": "Biomedical text summarization",
-    "code_link": "https://github.com/griff4692/calibrating-summaries",
+    "code_link": "N/A",
     "dataset_name": [
       "MIMIC-CXR",
       "Pubmed"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 19,
@@ -8120,11 +8120,11 @@
     },
     "method": "Progressive Mask Encoder; Multi-source Knowledge Fusion",
     "application": "Dialogue system – Cognitive stimulation",
-    "code_link": "N/A",
+    "code_link": "https://github.com/jiangjyjy/CSD",
     "dataset_name": [
       "CSConv"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 5,
@@ -8264,11 +8264,11 @@
     },
     "method": "Hierarchical training approach; retrieval-augmented GPT; iterative knowledge introspection",
     "application": "medical evaluation of AI language models; evaluative scoring tasks",
-    "code_link": "N/A",
+    "code_link": "https://huggingface.co/chaoyi-wu/MedLLaMA_13B",
     "dataset_name": [
       "Medical-Meadow-Wikidoc"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 45,
@@ -8390,14 +8390,14 @@
     },
     "method": "Neural Machine Translation (NMT); Statistical Machine Translation (SMT); Back-translation",
     "application": "Cross-Lingual Information Retrieval",
-    "code_link": "N/A",
+    "code_link": "http://ufal.mff.cuni.cz/ufal_medical_corpus",
     "dataset_name": [
       "CLEF eHealth 2013–2015 Collection",
       "Khresmoi Summary Translation Test Data",
       "Khresmoi Query Translation Test Data",
       "UFAL Medical Corpus"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 999,
@@ -8638,7 +8638,7 @@
     },
     "method": "PDRMM; BERT-based ranker; Neural pipelines and joint models",
     "application": "Snippet retrieval – Question answering on biomedical data",
-    "code_link": "https://github.com/dpappas/Joint_Document_Snippet_Ranking",
+    "code_link": "http://nlp.cs.aueb.gr/publications.html",
     "dataset_name": [
       "BIOASQ",
       "Natural Questions"
@@ -8821,12 +8821,12 @@
     },
     "method": "BioBERT; BiLSTM; Capsule network; Graph Convolutional Neural Networks (GCNN); Self-attention mechanism",
     "application": "Protein-protein interaction identification",
-    "code_link": "N/A",
+    "code_link": "https://github.com/sduttap16/MM_PPI_NLP",
     "dataset_name": [
       "BioInfer",
       "HRPD50"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 19,
@@ -9039,7 +9039,7 @@
     },
     "method": "Direct Preference Optimization; Graph Pruning",
     "application": "Protein generation – Biosafety assurance",
-    "code_link": "https://github.com/HICAI-ZJU/KPO",
+    "code_link": "https://github.com/huggingface/trl",
     "dataset_name": [
       "UniProt",
       "Swiss-Prot"
@@ -9600,7 +9600,7 @@
     },
     "method": "Factuality evaluation; Benchmark construction; Large language model assessment; PICO-based factuality metrics",
     "application": "Factuality evaluation – Medical evidence summarization",
-    "code_link": "https://github.com/lilywchen/FactPICO",
+    "code_link": "https://github.com/SebaJoe/thresh",
     "dataset_name": [
       "FactPICO",
       "Evidence Inference V2.0"
@@ -9666,11 +9666,11 @@
     },
     "method": "Utilization-rate-aware sequence-to-sequence model training; utilization rate regularization; weighted utilization loss",
     "application": "After-visit care instruction generation – medical dialogue",
-    "code_link": "N/A",
+    "code_link": "https://github.com/curai/curai-research/tree/main/careplan-charting",
     "dataset_name": [
       "Custom internal dataset"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 45,
@@ -9795,11 +9795,11 @@
     },
     "method": "Transformer-based models (BERT, VisualBERT, MMBT, CLIP)",
     "application": "Depression symptom identification – Social media memes",
-    "code_link": "N/A",
+    "code_link": "https://github.com/huggingface/transformers/tree/main/examples/research_projects/visual_bert",
     "dataset_name": [
       "RESTORE"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 999,
@@ -9993,14 +9993,14 @@
     },
     "method": "Domain Adaptation; Feature-based models; Instance-based models",
     "application": "Dementia detection – Conversations",
-    "code_link": "N/A",
+    "code_link": "https://github.com/treena908/Domain_Adaptive_Dementia_Detection",
     "dataset_name": [
       "Carolinas Conversation Collection (CCC)",
       "DementiaBank (DB)",
       "ADReSS",
       "Alzheimer’s Disease Research Center (ADRC)"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 41,
@@ -10278,11 +10278,11 @@
     },
     "method": "LLM-based simulation; state transition control; action selection; information selection module",
     "application": "Simulated counseling",
-    "code_link": "https://github.com/IzzetYoung/ConsistentMIClientSimulator",
+    "code_link": "N/A",
     "dataset_name": [
       "AnnoMI"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 5,
@@ -10396,13 +10396,13 @@
     },
     "method": "Two-stage fine-tuning; ensemble methods; snapshot learning; cyclic annealing schedule",
     "application": "information extraction – clinical text",
-    "code_link": "N/A",
+    "code_link": "https://github.com/christa60/bias-var-fine-tuning-plms.git",
     "dataset_name": [
       "SuperGLUE",
       "THYME",
       "i2b2"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 19,
@@ -10462,7 +10462,7 @@
     },
     "method": "DomainAdaptiveAREstimator (DARE); Adversarial training; FAR training; Attribution robustness estimation",
     "application": "Explainability robustness evaluation – Biomedical text classification",
-    "code_link": "https://github.com/ibm/domain-adaptive-attribution-robustness",
+    "code_link": "https://github.com/adamivankay/DARE",
     "dataset_name": [
       "MedNLI",
       "HoC (Hallmarks of Cancer)",
@@ -10538,13 +10538,13 @@
     },
     "method": "Retrieval-Augmented Generation; Prompt Engineering; Memory Stack System",
     "application": "Multi-task medical Q&A and multi-round consultations",
-    "code_link": "https://github.com/Artessay/TC-RAG",
+    "code_link": "N/A",
     "dataset_name": [
       "MMCU-Medical",
       "CMB-Exam",
       "CMB-Clin"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 45,
@@ -10860,12 +10860,12 @@
     },
     "method": "Reinforcement learning with factual correctness rewards; Pointer-generator network",
     "application": "Abstractive summarization – Radiology reports",
-    "code_link": "N/A",
+    "code_link": "https://github.com/yuhaozhang/summarize-radiology-findings",
     "dataset_name": [
       "Stanford",
       "RH"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 30,
@@ -10994,13 +10994,13 @@
     },
     "method": "Natural Language Processing (NLP); Abstractive summarization; Confabulation removal using NLI models",
     "application": "clinical document summarization",
-    "code_link": "N/A",
+    "code_link": "https://github.com/MMSA/uMedSum",
     "dataset_name": [
       "MIMIC-III",
       "MeQSum",
       "ACI-Bench"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 19,
@@ -11315,12 +11315,12 @@
     },
     "method": "Self-alignment; Direct Preference Optimization (DPO); SK-TUNING; SELF-EVAL algorithm",
     "application": "Factual information alignment",
-    "code_link": "https://github.com/zhangxy-2019/Self-Alignment-for-Factuality",
+    "code_link": "N/A",
     "dataset_name": [
       "TruthfulQA",
       "BioGEN"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 999,
@@ -11444,12 +11444,12 @@
     },
     "method": "Heterogeneous Graph Transformers (HGT); Span-based entity-relation extraction",
     "application": "Temporal Relation Extraction – Clinical Notes",
-    "code_link": "https://github.com/pbaghershahi/GraphTREX",
+    "code_link": "N/A",
     "dataset_name": [
       "I2B2 2012",
       "E3C"
     ],
-    "is_public": true,
+    "is_public": false,
     "application_labels": [
       {
         "id": 19,
@@ -11778,7 +11778,7 @@
     },
     "method": "Retrieval-Augmented Generation (RAG); Graph-based enhancement; U-Retrieval; Triple Graph Construction",
     "application": "medical query answer generation; evidence-based response generation",
-    "code_link": "https://github.com/ImprintLab/Medical-Graph-RAG",
+    "code_link": "https://github.com/medgraphrag/code-repository",
     "dataset_name": [
       "MedQA",
       "PubMedQA",
@@ -11971,11 +11971,11 @@
     },
     "method": "Contrastive Preference Optimization (CPO); Model merging; Atomic-level Cross-NLI evaluation",
     "application": "Molecule caption generation and validation",
-    "code_link": "N/A",
+    "code_link": "https://github.com/language-plus-molecules/LPM-24-Dataset",
     "dataset_name": [
       "L+M-24"
     ],
-    "is_public": false,
+    "is_public": true,
     "application_labels": [
       {
         "id": 8,

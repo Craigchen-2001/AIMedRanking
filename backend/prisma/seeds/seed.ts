@@ -71,8 +71,8 @@ function normalizeAxis(v: any) {
   return null;
 }
 
-const ROOT = path.resolve(__dirname, "../../");
-const DATA_DIR = path.join(ROOT, "main");
+const DATA_DIR = "/Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/backend/main";
+
 const FILES = [
   "ICLR_metadata.json",
   "ICML_metadata.json",
