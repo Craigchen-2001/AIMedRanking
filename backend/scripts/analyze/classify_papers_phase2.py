@@ -5,8 +5,11 @@ from tqdm import tqdm
 os.environ["AZURE_OPENAI_API_KEY"] = "27K1tUZVh5hh0DHdB72hBUdpWxX3zYLzCNa8UAYkYiEmKPx6IMRiJQQJ99BFACYeBjFXJ3w3AAABACOGEt0r"
 os.environ["AZURE_OPENAI_ENDPOINT"] = "https://weichi.openai.azure.com/"
 
-client = AzureOpenAI(api_key=os.getenv("AZURE_OPENAI_API_KEY"), api_version="2023-05-15", azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"))
-
+client = AzureOpenAI(
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version="2025-01-01-preview",
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+)
 
 deployment_name = "gpt-4o"
 

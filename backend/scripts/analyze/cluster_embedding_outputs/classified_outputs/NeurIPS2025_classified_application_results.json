@@ -1,0 +1,4484 @@
+[
+  {
+    "id": "qF5IrJfJDS",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "UoKt9B1aY8",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Spatial Transcriptomics Analysis"
+      },
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "hyolWgWWyg",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "REIo9ZLSYo",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "ei20AX8EkP",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "rbr2mMSBua",
+    "application_labels": [
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "vf2GHcxzMV",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "6cB7DXAh1m",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      },
+      {
+        "id": 20,
+        "label": "Cancer Prognosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "nsv3ogqRIU",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Medical Image Classification"
+      },
+      {
+        "id": 9,
+        "label": "Personalized Treatment Prediction"
+      }
+    ]
+  },
+  {
+    "id": "s14pdQgoLb",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "5szmKUMhB7",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "ugBmWX3H1R",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "7dJfwHG3GN",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "Clinical Outcome Prediction"
+      },
+      {
+        "id": 41,
+        "label": "Alzheimer's Disease Prediction"
+      }
+    ]
+  },
+  {
+    "id": "mUJU8LmhZY",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "FAiIRMvIwy",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "CQBiYvXLgz",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pGRjDetCDM",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Spatial Transcriptomics Analysis"
+      }
+    ]
+  },
+  {
+    "id": "utXSSdD9mt",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "K6ijewH34E",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      },
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "9nlTapr2sd",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "jAlvha5M8v",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "RxkCwOKVKa",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "UAc6RL9Tt4",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ayR2JfRYRS",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "Electrocardiogram Signal Classification"
+      },
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "WtMuGdHvh6",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "gRKorMGYlR",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "OrmLtoFF60",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Spatial Transcriptomics Analysis"
+      },
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "cIYguQc97T",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "L8pbQy0SsG",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "FWWZgavvBe",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "7DyKKOU6HR",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "3fpYXmBiTY",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      },
+      {
+        "id": 36,
+        "label": "Clinical Decision Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "fKerD2AQai",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Genetic Variant Effect Prediction"
+      }
+    ]
+  },
+  {
+    "id": "tv2McpEdyH",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "JMq90N6lLe",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 15,
+        "label": "Antibody Design Optimization"
+      },
+      {
+        "id": 39,
+        "label": "Peptide Sequencing"
+      }
+    ]
+  },
+  {
+    "id": "e7HEbUVryj",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "LDjBDk3Czb",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "YS0a4YpQ1C",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Cancer Prognosis Prediction"
+      },
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "XmV7KRABBl",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      }
+    ]
+  },
+  {
+    "id": "tgwjgDoaQq",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "E16vULI6AF",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "SvopaNxYWt",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "SurremoXPu",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "6UAeCPQPwP",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "LtIk57nS8v",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Treatment Regimen Optimization"
+      }
+    ]
+  },
+  {
+    "id": "pzAeKALSfX",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "TjWdyVWBAG",
+    "application_labels": [
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "9DbkBqvuCI",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "bIt1x6SgHX",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "NMvMYtRjkg",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "1BAiQmAFsx",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "SXxlb1miXS",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "H2m4chAfig",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "GQXeLGYMda",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hb2DeWIkmE",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "liefJOFVfH",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "kND7h1kD53",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "MtwsRjPZhf",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Electronic Health Record Phenotyping"
+      }
+    ]
+  },
+  {
+    "id": "swf3Hbc3Qe",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      },
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "S8XcHutp7Z",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      },
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "EOgaGafwv5",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "2hzyfArJi6",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "6xL4MRFeJo",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      },
+      {
+        "id": 37,
+        "label": "Molecule Generation and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "GHAtg6RQ3b",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "t5ylXsc2Es",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      },
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "D4hcJPkJ3y",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "tPJg65EB7D",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "K7s0lIjhWx",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JML6Zi5J0s",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "3IXdXBpuLn",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "hwRVeHkLvO",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "sfTtFZXINg",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "ORsrbGTXQB",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "b7Ka31HvXU",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      }
+    ]
+  },
+  {
+    "id": "BlLAmMFEzJ",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "dw9H08UxJb",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "wlqoUpuQrv",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "P4KjfMrVNU",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "Alzheimer's Disease Prediction"
+      }
+    ]
+  },
+  {
+    "id": "xAHozxfuUW",
+    "application_labels": [
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "X6djSzDKps",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "1nL84tQNnK",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "K6M7QmN1wQ",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Genetic Variant Effect Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ZeFMtRBy4Z",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      },
+      {
+        "id": 44,
+        "label": "Electroencephalography Sleep Staging"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "Iicv9iTPcU",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "49EjZytlus",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "at87L8EuzR",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      },
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "XKVhXWkPbp",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "hT7Nj7SAQb",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "ZwCVFBFUFb",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      },
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "KuXnKedjAj",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      },
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "B3iPTZh7Za",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "bYVxDz3JAt",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "HtwKJQzt7R",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Medical Image Anomaly Detection"
+      },
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "vZfqDwF09z",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "4Q1vA6P9J9",
+    "application_labels": [
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      },
+      {
+        "id": 36,
+        "label": "Clinical Decision Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "JenfC3ovzU",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "STsjfx2cee",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "akhhwQh6UV",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "jl0O0MYLyh",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "jSeWBdH0Xx",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Radiology Report Generation"
+      },
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "X3zarVyJ5B",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Spatial Transcriptomics Analysis"
+      }
+    ]
+  },
+  {
+    "id": "CrxR6CYeQn",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Genetic Variant Effect Prediction"
+      }
+    ]
+  },
+  {
+    "id": "eMu3uKRRbZ",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "oQbTbio99T",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      },
+      {
+        "id": 35,
+        "label": "Genetic Variant Effect Prediction"
+      }
+    ]
+  },
+  {
+    "id": "rcX3qxO0z6",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      },
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "jOHgjZaGqd",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "TLlFnoPUdB",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "n1hYQmpCSW",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      },
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "hw0hl4JmvA",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "CmKar1zptJ",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "0wV5HR7M4P",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Protein Structure Function Prediction"
+      },
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ERQRSnqLRb",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      },
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "dBC55QIEnq",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "i9RDDi2SZC",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "jReV7xyjXy",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "tmbx9zGVWb",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "Swik6KVV4u",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Eufm2Jmjod",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "peYBx7AiKw",
+    "application_labels": [
+      {
+        "id": 5,
+        "label": "Mental Health Counseling Analysis"
+      },
+      {
+        "id": 33,
+        "label": "Clinical Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "w7hiWakSAq",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Genetic Variant Effect Prediction"
+      }
+    ]
+  },
+  {
+    "id": "fe5Wc0fZUT",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "n7yVbKH7c3",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "IPxOoU8aqt",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Medical Image Classification"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JeXkIy0JyM",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "i5WnXNjwbR",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Tt3XLyuDrE",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "ypPxYsmZPx",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "9c8J2C7ajq",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      },
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "Xma2G1ak3H",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "jusQeCotOF",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "Alzheimer's Disease Prediction"
+      },
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "MxYvh8zpbR",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "Ekw6gjs5Y5",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "RDdfQc5Ts1",
+    "application_labels": [
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      },
+      {
+        "id": 30,
+        "label": "Radiology Report Generation"
+      }
+    ]
+  },
+  {
+    "id": "Vk2sfKAdeu",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      },
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "qcdoHkkHcb",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "tMBPJureSx",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "7LulWI9QJy",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "CDQ0MI4rLw",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      },
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "wmkd9qYty4",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "7tmVW6ZMmU",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      }
+    ]
+  },
+  {
+    "id": "JjTLq7SXaB",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "xaxuzubN31",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "3Sk8CaQWdv",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "mVRphqQKnb",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ml2TynfZI0",
+    "application_labels": [
+      {
+        "id": 9,
+        "label": "Personalized Treatment Prediction"
+      }
+    ]
+  },
+  {
+    "id": "bTgxLGMGdF",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      },
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "QqCv9SI0X3",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "nR9S0Iet8O",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "lJ5WCJZfQn",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      },
+      {
+        "id": 44,
+        "label": "Electroencephalography Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "1si0Vq4O91",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "brV7U7svgS",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "B23WUS3W8Z",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ORrCEtiiVX",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "MoS4P8zieM",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Medical Image Anomaly Detection"
+      }
+    ]
+  },
+  {
+    "id": "U7ab14f4YQ",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "Ty9n72fZ1K",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "waHF2ekuf2",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "zssWxiiJZ1",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "uUIgxjWkCI",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "mDjEKAwJOF",
+    "application_labels": [
+      {
+        "id": 35,
+        "label": "Genetic Variant Effect Prediction"
+      },
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ls5L4IMEwt",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "JPogehP8By",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "tI04KmK27S",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      },
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "zb16xZ1NGB",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "FVtu7yC7fY",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "k0wyi4cOGy",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "Biomedical Information Extraction"
+      },
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      },
+      {
+        "id": 18,
+        "label": "Protein Structure Function Prediction"
+      }
+    ]
+  },
+  {
+    "id": "zn4F6os6cq",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "4P6Mployhf",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Treatment Regimen Optimization"
+      },
+      {
+        "id": 36,
+        "label": "Clinical Decision Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "5nBwN6XQOD",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "jIq2zVhBLN",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "TrHeq0yFhv",
+    "application_labels": [
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "L3UfIfNxb7",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      },
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "5ofJyjgrth",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Spatial Transcriptomics Analysis"
+      }
+    ]
+  },
+  {
+    "id": "IwjkwtkPGb",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "VanvIu0KZU",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      },
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "qfP6IDxOrA",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      },
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      }
+    ]
+  },
+  {
+    "id": "1Qo6DzdPOG",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "T3DF4yxcPz",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "PSvsmbCrGs",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "oAbaGU9N1X",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "aXAkNlbnGa",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "w1FUXt3ujK",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Protein Structure Function Prediction"
+      }
+    ]
+  },
+  {
+    "id": "lTEjpeTXIo",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Z6DJJIN8IJ",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "FXTg2P8OQz",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "098tsRhmQ7",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "Alzheimer's Disease Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Xzabk07lao",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "g2vViuEVDS",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "I822ZIRtms",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "oCXyxhgCiZ",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "1frqf6iY4v",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "V3WQoshcZe",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "lO7RGax6u9",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "N7Vg94l0gA",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gzYuvZg28E",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 18,
+        "label": "Protein Structure Function Prediction"
+      }
+    ]
+  },
+  {
+    "id": "zVkbsGlKn9",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "fYSPRGmS6l",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      },
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "sv41aaGTit",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "4jgsUhWWaF",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "xgmMdTTzjj",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "qJLPlZSdkb",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      }
+    ]
+  },
+  {
+    "id": "ioYzPQb7cL",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      }
+    ]
+  },
+  {
+    "id": "dI4LrguKyz",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "Gt8iKyg12u",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "kgjY80e1LF",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "k5TbfYPYuc",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "6Q5WG84uOD",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "0okFLZvtKs",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "4KRERpdVDC",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "jNQ40aw5qL",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "wbifKziqd2",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Medical Image Anomaly Detection"
+      }
+    ]
+  },
+  {
+    "id": "gwxoQ8MtZD",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "RIL1vOuZOC",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "2zHrRV4J1O",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 34,
+        "label": "Protein Structure and Function Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Jzr9VOiJYd",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      }
+    ]
+  },
+  {
+    "id": "biM1m6VXSD",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 37,
+        "label": "Molecule Generation and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "m7Aw57oI3U",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      },
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "30iBKSQMXn",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "tqriGodQ79",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "lTAtQW1Ufi",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Medical Image Anomaly Detection"
+      },
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "pv964N1RYb",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ay7WDSq0Kb",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gXNOCWcnAW",
+    "application_labels": [
+      {
+        "id": 39,
+        "label": "Peptide Sequencing"
+      }
+    ]
+  },
+  {
+    "id": "9PL1DIIB7e",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "8s0qknrCVK",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WFujqJ5UBV",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "lh5sXuGfk8",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "YufSVJxDgt",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "2PhVe7p9xD",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "shMjc5zvqL",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "vx6bPQWpmL",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "aXpbgG5z6I",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "7wdi1LaocD",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "IKxKs3rF9V",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JSbVO7dNYE",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ZC2rbIYWfy",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "2ClM0g9OFT",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      }
+    ]
+  },
+  {
+    "id": "QU1SArYwKB",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "RDt0crdC7N",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "AWU93F6Bup",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "PhnquAa8eV",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "wHx7UuRm7G",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "cWn3RXJQ7G",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "3vLp3J7540",
+    "application_labels": [
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "z2SGaPIhLT",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "5wdssRcI2Z",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      },
+      {
+        "id": 33,
+        "label": "Clinical Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "ustF8MMZDJ",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      },
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "MtdC1XS6RN",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "zt3RKc6VBp",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "BpwIPxSSdb",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "2uKVyGq5zK",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "myPtOTn3si",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ybH0avRV4n",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "b8XmjZmsN0",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "Clinical Decision Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "P37GIj4wB7",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "Jd8UcXJDCz",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ZTHYaSxqmq",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "AmZ7uHDJiR",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "6QbbaEGkO7",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "bjoHB7IN6b",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "Biomedical Information Extraction"
+      }
+    ]
+  },
+  {
+    "id": "TUh4GDposM",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "XjayhGBraW",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "JPoQca8CSg",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "x0KcjteNds",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "tmtUA2X57D",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "9ednYuGHN1",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "59n2g6RqjT",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "U7gu9x1xzx",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "Xll01vw606",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "agcXjEHmyW",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      },
+      {
+        "id": 44,
+        "label": "Electroencephalography Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "lovTDtbsdZ",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "05cVmYJJnb",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      },
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "M6l3pyvUfr",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "B9P4mozXYO",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      },
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "ugOn7Pohxv",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "KPlskOuZ46",
+    "application_labels": [
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      },
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "fSPRy5uw0R",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      }
+    ]
+  },
+  {
+    "id": "drmIBh6v2U",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "EYC29OdxgA",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "yNVDkAjGjw",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "Quo3XadYcZ",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Treatment Regimen Optimization"
+      },
+      {
+        "id": 11,
+        "label": "Drug Interaction Prediction"
+      }
+    ]
+  },
+  {
+    "id": "lu4cGylISh",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 37,
+        "label": "Molecule Generation and Optimization"
+      }
+    ]
+  },
+  {
+    "id": "DcFoi71Fgf",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "Jom8tNYuQI",
+    "application_labels": [
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "3BTqvtwZYY",
+    "application_labels": [
+      {
+        "id": 30,
+        "label": "Radiology Report Generation"
+      }
+    ]
+  },
+  {
+    "id": "XQIa0vGIum",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JzEgfRTzPW",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "Clinical Decision Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "fyp34w19N2",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "idtZwmjakN",
+    "application_labels": [
+      {
+        "id": 6,
+        "label": "Electrocardiogram Signal Classification"
+      },
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Rtp3yLWAjI",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "V8HhrBSsEn",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "7cqKVDgFZQ",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "dC5TWysDsZ",
+    "application_labels": [
+      {
+        "id": 48,
+        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
+      }
+    ]
+  },
+  {
+    "id": "IJryQAOy0p",
+    "application_labels": [
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "gUbQZ7AtaZ",
+    "application_labels": [
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "BL5r7hu9GD",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      },
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "WQq5JPGQ0C",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 4,
+        "label": "Medical Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "5cgm5dV5hr",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gKsG5qR3Bt",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "NOUF43YrIL",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "Auy2DmlJBO",
+    "application_labels": [
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      },
+      {
+        "id": 33,
+        "label": "Clinical Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "VN5bMTfSZS",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "yHi8Ao6GAe",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "867TaCMfCj",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "ztgYn0Uk94",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "d6WUTRJqP3",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Hhc5McwASX",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "aTqfufujj7",
+    "application_labels": [
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "87c2JwNJa0",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "9q6sNvAaqO",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      },
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "uazfjnFL0G",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      },
+      {
+        "id": 44,
+        "label": "Electroencephalography Sleep Staging"
+      }
+    ]
+  },
+  {
+    "id": "CCbXvvcdF9",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "uvTea5Rfek",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "7k7cubl1iL",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 37,
+        "label": "Molecule Generation and Optimization"
+      },
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "8Z3KnaYtw9",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "iI7zx3ETyY",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      },
+      {
+        "id": 35,
+        "label": "Genetic Variant Effect Prediction"
+      }
+    ]
+  },
+  {
+    "id": "7L4NvUtZY3",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "2afhRWVb6p",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      },
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      }
+    ]
+  },
+  {
+    "id": "CkAZ5sgDQX",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "wSDE3karoF",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "W3JnXa9mW2",
+    "application_labels": [
+      {
+        "id": 22,
+        "label": "High-dimensional Biomedical Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "B7Bc9xzl2o",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      },
+      {
+        "id": 15,
+        "label": "Antibody Design Optimization"
+      }
+    ]
+  },
+  {
+    "id": "m5jmATYmsi",
+    "application_labels": [
+      {
+        "id": 4,
+        "label": "Medical Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "OiqQGjNvyJ",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      },
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "BpufPXvSdb",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      },
+      {
+        "id": 36,
+        "label": "Clinical Decision Policy Optimization"
+      }
+    ]
+  },
+  {
+    "id": "14irEkV01l",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      }
+    ]
+  },
+  {
+    "id": "BkSRQ1y37l",
+    "application_labels": [
+      {
+        "id": 20,
+        "label": "Cancer Prognosis Prediction"
+      },
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      }
+    ]
+  },
+  {
+    "id": "yPC9zmkQgG",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "2pCTBJQLwF",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3p4272zl7q",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 15,
+        "label": "Antibody Design Optimization"
+      }
+    ]
+  },
+  {
+    "id": "PZaxCfLGLA",
+    "application_labels": [
+      {
+        "id": 11,
+        "label": "Drug Interaction Prediction"
+      },
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "GSAKL9tc7L",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Iguyg0LULD",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "AHjspi4R22",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "b8j0Gbg4N3",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "fkYZKArFLF",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "rMhQBlhh4c",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ZAu7sADxfh",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      },
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "ATewcZPbDj",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "REKmD78Z0J",
+    "application_labels": [
+      {
+        "id": 43,
+        "label": "Electronic Health Record Phenotyping"
+      }
+    ]
+  },
+  {
+    "id": "VkSd42HWil",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 4,
+        "label": "Medical Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "BpAx3OuNOr",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "Biomedical Information Extraction"
+      }
+    ]
+  },
+  {
+    "id": "Ice2BHIumz",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "cujJ9AXZO3",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "APXcX7z1Bi",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Protein Structure Function Prediction"
+      }
+    ]
+  },
+  {
+    "id": "DwZD97uHgm",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "2XelsPmKV1",
+    "application_labels": [
+      {
+        "id": 36,
+        "label": "Clinical Decision Policy Optimization"
+      },
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      }
+    ]
+  },
+  {
+    "id": "Ojnzhb9EqA",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "pzPyxXjHrT",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "LlEJZ7x0R8",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "Zfk5IoAtP0",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "BM1GqmkEHS",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Treatment Regimen Optimization"
+      }
+    ]
+  },
+  {
+    "id": "0U7D9AFiZ0",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "7yOl9qiLWd",
+    "application_labels": [
+      {
+        "id": 41,
+        "label": "Alzheimer's Disease Prediction"
+      }
+    ]
+  },
+  {
+    "id": "O1yi3lqp97",
+    "application_labels": [
+      {
+        "id": 33,
+        "label": "Clinical Outcome Prediction"
+      }
+    ]
+  },
+  {
+    "id": "EdP45Yxdc3",
+    "application_labels": [
+      {
+        "id": 12,
+        "label": "Treatment Effect Estimation"
+      }
+    ]
+  },
+  {
+    "id": "2DAvXR77xh",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Medical Image Anomaly Detection"
+      },
+      {
+        "id": 4,
+        "label": "Medical Image Classification"
+      }
+    ]
+  },
+  {
+    "id": "JzCjNJlSxI",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 24,
+        "label": "Molecular Property Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3aNvX9TQTo",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "BeSFxKX3Po",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "cIGfKdfy3N",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "iT2ZisemFs",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "hWtvsL51hO",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "wTBhWbCRpN",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "96liIPUPXG",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      },
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "cdgVrsu7T5",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "g2XE40zTrj",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "cjHQj0tCy6",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "Rtd6GoJcoT",
+    "application_labels": [
+      {
+        "id": 21,
+        "label": "Medical Image Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "2sG4ebgqBd",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "eszmES7j1F",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      }
+    ]
+  },
+  {
+    "id": "PZ7YLONKiI",
+    "application_labels": [
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "jH9TtAhMkp",
+    "application_labels": [
+      {
+        "id": 40,
+        "label": "Clinical Outcome Prediction (ICU Mortality / Risk)"
+      },
+      {
+        "id": 48,
+        "label": "Clinical Outcome Prediction (Mortality / Readmission)"
+      }
+    ]
+  },
+  {
+    "id": "IDSTtDw4Cs",
+    "application_labels": [
+      {
+        "id": 45,
+        "label": "Medical Question Answering"
+      }
+    ]
+  },
+  {
+    "id": "iQoZv77o3g",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "M96edY67nS",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Antibody Design Optimization"
+      },
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "1i4wNFgHDd",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "0jvnfH0WYV",
+    "application_labels": [
+      {
+        "id": 19,
+        "label": "Biomedical Information Extraction"
+      }
+    ]
+  },
+  {
+    "id": "wOAasEVZ0L",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "lTP1RxTFSX",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "qpIRwMubs9",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "Rzqs4q9ooa",
+    "application_labels": [
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      },
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      }
+    ]
+  },
+  {
+    "id": "1K28gV5MeF",
+    "application_labels": [
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      },
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      }
+    ]
+  },
+  {
+    "id": "mH9FJi3KTX",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Fj2kyLs6G5",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 28,
+        "label": "Disease Classification"
+      }
+    ]
+  },
+  {
+    "id": "ayjmOqf79t",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "SAlCQdk5lx",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "TtHvmhjNui",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "R42O6v84cX",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "CrBRKsP3yT",
+    "application_labels": [
+      {
+        "id": 14,
+        "label": "Medical Image Segmentation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "PhIWEbewAz",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "4YKlo58RcQ",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "aI3d897dgV",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "PhHrlDKcx1",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Medical Image Anomaly Detection"
+      }
+    ]
+  },
+  {
+    "id": "xiP7TZG58o",
+    "application_labels": [
+      {
+        "id": 17,
+        "label": "Genomic Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": "Vzi96rTe4w",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      },
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "nqVLJTPoQC",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "zyopvwZbSj",
+    "application_labels": [
+      {
+        "id": 2,
+        "label": "Histopathology Image Analysis"
+      },
+      {
+        "id": 16,
+        "label": "Spatial Transcriptomics Analysis"
+      }
+    ]
+  },
+  {
+    "id": "CmY6DzEG7Z",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "feLdTALuq3",
+    "application_labels": [
+      {
+        "id": 31,
+        "label": "Treatment Regimen Optimization"
+      }
+    ]
+  },
+  {
+    "id": "OwU0mgfKUi",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "A9jXG3FUMT",
+    "application_labels": [
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      }
+    ]
+  },
+  {
+    "id": "18GBPdnuXs",
+    "application_labels": [
+      {
+        "id": 47,
+        "label": "Physiological Time Series Analysis"
+      }
+    ]
+  },
+  {
+    "id": "yvGL2HP7pU",
+    "application_labels": [
+      {
+        "id": 18,
+        "label": "Protein Structure Function Prediction"
+      },
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "9AMNN3U7Ug",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 1,
+        "label": "Molecular Property Prediction"
+      }
+    ]
+  },
+  {
+    "id": "yh1t1yFtXG",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 32,
+        "label": "Molecular Docking Prediction"
+      }
+    ]
+  },
+  {
+    "id": "cGks3s79hW",
+    "application_labels": [
+      {
+        "id": 25,
+        "label": "Neural Dynamics Modeling"
+      }
+    ]
+  },
+  {
+    "id": "0dp90Bq8r8",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "A5O41ntKjk",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "kkhRTTmXFV",
+    "application_labels": [
+      {
+        "id": 7,
+        "label": "Clinical Diagnosis Prediction"
+      },
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      }
+    ]
+  },
+  {
+    "id": "U87XyMPrZp",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "jj0nJQYFlW",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      },
+      {
+        "id": 18,
+        "label": "Protein Structure Function Prediction"
+      }
+    ]
+  },
+  {
+    "id": "IWEc6kpy8O",
+    "application_labels": [
+      {
+        "id": 23,
+        "label": "Medical Image Anomaly Detection"
+      }
+    ]
+  },
+  {
+    "id": "JPjMXgQQxk",
+    "application_labels": [
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "EBHZNmygTT",
+    "application_labels": [
+      {
+        "id": 16,
+        "label": "Spatial Transcriptomics Analysis"
+      }
+    ]
+  },
+  {
+    "id": "L3aEdxJMHl",
+    "application_labels": [
+      {
+        "id": 26,
+        "label": "Neural Activity Decoding"
+      }
+    ]
+  },
+  {
+    "id": "px1OlCcqkj",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "soMxYQaMnF",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "39PoZNT4XX",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "tPqBnGwTwa",
+    "application_labels": [
+      {
+        "id": 0,
+        "label": "Neural Activity Analysis (Electrophysiology)"
+      }
+    ]
+  },
+  {
+    "id": "WYSCCw7mCe",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  },
+  {
+    "id": "xs5aoDH3HX",
+    "application_labels": [
+      {
+        "id": 42,
+        "label": "Biological Sequence Optimization"
+      }
+    ]
+  },
+  {
+    "id": "6wbykApw7A",
+    "application_labels": [
+      {
+        "id": 15,
+        "label": "Antibody Design Optimization"
+      }
+    ]
+  },
+  {
+    "id": "ENJhSqVkXH",
+    "application_labels": [
+      {
+        "id": 8,
+        "label": "Molecule Generation"
+      },
+      {
+        "id": 3,
+        "label": "Protein Structure Prediction"
+      }
+    ]
+  },
+  {
+    "id": "C7BIQRM57T",
+    "application_labels": [
+      {
+        "id": 38,
+        "label": "Single Cell Trajectory Inference"
+      }
+    ]
+  },
+  {
+    "id": "NY3LzmUXl7",
+    "application_labels": [
+      {
+        "id": 27,
+        "label": "Functional Magnetic Resonance Imaging Analysis"
+      },
+      {
+        "id": 29,
+        "label": "Electroencephalography Seizure Detection"
+      }
+    ]
+  },
+  {
+    "id": "sye27MizdM",
+    "application_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pOJBw1YQgL",
+    "application_labels": [
+      {
+        "id": 13,
+        "label": "3D Structure Reconstruction"
+      }
+    ]
+  },
+  {
+    "id": "95z3psF9zJ",
+    "application_labels": [
+      {
+        "id": 10,
+        "label": "Gene Regulatory Network Inference"
+      }
+    ]
+  },
+  {
+    "id": "MpJkAzwUtl",
+    "application_labels": [
+      {
+        "id": 46,
+        "label": "Protein Sequence Design"
+      }
+    ]
+  }
+]

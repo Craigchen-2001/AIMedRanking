@@ -1,0 +1,7268 @@
+[
+  {
+    "id": "qF5IrJfJDS",
+    "method_labels": [
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "UoKt9B1aY8",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 40,
+        "label": "Message Passing Neural Networks"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "hyolWgWWyg",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      }
+    ]
+  },
+  {
+    "id": "REIo9ZLSYo",
+    "method_labels": [
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      }
+    ]
+  },
+  {
+    "id": "ei20AX8EkP",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "rbr2mMSBua",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "vf2GHcxzMV",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "6cB7DXAh1m",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "nsv3ogqRIU",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "s14pdQgoLb",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "5szmKUMhB7",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "ugBmWX3H1R",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "7dJfwHG3GN",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "mUJU8LmhZY",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "FAiIRMvIwy",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "CQBiYvXLgz",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "pGRjDetCDM",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "utXSSdD9mt",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "K6ijewH34E",
+    "method_labels": [
+      {
+        "id": 37,
+        "label": "Linear Regression"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 53,
+        "label": "Pretrained Language Models"
+      }
+    ]
+  },
+  {
+    "id": "9nlTapr2sd",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "jAlvha5M8v",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "RxkCwOKVKa",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "UAc6RL9Tt4",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      }
+    ]
+  },
+  {
+    "id": "ayR2JfRYRS",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "WtMuGdHvh6",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 55,
+        "label": "Recurrent Neural Networks (RNNs)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gRKorMGYlR",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "OrmLtoFF60",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      }
+    ]
+  },
+  {
+    "id": "cIYguQc97T",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "L8pbQy0SsG",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FWWZgavvBe",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "7DyKKOU6HR",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "3fpYXmBiTY",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 41,
+        "label": "Meta Learning"
+      }
+    ]
+  },
+  {
+    "id": "fKerD2AQai",
+    "method_labels": [
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 23,
+        "label": "Gaussian Processes"
+      },
+      {
+        "id": 39,
+        "label": "Masked Language Modeling (MLM)"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "tv2McpEdyH",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "JMq90N6lLe",
+    "method_labels": [
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "e7HEbUVryj",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      }
+    ]
+  },
+  {
+    "id": "LDjBDk3Czb",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "YS0a4YpQ1C",
+    "method_labels": [
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 49,
+        "label": "Mutual Information Maximization"
+      }
+    ]
+  },
+  {
+    "id": "XmV7KRABBl",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "tgwjgDoaQq",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "E16vULI6AF",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "SvopaNxYWt",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "SurremoXPu",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      }
+    ]
+  },
+  {
+    "id": "6UAeCPQPwP",
+    "method_labels": [
+      {
+        "id": 19,
+        "label": "Expectation Maximization Algorithm"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "LtIk57nS8v",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pzAeKALSfX",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "TjWdyVWBAG",
+    "method_labels": [
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "9DbkBqvuCI",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "bIt1x6SgHX",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "NMvMYtRjkg",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "1BAiQmAFsx",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 33,
+        "label": "Knowledge Graph Representation Learning"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "SXxlb1miXS",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "H2m4chAfig",
+    "method_labels": [
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      }
+    ]
+  },
+  {
+    "id": "GQXeLGYMda",
+    "method_labels": [
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "hb2DeWIkmE",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "liefJOFVfH",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "kND7h1kD53",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 40,
+        "label": "Message Passing Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "MtwsRjPZhf",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "swf3Hbc3Qe",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 40,
+        "label": "Message Passing Neural Networks"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "S8XcHutp7Z",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "EOgaGafwv5",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 55,
+        "label": "Recurrent Neural Networks (RNNs"
+      }
+    ]
+  },
+  {
+    "id": "2hzyfArJi6",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "6xL4MRFeJo",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 24,
+        "label": "Generative Flow Networks"
+      }
+    ]
+  },
+  {
+    "id": "GHAtg6RQ3b",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 40,
+        "label": "Message Passing Neural Networks"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "t5ylXsc2Es",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "D4hcJPkJ3y",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "tPJg65EB7D",
+    "method_labels": [
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      }
+    ]
+  },
+  {
+    "id": "K7s0lIjhWx",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "JML6Zi5J0s",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Bayesian Optimization"
+      },
+      {
+        "id": 23,
+        "label": "Gaussian Processes"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3IXdXBpuLn",
+    "method_labels": [
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      }
+    ]
+  },
+  {
+    "id": "hwRVeHkLvO",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "sfTtFZXINg",
+    "method_labels": [
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 54,
+        "label": "Principal Component Analysis"
+      }
+    ]
+  },
+  {
+    "id": "ORsrbGTXQB",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "b7Ka31HvXU",
+    "method_labels": [
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "BlLAmMFEzJ",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "dw9H08UxJb",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "wlqoUpuQrv",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "P4KjfMrVNU",
+    "method_labels": [
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 49,
+        "label": "Mutual Information Maximization"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "xAHozxfuUW",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 49,
+        "label": "Mutual Information Maximization"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "X6djSzDKps",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Active Learning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "1nL84tQNnK",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      }
+    ]
+  },
+  {
+    "id": "K6M7QmN1wQ",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      }
+    ]
+  },
+  {
+    "id": "ZeFMtRBy4Z",
+    "method_labels": [
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "Iicv9iTPcU",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      }
+    ]
+  },
+  {
+    "id": "49EjZytlus",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Active Learning"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "at87L8EuzR",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 54,
+        "label": "Principal Component Analysis"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "XKVhXWkPbp",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      }
+    ]
+  },
+  {
+    "id": "hT7Nj7SAQb",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      }
+    ]
+  },
+  {
+    "id": "ZwCVFBFUFb",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      }
+    ]
+  },
+  {
+    "id": "KuXnKedjAj",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "B3iPTZh7Za",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 41,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 20,
+        "label": "Few-shot Learning"
+      }
+    ]
+  },
+  {
+    "id": "bYVxDz3JAt",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "HtwKJQzt7R",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "vZfqDwF09z",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "4Q1vA6P9J9",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "JenfC3ovzU",
+    "method_labels": [
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 30,
+        "label": "Importance Sampling"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      }
+    ]
+  },
+  {
+    "id": "STsjfx2cee",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "akhhwQh6UV",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "jl0O0MYLyh",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "jSeWBdH0Xx",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "X3zarVyJ5B",
+    "method_labels": [
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "CrxR6CYeQn",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "eMu3uKRRbZ",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      }
+    ]
+  },
+  {
+    "id": "oQbTbio99T",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 37,
+        "label": "Linear Regression"
+      }
+    ]
+  },
+  {
+    "id": "rcX3qxO0z6",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "jOHgjZaGqd",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      }
+    ]
+  },
+  {
+    "id": "TLlFnoPUdB",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      }
+    ]
+  },
+  {
+    "id": "n1hYQmpCSW",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "hw0hl4JmvA",
+    "method_labels": [
+      {
+        "id": 37,
+        "label": "Linear Regression"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      }
+    ]
+  },
+  {
+    "id": "CmKar1zptJ",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "0wV5HR7M4P",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "ERQRSnqLRb",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "dBC55QIEnq",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "i9RDDi2SZC",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "jReV7xyjXy",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "tmbx9zGVWb",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "Swik6KVV4u",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "Eufm2Jmjod",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 19,
+        "label": "Expectation Maximization Algorithm"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "peYBx7AiKw",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "w7hiWakSAq",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 53,
+        "label": "Pretrained Language Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "fe5Wc0fZUT",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "n7yVbKH7c3",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "IPxOoU8aqt",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "JeXkIy0JyM",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      }
+    ]
+  },
+  {
+    "id": "i5WnXNjwbR",
+    "method_labels": [
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      },
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      }
+    ]
+  },
+  {
+    "id": "Tt3XLyuDrE",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      }
+    ]
+  },
+  {
+    "id": "ypPxYsmZPx",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "9c8J2C7ajq",
+    "method_labels": [
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "Xma2G1ak3H",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      }
+    ]
+  },
+  {
+    "id": "jusQeCotOF",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "MxYvh8zpbR",
+    "method_labels": [
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      }
+    ]
+  },
+  {
+    "id": "Ekw6gjs5Y5",
+    "method_labels": [
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      },
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      }
+    ]
+  },
+  {
+    "id": "RDdfQc5Ts1",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Vk2sfKAdeu",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "qcdoHkkHcb",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 41,
+        "label": "Meta Learning"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "tMBPJureSx",
+    "method_labels": [
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "7LulWI9QJy",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "CDQ0MI4rLw",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "wmkd9qYty4",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 49,
+        "label": "Mutual Information Maximization"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "7tmVW6ZMmU",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      }
+    ]
+  },
+  {
+    "id": "JjTLq7SXaB",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "xaxuzubN31",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 20,
+        "label": "Few-shot Learning"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "3Sk8CaQWdv",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      }
+    ]
+  },
+  {
+    "id": "mVRphqQKnb",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "ml2TynfZI0",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "bTgxLGMGdF",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "QqCv9SI0X3",
+    "method_labels": [
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "nR9S0Iet8O",
+    "method_labels": [
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 39,
+        "label": "Masked Language Modeling (MLM)"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "lJ5WCJZfQn",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "1si0Vq4O91",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "brV7U7svgS",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "B23WUS3W8Z",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "ORrCEtiiVX",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "MoS4P8zieM",
+    "method_labels": [
+      {
+        "id": 23,
+        "label": "Gaussian Processes"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "U7ab14f4YQ",
+    "method_labels": [
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "Ty9n72fZ1K",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      }
+    ]
+  },
+  {
+    "id": "waHF2ekuf2",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "zssWxiiJZ1",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "uUIgxjWkCI",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "mDjEKAwJOF",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "ls5L4IMEwt",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "JPogehP8By",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "tI04KmK27S",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "zb16xZ1NGB",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "FVtu7yC7fY",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "k0wyi4cOGy",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 32,
+        "label": "Knowledge Extraction"
+      },
+      {
+        "id": 33,
+        "label": "Knowledge Graph Representation Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "zn4F6os6cq",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "4P6Mployhf",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      }
+    ]
+  },
+  {
+    "id": "5nBwN6XQOD",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "jIq2zVhBLN",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "TrHeq0yFhv",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      }
+    ]
+  },
+  {
+    "id": "L3UfIfNxb7",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "5ofJyjgrth",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "IwjkwtkPGb",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "VanvIu0KZU",
+    "method_labels": [
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "qfP6IDxOrA",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "1Qo6DzdPOG",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "T3DF4yxcPz",
+    "method_labels": [
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "PSvsmbCrGs",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "oAbaGU9N1X",
+    "method_labels": [
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "aXAkNlbnGa",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "w1FUXt3ujK",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "lTEjpeTXIo",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "Z6DJJIN8IJ",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "FXTg2P8OQz",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 63,
+        "label": "Score Matching"
+      }
+    ]
+  },
+  {
+    "id": "098tsRhmQ7",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Xzabk07lao",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "g2vViuEVDS",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "I822ZIRtms",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "oCXyxhgCiZ",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      }
+    ]
+  },
+  {
+    "id": "1frqf6iY4v",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      }
+    ]
+  },
+  {
+    "id": "V3WQoshcZe",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "lO7RGax6u9",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "N7Vg94l0gA",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "gzYuvZg28E",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      }
+    ]
+  },
+  {
+    "id": "zVkbsGlKn9",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "fYSPRGmS6l",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "sv41aaGTit",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "4jgsUhWWaF",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "xgmMdTTzjj",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 23,
+        "label": "Gaussian Processes"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "qJLPlZSdkb",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "ioYzPQb7cL",
+    "method_labels": [
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "dI4LrguKyz",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      }
+    ]
+  },
+  {
+    "id": "Gt8iKyg12u",
+    "method_labels": [
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      }
+    ]
+  },
+  {
+    "id": "kgjY80e1LF",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      }
+    ]
+  },
+  {
+    "id": "k5TbfYPYuc",
+    "method_labels": [
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "6Q5WG84uOD",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      }
+    ]
+  },
+  {
+    "id": "0okFLZvtKs",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "4KRERpdVDC",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "jNQ40aw5qL",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Active Learning"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "wbifKziqd2",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "gwxoQ8MtZD",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Active Learning"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      }
+    ]
+  },
+  {
+    "id": "RIL1vOuZOC",
+    "method_labels": [
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "2zHrRV4J1O",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 55,
+        "label": "Recurrent Neural Networks (RNNs)"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "Jzr9VOiJYd",
+    "method_labels": [
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "biM1m6VXSD",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "m7Aw57oI3U",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "30iBKSQMXn",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "tqriGodQ79",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "lTAtQW1Ufi",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      }
+    ]
+  },
+  {
+    "id": "pv964N1RYb",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "ay7WDSq0Kb",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 63,
+        "label": "Score Matching"
+      }
+    ]
+  },
+  {
+    "id": "gXNOCWcnAW",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "9PL1DIIB7e",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 39,
+        "label": "Masked Language Modeling (MLM)"
+      }
+    ]
+  },
+  {
+    "id": "8s0qknrCVK",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "WFujqJ5UBV",
+    "method_labels": [
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "lh5sXuGfk8",
+    "method_labels": [
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "YufSVJxDgt",
+    "method_labels": [
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "2PhVe7p9xD",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "shMjc5zvqL",
+    "method_labels": [
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "vx6bPQWpmL",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "aXpbgG5z6I",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "7wdi1LaocD",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      }
+    ]
+  },
+  {
+    "id": "IKxKs3rF9V",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      }
+    ]
+  },
+  {
+    "id": "JSbVO7dNYE",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "ZC2rbIYWfy",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 20,
+        "label": "Few-shot Learning"
+      }
+    ]
+  },
+  {
+    "id": "2ClM0g9OFT",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "QU1SArYwKB",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "RDt0crdC7N",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "AWU93F6Bup",
+    "method_labels": [
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      },
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      }
+    ]
+  },
+  {
+    "id": "PhnquAa8eV",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "wHx7UuRm7G",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "cWn3RXJQ7G",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "3vLp3J7540",
+    "method_labels": [
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 49,
+        "label": "Mutual Information Maximization"
+      }
+    ]
+  },
+  {
+    "id": "z2SGaPIhLT",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "5wdssRcI2Z",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "ustF8MMZDJ",
+    "method_labels": [
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      }
+    ]
+  },
+  {
+    "id": "MtdC1XS6RN",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "zt3RKc6VBp",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "BpwIPxSSdb",
+    "method_labels": [
+      {
+        "id": 19,
+        "label": "Expectation Maximization Algorithm"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      }
+    ]
+  },
+  {
+    "id": "2uKVyGq5zK",
+    "method_labels": [
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 53,
+        "label": "Pretrained Language Models"
+      }
+    ]
+  },
+  {
+    "id": "myPtOTn3si",
+    "method_labels": [
+      {
+        "id": 54,
+        "label": "Principal Component Analysis"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "ybH0avRV4n",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "b8XmjZmsN0",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      }
+    ]
+  },
+  {
+    "id": "P37GIj4wB7",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      }
+    ]
+  },
+  {
+    "id": "Jd8UcXJDCz",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "ZTHYaSxqmq",
+    "method_labels": [
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      },
+      {
+        "id": 20,
+        "label": "Few-shot Learning"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "AmZ7uHDJiR",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "6QbbaEGkO7",
+    "method_labels": [
+      {
+        "id": 30,
+        "label": "Importance Sampling"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "bjoHB7IN6b",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "TUh4GDposM",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      }
+    ]
+  },
+  {
+    "id": "XjayhGBraW",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "JPoQca8CSg",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "x0KcjteNds",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 24,
+        "label": "Generative Flow Networks"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "tmtUA2X57D",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "9ednYuGHN1",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "59n2g6RqjT",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "U7gu9x1xzx",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Xll01vw606",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "agcXjEHmyW",
+    "method_labels": [
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      }
+    ]
+  },
+  {
+    "id": "lovTDtbsdZ",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "05cVmYJJnb",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "M6l3pyvUfr",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "B9P4mozXYO",
+    "method_labels": [
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "ugOn7Pohxv",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      }
+    ]
+  },
+  {
+    "id": "KPlskOuZ46",
+    "method_labels": [
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      },
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "fSPRy5uw0R",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "drmIBh6v2U",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      }
+    ]
+  },
+  {
+    "id": "EYC29OdxgA",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "yNVDkAjGjw",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      }
+    ]
+  },
+  {
+    "id": "Quo3XadYcZ",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "lu4cGylISh",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "DcFoi71Fgf",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "Jom8tNYuQI",
+    "method_labels": [
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 63,
+        "label": "Score Matching"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "3BTqvtwZYY",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "XQIa0vGIum",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 40,
+        "label": "Message Passing Neural Networks"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "JzEgfRTzPW",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "fyp34w19N2",
+    "method_labels": [
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      }
+    ]
+  },
+  {
+    "id": "idtZwmjakN",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      }
+    ]
+  },
+  {
+    "id": "Rtp3yLWAjI",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "V8HhrBSsEn",
+    "method_labels": [
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "7cqKVDgFZQ",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "dC5TWysDsZ",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "IJryQAOy0p",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "gUbQZ7AtaZ",
+    "method_labels": [
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "BL5r7hu9GD",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      }
+    ]
+  },
+  {
+    "id": "WQq5JPGQ0C",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      }
+    ]
+  },
+  {
+    "id": "5cgm5dV5hr",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "gKsG5qR3Bt",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "NOUF43YrIL",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 44,
+        "label": "Molecular Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "Auy2DmlJBO",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "VN5bMTfSZS",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      }
+    ]
+  },
+  {
+    "id": "yHi8Ao6GAe",
+    "method_labels": [
+      {
+        "id": 20,
+        "label": "Few-shot Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "867TaCMfCj",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      }
+    ]
+  },
+  {
+    "id": "ztgYn0Uk94",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "d6WUTRJqP3",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 55,
+        "label": "Recurrent Neural Networks (RNNs)"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "Hhc5McwASX",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "aTqfufujj7",
+    "method_labels": [
+      {
+        "id": 30,
+        "label": "Importance Sampling"
+      },
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "87c2JwNJa0",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 18,
+        "label": "Evolutionary Algorithms"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      }
+    ]
+  },
+  {
+    "id": "9q6sNvAaqO",
+    "method_labels": [
+      {
+        "id": 38,
+        "label": "Masked Autoencoder Models (MAE)"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "uazfjnFL0G",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "CCbXvvcdF9",
+    "method_labels": [
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "uvTea5Rfek",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "7k7cubl1iL",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "8Z3KnaYtw9",
+    "method_labels": [
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      }
+    ]
+  },
+  {
+    "id": "iI7zx3ETyY",
+    "method_labels": [
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "7L4NvUtZY3",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "2afhRWVb6p",
+    "method_labels": [
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "CkAZ5sgDQX",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "wSDE3karoF",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Active Learning"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "W3JnXa9mW2",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      }
+    ]
+  },
+  {
+    "id": "B7Bc9xzl2o",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "m5jmATYmsi",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "OiqQGjNvyJ",
+    "method_labels": [
+      {
+        "id": 5,
+        "label": "Bayesian Optimization"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "BpufPXvSdb",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "14irEkV01l",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "BkSRQ1y37l",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 20,
+        "label": "Few-shot Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "yPC9zmkQgG",
+    "method_labels": [
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      }
+    ]
+  },
+  {
+    "id": "2pCTBJQLwF",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "3p4272zl7q",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      }
+    ]
+  },
+  {
+    "id": "PZaxCfLGLA",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "GSAKL9tc7L",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "Iguyg0LULD",
+    "method_labels": [
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "AHjspi4R22",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "b8j0Gbg4N3",
+    "method_labels": [
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "fkYZKArFLF",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "rMhQBlhh4c",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      }
+    ]
+  },
+  {
+    "id": "ZAu7sADxfh",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "ATewcZPbDj",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      }
+    ]
+  },
+  {
+    "id": "REKmD78Z0J",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Active Learning"
+      },
+      {
+        "id": 30,
+        "label": "Importance Sampling"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "VkSd42HWil",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "BpAx3OuNOr",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "Ice2BHIumz",
+    "method_labels": [
+      {
+        "id": 61,
+        "label": "Score Based Diffusion"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 5,
+        "label": "Bayesian Optimization"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "cujJ9AXZO3",
+    "method_labels": [
+      {
+        "id": 1,
+        "label": "Adversarial Learning"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      }
+    ]
+  },
+  {
+    "id": "APXcX7z1Bi",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "DwZD97uHgm",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      }
+    ]
+  },
+  {
+    "id": "2XelsPmKV1",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      }
+    ]
+  },
+  {
+    "id": "Ojnzhb9EqA",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "pzPyxXjHrT",
+    "method_labels": [
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "LlEJZ7x0R8",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 63,
+        "label": "Score Matching"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      }
+    ]
+  },
+  {
+    "id": "Zfk5IoAtP0",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "BM1GqmkEHS",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "0U7D9AFiZ0",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "7yOl9qiLWd",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      }
+    ]
+  },
+  {
+    "id": "O1yi3lqp97",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "EdP45Yxdc3",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "2DAvXR77xh",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "JzCjNJlSxI",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "3aNvX9TQTo",
+    "method_labels": [
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "BeSFxKX3Po",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs"
+      }
+    ]
+  },
+  {
+    "id": "cIGfKdfy3N",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "iT2ZisemFs",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      }
+    ]
+  },
+  {
+    "id": "hWtvsL51hO",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      }
+    ]
+  },
+  {
+    "id": "wTBhWbCRpN",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      }
+    ]
+  },
+  {
+    "id": "96liIPUPXG",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "cdgVrsu7T5",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      }
+    ]
+  },
+  {
+    "id": "g2XE40zTrj",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      }
+    ]
+  },
+  {
+    "id": "cjHQj0tCy6",
+    "method_labels": [
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "Rtd6GoJcoT",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "2sG4ebgqBd",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 34,
+        "label": "Knowledge Guided Learning"
+      }
+    ]
+  },
+  {
+    "id": "eszmES7j1F",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "PZ7YLONKiI",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 29,
+        "label": "Graph Representation Learning"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "jH9TtAhMkp",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      }
+    ]
+  },
+  {
+    "id": "IDSTtDw4Cs",
+    "method_labels": [
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      }
+    ]
+  },
+  {
+    "id": "iQoZv77o3g",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "M96edY67nS",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "1i4wNFgHDd",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 55,
+        "label": "Recurrent Neural Networks (RNNs)"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      }
+    ]
+  },
+  {
+    "id": "0jvnfH0WYV",
+    "method_labels": [
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "wOAasEVZ0L",
+    "method_labels": [
+      {
+        "id": 0,
+        "label": "Active Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "lTP1RxTFSX",
+    "method_labels": [
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 37,
+        "label": "Linear Regression"
+      }
+    ]
+  },
+  {
+    "id": "qpIRwMubs9",
+    "method_labels": [
+      {
+        "id": 67,
+        "label": "Variational Autoencoders"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "Rzqs4q9ooa",
+    "method_labels": [
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 70,
+        "label": "Vision Transformers (ViTs)"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "1K28gV5MeF",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 65,
+        "label": "Tokenization Methods"
+      }
+    ]
+  },
+  {
+    "id": "mH9FJi3KTX",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "Fj2kyLs6G5",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "ayjmOqf79t",
+    "method_labels": [
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "SAlCQdk5lx",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      }
+    ]
+  },
+  {
+    "id": "TtHvmhjNui",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 37,
+        "label": "Linear Regression"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "R42O6v84cX",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 40,
+        "label": "Message Passing Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "CrBRKsP3yT",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 10,
+        "label": "Contrastive Learning"
+      },
+      {
+        "id": 13,
+        "label": "Data Augmentation"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "PhIWEbewAz",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      }
+    ]
+  },
+  {
+    "id": "4YKlo58RcQ",
+    "method_labels": [
+      {
+        "id": 64,
+        "label": "Self-supervised Learning"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 55,
+        "label": "Recurrent Neural Networks (RNNs)"
+      }
+    ]
+  },
+  {
+    "id": "aI3d897dgV",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 19,
+        "label": "Expectation Maximization Algorithm"
+      }
+    ]
+  },
+  {
+    "id": "PhHrlDKcx1",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks"
+      },
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      }
+    ]
+  },
+  {
+    "id": "xiP7TZG58o",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "Vzi96rTe4w",
+    "method_labels": [
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "nqVLJTPoQC",
+    "method_labels": [
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      }
+    ]
+  },
+  {
+    "id": "zyopvwZbSj",
+    "method_labels": [
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 51,
+        "label": "Normalizing Flows"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "CmY6DzEG7Z",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "feLdTALuq3",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "OwU0mgfKUi",
+    "method_labels": [
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "A9jXG3FUMT",
+    "method_labels": [
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      }
+    ]
+  },
+  {
+    "id": "18GBPdnuXs",
+    "method_labels": [
+      {
+        "id": 24,
+        "label": "Generative Flow Networks"
+      },
+      {
+        "id": 12,
+        "label": "Curriculum Learning"
+      },
+      {
+        "id": 69,
+        "label": "Vector Quantization"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "yvGL2HP7pU",
+    "method_labels": [
+      {
+        "id": 42,
+        "label": "Mixture of Experts"
+      },
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "9AMNN3U7Ug",
+    "method_labels": [
+      {
+        "id": 21,
+        "label": "Fine Tuning"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "yh1t1yFtXG",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "cGks3s79hW",
+    "method_labels": [
+      {
+        "id": 55,
+        "label": "Recurrent Neural Networks (RNNs)"
+      },
+      {
+        "id": 36,
+        "label": "Latent State-Space Models (LSSMs)"
+      },
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      }
+    ]
+  },
+  {
+    "id": "0dp90Bq8r8",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 40,
+        "label": "Message Passing Neural Networks"
+      }
+    ]
+  },
+  {
+    "id": "A5O41ntKjk",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "kkhRTTmXFV",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 11,
+        "label": "Convolutional and Graph Convolutional Networks (CNN/GCN)"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      }
+    ]
+  },
+  {
+    "id": "U87XyMPrZp",
+    "method_labels": [
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "jj0nJQYFlW",
+    "method_labels": [
+      {
+        "id": 3,
+        "label": "Autoregressive Modeling"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      }
+    ]
+  },
+  {
+    "id": "IWEc6kpy8O",
+    "method_labels": [
+      {
+        "id": 31,
+        "label": "Knowledge Distillation"
+      },
+      {
+        "id": 56,
+        "label": "Regularization Techniques"
+      }
+    ]
+  },
+  {
+    "id": "JPjMXgQQxk",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "EBHZNmygTT",
+    "method_labels": [
+      {
+        "id": 2,
+        "label": "Attention Mechanisms"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 48,
+        "label": "Multimodal Alignment"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      },
+      {
+        "id": 8,
+        "label": "Clustering Methods"
+      }
+    ]
+  },
+  {
+    "id": "L3aEdxJMHl",
+    "method_labels": [
+      {
+        "id": 14,
+        "label": "Deep Neural Networks"
+      },
+      {
+        "id": 16,
+        "label": "Encoder Decoder Models"
+      },
+      {
+        "id": 46,
+        "label": "Multi Task Learning"
+      }
+    ]
+  },
+  {
+    "id": "px1OlCcqkj",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 47,
+        "label": "Multi-Agent Systems"
+      }
+    ]
+  },
+  {
+    "id": "soMxYQaMnF",
+    "method_labels": [
+      {
+        "id": 4,
+        "label": "Bayesian Inference"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      }
+    ]
+  },
+  {
+    "id": "39PoZNT4XX",
+    "method_labels": [
+      {
+        "id": 9,
+        "label": "Conformal Prediction"
+      },
+      {
+        "id": 43,
+        "label": "Model Evaluation Techniques"
+      }
+    ]
+  },
+  {
+    "id": "tPqBnGwTwa",
+    "method_labels": [
+      {
+        "id": 15,
+        "label": "Dimensionality Reduction"
+      },
+      {
+        "id": 37,
+        "label": "Linear Regression"
+      },
+      {
+        "id": 35,
+        "label": "Large Language Models"
+      }
+    ]
+  },
+  {
+    "id": "WYSCCw7mCe",
+    "method_labels": [
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      },
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 60,
+        "label": "Sampling Methods"
+      },
+      {
+        "id": 63,
+        "label": "Score Matching"
+      }
+    ]
+  },
+  {
+    "id": "xs5aoDH3HX",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 58,
+        "label": "Representation Learning"
+      }
+    ]
+  },
+  {
+    "id": "6wbykApw7A",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 17,
+        "label": "Energy-Based Models (EBMs)"
+      }
+    ]
+  },
+  {
+    "id": "ENJhSqVkXH",
+    "method_labels": [
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      },
+      {
+        "id": 45,
+        "label": "Monte Carlo Methods"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "C7BIQRM57T",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 52,
+        "label": "Optimal Transport"
+      },
+      {
+        "id": 57,
+        "label": "Reinforcement Learning"
+      },
+      {
+        "id": 68,
+        "label": "Variational Inference"
+      }
+    ]
+  },
+  {
+    "id": "NY3LzmUXl7",
+    "method_labels": [
+      {
+        "id": 22,
+        "label": "Flow Matching"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 50,
+        "label": "Neural Ordinary Differential Equations"
+      }
+    ]
+  },
+  {
+    "id": "sye27MizdM",
+    "method_labels": [
+      {
+        "id": 28,
+        "label": "Graph Neural Networks"
+      },
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 62,
+        "label": "Score Based Diffusion Models"
+      }
+    ]
+  },
+  {
+    "id": "pOJBw1YQgL",
+    "method_labels": [
+      {
+        "id": 26,
+        "label": "Geometric Deep Learning"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      },
+      {
+        "id": 999,
+        "label": "Others"
+      }
+    ]
+  },
+  {
+    "id": "95z3psF9zJ",
+    "method_labels": [
+      {
+        "id": 6,
+        "label": "Causal Inference"
+      },
+      {
+        "id": 7,
+        "label": "Causal Modeling"
+      },
+      {
+        "id": 27,
+        "label": "Gradient Descent Optimization"
+      }
+    ]
+  },
+  {
+    "id": "MpJkAzwUtl",
+    "method_labels": [
+      {
+        "id": 25,
+        "label": "Generative Modeling"
+      },
+      {
+        "id": 66,
+        "label": "Transformer Models"
+      },
+      {
+        "id": 59,
+        "label": "Retrieval Augmented Generation"
+      }
+    ]
+  }
+]

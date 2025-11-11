@@ -259,21 +259,21 @@
     "completion_tokens": -1,
     "total_tokens": -1,
     "Topic Axis I": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Medical Imaging Analysis",
+      "SubTopic": "Neuroimaging – fMRI encoding models"
     },
     "Topic Axis II": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Advanced Supervised & Representation Learning",
+      "SubTopic": "Disentangled Representation Learning"
     },
     "Topic Axis III": {
-      "MainTopic": "N/A",
-      "SubTopic": "N/A"
+      "MainTopic": "Explainability & Interpretability (XAI)",
+      "SubTopic": "Concept-based Explanations"
     },
-    "method": "N/A",
-    "application": "N/A",
-    "code_link": "N/A",
-    "dataset_name": "N/A"
+    "Method": "Sparse dictionary learning; Non-negative sparse coding; Vector Norm Reparameterization; Banded ridge regression",
+    "Application": "Brain encoding and semantic representation mapping – fMRI",
+    "Code Link": "https://github.com/alicialitrtwe/sparseconcept",
+    "Dataset Name": ["Gallant Lab story listening fMRI dataset", "OSF preprocessed fMRI data"]  
   },
   {
     "id": "vf2GHcxzMV",
