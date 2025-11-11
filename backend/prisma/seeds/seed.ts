@@ -71,8 +71,8 @@ function normalizeAxis(v: any) {
   return null;
 }
 
-const ROOT = path.resolve(__dirname, "../../../");
-const DATA_DIR = path.join(ROOT, "main");
+
+const DATA_DIR = path.join(process.cwd(), "main");
 
 const FILES = [
   "ICLR_metadata.json",
