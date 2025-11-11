@@ -35,7 +35,7 @@ const CONF_INFO = [
     key: 'NeurIPS',
     title: 'NeurIPS',
     full: 'Conference on Neural Information Processing Systems',
-    count: 972,
+    count: 1402,
     desc: 'NeurIPS is the largest AI and machine learning conference, featuring cutting-edge developments in deep learning, neuroscience-inspired computation, and AI systems. It serves as a major hub for interdisciplinary research combining AI with biology, neuroscience, and health data. Many NeurIPS works extend AI foundations into biomedicine, healthcare operations, and medical data synthesis using generative models.',
   },
   {
