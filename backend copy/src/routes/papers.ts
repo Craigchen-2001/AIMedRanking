@@ -1,0 +1,212 @@
+import { Router, Request, Response } from "express";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
+const router = Router();
+
+function nk(s: string) {
+  return String(s || "").toLowerCase().replace(/[\s_:-]/g, "");
+}
+
+function findKey(obj: any, names: string[]) {
+  if (!obj) return null;
+  const map = Object.keys(obj).reduce<Record<string, string>>((m, k) => {
+    m[nk(k)] = k;
+    return m;
+  }, {});
+  for (const n of names) {
+    const hit = map[nk(n)];
+    if (hit) return hit;
+  }
+  return null;
+}
+
+function tryParse(v: any) {
+  if (v == null) return null;
+  if (typeof v === "object") return v;
+  if (typeof v === "string") {
+    try {
+      const o = JSON.parse(v);
+      return typeof o === "object" ? o : null;
+    } catch {
+      return null;
+    }
+  }
+  return null;
+}
+
+function normalizeAxis(v: any) {
+  if (v == null) return { MainTopic: null, SubTopic: null };
+  const obj = tryParse(v) ?? v;
+  if (typeof obj !== "object") return { MainTopic: String(obj || "") || null, SubTopic: null };
+  const mk = findKey(obj, ["MainTopic", "Main Topic", "mainTopic", "main_topic", "main"]);
+  const sk = findKey(obj, ["SubTopic", "Sub Topic", "subTopic", "sub_topic", "sub"]);
+  const m = mk ? obj[mk] : null;
+  const s = sk ? obj[sk] : null;
+  return { MainTopic: m === "" ? null : m ?? null, SubTopic: s === "" ? null : s ?? null };
+}
+
+// ✅ 修正版：確保不論來源是字串、物件或 JSONB，都能正確解析
+function safeJsonArray(v: any) {
+  if (!v) return [];
+  try {
+    if (Array.isArray(v)) return v;
+    if (typeof v === "object") return JSON.parse(JSON.stringify(v));
+    if (typeof v === "string") {
+      const parsed = JSON.parse(v);
+      return Array.isArray(parsed) ? parsed : [];
+    }
+  } catch {
+    return [];
+  }
+  return [];
+}
+
+router.get("/", async (req: Request, res: Response) => {
+  try {
+    const q = req.query.q as string | undefined;
+    const page = Math.max(1, parseInt((req.query.page as string) || "1", 10));
+    const take = Math.min(100, Math.max(1, parseInt((req.query.take as string) || "20", 10)));
+    const confs = ((req.query.confs as string) || "").split(",").map(s => s.trim()).filter(Boolean);
+    const years = ((req.query.years as string) || "").split(",").map(s => parseInt(s, 10)).filter(n => Number.isFinite(n));
+    const where: any = {};
+    const and: any[] = [];
+
+    if (q) {
+      and.push({
+        OR: [
+          { title: { contains: q, mode: "insensitive" } },
+          { abstract: { contains: q, mode: "insensitive" } },
+          { keywords: { contains: q, mode: "insensitive" } }
+        ]
+      });
+    }
+
+    if (confs.length) and.push({ OR: confs.map(c => ({ conference: { contains: c, mode: "insensitive" } })) });
+    if (years.length) and.push({ year: { in: years } });
+    if (and.length) where.AND = and;
+
+    const skip = (page - 1) * take;
+    const select = {
+      id: true,
+      year: true,
+      conference: true,
+      title: true,
+      authors: true,
+      affiliations: true,
+      authorsAffiliations: true,
+      abstract: true,
+      keywords: true,
+      pdfUrl: true,
+      isHealthcare: true,
+      reasoning: true,
+      topic: true,
+      method: true,
+      application: true,
+      codeLink: true,
+      datasetNames: true,
+      datasetLinks: true,
+      updatedAt: true,
+      topicAxis1: true,
+      topicAxis2: true,
+      topicAxis3: true,
+      methodLabels: true,
+      applicationLabels: true
+    } as const;
+
+    const [total, rows] = await Promise.all([
+      prisma.paper.count({ where }),
+      prisma.paper.findMany({ where, orderBy: [{ year: "desc" }, { id: "asc" }], skip, take, select })
+    ]);
+
+    const items = rows.map(p => ({
+      id: p.id,
+      year: p.year,
+      conference: p.conference,
+      title: p.title,
+      authors: p.authors,
+      affiliations: p.affiliations,
+      authorsAffiliations: p.authorsAffiliations,
+      abstract: p.abstract,
+      keywords: p.keywords,
+      pdf_url: p.pdfUrl,
+      isHealthcare: p.isHealthcare,
+      reasoning: p.reasoning,
+      topic: p.topic,
+      method: p.method,
+      application: p.application,
+      codeLink: p.codeLink,
+      code_link: p.codeLink,
+      datasetNames: p.datasetNames,
+      datasetLinks: p.datasetLinks,
+      dataset_name: p.datasetNames,
+      updatedAt: p.updatedAt,
+      methodLabels: safeJsonArray(p.methodLabels),
+      applicationLabels: safeJsonArray(p.applicationLabels),
+      "Topic Axis I": normalizeAxis(p.topicAxis1),
+      "Topic Axis II": normalizeAxis(p.topicAxis2),
+      "Topic Axis III": normalizeAxis(p.topicAxis3)
+    }));
+
+    res.json({ pageNum: page, pageSize: take, total, totalPages: Math.max(1, Math.ceil(total / take)), items });
+  } catch (err) {
+    console.error("Error in /papers:", err);
+    res.status(500).json({ error: "internal_error" });
+  }
+});
+
+router.get("/:id", async (req: Request, res: Response) => {
+  try {
+    const id = String(req.params.id || "");
+    if (!id) return res.status(400).json({ error: "invalid_id" });
+
+    const p = await prisma.paper.findUnique({
+      where: { id },
+      select: {
+        id: true,
+        year: true,
+        conference: true,
+        title: true,
+        authors: true,
+        affiliations: true,
+        authorsAffiliations: true,
+        abstract: true,
+        keywords: true,
+        pdfUrl: true,
+        isHealthcare: true,
+        reasoning: true,
+        topic: true,
+        method: true,
+        application: true,
+        codeLink: true,
+        datasetNames: true,
+        datasetLinks: true,
+        updatedAt: true,
+        topicAxis1: true,
+        topicAxis2: true,
+        topicAxis3: true,
+        methodLabels: true,
+        applicationLabels: true
+      }
+    });
+
+    if (!p) return res.status(404).json({ error: "not_found" });
+
+    res.json({
+      ...p,
+      pdf_url: p.pdfUrl,
+      code_link: p.codeLink,
+      dataset_name: p.datasetNames,
+      methodLabels: safeJsonArray(p.methodLabels),
+      applicationLabels: safeJsonArray(p.applicationLabels),
+      "Topic Axis I": normalizeAxis(p.topicAxis1),
+      "Topic Axis II": normalizeAxis(p.topicAxis2),
+      "Topic Axis III": normalizeAxis(p.topicAxis3)
+    });
+  } catch (err) {
+    console.error("Error in /papers/:id:", err);
+    res.status(500).json({ error: "internal_error" });
+  }
+});
+
+export default router;

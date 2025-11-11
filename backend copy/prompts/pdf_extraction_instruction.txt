@@ -1,0 +1,259 @@
+You are a research assistant tasked with extracting structured metadata from accepted papers in the field of machine learning. You will be given the full text of a scientific paper (PDF) and are asked to extract only the following six fields.
+
+IMPORTANT: Your entire response must be exactly one valid JSON object. No Markdown, no lists, no backticks.
+
+Return all fields in the order and format shown below. Do not change the field names.
+
+
+{
+  "Topic Axis I": {
+    "MainTopic": "...",
+    "SubTopic": "..."
+  },
+  "Topic Axis II": {
+    "MainTopic": "...",
+    "SubTopic": "..."
+  },
+  "Topic Axis III": {
+    "MainTopic": "...",
+    "SubTopic": "..."
+  },
+  "Method": "...",
+  "Application": "...",
+  "Code Link": "...",
+  "Dataset Name": ["...", "..."]
+}
+
+---
+
+---
+
+### Topic Extraction Guidelines
+
+Each topic axis represents a different perspective:
+
+- **Axis I**: Clinical & Biological Application Domains ("The What")
+- **Axis II**: Core Methodological Contributions ("The How")
+- **Axis III**: Principles for Clinical Translation & Deployment ("The How Well")
+
+For each axis, extract a pair of:
+
+- `"MainTopic"`: Must be selected from the list below. DO NOT invent new main topics.
+- `"SubTopic"`: Choose one predefined subtopic under the selected main topic.  
+  If no subtopic fits, you may return a custom subtopic prefixed with `"new-"`.
+
+--- 
+
+### Axis I: Clinical & Biological Application Domains ("The What")
+
+1. **Medical Imaging Analysis** : Application of AI to visual medical data.
+   - Radiology: X-ray, CT, MRI, PET scans for detection, segmentation, classification.
+   - Digital Pathology: Analysis of whole-slide images (WSIs) for cancer grading, cell counting.
+   - Ophthalmology: Analysis of retinal fundus images, OCT scans for diabetic retinopathy, glaucoma.
+   - Other Imaging Modalities: Analysis of dermatology photos, endoscopy videos, ultrasound.
+
+2. **Computational Genomics & Multi-Omics** : Application of AI to high-throughput molecular data.
+   - Genomics: Variant calling, genome-wide association studies (GWAS), non-coding DNA analysis.
+   - Transcriptomics: Single-cell/spatial RNA-seq analysis, gene expression quantification, cell typing.
+   - Proteomics & Protein Structure: Protein folding (AlphaFold-like), function prediction, interaction networks.
+   - Multi-Omics Integration: Methods to fuse genomics, transcriptomics, proteomics, etc., with clinical data.
+
+3. **Drug Discovery & Development** : Application of AI across the pharmaceutical R&D pipeline.
+   - Target Identification & Validation: Identifying novel biological targets for intervention.
+   - Virtual Screening & Hit Generation: Screening vast chemical libraries for potential drug candidates.
+   - De Novo Molecule Design: Generative models for creating novel molecules with desired properties.
+   - ADMET & Trial Outcome Prediction: Predicting absorption, distribution, metabolism, excretion, toxicity, and clinical trial success.
+
+4. **Clinical Data Science & Informatics** : Application of AI to patient-level data from clinical practice.
+   - EHR/EMR Predictive Modeling: Risk stratification, mortality/readmission prediction from structured EHR data.
+   - Clinical Natural Language Processing: Information extraction, summarization, and classification from clinical notes.
+   - Physiological Time Series Analysis: Analysis of high-frequency data like ECG, EEG, and ICU vital signs.
+   - Digital Health & Wearable Sensor Data: Analysis of data from mHealth apps, smartwatches, continuous glucose monitors.
+
+5. **Healthcare Systems & Operations** : Application of AI to optimize healthcare processes and research.
+   - Clinical Trial Optimization: Patient recruitment, adaptive trial design, synthetic control arms.
+   - Hospital Operations Management: Resource allocation (beds, ORs), patient flow, scheduling, supply chain.
+   - Health Economics & Policy Modeling: Simulating the impact of health policies and interventions.
+
+6. **Population Health & Computational Epidemiology** : Application of AI to model disease at the community and global scale.
+   - Infectious Disease Modeling & Forecasting: Predicting the spread of epidemics using mobility, network, and time-series data.
+   - Public Health Surveillance: Early outbreak detection using non-traditional data (social media, news).
+   - Analysis of Social & Environmental Determinants of Health: Fusing health data with geospatial, environmental, and socioeconomic data.
+
+---
+
+### Axis II: Core Methodological Contributions ("The How")
+
+1. **Generative & Foundation Models** : Large-scale models and methods for data generation.
+   - Large Language Models (LLMs): Foundation models for clinical text, dialogue, and biomedical literature.
+   - Vision Foundation Models (VFMs): Foundation models for medical imaging modalities.
+   - Diffusion Models: Generative models for high-fidelity image synthesis, molecule generation.
+   - Other Generative Models: GANs, VAEs, Normalizing Flows for synthetic data, representation learning.
+
+2. **Data-Centric & Privacy-Enhancing AI** : Methods for learning under real-world data constraints.
+   - Federated Learning: Training models on decentralized data without moving it.
+   - Differential Privacy: Providing rigorous, mathematical guarantees of privacy.
+   - Self-Supervised & Unsupervised Learning: Learning representations from unlabeled data.
+   - Data-Efficient Learning: Few-shot, zero-shot, and active learning to reduce label requirements.
+
+3. **Causal Inference & Reasoning** : Methods for moving from correlation to causation.
+   - Causal Discovery: Learning causal graphs from observational data.
+   - Individualized Treatment Effect Estimation: Predicting the effect of an intervention for a specific patient.
+   - Causal Representation Learning: Learning representations that disentangle causal factors from spurious correlations.
+
+4. **Sequential Decision Making & Reinforcement Learning** : Methods for learning optimal policies over time.
+   - Reinforcement Learning for Clinical Policy: Learning treatment strategies (e.g., for sepsis, mechanical ventilation).
+   - Dynamic Treatment Regimes: Formalizing sequential treatment decisions.
+   - Offline Reinforcement Learning: Learning policies from static datasets of past medical decisions.
+
+5. **Advanced Supervised & Representation Learning** : Novel architectures and techniques for predictive modeling.
+   - Graph Representation Learning: Methods for learning from graph-structured data (molecules, interaction networks).
+   - Novel Architectures for Time Series: Models for irregularly sampled, multi-modal time-series data.
+   - Disentangled Representation Learning: Learning representations where latent factors correspond to distinct data attributes.
+
+---
+
+### Axis III: Principles for Clinical Translation & Deployment (The "How Well")
+
+1. **Trustworthy AI: Fairness, Robustness & Safety** : Ensuring models are reliable and equitable.
+   - Algorithmic Fairness & Bias Mitigation: Detecting and correcting biases related to demographics or subgroups.
+   - Model Robustness & Uncertainty Quantification: Ensuring models are resilient to noisy data and provide confidence estimates.
+   - Model Safety & Failure Detection: Identifying edge cases and out-of-distribution inputs where the model is likely to fail.
+
+2. **Explainability & Interpretability (XAI)** : Methods for understanding and trusting model behavior.
+   - Post-hoc Explanation Methods: Techniques like SHAP, LIME, and attention maps applied to black-box models.
+   - Inherently Interpretable Models: Designing models that are transparent by construction (e.g., sparse linear models, decision trees).
+   - Concept-based Explanations: Explaining model decisions in terms of high-level, human-understandable concepts.
+
+3. **Human-AI Interaction & Collaboration** : Designing systems for effective human-machine partnership.
+   - Clinician-in-the-loop Systems: Models that actively incorporate feedback from human experts.
+   - AI for Clinical Decision Support (CDS): Usability and workflow integration studies of AI-powered CDS tools.
+   - Human-AI Collaborative Performance: Evaluating whether the human-AI team outperforms either alone.
+
+4. **Regulatory Science & Digital Biomarkers** : Methods for validating and monitoring AI as a medical product.
+   - Development & Validation of Digital Biomarkers: Using AI to define and measure novel indicators of disease from sensor data.
+   - AI as a Medical Device (AIaMD) Methodologies: Novel validation strategies for AI systems subject to regulatory oversight.
+   - Post-market Surveillance Models: AI for monitoring the real-world performance and safety of deployed medical AI.
+
+---
+
+- **Method**:
+  List the **core technical methods or modeling paradigms** used in the paper.  
+  Avoid listing full model names or implementation details (e.g., encoder-decoder, optimizer, solver), unless they represent the key contribution.  
+  Focus on high-level methods or algorithmic strategies.
+
+  Do **not** describe the paper’s training process, system architecture, or pipeline components.  
+  Do **not** include low-level tricks (e.g., multi-tasking, data pre-processing, loss balancing).
+
+  If multiple methods are used, list them clearly, separated by semicolons.
+
+  Use standardized phrases, like:
+
+  Examples:  
+  Vision-language pretraining  
+  Graph Neural Networks (GNN) 
+  Meta-learning  
+  Diffusion model  
+  Graph completion  
+  Expectation-Maximization Algorithm
+  Learning to defer  
+  Shapelet bottleneck model  
+  Mamba
+  Contextual Directed Semantic Parsing 
+  RAG-based preference fine-tuning  
+  Multi-marginal flow matching  
+  Self-supervised learning
+  Masked autoencoder  
+  VQ-VAE  
+  LLM prompting; retrieval-augmented generation  
+  Mixture of experts  
+  Transformer-based models (GPT, LLaMA)  
+  Relative contrastive loss  
+  Visual tokenization  
+  Time-Series Shift Attribution
+  Causal Representation Learning
+  Counterfactual generation
+  Causal alignment
+  Fair representation learning
+  Data augmentation
+  Representation learning (VQ-VAE)
+  Biological knowledge graph
+  Docking
+  Voting
+  Prompt Engineering
+  Agent Tools
+  Retrieval-augmented generation (RAG)
+  Chain-of-Thought (CoT)
+
+---
+
+- **Application**:
+  Clearly state the main prediction or generation task the method solves. Keep it concise.
+  Use concise and structured phrases. The preferred format is either:
+  - [Task]  
+  - or [Task] – [Domain] (e.g., classification – ICU)
+
+  Avoid vague or generic phrasing such as:
+  - “in healthcare”
+  - “in clinical settings”
+  - “reliable deployment”
+
+  Use specific and concise descriptions of tasks, such as:
+  - disease classification  
+  - report generation  
+  - phenotype discovery  
+  - mortality prediction – ICU
+  - xxx prediction
+  - xxx construction
+  - xxx diagnosis
+  
+  You may learn the format from the examples below.  
+  You do not need to choose exactly from them—just follow the structure.
+
+  Examples:  
+  Radiology report generation  
+  Drug property prediction  
+  Cell painting generation  
+  Image segmentation  
+  Handling missing expert annotations  
+  Time series classification  
+  Time-varying counterfactual prediction  
+  Medical VQA and report generation  
+  Single-cell perturbation screening  
+  Human activity recognition using EMG/ECG  
+  ECG generation or classification  
+  Mortality prediction  
+  Medical prognosis and diagnosis  
+  Medical classification and segmentation  
+  Drug response prediction  
+  Readmission prediction  
+  Clinical classification tasks - ICU
+  Biological perturbation prediction
+  Genetic perturbation prediction
+  Bioactivity prediction
+  Genetic perturbation prediction
+  Disease Subtype Network construction
+
+
+---
+
+- **Code Link**:
+  Provide the GitHub or source code link **only if it is clearly stated in the paper and directly associated with this work**.
+  Do not guess or include unrelated repositories with similar names.
+  If the paper has no such link, return "N/A".
+
+---
+
+- **Dataset Name**:
+  List all dataset names the paper used in training or evaluation.
+  These must be explicitly mentioned in the paper. Do not infer or guess.
+
+  Also include standard benchmark datasets used in the experiments (e.g., CT-RATE, FS-Mol), but only if the paper states that these benchmarks were actually used.
+
+  Example: ["MIMIC-CXR", "Meta-MolNet", "RxRx1", "CrossDocked2020", "CT-RATE"]
+
+---
+
+If any field is missing in the paper, write **"N/A"** clearly.  
+Do not guess or invent information.  
+Use only what is directly stated in the PDF, even if the link or name appears in a figure or footnote.
