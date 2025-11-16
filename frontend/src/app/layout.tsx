@@ -9,7 +9,7 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' });
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'AI MED RANKING',
+  title: 'AIMed Rank',
   description: 'AI in Medicine papers — search, filter, and visualize.',
   icons: { icon: [{ url: '/favicon.ico' }], apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }] },
 };

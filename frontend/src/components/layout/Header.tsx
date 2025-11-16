@@ -128,7 +128,7 @@ export default function Header({ onSearch, onConferenceSelect, onYearSelect, sug
       <div className="flex items-center justify-between px-6 h-16 border-b border-red-700/50">
         <div className="flex items-center gap-3">
           <img src="/logo02.png" alt="AI Med Logo" width={60} height={40} />
-          <div className={`${robotoSlab.className} text-2xl font-bold text-white`}>AI MED RANKING</div>
+          <div className={`${robotoSlab.className} text-2xl font-bold text-white`}>AIMed Rank</div>
         </div>
         <nav ref={menuRef} className={`${robotoSlab.className} flex items-center gap-6 text-base text-white relative`}>
         {Object.entries(menuItems).map(([label, options]) => {
@@ -239,7 +239,7 @@ export default function Header({ onSearch, onConferenceSelect, onYearSelect, sug
               >
                 <div className="max-w-7xl mx-auto px-10 py-6">
                   <div className="mb-4 flex flex-wrap items-center gap-3 text-white/90">
-                    <div className="text-sm">AI MED RANKING currently indexes</div>
+                    <div className="text-sm">AIMed Rank currently indexes</div>
                     <div className="text-sm font-semibold">{totalPapers.toLocaleString()} papers</div>
                     <div className="ml-2 flex flex-wrap gap-2">
                       {CONF_INFO.map((c) => (
