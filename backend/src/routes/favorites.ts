@@ -1,4 +1,3 @@
-// backend/src/routes/favorites.ts
 import { Router } from "express";
 import { prisma } from "../lib/prisma.js";
 import { authMiddleware } from "../middlewares/auth.js";
@@ -31,7 +30,10 @@ function mapPaper(p: any) {
 
 router.get("/", authMiddleware, async (req, res) => {
   const userId = req.authUser!.id;
-  const favs = await prisma.favorite.findMany({ where: { userId }, include: { paper: true } });
+  const favs = await prisma.favorite.findMany({
+    where: { userId },
+    include: { paper: true }
+  });
   res.json(favs.map(f => mapPaper(f.paper)));
 });
 
@@ -49,7 +51,9 @@ router.post("/:paperId", authMiddleware, async (req, res) => {
 router.delete("/:paperId", authMiddleware, async (req, res) => {
   const userId = req.authUser!.id;
   const paperId = String(req.params.paperId || "");
-  await prisma.favorite.delete({ where: { userId_paperId: { userId, paperId } } }).catch(() => null);
+  await prisma.favorite.delete({
+    where: { userId_paperId: { userId, paperId } }
+  }).catch(() => null);
   res.json({ ok: true });
 });
 
