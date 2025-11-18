@@ -306,7 +306,8 @@ const SidebarFilters: React.FC<Props> = ({
   useEffect(() => {
     let mounted = true;
     setLoadingAuthors(true);
-    fetch(`${process.env.NEXT_PUBLIC_API_TARGET}/authors`)
+    // fetch(`${process.env.NEXT_PUBLIC_API_TARGET}/authors`)
+    fetch(`${process.env.NEXT_PUBLIC_API_TARGET}/api/authors`)
       .then((r) => r.json())
       .then((data) => {
         if (!mounted) return;
