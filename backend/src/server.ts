@@ -55,11 +55,11 @@ app.use("/api/papers", papersRouter);
 app.use("/authors", authorsRouter);
 app.use("/api/authors", authorsRouter);
 
+app.use("/api/auth", authRouter);         // 正確
 app.use("/auth", authRouter);
-app.use("/api/auth", authRouter);
 
+app.use("/api/favorites", favoritesRouter);  // 正確
 app.use("/favorites", favoritesRouter);
-app.use("/api/favorites", favoritesRouter);
 
 // Start server
 const PORT = Number(process.env.PORT || 3001);
