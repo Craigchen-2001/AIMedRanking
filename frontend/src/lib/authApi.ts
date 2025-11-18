@@ -1,9 +1,9 @@
 // frontend/src/lib/authApi.ts
+
 const ORIGIN =
-  process.env.NEXT_PUBLIC_BACKEND ||
-  process.env.BACKEND_ORIGIN ||
-  process.env.NEXT_PUBLIC_API_TARGET ||
-  "http://localhost:3001";
+  process.env.NEXT_PUBLIC_API_BASE ||
+  process.env.NEXT_PUBLIC_SITE_ORIGIN + "/api" ||
+  "https://aimedrank.aimedlab.net/api";
 
 type User = { id: string; email: string; name: string };
 
