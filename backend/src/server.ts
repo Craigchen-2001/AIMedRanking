@@ -14,7 +14,6 @@ app.use(
   cors({
     origin: [
       "https://aimedrank.aimedlab.net",
-      "https://aimedrank.aimedlab.net/api",
       "http://localhost:3000",
       "http://localhost:3001"
     ],
