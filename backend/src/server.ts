@@ -9,14 +9,18 @@ import "dotenv/config";
 
 const app = express();
 
-// CORS – 必須明確列出正式 domain + 啟用 credentials
-app.use(cors({
-  origin: [
-    "https://aimedrank.aimedlab.net",
-    "http://localhost:3000"
-  ],
-  credentials: true
-}));
+// 完整 CORS：必須列出正式 domain + /api domain
+app.use(
+  cors({
+    origin: [
+      "https://aimedrank.aimedlab.net",
+      "https://aimedrank.aimedlab.net/api",
+      "http://localhost:3000",
+      "http://localhost:3001"
+    ],
+    credentials: true
+  })
+);
 
 app.use(express.json());
 app.use(cookieParser());
@@ -44,13 +48,16 @@ app.get("/", (_req, res) => {
 
 app.get("/__ping", (_req, res) => res.send("ok"));
 
-// All routes
+// Routes
 app.use("/papers", papersRouter);
 app.use("/api/papers", papersRouter);
+
 app.use("/authors", authorsRouter);
 app.use("/api/authors", authorsRouter);
+
 app.use("/auth", authRouter);
 app.use("/api/auth", authRouter);
+
 app.use("/favorites", favoritesRouter);
 app.use("/api/favorites", favoritesRouter);
 
