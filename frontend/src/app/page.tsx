@@ -12,6 +12,7 @@ import { useAuth } from '@/components/auth/AuthProvider';
 const ALLOWED_CONFS = ['ICLR', 'ICML', 'KDD', 'NEURIPS', 'ACL'] as const;
 type ConfKey = (typeof ALLOWED_CONFS)[number];
 const PAGE_SIZE = 20;
+const FETCH_PAGE_SIZE = 100;
 
 function tagConference(full: string): ConfKey | null {
   const u = (full || '').trim().toUpperCase();
@@ -225,7 +226,7 @@ export default function HomePage() {
   //   return () => {
   //     cancelled = true;
   //     fetchingRef.current = false;
-  //   };
+  //   }; 
   // }, [searchTerm, selectedConfs, selectedYears]);
 
   useEffect(() => {
@@ -239,9 +240,10 @@ export default function HomePage() {
     const confsParam = selectedConfs.length ? selectedConfs : undefined;
   
     (async () => {
+      // 先抓第一頁
       const first = await fetchPapers({
         page: 1,
-        pageSize: PAGE_SIZE,
+        pageSize: FETCH_PAGE_SIZE,
         q: searchTerm || undefined,
         conference: confsParam,
         year: selectedYears,
@@ -249,10 +251,33 @@ export default function HomePage() {
   
       if (cancelled) return;
   
-      setAllMatched(dedupeById(first.items || []));
+      const totalPages = first.totalPages || 1;
+      let acc: MockPaperShape[] = first.items || [];
+  
+      // 其他頁數並行抓
+      if (totalPages > 1) {
+        const tasks: ReturnType<typeof fetchPapers>[] = [];
+  
+        for (let p = 2; p <= totalPages; p++) {
+          tasks.push(
+            fetchPapers({
+              page: p,
+              pageSize: FETCH_PAGE_SIZE,
+              q: searchTerm || undefined,
+              conference: confsParam,
+              year: selectedYears,
+            })
+          );
+        }
+  
+        const results = await Promise.all(tasks);
+        for (const r of results) acc = acc.concat(r.items || []);
+      }
+  
+      // 完整結果
+      setAllMatched(dedupeById(acc));
       setLoading(false);
       fetchingRef.current = false;
-  
     })().catch(() => {
       if (!cancelled) {
         setAllMatched([]);
@@ -267,6 +292,8 @@ export default function HomePage() {
     };
   }, [searchTerm, selectedConfs, selectedYears]);
   
+  
+
   useEffect(() => {
     setPage(1);
     setExpandedPaperId(null);
