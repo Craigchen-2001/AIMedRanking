@@ -8,6 +8,8 @@ import { FileText, Sparkles, X, Heart } from 'lucide-react';
 import { fetchPapers, type MockPaperShape } from '@/lib/api';
 import Link from 'next/link';
 import { useAuth } from '@/components/auth/AuthProvider';
+import CountdownLoader from "@/components/CountdownLoader";
+
 
 const ALLOWED_CONFS = ['ICLR', 'ICML', 'KDD', 'NEURIPS', 'ACL'] as const;
 type ConfKey = (typeof ALLOWED_CONFS)[number];
@@ -586,7 +588,9 @@ export default function HomePage() {
               )}
 
               {loading ? (
-                <div className="text-gray-600">Loading...</div>
+                <div className="flex justify-center items-center pt-20">
+                <CountdownLoader seconds={15} />
+              </div>            
               ) : (
                 <>
                   <div className="mb-13 pb-4 border-b border-red-100 bg-white sticky top-16 z-10 rounded-xl p-4">
