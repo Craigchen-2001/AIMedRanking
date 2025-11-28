@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { FileText } from 'lucide-react';
 import { fetchPaperById, type PaperDetail } from '@/lib/api';
 
-export const dynamic = 'force-dynamic';
+// export const dynamic = 'force-dynamic';
 
 export default async function PaperPage({
   params,
