@@ -68,6 +68,7 @@ import AuthorList from '@/components/author/AuthorList';
 import Top30ChartContainer from '@/components/author/Top30ChartContainer';
 import AuthorConferenceGrid from '@/components/author/AuthorConferenceGrid';
 import { ArrowLeft, BookOpen } from 'lucide-react';
+import CountdownLoader from '@/components/CountdownLoader';
 
 const robotoSlab = Roboto_Slab({ subsets: ['latin'], weight: ['700'], display: 'swap' });
 
@@ -122,7 +123,7 @@ export default function AuthorRankingPage() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-16 flex items-center justify-between px-6 border-b">
         <div className="flex items-center gap-3">
           <img src="/logo02.png" alt="AI Med Logo" width={60} height={40}/>
-          <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AI MED RANKING</div>
+          <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AIMed RANK</div>
         </div>
         <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">
           Author Ranking
@@ -145,7 +146,11 @@ export default function AuthorRankingPage() {
 
       <div className="w-full min-h-screen overflow-x-hidden px-6 py-4 pt-5">
         {loading ? (
-          <div className="text-center pt-20 text-gray-500">Loading…</div>
+          // <div className="text-center pt-20 text-gray-500">Loading…</div>
+          <div className="pt-20">
+          <CountdownLoader seconds={15} />
+        </div>
+
         ) : (
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-4 max-w-[580px] w-full h-full overflow-y-auto max-h-[95vh] border border-gray-300 rounded-lg bg-white shadow-sm">

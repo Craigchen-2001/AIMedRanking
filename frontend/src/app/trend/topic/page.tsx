@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Roboto_Slab } from "next/font/google";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip as ReTooltip, Legend, ResponsiveContainer } from "recharts";
 import { ArrowLeft } from "lucide-react";
+import CountdownLoader from "@/components/CountdownLoader";
 
 const robotoSlab = Roboto_Slab({ subsets: ["latin"], weight: ["700"], display: "swap" });
 
@@ -191,9 +192,9 @@ export default function TopicTrendPage() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-16 flex items-center justify-between px-6 border-b">
         <div className="flex items-center gap-3">
           <img src="/logo02.png" alt="AI Med Logo" width={60} height={40}/>
-          <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AI MED RANKING</div>
+          <div className={`${robotoSlab.className} text-xl font-bold text-white`}>AIMed RANK</div>
         </div>
-        <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">AI-MED Trend Dashboard</div>
+        <div className="absolute left-1/2 -translate-x-1/2 text-white text-lg font-semibold">Trend Dashboard</div>
         <Link href="/" className="flex items-center gap-2 bg-white text-red-800 px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-red-100 transition">
           <ArrowLeft size={16} /> Home
         </Link>
@@ -201,7 +202,10 @@ export default function TopicTrendPage() {
 
       <main className="pt-10 grid grid-cols-1 xl:grid-cols-2 gap-6 w-full p-6">
         {loading ? (
-          <div className="col-span-2 py-6 text-center text-gray-500 text-sm">Loading…</div>
+          // <div className="col-span-2 py-6 text-center text-gray-500 text-sm">Loading…</div>
+          <div className="pt-20">
+            <CountdownLoader seconds={15} />
+          </div>
         ) : (
           <>
             <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-4 w-full h-[55vh]">

@@ -1,3 +1,5 @@
+// /Users/chenweichi/ICLR_2025_Project/ICLR_2025_Project/frontend/src/app/ranking/topic/page.tsx
+
 "use client";
 
 import Link from "next/link";
@@ -18,6 +20,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import CountdownLoader from "@/components/CountdownLoader";
 
 const robotoSlab = Roboto_Slab({ subsets: ["latin"], weight: ["700"], display: "swap" });
 
@@ -203,7 +206,7 @@ export default function TopicRankingPage() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-red-800 h-14 flex items-center justify-between px-6 border-b">
         <div className="flex items-center gap-3">
           <img src="/logo02.png" alt="AI Med Logo" width={52} height={34} />
-          <div className={`${robotoSlab.className} text-lg font-bold text-white`}>AI MED RANKING</div>
+          <div className={`${robotoSlab.className} text-lg font-bold text-white`}>AIMed RANK</div>
         </div>
         <div className="absolute left-1/2 -translate-x-1/2 text-white text-base font-semibold">Topic Ranking</div>
         <div className="flex gap-3">
@@ -220,7 +223,10 @@ export default function TopicRankingPage() {
 
       <main className="px-4 md:px-6">
         {loading ? (
-          <div className="py-10 text-center text-gray-500">Loading…</div>
+          // <div className="py-10 text-center text-gray-500">Loading…</div>
+          <div className="pt-20">
+          <CountdownLoader seconds={15} />
+        </div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-4">
