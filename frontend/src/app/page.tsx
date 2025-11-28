@@ -12,7 +12,6 @@ import { useAuth } from '@/components/auth/AuthProvider';
 const ALLOWED_CONFS = ['ICLR', 'ICML', 'KDD', 'NEURIPS', 'ACL'] as const;
 type ConfKey = (typeof ALLOWED_CONFS)[number];
 const PAGE_SIZE = 20;
-const FETCH_PAGE_SIZE = 100;
 
 function tagConference(full: string): ConfKey | null {
   const u = (full || '').trim().toUpperCase();
@@ -160,13 +159,13 @@ export default function HomePage() {
     setPage(1);
   };
 
-  const fetchingRef = useRef(false);
-  useEffect(() => {
-    if (allMatched.length > 0) {
-      console.log('SAMPLE PAPER KEYS:', Object.keys(allMatched[0]));
-      console.log('FIRST PAPER SAMPLE:', allMatched[0]);
-    }
-  }, [allMatched]);
+  // const fetchingRef = useRef(false);
+  // useEffect(() => {
+  //   if (allMatched.length > 0) {
+  //     console.log('SAMPLE PAPER KEYS:', Object.keys(allMatched[0]));
+  //     console.log('FIRST PAPER SAMPLE:', allMatched[0]);
+  //   }
+  // }, [allMatched]);
 
   // useEffect(() => {
   //   let cancelled = false;
@@ -226,8 +225,16 @@ export default function HomePage() {
   //   return () => {
   //     cancelled = true;
   //     fetchingRef.current = false;
-  //   }; 
+  //   };
   // }, [searchTerm, selectedConfs, selectedYears]);
+  
+  const fetchingRef = useRef(false);
+  useEffect(() => {
+    if (allMatched.length > 0) {
+      console.log('SAMPLE PAPER KEYS:', Object.keys(allMatched[0]));
+      console.log('FIRST PAPER SAMPLE:', allMatched[0]);
+    }
+  }, [allMatched]);
 
   useEffect(() => {
     let cancelled = false;
@@ -236,45 +243,29 @@ export default function HomePage() {
     setLoading(true);
     setExpandedPaperId(null);
     setPage(1);
-  
-    const confsParam = selectedConfs.length ? selectedConfs : undefined;
-  
+
     (async () => {
-      // 先抓第一頁
       const first = await fetchPapers({
         page: 1,
-        pageSize: FETCH_PAGE_SIZE,
-        q: searchTerm || undefined,
-        conference: confsParam,
-        year: selectedYears,
+        pageSize: PAGE_SIZE,
       });
-  
       if (cancelled) return;
-  
       const totalPages = first.totalPages || 1;
       let acc: MockPaperShape[] = first.items || [];
-  
-      // 其他頁數並行抓
       if (totalPages > 1) {
         const tasks: ReturnType<typeof fetchPapers>[] = [];
-  
         for (let p = 2; p <= totalPages; p++) {
           tasks.push(
             fetchPapers({
               page: p,
-              pageSize: FETCH_PAGE_SIZE,
-              q: searchTerm || undefined,
-              conference: confsParam,
-              year: selectedYears,
+              pageSize: PAGE_SIZE,
             })
           );
         }
-  
         const results = await Promise.all(tasks);
         for (const r of results) acc = acc.concat(r.items || []);
       }
-  
-      // 完整結果
+
       setAllMatched(dedupeById(acc));
       setLoading(false);
       fetchingRef.current = false;
@@ -285,35 +276,129 @@ export default function HomePage() {
         fetchingRef.current = false;
       }
     });
-  
     return () => {
       cancelled = true;
       fetchingRef.current = false;
     };
-  }, [searchTerm, selectedConfs, selectedYears]);
-  
-  
+  }, []);
 
+  // useEffect(() => {
+  //   setPage(1);
+  //   setExpandedPaperId(null);
+  // }, [selectedAuthors, sortOrder, primaryConf, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode, selectedMethods, selectedApplications]);
   useEffect(() => {
     setPage(1);
     setExpandedPaperId(null);
-  }, [selectedAuthors, sortOrder, primaryConf, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode, selectedMethods, selectedApplications]);
+  }, [
+    selectedAuthors,
+    sortOrder,
+    primaryConf,
+    codeAvail,
+    selectedTopicsI,
+    selectedTopicsII,
+    selectedTopicsIII,
+    matchMode,
+    selectedMethods,
+    selectedApplications,
+    selectedConfs,
+    selectedYears,
+    searchTerm,
+  ]);
+
+  // const finalFiltered = useMemo(() => {
+  //   let base = !selectedAuthors.length
+  //     ? allMatched
+  //     : allMatched.filter((p) => {
+  //         if (!Array.isArray(p.authors) || p.authors.length === 0) return false;
+  //         return selectedAuthors.some((a) => p.authors.includes(a));
+  //       });
+  //   if (searchTerm) {
+  //     const q = searchTerm.toLowerCase();
+  //     base = base.filter((p) => String(p.title || "").toLowerCase().includes(q));
+  //   }
+  //   if (codeAvail !== 'any') {
+  //     const wantPublic = codeAvail === 'public';
+  //     base = base.filter((p) => codeIsPublic(p) === wantPublic);
+  //   }
+  //   if (selectedTopicsI.length || selectedTopicsII.length || selectedTopicsIII.length) {
+  //     base = base.filter((p) => {
+  //       const axesRaw = [
+  //         materializeAxis((p as any).topicAxis1 ?? (p as any)['Topic Axis I']),
+  //         materializeAxis((p as any).topicAxis2 ?? (p as any)['Topic Axis II']),
+  //         materializeAxis((p as any).topicAxis3 ?? (p as any)['Topic Axis III']),
+  //       ];
+  //       const axes = axesRaw.filter((x): x is {
+  //         MainTopic: string | null;
+  //         SubTopic: string | null;
+  //         "Main Topic": string | null;
+  //         "Sub Topic": string | null;
+  //       } => x != null);
+  //       const paperTopics = axes
+  //         .flatMap((a) => [a.MainTopic, a.SubTopic])
+  //         .filter((v): v is string => typeof v === "string" && v.length > 0);
+  //       const selectedAll = [...selectedTopicsI, ...selectedTopicsII, ...selectedTopicsIII];
+  //       if (matchMode === "any") {
+  //         return selectedAll.some((sel) => paperTopics.includes(sel));
+  //       } else {
+  //         return selectedAll.every((sel) => paperTopics.includes(sel));
+  //       }
+  //     });
+  //   }
+  //   if (selectedMethods.length) {
+  //     base = base.filter((p) => {
+  //       const methodLabels = (p as any).methodLabels || []; 
+  //       if (!Array.isArray(methodLabels)) return false;
+  //       const labels = methodLabels.map((m: any) => String(m.label || "").toLowerCase());
+  //       const selected = selectedMethods.map((m) => m.toLowerCase());
+  //       return selected.some((m) => labels.includes(m));
+  //     });
+  //   }
+    
+  //   if (selectedApplications.length) {
+  //     base = base.filter((p) => {
+  //       const appLabels = (p as any).applicationLabels || []; 
+  //       if (!Array.isArray(appLabels)) return false;
+  //       const labels = appLabels.map((a: any) => String(a.label || "").toLowerCase());
+  //       const selected = selectedApplications.map((a) => a.toLowerCase());
+  //       return selected.some((a) => labels.includes(a));
+  //     });
+  //   }
+    
+  //   return base;
+  // }, [allMatched, selectedAuthors, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode, selectedMethods, selectedApplications]);
 
   const finalFiltered = useMemo(() => {
-    let base = !selectedAuthors.length
-      ? allMatched
-      : allMatched.filter((p) => {
-          if (!Array.isArray(p.authors) || p.authors.length === 0) return false;
-          return selectedAuthors.some((a) => p.authors.includes(a));
-        });
+    let base = allMatched;
+
+    if (selectedConfs.length) {
+      const upperConfs = selectedConfs.map(c => c.toUpperCase());
+      base = base.filter(p => {
+        const tag = tagConference(p.conference);
+        return tag ? upperConfs.includes(tag) : false;
+      });
+    }
+
+    if (selectedYears.length) {
+      base = base.filter(p => selectedYears.includes(String(p.year)));
+    }
+
+    if (selectedAuthors.length) {
+      base = base.filter((p) => {
+        if (!Array.isArray(p.authors) || p.authors.length === 0) return false;
+        return selectedAuthors.some((a) => p.authors.includes(a));
+      });
+    }
+
     if (searchTerm) {
       const q = searchTerm.toLowerCase();
       base = base.filter((p) => String(p.title || "").toLowerCase().includes(q));
     }
+
     if (codeAvail !== 'any') {
       const wantPublic = codeAvail === 'public';
       base = base.filter((p) => codeIsPublic(p) === wantPublic);
     }
+
     if (selectedTopicsI.length || selectedTopicsII.length || selectedTopicsIII.length) {
       base = base.filter((p) => {
         const axesRaw = [
@@ -338,28 +423,42 @@ export default function HomePage() {
         }
       });
     }
+
     if (selectedMethods.length) {
       base = base.filter((p) => {
-        const methodLabels = (p as any).methodLabels || []; 
+        const methodLabels = (p as any).methodLabels || [];
         if (!Array.isArray(methodLabels)) return false;
         const labels = methodLabels.map((m: any) => String(m.label || "").toLowerCase());
         const selected = selectedMethods.map((m) => m.toLowerCase());
         return selected.some((m) => labels.includes(m));
       });
     }
-    
+
     if (selectedApplications.length) {
       base = base.filter((p) => {
-        const appLabels = (p as any).applicationLabels || []; 
+        const appLabels = (p as any).applicationLabels || [];
         if (!Array.isArray(appLabels)) return false;
         const labels = appLabels.map((a: any) => String(a.label || "").toLowerCase());
         const selected = selectedApplications.map((a) => a.toLowerCase());
         return selected.some((a) => labels.includes(a));
       });
     }
-    
+
     return base;
-  }, [allMatched, selectedAuthors, codeAvail, selectedTopicsI, selectedTopicsII, selectedTopicsIII, matchMode, selectedMethods, selectedApplications]);
+  }, [
+    allMatched,
+    selectedConfs,
+    selectedYears,
+    selectedAuthors,
+    searchTerm,
+    codeAvail,
+    selectedTopicsI,
+    selectedTopicsII,
+    selectedTopicsIII,
+    matchMode,
+    selectedMethods,
+    selectedApplications,
+  ]);
 
   const sortedList = useMemo(() => {
     const arr = [...finalFiltered];
