@@ -135,7 +135,10 @@ export async function fetchPapers(params: PapersQuery = {}) {
   if (params.authors?.length) sp.set('authors', params.authors.join(','))
   const query = sp.toString()
   const url = base ? `${base}/api/papers?${query}` : `/api/papers?${query}`
-  const res = await fetch(url, { cache: 'no-store' })
+  // const res = await fetch(url, { cache: 'no-store' })
+  const res = await fetch(url, {
+    next: { revalidate: 86400 }
+  })
   if (!res.ok) throw new Error(`Failed to fetch papers: ${res.status}`)
   const data = (await res.json()) as ApiListResponse
   return {
@@ -176,12 +179,22 @@ function backendOrigin(): string {
 export async function fetchPaperById(id: string): Promise<PaperDetail> {
   const enc = encodeURIComponent(id)
   const url = isServer() ? `${siteOriginForServer()}/api/papers/${enc}` : `/api/papers/${enc}`
-  let res = await fetch(url, { cache: 'no-store' })
+  // let res = await fetch(url, { cache: 'no-store' })
+  let res = await fetch(url, {
+    next: { revalidate: 86400 }
+  })
   if (!res.ok && isServer()) {
     const origin = backendOrigin()
-    res = await fetch(`${origin}/papers/${enc}`, { cache: 'no-store' })
+    // res = await fetch(`${origin}/papers/${enc}`, { cache: 'no-store' })
+      res = await fetch(`${origin}/papers/${enc}`, {
+      next: { revalidate: 86400 }
+    })    
     if (!res.ok) {
-      res = await fetch(`${origin}/api/papers/${enc}`, { cache: 'no-store' })
+      // res = await fetch(`${origin}/api/papers/${enc}`, { cache: 'no-store' })
+      res = await fetch(`${origin}/api/papers/${enc}`, {
+        next: { revalidate: 86400 }
+      })
+      
     }
   }
   if (!res.ok) throw new Error(`Failed to fetch paper ${id}: ${res.status}`)
