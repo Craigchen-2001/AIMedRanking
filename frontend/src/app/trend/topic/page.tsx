@@ -65,7 +65,10 @@ export default function TopicTrendPage() {
     let totalPages = 1;
     const out: Paper[] = [];
     while (page <= totalPages) {
-      const res = await fetch(`/api/papers?page=${page}&take=${take}`, { cache: "no-store" });
+      // const res = await fetch(`/api/papers?page=${page}&take=${take}`, { cache: "no-store" });
+      const res = await fetch(`/api/papers?page=${page}&take=${take}`, {
+        next: { revalidate: 86400 }
+      });      
       if (!res.ok) break;
       const data = await res.json();
       totalPages = data.totalPages ?? 1;
