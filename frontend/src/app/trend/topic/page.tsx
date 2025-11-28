@@ -203,7 +203,7 @@ export default function TopicTrendPage() {
       <main className="pt-10 grid grid-cols-1 xl:grid-cols-2 gap-6 w-full p-6">
         {loading ? (
           // <div className="col-span-2 py-6 text-center text-gray-500 text-sm">Loading…</div>
-          <div className="pt-20">
+          <div className="col-span-2 flex justify-center items-center py-20">
             <CountdownLoader seconds={15} />
           </div>
         ) : (
