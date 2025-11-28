@@ -113,31 +113,19 @@
 
 "use client";
 
-import { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from "recharts";
 
-export default function Top30ChartContainer() {
-  const [rows, setRows] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+type AuthorTop = {
+  name: string;
+  count: number;
+};
 
-  useEffect(() => {
-    let alive = true;
-    (async () => {
-      setLoading(true);
+type Props = {
+  top30: AuthorTop[];
+};
 
-      const res = await fetch("/api/authors/top30");
-      const data = await res.json();
-
-      if (alive) setRows(data.items || []);
-      setLoading(false);
-    })();
-
-    return () => {
-      alive = false;
-    };
-  }, []);
-
-  const mapped = rows.map((r) => ({
+export default function Top30ChartContainer({ top30 }: Props) {
+  const mapped = top30.map((r) => ({
     name: r.name,
     total: r.count
   }));
@@ -147,19 +135,15 @@ export default function Top30ChartContainer() {
       <h3 className="text-lg font-bold text-center text-red-700 mb-4">Top 30 Authors</h3>
       <div className="w-full overflow-x-auto max-w-full">
         <div className="min-w-[1200px] h-[500px] bg-white rounded-xl shadow px-4 py-2">
-          {loading ? (
-            <div className="w-full h-full flex items-center justify-center">Loading…</div>
-          ) : (
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={mapped} layout="horizontal" margin={{ top: 20, right: 30, left: 30, bottom: 120 }}>
-                <XAxis dataKey="name" interval={0} angle={-45} textAnchor="end" height={110} tick={{ fontSize: 11 }} />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="total" fill="#d32f2f" />
-              </BarChart>
-            </ResponsiveContainer>
-          )}
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={mapped} layout="horizontal" margin={{ top: 20, right: 30, left: 30, bottom: 120 }}>
+              <XAxis dataKey="name" interval={0} angle={-45} textAnchor="end" height={110} tick={{ fontSize: 11 }} />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Bar dataKey="total" fill="#d32f2f" />
+            </BarChart>
+          </ResponsiveContainer>
         </div>
       </div>
     </div>

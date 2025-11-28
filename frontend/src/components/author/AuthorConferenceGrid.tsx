@@ -116,43 +116,18 @@
 // }
 "use client";
 
-import { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from "recharts";
 
-const YEAR_COLORS: Record<number, string> = { 
-  2020: "#ccc",
-  2021: "#aabbee",
-  2022: "#82ca9d",
-  2023: "#8884d8",
-  2024: "#ffc658",
-  2025: "#ff8042"
+type AuthorCount = { name: string; count: number };
+
+type Props = {
+  byConference: Record<string, AuthorCount[]>;
 };
 
 const CONFS = ["ICLR", "ICML", "NEURIPS", "KDD", "ACL"] as const;
 
-function ChartByConference({ conf }: { conf: string }) {
-  const [rows, setRows] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    let alive = true;
-    (async () => {
-      setLoading(true);
-
-      const res = await fetch(`/api/authors/by-conference/${conf}`);
-      const data = await res.json();
-
-      if (alive) setRows(data.items || []);
-      setLoading(false);
-    })();
-
-    return () => {
-      alive = false;
-    };
-  }, [conf]);
-
-  // 每個作者沒有按年份細分，直接畫條狀 total count
-  const data = rows.map((r: any) => ({
+function ChartByConference({ conf, items }: { conf: string; items: AuthorCount[] }) {
+  const data = items.map((r) => ({
     name: r.name,
     total: r.count
   }));
@@ -160,31 +135,26 @@ function ChartByConference({ conf }: { conf: string }) {
   return (
     <div className="w-full h-64 border border-gray-600 rounded-md p-4 shadow-sm bg-white text-xs">
       <h3 className="font-semibold mb-2 text-sm text-center truncate">{conf}</h3>
-
-      {loading ? (
-        <div className="text-center text-gray-400 pt-8">Loading…</div>
-      ) : (
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 10, right: 10, left: 10, bottom: 30 }}>
-            <XAxis dataKey="name" interval={0} angle={-30} textAnchor="end" height={60} tick={{ fontSize: 10 }} />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar dataKey="total" fill="#d32f2f" />
-          </BarChart>
-        </ResponsiveContainer>
-      )}
+      <ResponsiveContainer width="100%" height="100%">
+        <BarChart data={data} margin={{ top: 10, right: 10, left: 10, bottom: 30 }}>
+          <XAxis dataKey="name" interval={0} angle={-30} textAnchor="end" height={60} tick={{ fontSize: 10 }} />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="total" fill="#d32f2f" />
+        </BarChart>
+      </ResponsiveContainer>
     </div>
   );
 }
 
-export default function AuthorConferenceGrid() {
+export default function AuthorConferenceGrid({ byConference }: Props) {
   return (
     <div>
       <h3 className="text-lg font-bold text-red-700 text-center mb-4">Top 10 Authors by Conference</h3>
       <div className="flex flex-col gap-6">
         {CONFS.map((c) => (
-          <ChartByConference key={c} conf={c} />
+          <ChartByConference key={c} conf={c} items={byConference[c] || []} />
         ))}
       </div>
     </div>
