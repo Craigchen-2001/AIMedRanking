@@ -115,6 +115,13 @@ router.get("/top30", async (_req, res) => {
   res.json({ items: data.top30 });
 });
 
-
+router.get("/summary", async (_req, res) => {
+  const data = await ensureCache();
+  res.json({
+    ranking: data.ranking,
+    byConference: data.byConference,
+    top30: data.top30
+  });
+});
 
 export default router;
