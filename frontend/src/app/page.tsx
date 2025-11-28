@@ -167,6 +167,67 @@ export default function HomePage() {
     }
   }, [allMatched]);
 
+  // useEffect(() => {
+  //   let cancelled = false;
+  //   if (fetchingRef.current) return;
+  //   fetchingRef.current = true;
+  //   setLoading(true);
+  //   setExpandedPaperId(null);
+  //   setPage(1);
+
+  //   const confsParam = selectedConfs.length ? selectedConfs : undefined;
+
+  //   (async () => {
+  //     const first = await fetchPapers({
+  //       page: 1,
+  //       pageSize: PAGE_SIZE,
+  //       q: searchTerm || undefined,
+  //       conference: confsParam,
+  //       year: selectedYears,
+  //     });
+  //     if (cancelled) return;
+  //     const totalPages = first.totalPages || 1;
+  //     let acc: MockPaperShape[] = first.items || [];
+  //     if (totalPages > 1) {
+  //       const tasks: ReturnType<typeof fetchPapers>[] = [];
+  //       for (let p = 2; p <= totalPages; p++) {
+  //         tasks.push(
+  //           fetchPapers({
+  //             page: p,
+  //             pageSize: PAGE_SIZE,
+  //             q: searchTerm || undefined,
+  //             conference: confsParam,
+  //             year: selectedYears,
+  //           })
+  //         );
+  //       }
+  //       const results = await Promise.all(tasks);
+  //       for (const r of results) acc = acc.concat(r.items || []);
+  //     }
+  //     const onlyAllowed = acc;
+  //     const confFilter = selectedConfs.length
+  //       ? onlyAllowed.filter((p) => {
+  //           const tag = tagConference(p.conference);
+  //           return tag ? selectedConfs.map((c) => c.toUpperCase()).includes(tag) : false;
+  //         })
+  //       : onlyAllowed;
+
+  //     setAllMatched(dedupeById(confFilter));
+  //     setLoading(false);
+  //     fetchingRef.current = false;
+  //   })().catch(() => {
+  //     if (!cancelled) {
+  //       setAllMatched([]);
+  //       setLoading(false);
+  //       fetchingRef.current = false;
+  //     }
+  //   });
+  //   return () => {
+  //     cancelled = true;
+  //     fetchingRef.current = false;
+  //   };
+  // }, [searchTerm, selectedConfs, selectedYears]);
+
   useEffect(() => {
     let cancelled = false;
     if (fetchingRef.current) return;
@@ -174,9 +235,9 @@ export default function HomePage() {
     setLoading(true);
     setExpandedPaperId(null);
     setPage(1);
-
+  
     const confsParam = selectedConfs.length ? selectedConfs : undefined;
-
+  
     (async () => {
       const first = await fetchPapers({
         page: 1,
@@ -185,36 +246,13 @@ export default function HomePage() {
         conference: confsParam,
         year: selectedYears,
       });
+  
       if (cancelled) return;
-      const totalPages = first.totalPages || 1;
-      let acc: MockPaperShape[] = first.items || [];
-      if (totalPages > 1) {
-        const tasks: ReturnType<typeof fetchPapers>[] = [];
-        for (let p = 2; p <= totalPages; p++) {
-          tasks.push(
-            fetchPapers({
-              page: p,
-              pageSize: PAGE_SIZE,
-              q: searchTerm || undefined,
-              conference: confsParam,
-              year: selectedYears,
-            })
-          );
-        }
-        const results = await Promise.all(tasks);
-        for (const r of results) acc = acc.concat(r.items || []);
-      }
-      const onlyAllowed = acc;
-      const confFilter = selectedConfs.length
-        ? onlyAllowed.filter((p) => {
-            const tag = tagConference(p.conference);
-            return tag ? selectedConfs.map((c) => c.toUpperCase()).includes(tag) : false;
-          })
-        : onlyAllowed;
-
-      setAllMatched(dedupeById(confFilter));
+  
+      setAllMatched(dedupeById(first.items || []));
       setLoading(false);
       fetchingRef.current = false;
+  
     })().catch(() => {
       if (!cancelled) {
         setAllMatched([]);
@@ -222,12 +260,13 @@ export default function HomePage() {
         fetchingRef.current = false;
       }
     });
+  
     return () => {
       cancelled = true;
       fetchingRef.current = false;
     };
   }, [searchTerm, selectedConfs, selectedYears]);
-
+  
   useEffect(() => {
     setPage(1);
     setExpandedPaperId(null);
