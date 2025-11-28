@@ -183,7 +183,7 @@
 
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 type AuthorRankItem = {
   name: string;
@@ -191,39 +191,20 @@ type AuthorRankItem = {
   rank: number;
 };
 
-export default function AuthorList() {
-  const [authors, setAuthors] = useState<AuthorRankItem[]>([]);
+export default function AuthorList({ ranking }: { ranking: AuthorRankItem[] }) {
   const [searchTerm, setSearchTerm] = useState("");
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    let alive = true;
-    (async () => {
-      setLoading(true);
-
-      const res = await fetch("/api/authors/ranking");
-      const data = await res.json();
-
-      if (alive) setAuthors(data.items || []);
-      setLoading(false);
-    })();
-
-    return () => {
-      alive = false;
-    };
-  }, []);
 
   const filteredAuthors = useMemo(() => {
     const q = searchTerm.trim().toLowerCase();
-    if (!q) return authors;
-    return authors.filter((a) => a.name.toLowerCase().includes(q));
-  }, [authors, searchTerm]);
+    if (!q) return ranking;
+    return ranking.filter((a) => a.name.toLowerCase().includes(q));
+  }, [ranking, searchTerm]);
 
   const searchedAuthor = useMemo(() => {
     const q = searchTerm.trim().toLowerCase();
     if (!q) return null;
-    return authors.find((a) => a.name.toLowerCase() === q) || null;
-  }, [authors, searchTerm]);
+    return ranking.find((a) => a.name.toLowerCase() === q) || null;
+  }, [ranking, searchTerm]);
 
   const topColors = [
     "bg-yellow-400",
@@ -263,62 +244,56 @@ export default function AuthorList() {
         </button>
       </div>
 
-      {loading ? (
-        <div className="py-6 text-center text-gray-500">Loading…</div>
-      ) : (
-        <>
-          {searchedAuthor && (
-            <div className="mb-3 p-3 bg-red-50 border border-red-100 rounded-lg text-sm">
-              <span className="font-semibold text-gray-900">{searchedAuthor.name}</span> has{" "}
-              <span className="text-red-600">{searchedAuthor.count}</span> paper(s), ranked{" "}
-              <span className="font-semibold">#{searchedAuthor.rank}</span>
-            </div>
-          )}
-
-          <div className="w-full h-[calc(100%-140px)] overflow-y-scroll border border-gray-200 rounded-xl shadow-md bg-white">
-            <table className="w-full text-left text-sm">
-              <thead className="bg-red-600 text-white sticky top-0">
-                <tr>
-                  <th className="px-3 py-2 font-medium">#</th>
-                  <th className="px-3 py-2 font-medium">Author</th>
-                  <th className="px-3 py-2 font-medium">Count</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filteredAuthors.map((author) => {
-                  const isTop10 = author.rank <= 10;
-                  return (
-                    <tr key={author.name} className="border-t transition hover:bg-red-50">
-                      <td className="px-3 py-3">
-                        {isTop10 ? (
-                          <span
-                            className={`${topColors[author.rank - 1]} text-white rounded-full px-2 py-1 text-xs font-bold`}
-                          >
-                            {author.rank}
-                          </span>
-                        ) : (
-                          author.rank
-                        )}
-                      </td>
-                      <td className={`px-3 py-3 ${isTop10 ? "font-bold text-gray-900" : "text-gray-900"}`}>
-                        {author.name}
-                      </td>
-                      <td className="px-3 py-3 text-gray-700">{author.count}</td>
-                    </tr>
-                  );
-                })}
-                {filteredAuthors.length === 0 && (
-                  <tr>
-                    <td colSpan={3} className="text-center py-6 text-gray-400 italic">
-                      No matching authors found.
-                    </td>
-                  </tr>
-                )}
-              </tbody>
-            </table>
-          </div>
-        </>
+      {searchedAuthor && (
+        <div className="mb-3 p-3 bg-red-50 border border-red-100 rounded-lg text-sm">
+          <span className="font-semibold text-gray-900">{searchedAuthor.name}</span> has{" "}
+          <span className="text-red-600">{searchedAuthor.count}</span> paper(s), ranked{" "}
+          <span className="font-semibold">#{searchedAuthor.rank}</span>
+        </div>
       )}
+
+      <div className="w-full h-[calc(100%-140px)] overflow-y-scroll border border-gray-200 rounded-xl shadow-md bg-white">
+        <table className="w-full text-left text-sm">
+          <thead className="bg-red-600 text-white sticky top-0">
+            <tr>
+              <th className="px-3 py-2 font-medium">#</th>
+              <th className="px-3 py-2 font-medium">Author</th>
+              <th className="px-3 py-2 font-medium">Count</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredAuthors.map((author) => {
+              const isTop10 = author.rank <= 10;
+              return (
+                <tr key={author.name} className="border-t transition hover:bg-red-50">
+                  <td className="px-3 py-3">
+                    {isTop10 ? (
+                      <span
+                        className={`${topColors[author.rank - 1]} text-white rounded-full px-2 py-1 text-xs font-bold`}
+                      >
+                        {author.rank}
+                      </span>
+                    ) : (
+                      author.rank
+                    )}
+                  </td>
+                  <td className={`px-3 py-3 ${isTop10 ? "font-bold text-gray-900" : "text-gray-900"}`}>
+                    {author.name}
+                  </td>
+                  <td className="px-3 py-3 text-gray-700">{author.count}</td>
+                </tr>
+              );
+            })}
+            {filteredAuthors.length === 0 && (
+              <tr>
+                <td colSpan={3} className="text-center py-6 text-gray-400 italic">
+                  No matching authors found.
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
