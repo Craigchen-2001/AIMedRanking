@@ -66,11 +66,12 @@ import { ArrowLeft, BookOpen } from "lucide-react";
 const robotoSlab = Roboto_Slab({ subsets: ["latin"], weight: ["700"], display: "swap" });
 
 async function getSummary() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/authors/summary`, {
+  const res = await fetch(`/api/authors/summary`, {
     cache: "no-store"
   });
   return res.json();
 }
+
 
 export default async function AuthorRankingPage() {
   const data = await getSummary();
