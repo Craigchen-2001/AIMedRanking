@@ -15,7 +15,8 @@ app.use(
     origin: [
       "https://aimedrank.aimedlab.net",
       "http://localhost:3000",
-      "http://localhost:3001"
+      "http://localhost:3001",
+      "http://3.134.76.13:3000"
     ],
     credentials: true
   })
