@@ -13,7 +13,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://aimedrank.aimedlab.net",
+      "http://aimedrank.aimedlab.net",
       "http://localhost:3000",
       "http://localhost:3001",
       "http://3.134.76.13:3000"

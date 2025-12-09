@@ -1,9 +1,6 @@
 // frontend/src/lib/favoritesApi.ts
 
-const ORIGIN =
-  process.env.NEXT_PUBLIC_API_BASE ||
-  process.env.NEXT_PUBLIC_SITE_ORIGIN + "/api" ||
-  "https://aimedrank.aimedlab.net/api";
+const ORIGIN = process.env.NEXT_PUBLIC_API_TARGET!;
 
 export type FavoritePaper = {
   id: string;
